@@ -1,63 +1,59 @@
 {
   "metadata": {
-    "reportId": "report_1758990328073",
-    "generatedAt": "2025-09-27T16:25:28.073Z",
-    "patientId": "ed2d2952-1e77-77d9-747e-778eb0c0ccf6",
-    "patientName": "Winter723 Rachel885 Lubowitz58",
-    "patientAge": 53,
-    "patientGender": "female"
+    "reportId": "report_1758996895478",
+    "generatedAt": "2025-09-27T18:14:55.478Z",
+    "patientId": "9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+    "patientName": "Abel832 Darrel772 Zieme486",
+    "patientAge": 8,
+    "patientGender": "male"
   },
   "diagnosis": {
-    "clinicalSummary": "Rachel Winter723 Lubowitz58 is a 53-year-old female presenting with several concerning findings including anemia (Hemoglobin 6.24%), recurrent UTIs, chronic sinusitis, and a history of miscarriages. She also exhibits risk factors such as sleep disorders, prediabetes, and stress. Her blood pressure is slightly elevated.",
-    "healthAssessment": "The patient's presentation suggests a complex interplay of physical and psychological factors contributing to her overall health status. The anemia warrants immediate investigation, while the chronic conditions require ongoing management. Her stress levels and sleep disturbances should be addressed to improve her quality of life and potentially mitigate the impact of her other conditions.",
+    "clinicalSummary": "8 year old male with no active medical conditions, recent vital signs within normal limits, and elevated hemoglobin levels.",
+    "healthAssessment": "Generally healthy with a history of viral infections and dental procedures.",
     "recommendations": [
-      "Complete blood work including a full differential to determine the cause of anemia.",
-      "Referral to a urologist for evaluation and management of recurrent urinary tract infections.",
-      "Consultation with a sleep specialist for further assessment and treatment of obstructive sleep apnea syndrome and sleep disorder."
+      "Monitor hemoglobin levels to assess for potential underlying conditions.",
+      "Continue regular dental check-ups and maintain oral hygiene.",
+      "Encourage a balanced diet to support overall health and growth."
     ],
     "riskFactors": [
-      "Anemia",
-      "Recurrent UTIs",
-      "Chronic Sinusitis",
-      "Obstructive Sleep Apnea Syndrome",
-      "Prediabetes",
-      "Stress"
+      "History of respiratory infections",
+      "Dental issues"
     ],
-    "followUpNeeded": "Within 7-14 days for blood work results and further investigation of anemia and sleep disorders.",
-    "urgencyLevel": "moderate"
+    "followUpNeeded": "6 months for routine check-up",
+    "urgencyLevel": "low"
   },
   "literature": [
     {
-      "pmid": "27716195",
-      "title": "Sarcopenia in daily practice: assessment and management.",
-      "authors": "Beaudart, McCloskey, Bruy&#xe8;re et al.",
-      "journal": "BMC geriatrics",
-      "year": "2016",
-      "doi": "10.1186/s12877-016-0349-4",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27716195/",
-      "abstract": "Sarcopenia is increasingly recognized as a correlate of ageing and is associated with increased likelihood of adverse outcomes including falls, fractures, frailty and mortality. Several tools have been recommended to assess muscle mass, muscle strength and physical performance in clinical trials. Whilst these tools have proven to be accurate and reliable in investigational settings, many are not easily applied to daily practice...."
+      "pmid": "23796742",
+      "title": "Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years.",
+      "authors": "Wald, Applegate, Bordley et al.",
+      "journal": "Pediatrics",
+      "year": "2013",
+      "doi": "10.1542/peds.2013-1071",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23796742/",
+      "abstract": "To update the American Academy of Pediatrics clinical practice guideline regarding the diagnosis and management of acute bacterial sinusitis in children and adolescents...."
     },
     {
-      "pmid": "38296655",
-      "title": "Sarcopenia in daily practice: assessment and management.",
-      "authors": "Beaudart, McCloskey, Bruy&#xe8;re et al.",
-      "journal": "BMC geriatrics",
-      "year": "2016",
-      "doi": "10.1186/s12877-016-0349-4",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38296655/",
-      "abstract": "Sarcopenia is increasingly recognized as a correlate of ageing and is associated with increased likelihood of adverse outcomes including falls, fractures, frailty and mortality. Several tools have been recommended to assess muscle mass, muscle strength and physical performance in clinical trials. Whilst these tools have proven to be accurate and reliable in investigational settings, many are not easily applied to daily practice...."
+      "pmid": "19366560",
+      "title": "Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years.",
+      "authors": "Wald, Applegate, Bordley et al.",
+      "journal": "Pediatrics",
+      "year": "2013",
+      "doi": "10.1542/peds.2013-1071",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19366560/",
+      "abstract": "To update the American Academy of Pediatrics clinical practice guideline regarding the diagnosis and management of acute bacterial sinusitis in children and adolescents...."
     },
     {
-      "pmid": "26641646",
-      "title": "Sarcopenia in daily practice: assessment and management.",
-      "authors": "Beaudart, McCloskey, Bruy&#xe8;re et al.",
-      "journal": "BMC geriatrics",
-      "year": "2016",
-      "doi": "10.1186/s12877-016-0349-4",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26641646/",
-      "abstract": "Sarcopenia is increasingly recognized as a correlate of ageing and is associated with increased likelihood of adverse outcomes including falls, fractures, frailty and mortality. Several tools have been recommended to assess muscle mass, muscle strength and physical performance in clinical trials. Whilst these tools have proven to be accurate and reliable in investigational settings, many are not easily applied to daily practice...."
+      "pmid": "32747473",
+      "title": "Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years.",
+      "authors": "Wald, Applegate, Bordley et al.",
+      "journal": "Pediatrics",
+      "year": "2013",
+      "doi": "10.1542/peds.2013-1071",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32747473/",
+      "abstract": "To update the American Academy of Pediatrics clinical practice guideline regarding the diagnosis and management of acute bacterial sinusitis in children and adolescents...."
     }
   ],
-  "searchQuery": "Risk activity involvement (finding) OR Educated to high school level (finding) adult treatment management",
+  "searchQuery": "Acute viral pharyngitis (disorder) OR Viral sinusitis (disorder) pediatric treatment management",
   "disclaimer": "This analysis is generated by AI for educational purposes only. Always consult with qualified healthcare professionals for medical advice."
 }

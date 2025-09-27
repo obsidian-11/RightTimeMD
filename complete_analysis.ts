@@ -1,6 +1,164 @@
-import { readFileSync, writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, mkdirSync } from 'fs';
 import { join } from 'path';
 import { BundleUtils } from '@smile-cdr/fhirts';
+import { createClient } from '@supabase/supabase-js';
+import OpenAI from 'openai';
+import { InsuranceRecommendationService, createPatientProfileFromDiagnosis } from './insurance_lookup.js';
+import 'dotenv/config';
+
+// Supabase configuration
+const SUPABASE_URL = process.env.SUPABASE_URL || '';
+const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY || '';
+
+// OpenAI configuration
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
+
+function validateConfig(): void {
+    if (!SUPABASE_URL) {
+        throw new Error('Missing SUPABASE_URL environment variable. Please set it to your Supabase project URL.');
+    }
+    if (!SUPABASE_ANON_KEY) {
+        throw new Error('Missing SUPABASE_ANON_KEY environment variable. Please set it to your Supabase anon key.');
+    }
+    if (!OPENAI_API_KEY) {
+        throw new Error('Missing OPENAI_API_KEY environment variable. Please set it to your OpenAI API key.');
+    }
+    
+    try {
+        new URL(SUPABASE_URL);
+    } catch {
+        throw new Error('Invalid SUPABASE_URL format. Please provide a valid URL.');
+    }
+}
+
+// Validate configuration on module load
+validateConfig();
+
+const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const openai = new OpenAI({
+    apiKey: OPENAI_API_KEY,
+});
+
+// Supabase storage helper functions
+async function downloadJsonFromStorage(bucketName: string, fileName: string): Promise<string> {
+    try {
+        console.log(`📥 Downloading ${fileName} from Supabase storage bucket: ${bucketName}`);
+        
+        const { data, error } = await supabase.storage
+            .from(bucketName)
+            .download(fileName);
+            
+        if (error) {
+            console.error('Detailed error:', error);
+            if (error.message.includes('not found')) {
+                throw new Error(`File '${fileName}' not found in bucket '${bucketName}'. Please verify the file name and bucket name.`);
+            }
+            if (error.message.includes('not allowed')) {
+                throw new Error(`Access denied to bucket '${bucketName}'. Please check your Supabase permissions and bucket policy.`);
+            }
+            throw new Error(`Supabase storage error: ${JSON.stringify(error)}`);
+        }
+        
+        if (!data) {
+            throw new Error('No data received from Supabase storage');
+        }
+        
+        const text = await data.text();
+        
+        // Validate that it's valid JSON
+        try {
+            JSON.parse(text);
+        } catch (parseError) {
+            throw new Error(`Downloaded file '${fileName}' is not valid JSON: ${parseError instanceof Error ? parseError.message : 'Unknown parsing error'}`);
+        }
+        
+        console.log(`✅ Successfully downloaded ${fileName} (${text.length} characters)`);
+        return text;
+        
+    } catch (error) {
+        console.error(`❌ Error downloading ${fileName} from storage:`, error);
+        throw error;
+    }
+}
+
+async function listFilesInBucket(bucketName: string, prefix?: string): Promise<string[]> {
+    try {
+        console.log(`📋 Listing files in bucket: ${bucketName}${prefix ? ` with prefix: ${prefix}` : ''}`);
+        
+        const { data, error } = await supabase.storage
+            .from(bucketName)
+            .list('', {
+                limit: 100,
+                offset: 0,
+                sortBy: { column: 'name', order: 'asc' }
+            });
+            
+        if (error) {
+            console.error('Detailed bucket listing error:', error);
+            if (error.message.includes('not found')) {
+                throw new Error(`Bucket '${bucketName}' not found. Please verify the bucket name exists in your Supabase project.`);
+            }
+            if (error.message.includes('not allowed')) {
+                throw new Error(`Access denied to bucket '${bucketName}'. Please check your Supabase permissions and bucket policy.`);
+            }
+            throw new Error(`Supabase storage error: ${JSON.stringify(error)}`);
+        }
+        
+        if (!data) {
+            console.log(`⚠️ No data returned from bucket: ${bucketName}`);
+            return [];
+        }
+        
+        const files = data.filter(file => {
+            const isJsonFile = file.name.endsWith('.json');
+            const matchesPrefix = !prefix || file.name.startsWith(prefix);
+            return isJsonFile && matchesPrefix && file.name !== '.emptyFolderPlaceholder';
+        }).map(file => file.name);
+        
+        console.log(`✅ Found ${files.length} JSON files in bucket`);
+        if (files.length > 0) {
+            console.log(`📋 Available files: ${files.slice(0, 5).join(', ')}${files.length > 5 ? '...' : ''}`);
+        }
+        return files;
+        
+    } catch (error) {
+        console.error('❌ Error listing files in bucket:', error);
+        throw error;
+    }
+}
+
+async function uploadJsonToStorage(bucketName: string, fileName: string, jsonData: any): Promise<void> {
+    try {
+        console.log(`📤 Uploading ${fileName} to Supabase storage bucket: ${bucketName}`);
+        
+        const jsonString = JSON.stringify(jsonData, null, 2);
+        const file = new File([jsonString], fileName, { type: 'application/json' });
+        
+        const { data, error } = await supabase.storage
+            .from(bucketName)
+            .upload(fileName, file, {
+                cacheControl: '3600',
+                upsert: true // This will overwrite if file exists
+            });
+            
+        if (error) {
+            console.error('Detailed upload error:', error);
+            if (error.message.includes('not found')) {
+                throw new Error(`Bucket '${bucketName}' not found. Please create the bucket in your Supabase project.`);
+            }
+            if (error.message.includes('not allowed')) {
+                throw new Error(`Access denied to bucket '${bucketName}'. Please check your Supabase permissions and bucket policy for INSERT operations.`);
+            }
+            throw new Error(`Supabase storage upload error: ${JSON.stringify(error)}`);
+        }
+        
+        console.log(`✅ Successfully uploaded ${fileName} to bucket: ${bucketName}`);
+        
+    } catch (error) {
+        console.error(`❌ Error uploading ${fileName} to storage:`, error);
+        throw error;
+    }
+}
 
 // Import interfaces and functions from medical_diagnosis.ts
 interface PatientData {
@@ -74,46 +232,36 @@ interface PubMedArticle {
     url: string;
 }
 
-async function callOllama(prompt: string, model: string = 'gemma3'): Promise<string> {
+async function callOpenAI(prompt: string, model: string = 'gpt-4o-mini'): Promise<string> {
     try {
-        console.log(`🔍 Using model: ${model}`);
+        console.log(`🔍 Using OpenAI model: ${model}`);
         console.log(`📝 Prompt length: ${prompt.length} characters`);
         
-        const requestBody = {
+        const completion = await openai.chat.completions.create({
             model: model,
-            prompt: prompt,
-            stream: false,
-            options: {
-                temperature: 0.3,
-                top_p: 0.9,
-                num_predict: 2000
-            }
-        };
-
-        const response = await fetch('http://localhost:11434/api/generate', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(requestBody)
+            messages: [
+                {
+                    role: "user",
+                    content: prompt
+                }
+            ],
+            temperature: 0.3,
+            max_tokens: 2000,
+            top_p: 0.9
         });
 
-        if (!response.ok) {
-            const errorText = await response.text();
-            throw new Error(`Ollama API error: ${response.status} ${response.statusText}\nResponse: ${errorText}`);
-        }
-
-        const data = await response.json();
-        console.log(`✅ Received response length: ${data.response?.length || 0} characters`);
+        const response = completion.choices[0]?.message?.content;
         
-        if (!data.response) {
-            console.log('⚠️ No response field in data:', JSON.stringify(data, null, 2));
-            return 'No response field returned from Ollama';
+        if (!response) {
+            console.log('⚠️ No response content from OpenAI');
+            return 'No response content returned from OpenAI';
         }
         
-        return data.response;
+        console.log(`✅ Received response length: ${response.length} characters`);
+        return response;
+        
     } catch (error) {
-        console.error('❌ Error calling Ollama:', error);
+        console.error('❌ Error calling OpenAI:', error);
         return `Error: ${error instanceof Error ? error.message : 'Unknown error'}`;
     }
 }
@@ -224,11 +372,11 @@ function generateSearchQuery(conditions: string[], patientAge: number): string {
 }
 
 // Patient extraction function (from patient_extraction.ts)
-function extractPatientData(fhirFilePath: string): PatientData {
+async function extractPatientData(bucketName: string, fileName: string): Promise<PatientData> {
     try {
-        console.log(`📋 Extracting patient data from: ${fhirFilePath}`);
+        console.log(`📋 Extracting patient data from: ${fileName} in bucket: ${bucketName}`);
         
-        const fileContent = readFileSync(fhirFilePath, 'utf8');
+        const fileContent = await downloadJsonFromStorage(bucketName, fileName);
         const bundle = JSON.parse(fileContent);
         
         // Initialize BundleUtils
@@ -425,7 +573,7 @@ function extractPatientData(fhirFilePath: string): PatientData {
     }
 }
 
-async function generateMedicalAnalysis(patientData: PatientData): Promise<void> {
+async function generateMedicalAnalysis(patientData: PatientData): Promise<any> {
     try {
         console.log('🤖 Generating medical analysis...');
         
@@ -493,7 +641,7 @@ Respond with ONLY valid JSON in this structure:
 
 Provide ONLY the JSON object, no other text or formatting.`;
 
-        console.log('🤖 Generating medical diagnosis with Ollama...');
+        console.log('🤖 Generating medical diagnosis with OpenAI...');
         console.log('⏳ This may take a moment...\n');
         
         // Generate search query for relevant literature
@@ -503,7 +651,7 @@ Provide ONLY the JSON object, no other text or formatting.`;
         console.log('📚 Searching for relevant literature while generating diagnosis...\n');
         
         const [diagnosisText, pubmedArticles] = await Promise.all([
-            callOllama(medicalPrompt),
+            callOpenAI(medicalPrompt),
             searchPubMed(searchQuery, 3)
         ]);
         
@@ -560,59 +708,29 @@ Provide ONLY the JSON object, no other text or formatting.`;
         console.log(JSON.stringify(medicalReport, null, 2));
         console.log('='.repeat(50));
         
-        // Ensure patient_json directory exists
+        // Generate unique filename with timestamp and patient ID
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const jsonFileName = `medical_analysis_${patient.id}_${timestamp}.json`;
+        
+        // Upload only JSON format to Diagnosis bucket
+        console.log('\n📤 Uploading diagnosis to Supabase Storage...');
+        await uploadJsonToStorage('Diagnosis', jsonFileName, medicalReport);
+        
+        // Also save locally for backup (optional)
         try {
             mkdirSync('./patient_json', { recursive: true });
+            const jsonAnalysisPath = join('./patient_json', 'medical_analysis.json');
+            writeFileSync(jsonAnalysisPath, JSON.stringify(medicalReport, null, 2), 'utf8');
+            console.log(`💾 Local backup saved to: ${jsonAnalysisPath}`);
         } catch (error) {
-            // Directory already exists
+            console.log('⚠️ Could not save local backup:', error);
         }
         
-        // Save the JSON analysis to files
-        const jsonAnalysisPath = join('./patient_json', 'medical_analysis.json');
-        const txtAnalysisPath = join('./patient_json', 'medical_analysis.txt');
+        console.log(`\n💾 Analysis saved to Supabase Storage:`);
+        console.log(`   📋 JSON format: Diagnosis/${jsonFileName}`);
         
-        // Save JSON format
-        writeFileSync(jsonAnalysisPath, JSON.stringify(medicalReport, null, 2), 'utf8');
-        
-        // Also save a human-readable text format for backward compatibility
-        const readableReport = `MEDICAL ANALYSIS REPORT
-Generated: ${medicalReport.metadata.generatedAt}
-Patient: ${medicalReport.metadata.patientName} (${medicalReport.metadata.patientAge} years old, ${medicalReport.metadata.patientGender})
-
-CLINICAL SUMMARY:
-${parsedDiagnosis.clinicalSummary}
-
-HEALTH ASSESSMENT:
-${parsedDiagnosis.healthAssessment}
-
-RECOMMENDATIONS:
-${parsedDiagnosis.recommendations.map((rec: string, index: number) => `${index + 1}. ${rec}`).join('\n')}
-
-RISK FACTORS:
-${parsedDiagnosis.riskFactors.join(', ')}
-
-FOLLOW-UP NEEDED: ${parsedDiagnosis.followUpNeeded}
-URGENCY LEVEL: ${parsedDiagnosis.urgencyLevel.toUpperCase()}
-
-RELEVANT SCIENTIFIC LITERATURE:
-${pubmedArticles.length > 0 ? 
-    pubmedArticles.map((article, index) => `
-${index + 1}. ${article.title}
-   Authors: ${article.authors}
-   Journal: ${article.journal} (${article.year})
-   PMID: ${article.pmid}
-   ${article.doi ? `DOI: ${article.doi}` : ''}
-   URL: ${article.url}
-   Abstract: ${article.abstract}
-`).join('') : 'No relevant literature found for this case.'}
-
-DISCLAIMER: ${medicalReport.disclaimer}`;
-        
-        writeFileSync(txtAnalysisPath, readableReport, 'utf8');
-        
-        console.log(`\n💾 Analysis saved to:`);
-        console.log(`   JSON format: ${jsonAnalysisPath}`);
-        console.log(`   Text format: ${txtAnalysisPath}`);
+        // Return the medical report for insurance analysis
+        return medicalReport;
         
     } catch (error) {
         console.error('❌ Error generating medical analysis:', error);
@@ -621,22 +739,35 @@ DISCLAIMER: ${medicalReport.disclaimer}`;
 }
 
 // Main function that combines extraction and analysis
-async function completeAnalysis(fhirFileName?: string): Promise<void> {
+async function completeAnalysis(fhirFileName?: string, bucketName: string = 'FHIR'): Promise<void> {
     try {
         console.log('🚀 Starting Complete Patient Analysis Pipeline');
         console.log('=' .repeat(60));
         
-        // Step 1: Extract patient data from FHIR file
-        console.log('📋 STEP 1: Extracting Patient Data');
+        // Step 1: Extract patient data from FHIR file in Supabase storage
+        console.log('📋 STEP 1: Extracting Patient Data from Supabase Storage');
         console.log('-'.repeat(40));
         
-        // Use provided filename or default
-        const defaultFile = 'Abel832_Zieme486_9f5247cc-6762-3d1d-ebc6-29bf03f921e4.json';
-        const fileName = fhirFileName || defaultFile;
-        const fhirFilePath = join('./fhir', fileName);
+        let fileName: string;
         
-        console.log(`📂 Using FHIR file: ${fileName}`);
-        const patientData = extractPatientData(fhirFilePath);
+        if (fhirFileName) {
+            fileName = fhirFileName;
+            console.log(`📂 Attempting to download specified file: ${fileName}`);
+        } else {
+            // Only list files if no filename is provided
+            console.log('📋 No filename provided, listing available files...');
+            const availableFiles = await listFilesInBucket(bucketName);
+            
+            if (availableFiles.length === 0) {
+                throw new Error(`No JSON files found in bucket: ${bucketName}`);
+            }
+            
+            fileName = availableFiles[0];
+            console.log(`📂 Using first available file: ${fileName}`);
+        }
+        
+        console.log(`📂 Using FHIR file: ${fileName} from bucket: ${bucketName}`);
+        const patientData = await extractPatientData(bucketName, fileName);
         
         // Ensure patient_json directory exists
         try {
@@ -654,14 +785,57 @@ async function completeAnalysis(fhirFileName?: string): Promise<void> {
         console.log('\n🤖 STEP 2: Generating Medical Analysis');
         console.log('-'.repeat(40));
         
-        await generateMedicalAnalysis(patientData);
+        const medicalReport = await generateMedicalAnalysis(patientData);
+        
+        // Step 3: Generate insurance recommendations
+        console.log('\n💰 STEP 3: Generating Insurance Recommendations');
+        console.log('-'.repeat(40));
+        
+        try {
+            const insuranceService = new InsuranceRecommendationService();
+            
+            // Create patient profile from diagnosis data
+            const patientProfile = createPatientProfileFromDiagnosis(medicalReport, '10001', 50000);
+            console.log('👤 Created patient profile for insurance analysis');
+            
+            // Generate insurance recommendations
+            const insuranceReport = await insuranceService.generateInsuranceReport(patientProfile);
+            
+            // Upload insurance report to Supabase
+            const insuranceTimestamp = new Date().toISOString().replace(/[:.]/g, '-');
+            const insuranceFileName = `insurance_analysis_${medicalReport.metadata.patientId}_${insuranceTimestamp}.json`;
+            
+            console.log('\n📤 Uploading insurance analysis to Supabase Storage...');
+            await uploadJsonToStorage('Diagnosis', insuranceFileName, insuranceReport);
+            
+            console.log(`\n💾 Insurance analysis saved to Supabase Storage:`);
+            console.log(`   📋 JSON format: Diagnosis/${insuranceFileName}`);
+            
+            // Display insurance recommendations summary
+            console.log('\n💰 INSURANCE RECOMMENDATIONS SUMMARY');
+            console.log('='.repeat(50));
+            console.log(`📋 Medical Codes Identified: ${insuranceReport.medicalCodes.length}`);
+            console.log(`🏥 Insurance Plans Available: ${insuranceReport.availablePlans}`);
+            if (insuranceReport.recommendations.length > 0) {
+                const bestPlan = insuranceReport.recommendations[0];
+                console.log(`🏆 Best Plan: ${bestPlan.planName}`);
+                console.log(`💵 Estimated Annual Cost: $${bestPlan.estimatedAnnualCost.toFixed(2)}`);
+                console.log(`⭐ Recommendation Score: ${bestPlan.recommendationScore.toFixed(1)}/100`);
+            }
+            console.log('='.repeat(50));
+            
+        } catch (insuranceError) {
+            console.error('⚠️ Error generating insurance recommendations:', insuranceError);
+            console.log('📋 Medical diagnosis completed successfully, but insurance analysis failed');
+        }
         
         console.log('\n🎉 COMPLETE ANALYSIS PIPELINE FINISHED');
         console.log('=' .repeat(60));
         console.log('✅ Patient data extraction: Complete');
         console.log('✅ Medical diagnosis: Complete');
         console.log('✅ Literature search: Complete');
-        console.log('✅ JSON and text reports: Generated');
+        console.log('✅ Insurance recommendations: Complete');
+        console.log('✅ JSON reports: Generated');
         
     } catch (error) {
         console.error('❌ Error in complete analysis pipeline:', error);
@@ -674,17 +848,44 @@ async function completeAnalysis(fhirFileName?: string): Promise<void> {
 // Get command line arguments
 const args = process.argv.slice(2);
 const fhirFileName = args[0]; // First argument is the FHIR filename
+const bucketName = args[1] || 'FHIR'; // Second argument is the bucket name (optional)
 
 if (import.meta.url === `file://${process.argv[1]}`) {
     if (fhirFileName && !fhirFileName.endsWith('.json')) {
         console.error('❌ Error: Please provide a valid JSON filename');
-        console.log('Usage: npm run complete-analysis [filename.json]');
-        console.log('Example: npm run complete-analysis Winter723_Rachel885_Lubowitz58_ed2d2952-1e77-77d9-747e-778eb0c0ccf6.json');
+        console.log('Usage: npm run complete-analysis [filename.json] [bucket-name]');
+        console.log('Example: npm run complete-analysis Winter723_Rachel885_Lubowitz58_ed2d2952-1e77-77d9-747e-778eb0c0ccf6.json fhir-data');
+        console.log('If no filename is provided, the first available file in the bucket will be used.');
+        console.log('\nEnvironment Variables Required:');
+        console.log('  SUPABASE_URL=your_supabase_project_url');
+        console.log('  SUPABASE_ANON_KEY=your_supabase_anon_key');
         process.exit(1);
     }
     
-    completeAnalysis(fhirFileName).catch(error => {
-        console.error('Fatal error:', error);
+    completeAnalysis(fhirFileName, bucketName).catch(error => {
+        console.error('\n❌ FATAL ERROR:', error instanceof Error ? error.message : error);
+        
+        if (error instanceof Error) {
+            if (error.message.includes('SUPABASE_URL') || error.message.includes('SUPABASE_ANON_KEY')) {
+                console.log('\n🔧 Configuration Help:');
+                console.log('1. Create a .env file in your project root');
+                console.log('2. Add your Supabase credentials:');
+                console.log('   SUPABASE_URL=https://your-project.supabase.co');
+                console.log('   SUPABASE_ANON_KEY=your_anon_key_here');
+                console.log('3. Make sure to load environment variables before running this script');
+            } else if (error.message.includes('Bucket') && error.message.includes('not found')) {
+                console.log('\n🪣 Bucket Help:');
+                console.log('1. Ensure the bucket exists in your Supabase project');
+                console.log('2. Check the bucket name spelling');
+                console.log('3. Verify bucket permissions allow read access');
+            } else if (error.message.includes('Access denied')) {
+                console.log('\n🔐 Permission Help:');
+                console.log('1. Check your bucket policies in Supabase Storage');
+                console.log('2. Ensure your anon key has read access to the bucket');
+                console.log('3. Verify the bucket is publicly accessible or properly configured');
+            }
+        }
+        
         process.exit(1);
     });
 }

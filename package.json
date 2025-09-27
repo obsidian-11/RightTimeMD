@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc patient_extraction.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
     "build-diagnosis": "tsc medical_diagnosis.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
-    "build-complete": "tsc complete_analysis.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
+    "build-insurance": "tsc insurance_lookup.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
+    "build-complete": "tsc complete_analysis.ts insurance_lookup.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
     "run-test": "npm run build && node build/patient_extraction.js",
     "patient-extraction": "npm run build && node build/patient_extraction.js",
     "medical-diagnosis": "npm run build-diagnosis && node build/medical_diagnosis.js",
@@ -32,6 +33,9 @@
   },
   "dependencies": {
     "@smile-cdr/fhirts": "^2.3.0",
-    "node-fetch": "^3.3.2"
+    "@supabase/supabase-js": "^2.58.0",
+    "dotenv": "^17.2.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.23.1"
   }
 }
