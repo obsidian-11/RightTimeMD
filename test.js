@@ -3,6 +3,7 @@
 import fetch from 'node-fetch';
 
 const OLLAMA_URL = "http://localhost:11434/api/generate";
+const PUBMED_BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils";
 
 // Example patient (replace with your de-identified extract)
 const patient = {
@@ -12,29 +13,190 @@ const patient = {
   conditions: ["hypertension"]
 };
 
-// Always-on instructions
+// Always-on instructions from instructions.md
 const instructions = `
-ROLE: You are a clinical research assistant.
-- Return ONLY JSON, no extra text.
-- Keys: assessment_summary, agenda (array), follow_up_questions (3 items),
-  papers (3 items with title, year, link, why_relevant).
+ROLE: You are the RightTimeMD Clinical Research & Coding Assistant.
+You transform de-identified patient context into actionable visit briefs.
+
+CRITICAL CONSTRAINTS:
+- Return ONLY JSON, no surrounding prose
+- Use ONLY information provided in input
+- Keep text concise and clinical (~10th grade readability)
+- Never invent citations or data
+
+OUTPUT FORMAT (return ONLY this JSON):
+{
+  "visit_brief": {
+    "issues": [
+      { "title": string, "why_now": string, "suggested_orders": [string], "next_steps": [string] }
+    ],
+    "red_flags": [string]
+  },
+  "literature": [
+    {
+      "rank": 1|2|3,
+      "id": string,
+      "title": string,
+      "year": number,
+      "source": "PubMed"|"Guideline"|"Other",
+      "link": string,
+      "one_sentence_summary": string,
+      "why_relevant": string,
+      "evidence_strength": "high"|"medium"|"low"
+    }
+  ],
+  "follow_up_questions": [string],
+  "billing_suggestions": [
+    {
+      "type": "CPT"|"ICD10",
+      "code": string,
+      "display": string,
+      "rationale": string,
+      "est_cost": number|null,
+      "payer_flags": [string]
+    }
+  ],
+  "confidence": {
+    "overall": 0.0-1.0,
+    "literature_match": 0.0-1.0,
+    "coding_rules_fit": 0.0-1.0
+  },
+  "notes": {
+    "assumptions": [string],
+    "limitations": [string]
+  }
+}
 `;
 
-const prompt = `
-${instructions}
+// Function to search PubMed for relevant papers
+async function searchPubMedPapers(patient, maxResults = 3) {
+  try {
+    // Build search terms from patient data
+    const searchTerms = [];
+    
+    if (patient.symptoms) {
+      searchTerms.push(...patient.symptoms);
+    }
+    if (patient.conditions) {
+      searchTerms.push(...patient.conditions);
+    }
+    
+    // Add age group and sex if relevant
+    if (patient.age && patient.age > 40) {
+      searchTerms.push("middle aged");
+    }
+    if (patient.sex) {
+      searchTerms.push(patient.sex);
+    }
+    
+    const query = searchTerms.join(" AND ");
+    console.log(`\n--- SEARCHING PUBMED ---\nQuery: ${query}\n`);
+    
+    // Search PubMed for paper IDs
+    const searchUrl = `${PUBMED_BASE_URL}/esearch.fcgi?db=pubmed&term=${encodeURIComponent(query)}&retmax=${maxResults}&retmode=json&sort=relevance`;
+    
+    const searchResponse = await fetch(searchUrl);
+    const searchData = await searchResponse.json();
+    
+    if (!searchData.esearchresult || !searchData.esearchresult.idlist || searchData.esearchresult.idlist.length === 0) {
+      console.log("No papers found, using fallback papers");
+      return getFallbackPapers(patient);
+    }
+    
+    const pmids = searchData.esearchresult.idlist.slice(0, maxResults);
+    
+    // Fetch paper details
+    const summaryUrl = `${PUBMED_BASE_URL}/esummary.fcgi?db=pubmed&id=${pmids.join(',')}&retmode=json`;
+    const summaryResponse = await fetch(summaryUrl);
+    const summaryData = await summaryResponse.json();
+    
+    const papers = [];
+    for (const pmid of pmids) {
+      const paper = summaryData.result[pmid];
+      if (paper) {
+        papers.push({
+          id: `pubmed-${pmid}`,
+          title: paper.title || "Unknown title",
+          year: parseInt(paper.pubdate?.split(' ')[0]) || new Date().getFullYear(),
+          source: "PubMed",
+          link: `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`,
+          abstract: paper.title || "Abstract not available", // PubMed summary API doesn't include full abstracts
+          guideline: false,
+          tags: searchTerms.slice(0, 3)
+        });
+      }
+    }
+    
+    return papers.length > 0 ? papers : getFallbackPapers(patient);
+    
+  } catch (error) {
+    console.error("PubMed search failed:", error.message);
+    return getFallbackPapers(patient);
+  }
+}
 
-Patient facts:
-${JSON.stringify(patient, null, 2)}
-
-Task:
-1. Write a brief assessment_summary (plain language, not a diagnosis).
-2. Agenda: list of items for the HCP visit.
-3. follow_up_questions: exactly 3.
-4. papers: exactly 3 objects with title, year, link, why_relevant.
-Return ONLY JSON, no extra explanation.
-`.trim();
+// Fallback papers when search fails
+function getFallbackPapers(patient) {
+  const fallbackPapers = [
+    {
+      id: "cardio-001",
+      title: "Exercise testing in patients with cardiac symptoms",
+      year: 2022,
+      source: "Guideline",
+      link: "https://example.com/cardio-guidelines",
+      abstract: "Guidelines for stress testing in patients with palpitations and dyspnea",
+      guideline: true,
+      tags: ["cardiology", "exercise", "palpitations"]
+    },
+    {
+      id: "htn-002", 
+      title: "Hypertension management in middle-aged adults",
+      year: 2023,
+      source: "PubMed",
+      link: "https://example.com/htn-study",
+      abstract: "Systematic review of antihypertensive therapy effectiveness",
+      tags: ["hypertension", "management"]
+    },
+    {
+      id: "dyspnea-003",
+      title: "Evaluation of dyspnea in primary care",
+      year: 2023,
+      source: "PubMed", 
+      link: "https://example.com/dyspnea-eval",
+      abstract: "Systematic approach to evaluating shortness of breath",
+      tags: ["dyspnea", "primary care", "evaluation"]
+    }
+  ];
+  
+  // Filter based on patient symptoms/conditions
+  const relevantPapers = fallbackPapers.filter(paper => {
+    const allTerms = [...(patient.symptoms || []), ...(patient.conditions || [])];
+    return paper.tags.some(tag => 
+      allTerms.some(term => 
+        tag.toLowerCase().includes(term.toLowerCase()) || 
+        term.toLowerCase().includes(tag.toLowerCase())
+      )
+    );
+  });
+  
+  return relevantPapers.length > 0 ? relevantPapers.slice(0, 3) : fallbackPapers.slice(0, 3);
+}
 
 async function main() {
+  // First, search for relevant papers based on patient data
+  const literatureCandidates = await searchPubMedPapers(patient);
+  
+  const prompt = `
+${instructions}
+
+INPUT:
+{
+  "patient": ${JSON.stringify(patient, null, 2)},
+  "literature_candidates": ${JSON.stringify(literatureCandidates, null, 2)}
+}
+
+Return ONLY the JSON object as specified in the OUTPUT FORMAT above.
+`.trim();
   const res = await fetch(OLLAMA_URL, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -55,11 +217,20 @@ async function main() {
   console.log(data.response);
 
   try {
-    const parsed = JSON.parse(data.response);
+    // Handle markdown code blocks
+    let jsonStr = data.response.trim();
+    if (jsonStr.startsWith('```json')) {
+      jsonStr = jsonStr.replace(/^```json\s*/, '').replace(/\s*```$/, '');
+    } else if (jsonStr.startsWith('```')) {
+      jsonStr = jsonStr.replace(/^```\s*/, '').replace(/\s*```$/, '');
+    }
+    
+    const parsed = JSON.parse(jsonStr);
     console.log("\n--- PARSED JSON ---\n");
     console.dir(parsed, { depth: null });
-  } catch {
+  } catch (error) {
     console.log("\n--- NOTE ---\nModel did not return valid JSON. Try tightening the prompt.");
+    console.log("Parse error:", error.message);
   }
 }
 
