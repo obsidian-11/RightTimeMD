@@ -40,31 +40,12 @@ OUTPUT FORMAT (return ONLY this JSON):
       "year": number,
       "source": "PubMed"|"Guideline"|"Other",
       "link": string,
-      "one_sentence_summary": string,
-      "why_relevant": string,
-      "evidence_strength": "high"|"medium"|"low"
+      "abstract": string,
+      "guideline": boolean,
+      "tags": [string]
     }
   ],
   "follow_up_questions": [string],
-  "billing_suggestions": [
-    {
-      "type": "CPT"|"ICD10",
-      "code": string,
-      "display": string,
-      "rationale": string,
-      "est_cost": number|null,
-      "payer_flags": [string]
-    }
-  ],
-  "confidence": {
-    "overall": 0.0-1.0,
-    "literature_match": 0.0-1.0,
-    "coding_rules_fit": 0.0-1.0
-  },
-  "notes": {
-    "assumptions": [string],
-    "limitations": [string]
-  }
 }
 `;
 
