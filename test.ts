@@ -7,7 +7,7 @@ import { join } from 'path';
 async function loadPatientFromFile(): Promise<fhirR4.Patient | null> {
     try {
         // Read the first FHIR file from the fhir directory
-        const fhirFilePath = join('./fhir', 'Abel832_Zieme486_9f5247cc-6762-3d1d-ebc6-29bf03f921e4.json');
+        const fhirFilePath = join('./fhir', 'Clemente531_Hagenes547_997c14c0-1295-bbe2-0762-6cf052c7a05b.json');
         const fileContent = readFileSync(fhirFilePath, 'utf8');
         const bundle: fhirR4.Bundle = JSON.parse(fileContent);
         
@@ -154,9 +154,42 @@ async function demonstrateUtils(): Promise<void> {
             ));
             
             console.log('\n--- Observations Array ---');
-            console.log(`Observation Codes (${observationsArray.length}):`, observationsArray.map(o => 
-                o.code?.coding?.[0]?.display || o.code?.text
-            ).filter(Boolean));
+            console.log(`Observation Codes with Values (${observationsArray.length}):`, observationsArray.map(o => {
+                const code = o.code?.coding?.[0]?.display || o.code?.text;
+                let value = 'N/A';
+                
+                // Extract different types of values
+                if (o.valueQuantity?.value !== undefined) {
+                    value = `${o.valueQuantity.value} ${o.valueQuantity.unit || ''}`.trim();
+                } else if (o.valueString) {
+                    value = o.valueString;
+                } else if (o.valueCodeableConcept?.coding?.[0]?.display) {
+                    value = o.valueCodeableConcept.coding[0].display;
+                } else if (o.valueCodeableConcept?.text) {
+                    value = o.valueCodeableConcept.text;
+                } else if (o.valueBoolean !== undefined) {
+                    value = o.valueBoolean.toString();
+                } else if (o.valueDateTime) {
+                    value = o.valueDateTime;
+                } else if (o.valueInteger !== undefined) {
+                    value = o.valueInteger.toString();
+                } else if (o.valueDecimal !== undefined) {
+                    value = o.valueDecimal.toString();
+                } else if (o.component && o.component.length > 0) {
+                    // Handle multi-component observations (like blood pressure)
+                    const components = o.component.map(comp => {
+                        const compCode = comp.code?.coding?.[0]?.display || comp.code?.text;
+                        let compValue = 'N/A';
+                        if (comp.valueQuantity?.value !== undefined) {
+                            compValue = `${comp.valueQuantity.value} ${comp.valueQuantity.unit || ''}`.trim();
+                        }
+                        return `${compCode}: ${compValue}`;
+                    }).join(', ');
+                    value = components;
+                }
+                
+                return code ? `${code}: ${value}` : null;
+            }).filter(Boolean));
             
             console.log('\n--- Conditions Array ---');
             console.log(`Condition Codes (${conditionsArray.length}):`, conditionsArray.map(c => 
