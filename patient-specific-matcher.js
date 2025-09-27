@@ -178,7 +178,7 @@ async function main() {
 
         // Find matches
         console.log('\n=== Finding Best Matches ===');
-        const matches = await matcher.findMatchingTrials(patientData, 5);
+        const matches = await matcher.findMatchingTrials(patientData, 3);
         
         if (matches.length > 0) {
             console.log('\n=== Top Matching Clinical Trials ===');
