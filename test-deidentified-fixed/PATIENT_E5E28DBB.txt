@@ -1,0 +1,130 @@
+ANONYMOUS_PATIENT_ID: PATIENT_E5E28DBB
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Prediabetes (finding) (onset: 10+ years ago)
+3. Anemia (disorder) (onset: 10+ years ago)
+4. Loss of teeth (disorder) (onset: 10+ years ago)
+5. Chronic pain (finding) (onset: 10+ years ago)
+6. Chronic low back pain (finding) (onset: 10+ years ago)
+7. Chronic neck pain (finding) (onset: 10+ years ago)
+8. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+9. Full-time employment (finding) (onset: 1 year ago)
+10. Medication review due (situation) (onset: 1 months ago)
+11. Stress (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Social isolation (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 2227 days
+2. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 1484 days
+3. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 742 days
+4. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1114 days
+5. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 743 days
+6. Streptococcal sore throat (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 9 days
+7. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 812 days
+8. Not in labor force (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 372 days
+9. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 442 days
+10. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 9 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Follow-up encounter (procedure) - Reason: Loss of teeth (disorder) (Status: finished)
+2. 1 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 months ago: Encounter for problem (procedure) - Reason: Loss of teeth (disorder) (Status: finished)
+4. 1 year ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+5. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 177 cm (1 months ago)
+2. Body Weight: 87.2 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 27.85 kg/m2 (1 months ago)
+4. Blood pressure panel: 120/88 mm[Hg] (1 months ago)
+5. Heart rate: 87 /min (1 months ago)
+6. Glucose [Mass/volume] in Blood: 85.79 mg/dL (1 months ago)
+7. Body Height: 177 cm (1 year ago)
+8. Body Weight: 93.4 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 29.8 kg/m2 (1 year ago)
+10. Blood pressure panel: 137/90 mm[Hg] (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (1 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (1 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (1 months ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+9. Total score [DAST-10]: 2 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+12. Total score [DAST-10]: 0 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Drug Abuse Screening Test-10 [DAST-10] (1 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), prediabetes, anemia, (disorder), loss, teeth, social, isolation, victim, intimate, partner, abuse, chronic, pain, back, neck, medication, review, (situation), body, mass, index, obesity, full-time, employment, stress, streptococcal, sore, throat, labor, force, acute, viral, pharyngitis, part-time, suspected, disease, caused, severe, respiratory, coronavirus, fatigue, fever, syndrome, concussion, injury, brain, with, consciousness, reports, violence, environment, gingivitis, sinusitis, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature, lifestyle, behavioral, change, administrative, completed, pharmacological, natural, recovery, time-limited, healing, unspecified
+
+RISK_FACTORS: Diabetes risk, Obesity, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 11
+Total_Conditions_Count: 42
+Resolved_Conditions_Count: 31
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, pharmacological, natural recovery/time-limited, healing/recovery, unspecified
+Common_Resolution_Approach: lifestyle/behavioral change
+

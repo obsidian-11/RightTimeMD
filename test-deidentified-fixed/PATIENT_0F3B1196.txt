@@ -1,0 +1,98 @@
+ANONYMOUS_PATIENT_ID: PATIENT_0F3B1196
+AGE_GROUP: Child (5-12)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Child (5-12) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 182 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1106 days
+3. Gingival disease (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+4. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+5. Primary dental caries (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+6. Medication review due (situation) (onset: 3 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 742 days
+7. Streptococcal sore throat (disorder) (onset: 2 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 10 days
+8. Acute bronchitis (disorder) (onset: 2 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 9 days
+9. Medication review due (situation) (onset: 4 months ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+10. Viral sinusitis (disorder) (onset: 0 months ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 7 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+2. 3 months ago: Administration of vaccine to produce active immunity (procedure) (Status: finished)
+3. 4 months ago: Well child visit (procedure) (Status: finished)
+4. 4 months ago: Administration of vaccine to produce active immunity (procedure) (Status: finished)
+5. 1 year ago: Well child visit (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 160.1 cm (4 months ago)
+2. Body Weight: 77.3 kg (4 months ago)
+3. Body mass index (BMI) [Ratio]: 30.18 kg/m2 (4 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 98.497 % (4 months ago)
+5. Blood pressure panel: 110/86 mm[Hg] (4 months ago)
+6. Heart rate: 100 /min (4 months ago)
+7. Body Height: 152.9 cm (1 year ago)
+8. Body Weight: 62.9 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 26.92 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 97.696 % (1 year ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (3 months ago)
+   Status: final
+
+3. Patient Health Questionnaire-9: Modified for Teens [Reported.PHQ.Teen] (4 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), gingival, disease, (disorder), primary, dental, caries, streptococcal, sore, throat, acute, bronchitis, viral, sinusitis, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature, administrative, completed, natural, recovery, time-limited, pharmacological
+
+RISK_FACTORS: Obesity (BMI ≥30), Overweight (BMI 25-29.9), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Child (5-12)
+Gender: female
+Active_Conditions_Count: 0
+Total_Conditions_Count: 10
+Resolved_Conditions_Count: 10
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Overweight (BMI 25-29.9), Elevated blood pressure
+Resolution_Methods: administrative/completed, natural recovery/time-limited, pharmacological
+Common_Resolution_Approach: administrative/completed
+

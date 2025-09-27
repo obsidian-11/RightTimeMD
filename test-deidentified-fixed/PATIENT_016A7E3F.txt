@@ -1,0 +1,116 @@
+ANONYMOUS_PATIENT_ID: PATIENT_016A7E3F
+AGE_GROUP: Young Adult (18-24)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Young Adult (18-24) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Housing unsatisfactory (finding) (onset: 4 years ago)
+2. Only received primary school education (finding) (onset: 4 years ago)
+3. Social isolation (finding) (onset: 4 years ago)
+4. Stress (finding) (onset: 4 years ago)
+5. Medication review due (situation) (onset: 3 years ago)
+6. Full-time employment (finding) (onset: 3 years ago)
+7. Normal pregnancy (finding) (onset: 7 months ago)
+8. Victim of intimate partner abuse (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+2. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 22 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 742 days
+4. Fracture of bone (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 49 days
+5. Fracture subluxation of wrist (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 49 days
+6. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+7. Gingival disease (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+8. Primary dental caries (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+9. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+10. Not in labor force (finding) (onset: 4 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 371 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+2. 0 months ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+3. 1 months ago: General examination of patient (procedure) (Status: finished)
+4. 1 months ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+5. 2 months ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 163.8 cm (1 months ago)
+2. Body Weight: 67.3 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 25.1 kg/m2 (1 months ago)
+4. Blood pressure panel: 97/72 mm[Hg] (1 months ago)
+5. Heart rate: 96 /min (1 months ago)
+6. Body Height: 163.8 cm (3 years ago)
+7. Body Weight: 61.4 kg (3 years ago)
+8. Body mass index (BMI) [Ratio]: 22.89 kg/m2 (3 years ago)
+9. Body mass index (BMI) [Percentile] Per age and sex: 64.542 % (3 years ago)
+10. Blood pressure panel: 103/73 mm[Hg] (3 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (3 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (4 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. CBC panel - Blood by Automated count (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), viral, sinusitis, (disorder), fracture, bone, subluxation, wrist, gingival, disease, primary, dental, caries, housing, unsatisfactory, (finding), only, received, school, education, labor, force, social, isolation, stress, full-time, employment, acute, infective, cystitis, normal, pregnancy, victim, intimate, partner, abuse, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, [percentile], administrative, completed, natural, recovery, time-limited, unspecified, lifestyle, behavioral, change
+
+RISK_FACTORS: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Young Adult (18-24)
+Gender: female
+Active_Conditions_Count: 8
+Total_Conditions_Count: 21
+Resolved_Conditions_Count: 13
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, natural recovery/time-limited, unspecified, lifestyle/behavioral change
+Common_Resolution_Approach: natural recovery/time-limited
+

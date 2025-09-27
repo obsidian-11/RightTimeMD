@@ -1,0 +1,112 @@
+ANONYMOUS_PATIENT_ID: PATIENT_C64D229A
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Housing unsatisfactory (finding) (onset: 10+ years ago)
+3. Educated to high school level (finding) (onset: 10+ years ago)
+4. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+5. Full-time employment (finding) (onset: 4 years ago)
+6. Stress (finding) (onset: 4 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 2198 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1099 days
+3. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 210 days
+4. Burn injury (morphologic abnormality) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 49 days
+5. Epidermal burn of skin (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 49 days
+6. Part-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1100 days
+7. Injury of neck (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 106 days
+8. Whiplash injury to neck (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 106 days
+9. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+10. Unhealthy alcohol drinking behavior (finding) (onset: 4 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 1099 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+2. 9 months ago: Encounter for symptom (procedure) - Reason: Streptococcal sore throat (disorder) (Status: finished)
+3. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 2 years ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body temperature: 37.773 Cel (9 months ago)
+2. Body Height: 171.6 cm (1 year ago)
+3. Body Weight: 81.4 kg (1 year ago)
+4. Body mass index (BMI) [Ratio]: 27.64 kg/m2 (1 year ago)
+5. Blood pressure panel: 129/78 mm[Hg] (1 year ago)
+6. Heart rate: 90 /min (1 year ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 201.27 mg/dL (1 year ago)
+8. Low Density Lipoprotein Cholesterol: 117.42 mg/dL (1 year ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 56.81 mg/dL (1 year ago)
+10. Body temperature: 37.398 Cel (3 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (4 years ago)
+3. Total score [DAST-10]: 0 (5-10 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (9 months ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), housing, unsatisfactory, educated, high, school, level, past, pregnancy, history, miscarriage, (situation), full-time, employment, medication, review, normal, burn, injury, (morphologic, abnormality), epidermal, skin, (disorder), part-time, neck, whiplash, stress, unhealthy, alcohol, drinking, behavior, streptococcal, sore, throat, gingivitis, gingival, disease, body, temperature, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, lifestyle, behavioral, change, administrative, completed, unspecified, healing, recovery, pharmacological, natural, time-limited
+
+RISK_FACTORS: Alcohol use, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 6
+Total_Conditions_Count: 22
+Resolved_Conditions_Count: 16
+Recent_Encounters_Count: 5
+Risk_Factors: Alcohol use, Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, unspecified, healing/recovery, pharmacological, natural recovery/time-limited
+Common_Resolution_Approach: healing/recovery
+

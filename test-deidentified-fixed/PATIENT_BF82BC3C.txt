@@ -1,0 +1,132 @@
+ANONYMOUS_PATIENT_ID: PATIENT_BF82BC3C
+AGE_GROUP: Senior (75-84)
+GENDER: male
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Senior (75-84) male patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Chronic sinusitis (disorder) (onset: 10+ years ago)
+2. History of appendectomy (situation) (onset: 10+ years ago)
+3. Received higher education (finding) (onset: 10+ years ago)
+4. Sepsis (disorder) (onset: 10+ years ago)
+5. Prediabetes (finding) (onset: 10+ years ago)
+6. Anemia (disorder) (onset: 10+ years ago)
+7. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+8. Essential hypertension (disorder) (onset: 5-10 years ago)
+9. Metabolic syndrome X (disorder) (onset: 5-10 years ago)
+10. Ischemic heart disease (disorder) (onset: 5-10 years ago)
+11. Abnormal findings diagnostic imaging heart+coronary circulat (finding) (onset: 5-10 years ago)
+12. Social isolation (finding) (onset: 5-10 years ago)
+13. Unemployed (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 3689 days
+2. Unemployed (finding) (onset: 10+ years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 736 days
+3. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 736 days
+4. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 2968 days
+5. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 371 days
+6. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+7. Victim of intimate partner abuse (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 371 days
+8. Misuses drugs (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 371 days
+9. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 743 days
+10. Loose dental filling (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Acute ST segment elevation myocardial infarction (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 2 months ago: Encounter for check up (procedure) - Reason: Screening for malignant neoplasm of colon (procedure) (Status: finished)
+4. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 1 year ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 176.3 cm (1 year ago)
+2. Body Weight: 93.6 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 30.11 kg/m2 (1 year ago)
+4. Blood pressure panel: 98/86 mm[Hg] (1 year ago)
+5. Heart rate: 80 /min (1 year ago)
+6. Glucose [Mass/volume] in Blood: 64.53 mg/dL (1 year ago)
+7. Body Height: 176.3 cm (2 years ago)
+8. Body Weight: 91.7 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 29.51 kg/m2 (2 years ago)
+10. Blood pressure panel: 96/87 mm[Hg] (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (1 year ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (1 year ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (2 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (4 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+8. Total score [DAST-10]: 0 (5-10 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 10 (5-10 years ago)
+11. Total score [DAST-10]: 1 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+14. Total score [DAST-10]: 8 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+16. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (5-10 years ago)
+17. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: chronic, sinusitis, (disorder), history, appendectomy, (situation), received, higher, education, (finding), sepsis, prediabetes, anemia, body, mass, index, obesity, medication, review, unemployed, victim, intimate, partner, abuse, essential, hypertension, full-time, employment, stress, gingivitis, misuses, drugs, metabolic, syndrome, ischemic, heart, disease, abnormal, findings, diagnostic, imaging, heart+coronary, circulat, loose, dental, filling, social, isolation, reports, violence, environment, limited, contact, viral, laceration, injury, forearm, height, weight, (bmi), [ratio], blood, pressure, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, administrative, completed, unspecified, lifestyle, behavioral, change, natural, recovery, time-limited, healing
+
+RISK_FACTORS: Diabetes risk, Obesity, Hypertension, Obesity (BMI ≥30), Overweight (BMI 25-29.9), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Senior (75-84)
+Gender: male
+Active_Conditions_Count: 13
+Total_Conditions_Count: 31
+Resolved_Conditions_Count: 18
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Hypertension, Obesity (BMI ≥30), Overweight (BMI 25-29.9), Elevated blood pressure
+Resolution_Methods: administrative/completed, unspecified, lifestyle/behavioral change, natural recovery/time-limited, healing/recovery
+Common_Resolution_Approach: lifestyle/behavioral change
+

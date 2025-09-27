@@ -227,6 +227,18 @@ class DeidentifiedBatchProcessor {
                     const relativeTime = this.anonymizeDate(condition.onsetDate, referenceDate);
                     content += ` (onset: ${relativeTime})`;
                 }
+                
+                // Add resolution information for RAG analysis
+                if (condition.resolutionInfo) {
+                    const res = condition.resolutionInfo;
+                    content += `\n   Resolution Method: ${res.method}`;
+                    if (res.details && res.details.length > 0) {
+                        content += `\n   Resolution Details: ${res.details.join(', ')}`;
+                    }
+                    if (res.timeToResolution !== null) {
+                        content += `\n   Time to Resolution: ${res.timeToResolution} days`;
+                    }
+                }
                 content += '\n';
             });
             content += '\n';
@@ -335,6 +347,18 @@ class DeidentifiedBatchProcessor {
                 });
             }
         });
+
+        // Add resolution method keywords for RAG searchability
+        conditions.forEach(c => {
+            if (c.resolutionInfo && c.resolutionInfo.method !== 'unknown') {
+                const methodWords = c.resolutionInfo.method.split(/[\s\/]+/);
+                methodWords.forEach(word => {
+                    if (word.length > 3) {
+                        keywords.add(word);
+                    }
+                });
+            }
+        });
         
         content += Array.from(keywords).join(', ') + '\n\n';
 
@@ -393,10 +417,26 @@ class DeidentifiedBatchProcessor {
         content += `Gender: ${basicInfo.gender}\n`;
         content += `Active_Conditions_Count: ${activeConditions.length}\n`;
         content += `Total_Conditions_Count: ${conditions.length}\n`;
+        content += `Resolved_Conditions_Count: ${resolvedConditions.length}\n`;
         content += `Recent_Encounters_Count: ${recentEncounters.length}\n`;
         if (riskFactors.length > 0) {
             content += `Risk_Factors: ${[...new Set(riskFactors)].join(', ')}\n`;
         }
+
+        // Add resolution method patterns for similarity analysis
+        const resolutionMethods = resolvedConditions
+            .filter(c => c.resolutionInfo && c.resolutionInfo.method !== 'unknown')
+            .map(c => c.resolutionInfo.method);
+        
+        if (resolutionMethods.length > 0) {
+            const methodCounts = {};
+            resolutionMethods.forEach(method => {
+                methodCounts[method] = (methodCounts[method] || 0) + 1;
+            });
+            content += `Resolution_Methods: ${Object.keys(methodCounts).join(', ')}\n`;
+            content += `Common_Resolution_Approach: ${Object.entries(methodCounts).sort((a, b) => b[1] - a[1])[0][0]}\n`;
+        }
+        
         content += '\n';
 
         return content;

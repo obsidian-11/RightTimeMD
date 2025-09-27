@@ -1,0 +1,128 @@
+ANONYMOUS_PATIENT_ID: PATIENT_494F737D
+AGE_GROUP: Middle-aged (55-64)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (55-64) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Seizure disorder (disorder) (onset: 10+ years ago)
+2. History of seizure (situation) (onset: 10+ years ago)
+3. Received higher education (finding) (onset: 10+ years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+5. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+6. History of tubal ligation (situation) (onset: 10+ years ago)
+7. Prediabetes (finding) (onset: 10+ years ago)
+8. Anemia (disorder) (onset: 10+ years ago)
+9. Medication review due (situation) (onset: 5-10 years ago)
+10. Full-time employment (finding) (onset: 1 year ago)
+11. Reports of violence in the environment (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Social isolation (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 10164 days
+2. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 2101 days
+3. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 707 days
+4. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 707 days
+5. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 742 days
+6. Dental filling lost (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+7. Part-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1113 days
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+9. Victim of intimate partner abuse (finding) (onset: 4 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 371 days
+10. Gingivitis (disorder) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 1 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: General examination of patient (procedure) (Status: finished)
+4. 1 year ago: Encounter for check up (procedure) - Reason: Polyp of colon (disorder) (Status: finished)
+5. 2 years ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 164.2 cm (1 months ago)
+2. Body Weight: 83.4 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 30.94 kg/m2 (1 months ago)
+4. Blood pressure panel: 113/73 mm[Hg] (1 months ago)
+5. Heart rate: 73 /min (1 months ago)
+6. Glucose [Mass/volume] in Blood: 88.44 mg/dL (1 months ago)
+7. Body Height: 164.2 cm (1 year ago)
+8. Body Weight: 81.3 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 30.14 kg/m2 (1 year ago)
+10. Blood pressure panel: 112/66 mm[Hg] (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 2 (1 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (1 months ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 9 (1 year ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (2 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+15. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Drug Abuse Screening Test-10 [DAST-10] (1 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: seizure, (disorder), history, (situation), received, higher, education, (finding), body, mass, index, obesity, social, isolation, past, pregnancy, miscarriage, tubal, ligation, full-time, employment, medication, review, prediabetes, anemia, stress, dental, filling, lost, part-time, gingivitis, victim, intimate, partner, abuse, gingival, disease, polyp, colon, unhealthy, alcohol, drinking, behavior, primary, caries, reports, violence, environment, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, lifestyle, behavioral, change, administrative, completed, natural, recovery, time-limited, unspecified
+
+RISK_FACTORS: Obesity, Diabetes risk, Alcohol use, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (55-64)
+Gender: female
+Active_Conditions_Count: 11
+Total_Conditions_Count: 31
+Resolved_Conditions_Count: 20
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Diabetes risk, Alcohol use, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, natural recovery/time-limited, unspecified
+Common_Resolution_Approach: lifestyle/behavioral change
+

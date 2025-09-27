@@ -1,0 +1,105 @@
+ANONYMOUS_PATIENT_ID: PATIENT_66498F86
+AGE_GROUP: Adolescent (13-17)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adolescent (13-17) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Perennial allergic rhinitis with seasonal variation (disorder) (onset: 5-10 years ago)
+2. Medication review due (situation) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 182 days
+2. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 27 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+4. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1918 days
+5. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 16 days
+6. Acute bronchitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 11 days
+7. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 19 days
+8. Streptococcal sore throat (disorder) (onset: 3 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 14 days
+9. Gingivitis (disorder) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 8 days
+10. Primary dental caries (disorder) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+2. 0 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+3. 0 months ago: Well child visit (procedure) (Status: finished)
+4. 1 months ago: Allergic disorder initial assessment (regime/therapy) - Reason: Allergic disposition (finding) (Status: finished)
+5. 6 months ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 156.2 cm (0 months ago)
+2. Body Weight: 43.2 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 17.69 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 36.689 % (0 months ago)
+5. Blood pressure panel: 139/76 mm[Hg] (0 months ago)
+6. Heart rate: 88 /min (0 months ago)
+7. Body Height: 149.1 cm (1 year ago)
+8. Body Weight: 36.3 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 16.31 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 22.738 % (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (0 months ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. Patient Health Questionnaire-9: Modified for Teens [Reported.PHQ.Teen] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), viral, sinusitis, (disorder), perennial, allergic, rhinitis, with, seasonal, variation, acute, bronchitis, streptococcal, sore, throat, gingivitis, primary, dental, caries, gingival, disease, risk, activity, involvement, (finding), body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature, administrative, completed, natural, recovery, time-limited, pharmacological, unspecified
+
+RISK_FACTORS: Obesity (BMI ≥30), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Adolescent (13-17)
+Gender: male
+Active_Conditions_Count: 2
+Total_Conditions_Count: 17
+Resolved_Conditions_Count: 15
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Elevated blood pressure
+Resolution_Methods: administrative/completed, natural recovery/time-limited, pharmacological, unspecified
+Common_Resolution_Approach: natural recovery/time-limited
+

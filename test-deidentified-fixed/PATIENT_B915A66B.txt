@@ -1,0 +1,101 @@
+ANONYMOUS_PATIENT_ID: PATIENT_B915A66B
+AGE_GROUP: Child (5-12)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Child (5-12) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 252 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 581 days
+3. Acute bronchitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 20 days
+4. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 14 days
+5. Concussion injury of brain (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 50 days
+6. Concussion with loss of consciousness (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 50 days
+7. Otitis media (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 139 days
+8. Primary dental caries (disorder) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+9. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 364 days
+10. Suspected disease caused by Severe acute respiratory coronavirus 2 (situation) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: COVID-19 infection - recovery with supportive care
+   Time to Resolution: 1 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+2. 1 months ago: Well child visit (procedure) (Status: finished)
+3. 1 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+4. 2 months ago: Encounter for check up (procedure) (Status: finished)
+5. 2 months ago: Encounter for symptom (procedure) - Reason: Acute viral pharyngitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 123.7 cm (1 months ago)
+2. Body Weight: 21.5 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 14.01 kg/m2 (1 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 9.5626 % (1 months ago)
+5. Blood pressure panel: 117/90 mm[Hg] (1 months ago)
+6. Heart rate: 67 /min (1 months ago)
+7. Body Height: 123.2 cm (2 months ago)
+8. Body Weight: 21.2 kg (2 months ago)
+9. Body mass index (BMI) [Ratio]: 13.96 kg/m2 (2 months ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 8.7204 % (2 months ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), acute, bronchitis, (disorder), viral, pharyngitis, concussion, injury, brain, with, loss, consciousness, otitis, media, primary, dental, caries, suspected, disease, caused, severe, respiratory, coronavirus, headache, (finding), cough, fatigue, fever, syndrome, gingival, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature, administrative, completed, natural, recovery, time-limited, healing, unspecified, pharmacological
+
+RISK_FACTORS: Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Child (5-12)
+Gender: male
+Active_Conditions_Count: 1
+Total_Conditions_Count: 22
+Resolved_Conditions_Count: 21
+Recent_Encounters_Count: 5
+Risk_Factors: Elevated blood pressure
+Resolution_Methods: administrative/completed, natural recovery/time-limited, healing/recovery, unspecified, pharmacological
+Common_Resolution_Approach: natural recovery/time-limited
+

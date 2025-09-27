@@ -1,0 +1,129 @@
+ANONYMOUS_PATIENT_ID: PATIENT_717C3169
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Educated to high school level (finding) (onset: 10+ years ago)
+2. Chronic sinusitis (disorder) (onset: 10+ years ago)
+3. Chronic pain (finding) (onset: 10+ years ago)
+4. Chronic low back pain (finding) (onset: 10+ years ago)
+5. Chronic neck pain (finding) (onset: 10+ years ago)
+6. Has a criminal record (finding) (onset: 4 years ago)
+7. Essential hypertension (disorder) (onset: 3 years ago)
+8. Prediabetes (finding) (onset: 1 year ago)
+9. Misuses drugs (finding) (onset: 1 year ago)
+10. Anemia (disorder) (onset: 0 months ago)
+11. Full-time employment (finding) (onset: 0 months ago)
+12. Stress (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Social isolation (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 4634 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 2954 days
+3. Limited social contact (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 2213 days
+4. Severe anxiety (panic) (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 2955 days
+5. Not in labor force (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 743 days
+6. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 372 days
+7. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 15 days
+8. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 371 days
+9. Limited social contact (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 1855 days
+10. Reports of violence in the environment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 371 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for problem (procedure) - Reason: Anemia (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: General examination of patient (procedure) (Status: finished)
+4. 2 years ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 2 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 176.8 cm (0 months ago)
+2. Body Weight: 93.1 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 29.79 kg/m2 (0 months ago)
+4. Blood pressure panel: 125/91 mm[Hg] (0 months ago)
+5. Heart rate: 83 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 96.09 mg/dL (0 months ago)
+7. Body Height: 176.8 cm (1 year ago)
+8. Body Weight: 91 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 29.11 kg/m2 (1 year ago)
+10. Blood pressure panel: 119/88 mm[Hg] (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (0 months ago)
+3. Total score [DAST-10]: 8 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+5. Total score [DAST-10]: 0 (2 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (3 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (4 years ago)
+11. Total score [DAST-10]: 2 (5-10 years ago)
+12. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. CBC panel - Blood by Automated count (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: educated, high, school, level, (finding), social, isolation, medication, review, (situation), limited, contact, severe, anxiety, (panic), chronic, sinusitis, (disorder), pain, back, neck, labor, force, stress, viral, full-time, employment, reports, violence, environment, gingivitis, gingival, disease, part-time, suspected, caused, acute, respiratory, coronavirus, cough, fatigue, chill, fever, syndrome, criminal, record, essential, hypertension, primary, dental, caries, prediabetes, misuses, drugs, anemia, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature, lifestyle, behavioral, change, administrative, completed, natural, recovery, time-limited
+
+RISK_FACTORS: Hypertension, Diabetes risk, Overweight (BMI 25-29.9), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 12
+Total_Conditions_Count: 43
+Resolved_Conditions_Count: 31
+Recent_Encounters_Count: 5
+Risk_Factors: Hypertension, Diabetes risk, Overweight (BMI 25-29.9), Elevated blood pressure
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, natural recovery/time-limited
+Common_Resolution_Approach: lifestyle/behavioral change
+

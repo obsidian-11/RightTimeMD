@@ -1,0 +1,111 @@
+ANONYMOUS_PATIENT_ID: PATIENT_7600D439
+AGE_GROUP: Young Adult (18-24)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Young Adult (18-24) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 3 years ago)
+2. Medication review due (situation) (onset: 1 months ago)
+3. Full-time employment (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 742 days
+2. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 13 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+4. Gingival disease (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+5. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 9 days
+6. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+7. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+8. Fractured dental filling (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+9. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+10. Loose dental filling (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 0 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+3. 1 months ago: Encounter for check up (procedure) (Status: finished)
+4. 1 months ago: Encounter for symptom (procedure) - Reason: Acute viral pharyngitis (disorder) (Status: finished)
+5. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 165.1 cm (1 months ago)
+2. Body Weight: 67.5 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 24.78 kg/m2 (1 months ago)
+4. Blood pressure panel: 108/74 mm[Hg] (1 months ago)
+5. Heart rate: 69 /min (1 months ago)
+6. Body temperature: 37.969 Cel (1 months ago)
+7. Body Height: 165.1 cm (2 years ago)
+8. Body Weight: 66.5 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 24.42 kg/m2 (2 years ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 76.505 % (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (1 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (2 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (3 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (4 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (5-10 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. Alcohol Use Disorder Identification Test - Consumption [AUDIT-C] (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), acute, viral, pharyngitis, (disorder), gingival, disease, gingivitis, fractured, dental, filling, (finding), loose, infective, cystitis, lost, laceration, injury, thigh, received, higher, education, full-time, employment, stress, part-time, infection, tooth, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, temperature, [percentile], administrative, completed, natural, recovery, time-limited, healing, lifestyle, behavioral, change
+
+RISK_FACTORS: Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Young Adult (18-24)
+Gender: female
+Active_Conditions_Count: 3
+Total_Conditions_Count: 30
+Resolved_Conditions_Count: 27
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, natural recovery/time-limited, healing/recovery, lifestyle/behavioral change
+Common_Resolution_Approach: natural recovery/time-limited
+

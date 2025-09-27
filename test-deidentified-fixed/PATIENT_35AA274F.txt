@@ -1,0 +1,128 @@
+ANONYMOUS_PATIENT_ID: PATIENT_35AA274F
+AGE_GROUP: Middle-aged (55-64)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (55-64) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Transport problem (finding) (onset: 10+ years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+5. Lack of access to transportation (finding) (onset: 10+ years ago)
+6. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+7. Polyp of colon (disorder) (onset: 10+ years ago)
+8. Recurrent rectal polyp (disorder) (onset: 5-10 years ago)
+9. Medication review due (situation) (onset: 5-10 years ago)
+10. Prediabetes (finding) (onset: 5-10 years ago)
+11. Hyperlipidemia (disorder) (onset: 3 years ago)
+12. Refugee (person) (onset: 3 years ago)
+13. Not in labor force (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 10192 days
+2. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 3298 days
+3. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 743 days
+4. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 742 days
+5. Limited social contact (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 372 days
+6. Overlapping malignant neoplasm of colon (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 839 days
+7. Unhealthy alcohol drinking behavior (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 372 days
+8. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 743 days
+9. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+10. Not in labor force (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 371 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 2 years ago: Encounter for symptom (procedure) - Reason: Acute viral pharyngitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Blood: 99.09 mg/dL (0 months ago)
+2. Cholesterol [Mass/volume] in Serum or Plasma: 180.53 mg/dL (0 months ago)
+3. Low Density Lipoprotein Cholesterol: 87.185 mg/dL (0 months ago)
+4. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 76.539 mg/dL (0 months ago)
+5. Body Height: 164 cm (0 months ago)
+6. Body Weight: 83.7 kg (0 months ago)
+7. Body mass index (BMI) [Ratio]: 31.12 kg/m2 (0 months ago)
+8. Blood pressure panel: 120/89 mm[Hg] (0 months ago)
+9. Heart rate: 61 /min (0 months ago)
+10. Glucose [Mass/volume] in Blood: 70.4 mg/dL (0 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 year ago)
+2. Total score [DAST-10]: 1 (2 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (3 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (3 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (4 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (4 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 14 (5-10 years ago)
+12. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Comprehensive metabolic 2000 panel - Serum or Plasma (0 months ago)
+   Status: final
+
+2. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), received, higher, education, transport, problem, body, mass, index, obesity, lack, access, transportation, victim, intimate, partner, abuse, past, pregnancy, history, miscarriage, (situation), full-time, employment, stress, polyp, colon, (disorder), medication, review, limited, social, contact, recurrent, rectal, overlapping, malignant, neoplasm, unhealthy, alcohol, drinking, behavior, prediabetes, labor, force, gingivitis, loose, dental, filling, part-time, hyperlipidemia, refugee, (person), acute, viral, pharyngitis, glucose, [mass/volume], blood, cholesterol, serum, plasma, density, lipoprotein, height, weight, (bmi), [ratio], pressure, heart, rate, temperature, lifestyle, behavioral, change, administrative, completed, unspecified, natural, recovery, time-limited
+
+RISK_FACTORS: Obesity, Alcohol use, Diabetes risk, Obesity (BMI ≥30), Elevated blood pressure, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (55-64)
+Gender: female
+Active_Conditions_Count: 13
+Total_Conditions_Count: 30
+Resolved_Conditions_Count: 17
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Alcohol use, Diabetes risk, Obesity (BMI ≥30), Elevated blood pressure, Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, unspecified, natural recovery/time-limited
+Common_Resolution_Approach: lifestyle/behavioral change
+

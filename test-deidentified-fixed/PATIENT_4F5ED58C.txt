@@ -1,0 +1,124 @@
+ANONYMOUS_PATIENT_ID: PATIENT_4F5ED58C
+AGE_GROUP: Middle-aged (45-54)
+GENDER: male
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) male patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+4. Ischemic heart disease (disorder) (onset: 10+ years ago)
+5. Abnormal findings diagnostic imaging heart+coronary circulat (finding) (onset: 10+ years ago)
+6. Hyperlipidemia (disorder) (onset: 5-10 years ago)
+7. Stress (finding) (onset: 4 years ago)
+8. Part-time employment (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 2912 days
+2. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 24 days
+3. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 13 days
+4. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 735 days
+5. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 1443 days
+6. Reports of violence in the environment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 736 days
+7. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+8. Unemployed (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 372 days
+9. Full-time employment (finding) (onset: 4 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1113 days
+10. Social isolation (finding) (onset: 4 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 371 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+2. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+3. 1 year ago: General examination of patient (procedure) (Status: finished)
+4. 1 year ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+5. 1 year ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Blood: 95.1 mg/dL (0 months ago)
+2. Cholesterol [Mass/volume] in Serum or Plasma: 151.37 mg/dL (0 months ago)
+3. Low Density Lipoprotein Cholesterol: 114.76 mg/dL (0 months ago)
+4. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 44.214 mg/dL (0 months ago)
+5. Body Height: 171.8 cm (1 year ago)
+6. Body Weight: 89.2 kg (1 year ago)
+7. Body mass index (BMI) [Ratio]: 30.23 kg/m2 (1 year ago)
+8. Blood pressure panel: 124/71 mm[Hg] (1 year ago)
+9. Heart rate: 87 /min (1 year ago)
+10. Glucose [Mass/volume] in Blood: 70.22 mg/dL (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (1 year ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+4. Total score [DAST-10]: 1 (4 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 4 (4 years ago)
+6. Total score [DAST-10]: 0 (5-10 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+9. Total score [DAST-10]: 1 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+12. Total score [DAST-10]: 1 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Comprehensive metabolic 2000 panel - Serum or Plasma (0 months ago)
+   Status: final
+
+2. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), received, higher, education, body, mass, index, obesity, ischemic, heart, disease, (disorder), full-time, employment, abnormal, findings, diagnostic, imaging, heart+coronary, circulat, viral, sinusitis, acute, pharyngitis, medication, review, (situation), stress, reports, violence, environment, hyperlipidemia, unemployed, social, isolation, gingivitis, gingival, part-time, primary, dental, caries, glucose, [mass/volume], blood, cholesterol, serum, plasma, density, lipoprotein, height, weight, (bmi), [ratio], pressure, rate, temperature, lifestyle, behavioral, change, natural, recovery, time-limited, administrative, completed, unspecified
+
+RISK_FACTORS: Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: male
+Active_Conditions_Count: 8
+Total_Conditions_Count: 27
+Resolved_Conditions_Count: 19
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, natural recovery/time-limited, administrative/completed, unspecified
+Common_Resolution_Approach: natural recovery/time-limited
+

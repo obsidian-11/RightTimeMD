@@ -1,0 +1,100 @@
+ANONYMOUS_PATIENT_ID: PATIENT_446DF7FA
+AGE_GROUP: Child (5-12)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Child (5-12) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 1 year ago)
+2. Otitis media (disorder) (onset: 1 year ago)
+3. Traumatic injury of spinal cord and/or vertebral column (disorder) (onset: 1 months ago)
+4. Fracture of vertebral column with spinal cord injury (disorder) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 98 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 91 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+4. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 91 days
+5. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+6. Medication review due (situation) (onset: 3 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+7. Medication review due (situation) (onset: 3 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+8. Medication review due (situation) (onset: 2 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 182 days
+9. Viral sinusitis (disorder) (onset: 1 year ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 23 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Fracture of vertebral column with spinal cord injury (disorder) (Status: finished)
+2. 1 months ago: Emergency room admission (procedure) - Reason: Traumatic injury of spinal cord and/or vertebral column (disorder) (Status: finished)
+3. 1 year ago: Encounter for symptom (procedure) - Reason: Otitis media (disorder) (Status: finished)
+4. 1 year ago: Well child visit (procedure) (Status: finished)
+5. 1 year ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 115.7 cm (1 year ago)
+2. Body Weight: 22.3 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 16.64 kg/m2 (1 year ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 81.897 % (1 year ago)
+5. Blood pressure panel: 105/78 mm[Hg] (1 year ago)
+6. Heart rate: 68 /min (1 year ago)
+7. Body Height: 108.5 cm (2 years ago)
+8. Body Weight: 20.1 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 17.06 kg/m2 (2 years ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 86.764 % (2 years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), viral, sinusitis, (disorder), otitis, media, traumatic, injury, spinal, cord, and/or, vertebral, column, fracture, with, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, administrative, completed, natural, recovery, time-limited
+
+RISK_FACTORS: Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Child (5-12)
+Gender: male
+Active_Conditions_Count: 4
+Total_Conditions_Count: 13
+Resolved_Conditions_Count: 9
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, natural recovery/time-limited
+Common_Resolution_Approach: administrative/completed
+

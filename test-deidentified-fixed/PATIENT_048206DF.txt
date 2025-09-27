@@ -1,0 +1,137 @@
+ANONYMOUS_PATIENT_ID: PATIENT_048206DF
+AGE_GROUP: Elderly (85+)
+GENDER: male
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Elderly (85+) male patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Has a criminal record (finding) (onset: 10+ years ago)
+3. Prediabetes (finding) (onset: 10+ years ago)
+4. Anemia (disorder) (onset: 10+ years ago)
+5. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+6. Essential hypertension (disorder) (onset: 10+ years ago)
+7. Metabolic syndrome X (disorder) (onset: 10+ years ago)
+8. Ischemic heart disease (disorder) (onset: 10+ years ago)
+9. Abnormal findings diagnostic imaging heart+coronary circulat (finding) (onset: 10+ years ago)
+10. History of coronary artery bypass grafting (situation) (onset: 10+ years ago)
+11. Malignant neoplasm of breast (disorder) (onset: 10+ years ago)
+12. Acute non-ST segment elevation myocardial infarction (disorder) (onset: 5-10 years ago)
+13. History of myocardial infarction (situation) (onset: 5-10 years ago)
+14. Full-time employment (finding) (onset: 4 years ago)
+15. Limited social contact (finding) (onset: 3 years ago)
+16. Chronic congestive heart failure (disorder) (onset: 3 years ago)
+17. Stress (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 3710 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 3339 days
+3. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 371 days
+4. Sprain (morphologic abnormality) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 36 days
+5. Sprain of wrist (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 36 days
+6. Myocardial infarction (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 5 days
+7. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 371 days
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 14 days
+9. Not in labor force (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 742 days
+10. Limited social contact (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 372 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+2. 1 months ago: Admission to hospice (procedure) - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+3. 4 months ago: Follow-up visit (procedure) - Reason: Malignant neoplasm of breast (disorder) (Status: finished)
+4. 4 months ago: Screening surveillance (regime/therapy) - Reason: Malignant neoplasm of breast (disorder) (Status: finished)
+5. 4 months ago: Postoperative follow-up visit (procedure) - Reason: Malignant neoplasm of breast (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Blood: 87.54 mg/dL (4 months ago)
+2. Body Weight: 84.5 kg (1 year ago)
+3. Glucose [Mass/volume] in Serum or Plasma: 84.1 mg/dL (1 year ago)
+4. Cholesterol [Mass/volume] in Serum or Plasma: 279.66 mg/dL (1 year ago)
+5. Low Density Lipoprotein Cholesterol: 205.51 mg/dL (1 year ago)
+6. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 45.42 mg/dL (1 year ago)
+7. Body Weight: 84.5 kg (1 year ago)
+8. Glucose [Mass/volume] in Serum or Plasma: 83.31 mg/dL (1 year ago)
+9. Cholesterol [Mass/volume] in Serum or Plasma: 290.66 mg/dL (1 year ago)
+10. Low Density Lipoprotein Cholesterol: 208.67 mg/dL (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (1 year ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (3 years ago)
+6. Total score [DAST-10]: 1 (4 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 12 (4 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+11. Total score [DAST-10]: 0 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+15. Total score [DAST-10]: 0 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+17. Total score [DAST-10]: 1 (5-10 years ago)
+18. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), criminal, record, prediabetes, anemia, (disorder), body, mass, index, obesity, essential, hypertension, metabolic, syndrome, ischemic, heart, disease, abnormal, findings, diagnostic, imaging, heart+coronary, circulat, history, coronary, artery, bypass, grafting, (situation), malignant, neoplasm, breast, full-time, employment, medication, review, stress, sprain, (morphologic, abnormality), wrist, myocardial, infarction, acute, non-st, segment, elevation, gingivitis, labor, force, limited, social, contact, laceration, injury, forearm, isolation, chronic, congestive, failure, fracture, bone, clavicle, glucose, [mass/volume], blood, weight, serum, plasma, cholesterol, density, lipoprotein, height, (bmi), [ratio], pressure, rate, lifestyle, behavioral, change, administrative, completed, unspecified, natural, recovery, time-limited, healing
+
+RISK_FACTORS: Diabetes risk, Obesity, Hypertension, Overweight (BMI 25-29.9), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Elderly (85+)
+Gender: male
+Active_Conditions_Count: 17
+Total_Conditions_Count: 39
+Resolved_Conditions_Count: 22
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Hypertension, Overweight (BMI 25-29.9), Elevated blood pressure
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, unspecified, natural recovery/time-limited, healing/recovery
+Common_Resolution_Approach: lifestyle/behavioral change
+

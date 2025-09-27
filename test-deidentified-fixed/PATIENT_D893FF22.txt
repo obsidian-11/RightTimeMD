@@ -1,0 +1,155 @@
+ANONYMOUS_PATIENT_ID: PATIENT_D893FF22
+AGE_GROUP: Middle-aged (55-64)
+GENDER: male
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (55-64) male patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Educated to high school level (finding) (onset: 10+ years ago)
+2. Has a criminal record (finding) (onset: 10+ years ago)
+3. Impacted molars (disorder) (onset: 10+ years ago)
+4. Chronic pain (finding) (onset: 10+ years ago)
+5. Chronic intractable migraine without aura (disorder) (onset: 10+ years ago)
+6. Dependent drug abuse (disorder) (onset: 10+ years ago)
+7. Prediabetes (finding) (onset: 10+ years ago)
+8. Anemia (disorder) (onset: 10+ years ago)
+9. Ischemic heart disease (disorder) (onset: 10+ years ago)
+10. Abnormal findings diagnostic imaging heart+coronary circulat (finding) (onset: 10+ years ago)
+11. Sleep disorder (disorder) (onset: 10+ years ago)
+12. Obstructive sleep apnea syndrome (disorder) (onset: 10+ years ago)
+13. Essential hypertension (disorder) (onset: 10+ years ago)
+14. Atrial fibrillation (disorder) (onset: 10+ years ago)
+15. Chronic kidney disease stage 1 (disorder) (onset: 3 years ago)
+16. Disorder of kidney due to diabetes mellitus (disorder) (onset: 3 years ago)
+17. Limited social contact (finding) (onset: 1 year ago)
+18. Chronic kidney disease stage 2 (disorder) (onset: 5 months ago)
+19. Microalbuminuria due to type 2 diabetes mellitus (disorder) (onset: 5 months ago)
+20. Full-time employment (finding) (onset: 5 months ago)
+21. Stress (finding) (onset: 4 months ago)
+22. Medication review due (situation) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 441 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 7 days
+3. Unemployed (finding) (onset: 10+ years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 407 days
+4. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 778 days
+5. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 36 days
+6. Acute bronchitis (disorder) (onset: 10+ years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 8 days
+7. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 917 days
+8. Not in labor force (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 372 days
+9. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+10. Overdose (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+2. 0 months ago: Encounter for check up (procedure) (Status: finished)
+3. 1 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+4. 2 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+5. 3 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Serum or Plasma: 70.94 mg/dL (0 months ago)
+2. Glucose [Mass/volume] in Urine by Test strip: 1.7893 mg/dL (0 months ago)
+3. Glucose [Presence] in Urine by Test strip: Urine glucose test = ++ (finding) (0 months ago)
+4. Body Height: 166.3 cm (0 months ago)
+5. Body Weight: 73.5 kg (0 months ago)
+6. Body mass index (BMI) [Ratio]: 26.58 kg/m2 (0 months ago)
+7. Blood pressure panel: 100/88 mm[Hg] (0 months ago)
+8. Heart rate: 79 /min (0 months ago)
+9. Glucose [Mass/volume] in Blood: 70.94 mg/dL (0 months ago)
+10. Glucose [Mass/volume] in Serum or Plasma: 73.3 mg/dL (3 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (4 months ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5 months ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (8 months ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (1 year ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 year ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 3 (2 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (2 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (2 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (2 years ago)
+18. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+19. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (4 years ago)
+20. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+21. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+22. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+23. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+24. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+25. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 4 (5-10 years ago)
+26. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+27. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+28. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+29. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 4 (10+ years ago)
+30. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (10+ years ago)
+31. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (10+ years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Generalized anxiety disorder 7 item (GAD-7) (0 months ago)
+   Status: final
+
+3. Basic metabolic 2000 panel - Serum or Plasma (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: educated, high, school, level, (finding), criminal, record, impacted, molars, (disorder), chronic, pain, intractable, migraine, without, aura, dependent, drug, abuse, prediabetes, anemia, ischemic, heart, disease, abnormal, findings, diagnostic, imaging, heart+coronary, circulat, sleep, obstructive, apnea, syndrome, essential, hypertension, full-time, employment, atrial, fibrillation, medication, review, (situation), unemployed, stress, victim, intimate, partner, acute, bronchitis, labor, force, gingivitis, overdose, social, isolation, part-time, reports, violence, environment, limited, contact, fractured, dental, filling, laceration, injury, hand, primary, caries, kidney, stage, diabetes, mellitus, gingival, microalbuminuria, type, glucose, [mass/volume], serum, plasma, urine, test, strip, [presence], body, height, weight, mass, index, (bmi), [ratio], blood, pressure, rate, cholesterol, density, lipoprotein, lifestyle, behavioral, change, administrative, completed, unspecified, natural, recovery, time-limited, healing
+
+RISK_FACTORS: Diabetes risk, Hypertension, Overweight (BMI 25-29.9), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (55-64)
+Gender: male
+Active_Conditions_Count: 22
+Total_Conditions_Count: 78
+Resolved_Conditions_Count: 56
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Hypertension, Overweight (BMI 25-29.9), Elevated blood pressure
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, unspecified, natural recovery/time-limited, healing/recovery
+Common_Resolution_Approach: lifestyle/behavioral change
+

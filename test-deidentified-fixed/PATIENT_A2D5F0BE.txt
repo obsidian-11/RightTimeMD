@@ -1,0 +1,125 @@
+ANONYMOUS_PATIENT_ID: PATIENT_A2D5F0BE
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Educated to high school level (finding) (onset: 10+ years ago)
+2. Diabetes mellitus type 2 (disorder) (onset: 5-10 years ago)
+3. Essential hypertension (disorder) (onset: 4 years ago)
+4. Hypertriglyceridemia (disorder) (onset: 4 years ago)
+5. Anemia (disorder) (onset: 4 years ago)
+6. Metabolic syndrome X (disorder) (onset: 3 years ago)
+7. Body mass index 30+ - obesity (finding) (onset: 2 years ago)
+8. Hyperglycemia (disorder) (onset: 1 year ago)
+9. Part-time employment (finding) (onset: 1 year ago)
+10. Social isolation (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 3297 days
+2. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 2339 days
+3. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1352 days
+4. Social isolation (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 1492 days
+5. Not in labor force (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1100 days
+6. Acute bronchitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 8 days
+7. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+8. Streptococcal sore throat (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 8 days
+9. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+10. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 911 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 1 year ago: Ophthalmic examination and evaluation (procedure) (Status: finished)
+3. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 1 year ago: Emergency room admission (procedure) - Reason: Sprain (morphologic abnormality) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 187.3 cm (0 months ago)
+2. Body Weight: 106.5 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 30.36 kg/m2 (0 months ago)
+4. Blood pressure panel: 127/88 mm[Hg] (0 months ago)
+5. Heart rate: 64 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 69.65 mg/dL (0 months ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 171.83 mg/dL (0 months ago)
+8. Low Density Lipoprotein Cholesterol: 93.46 mg/dL (0 months ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 58.06 mg/dL (0 months ago)
+10. Body Height: 187.3 cm (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 year ago)
+2. Total score [DAST-10]: 1 (2 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (2 years ago)
+5. Total score [DAST-10]: 0 (3 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 4 (3 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (4 years ago)
+9. Total score [DAST-10]: 2 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+12. Total score [DAST-10]: 1 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Basic metabolic panel - Blood (0 months ago)
+   Status: final
+
+2. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: educated, high, school, level, (finding), medication, review, (situation), stress, full-time, employment, social, isolation, labor, force, acute, bronchitis, (disorder), streptococcal, sore, throat, diabetes, mellitus, type, gingivitis, essential, hypertension, hypertriglyceridemia, anemia, metabolic, syndrome, body, mass, index, obesity, viral, sinusitis, sprain, (morphologic, abnormality), ankle, hyperglycemia, part-time, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature, administrative, completed, lifestyle, behavioral, change, natural, recovery, time-limited, pharmacological
+
+RISK_FACTORS: Diabetes risk, Hypertension, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 10
+Total_Conditions_Count: 33
+Resolved_Conditions_Count: 23
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Hypertension, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9), Elevated blood pressure
+Resolution_Methods: administrative/completed, lifestyle/behavioral change, natural recovery/time-limited, pharmacological
+Common_Resolution_Approach: lifestyle/behavioral change
+

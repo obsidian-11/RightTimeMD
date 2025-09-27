@@ -1,0 +1,112 @@
+ANONYMOUS_PATIENT_ID: PATIENT_6D7E4C48
+AGE_GROUP: Young Adult (18-24)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Young Adult (18-24) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Past pregnancy history of miscarriage (situation) (onset: 3 years ago)
+2. Medication review due (situation) (onset: 1 year ago)
+3. Only received primary school education (finding) (onset: 1 year ago)
+4. Full-time employment (finding) (onset: 1 year ago)
+5. Stress (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1113 days
+3. Fracture of bone (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 109 days
+4. Fracture subluxation of wrist (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 109 days
+5. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 12 days
+6. Gunshot wound (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 46 days
+7. Bullet wound (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 46 days
+8. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+9. Infection of tooth (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+10. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 742 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 1 year ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+4. 2 years ago: Well child visit (procedure) (Status: finished)
+5. 2 years ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 167.1 cm (1 year ago)
+2. Body Weight: 63.2 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 22.63 kg/m2 (1 year ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 64.937 % (1 year ago)
+5. Blood pressure panel: 106/83 mm[Hg] (1 year ago)
+6. Heart rate: 84 /min (1 year ago)
+7. Body Height: 166.9 cm (2 years ago)
+8. Body Weight: 63 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 22.62 kg/m2 (2 years ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 68.435 % (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 6 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (1 year ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (4 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. PHQ-9 quick depression assessment panel [Reported.PHQ] (1 year ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), fracture, bone, (disorder), subluxation, wrist, acute, viral, pharyngitis, gunshot, wound, bullet, infection, tooth, normal, pregnancy, (finding), miscarriage, first, trimester, blighted, ovum, past, history, only, received, primary, school, education, full-time, employment, stress, gingivitis, fractured, dental, filling, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature, administrative, completed, unspecified, natural, recovery, time-limited, healing
+
+RISK_FACTORS: Obesity (BMI ≥30), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Young Adult (18-24)
+Gender: female
+Active_Conditions_Count: 5
+Total_Conditions_Count: 21
+Resolved_Conditions_Count: 16
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Elevated blood pressure
+Resolution_Methods: administrative/completed, unspecified, natural recovery/time-limited, healing/recovery
+Common_Resolution_Approach: natural recovery/time-limited
+

@@ -1,0 +1,116 @@
+ANONYMOUS_PATIENT_ID: PATIENT_5EB583B4
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Dependent drug abuse (disorder) (onset: 5-10 years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 5-10 years ago)
+5. Stress (finding) (onset: 5-10 years ago)
+6. Medication review due (situation) (onset: 2 years ago)
+7. Part-time employment (finding) (onset: 2 years ago)
+8. Social isolation (finding) (onset: 2 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 5656 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 2198 days
+3. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 3297 days
+4. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 21 days
+5. Burn injury (morphologic abnormality) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 51 days
+6. Partial thickness burn (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 51 days
+7. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 9 days
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+9. Primary dental caries (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+10. Overdose (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+2. 1 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+3. 2 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+4. 3 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+5. 4 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 170.3 cm (2 years ago)
+2. Body Weight: 86.3 kg (2 years ago)
+3. Body mass index (BMI) [Ratio]: 29.76 kg/m2 (2 years ago)
+4. Blood pressure panel: 129/94 mm[Hg] (2 years ago)
+5. Heart rate: 70 /min (2 years ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 165.36 mg/dL (2 years ago)
+7. Low Density Lipoprotein Cholesterol: 79.25 mg/dL (2 years ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 65.34 mg/dL (2 years ago)
+9. Body Height: 170.3 cm (5-10 years ago)
+10. Body Weight: 87.3 kg (5-10 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+2. Total score [DAST-10]: 0 (5-10 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 6 (5-10 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (2 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), received, higher, education, stress, medication, review, (situation), full-time, employment, viral, sinusitis, (disorder), burn, injury, (morphologic, abnormality), partial, thickness, dependent, drug, abuse, acute, pharyngitis, body, mass, index, obesity, gingivitis, primary, dental, caries, overdose, part-time, social, isolation, epidermal, skin, height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, temperature, lifestyle, behavioral, change, administrative, completed, natural, recovery, time-limited, healing
+
+RISK_FACTORS: Obesity, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 8
+Total_Conditions_Count: 23
+Resolved_Conditions_Count: 15
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, natural recovery/time-limited, healing/recovery
+Common_Resolution_Approach: natural recovery/time-limited
+

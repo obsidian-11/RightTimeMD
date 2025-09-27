@@ -1,0 +1,120 @@
+ANONYMOUS_PATIENT_ID: PATIENT_1E53B2F0
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Chronic sinusitis (disorder) (onset: 10+ years ago)
+2. Risk activity involvement (finding) (onset: 10+ years ago)
+3. Received higher education (finding) (onset: 10+ years ago)
+4. Prediabetes (finding) (onset: 5-10 years ago)
+5. Anemia (disorder) (onset: 5-10 years ago)
+6. Body mass index 30+ - obesity (finding) (onset: 2 years ago)
+7. Part-time employment (finding) (onset: 2 years ago)
+8. Stress (finding) (onset: 1 months ago)
+9. Victim of intimate partner abuse (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 5866 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 4977 days
+3. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 4977 days
+4. Unemployed (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 582 days
+5. Limited social contact (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 582 days
+6. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 22 days
+7. Gingival disease (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+8. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 224 days
+9. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 9 days
+10. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1540 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+2. 1 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Patient encounter procedure (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+4. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+5. 2 years ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 167.5 cm (1 months ago)
+2. Body Weight: 85.1 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 30.33 kg/m2 (1 months ago)
+4. Blood pressure panel: 117/93 mm[Hg] (1 months ago)
+5. Heart rate: 88 /min (1 months ago)
+6. Glucose [Mass/volume] in Blood: 79.83 mg/dL (1 months ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 145.33 mg/dL (1 months ago)
+8. Low Density Lipoprotein Cholesterol: 55.24 mg/dL (1 months ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 63.91 mg/dL (1 months ago)
+10. Body Height: 167.5 cm (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (1 months ago)
+3. Total score [DAST-10]: 0 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 5 (5-10 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+8. Total score [DAST-10]: 1 (5-10 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Alcohol Use Disorder Identification Test - Consumption [AUDIT-C] (1 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: chronic, sinusitis, (disorder), risk, activity, involvement, (finding), received, higher, education, full-time, employment, medication, review, (situation), stress, prediabetes, anemia, unemployed, limited, social, contact, gingivitis, gingival, disease, normal, pregnancy, acute, viral, pharyngitis, injury, neck, whiplash, body, mass, index, obesity, part-time, victim, intimate, partner, abuse, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature, lifestyle, behavioral, change, administrative, completed, unspecified, natural, recovery, time-limited, healing
+
+RISK_FACTORS: Diabetes risk, Obesity, Obesity (BMI ≥30), Elevated blood pressure, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 9
+Total_Conditions_Count: 24
+Resolved_Conditions_Count: 15
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Obesity (BMI ≥30), Elevated blood pressure, Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, unspecified, natural recovery/time-limited, healing/recovery
+Common_Resolution_Approach: lifestyle/behavioral change
+

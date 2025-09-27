@@ -1,0 +1,107 @@
+ANONYMOUS_PATIENT_ID: PATIENT_1F30C739
+AGE_GROUP: Adolescent (13-17)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adolescent (13-17) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Perennial allergic rhinitis with seasonal variation (disorder) (onset: 5-10 years ago)
+2. Medication review due (situation) (onset: 4 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+2. Sprain (morphologic abnormality) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 23 days
+3. Sprain of wrist (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 23 days
+4. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+5. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 27 days
+6. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+7. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 140 days
+8. Primary dental caries (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+9. Acute bronchitis (disorder) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 9 days
+10. Gingivitis (disorder) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+2. 1 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+3. 1 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+4. 2 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+5. 3 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 161.9 cm (6 months ago)
+2. Body Weight: 52 kg (6 months ago)
+3. Body mass index (BMI) [Ratio]: 19.83 kg/m2 (6 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 65.156 % (6 months ago)
+5. Blood pressure panel: 114/94 mm[Hg] (6 months ago)
+6. Heart rate: 87 /min (6 months ago)
+7. Body Height: 158.6 cm (1 year ago)
+8. Body Weight: 48.7 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 19.35 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 62.837 % (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 13 (6 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (1 year ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (2 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), perennial, allergic, rhinitis, with, seasonal, variation, (disorder), sprain, (morphologic, abnormality), wrist, viral, sinusitis, primary, dental, caries, acute, bronchitis, gingivitis, gingival, disease, laceration, injury, forearm, risk, activity, involvement, (finding), body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, administrative, completed, natural, recovery, time-limited, healing, unspecified
+
+RISK_FACTORS: Obesity (BMI ≥30), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Adolescent (13-17)
+Gender: male
+Active_Conditions_Count: 2
+Total_Conditions_Count: 21
+Resolved_Conditions_Count: 19
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Elevated blood pressure
+Resolution_Methods: administrative/completed, natural recovery/time-limited, healing/recovery, unspecified
+Common_Resolution_Approach: natural recovery/time-limited
+

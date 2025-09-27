@@ -1,0 +1,101 @@
+ANONYMOUS_PATIENT_ID: PATIENT_BFC550F0
+AGE_GROUP: Toddler (1-4)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Toddler (1-4) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 2 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 98 days
+2. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 91 days
+3. Viral sinusitis (disorder) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 9 days
+4. Medication review due (situation) (onset: 3 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+5. Otitis media (disorder) (onset: 3 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 44 days
+6. Medication review due (situation) (onset: 3 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 91 days
+7. Viral sinusitis (disorder) (onset: 2 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 15 days
+8. Medication review due (situation) (onset: 2 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+9. Otitis media (disorder) (onset: 3 months ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 71 days
+10. Streptococcal sore throat (disorder) (onset: 2 months ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 8 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Well child visit (procedure) (Status: finished)
+2. 2 months ago: Encounter for symptom (procedure) - Reason: Streptococcal sore throat (disorder) (Status: finished)
+3. 3 months ago: Encounter for symptom (procedure) - Reason: Otitis media (disorder) (Status: finished)
+4. 1 year ago: Well child visit (procedure) (Status: finished)
+5. 1 year ago: Well child visit (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 96 cm (0 months ago)
+2. Body Weight: 14.6 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 15.78 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 64.112 % (0 months ago)
+5. Blood pressure panel: 133/82 mm[Hg] (0 months ago)
+6. Heart rate: 87 /min (0 months ago)
+7. Body temperature: 38.367 Cel (2 months ago)
+8. Body Height: 92.9 cm (1 year ago)
+9. Body Weight: 13.3 kg (1 year ago)
+10. Body mass index (BMI) [Ratio]: 15.47 kg/m2 (1 year ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (2 months ago)
+   Status: final
+
+3. History and physical note (3 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), viral, sinusitis, (disorder), otitis, media, streptococcal, sore, throat, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature, administrative, completed, natural, recovery, time-limited, pharmacological
+
+RISK_FACTORS: Obesity (BMI ≥30), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Toddler (1-4)
+Gender: female
+Active_Conditions_Count: 1
+Total_Conditions_Count: 11
+Resolved_Conditions_Count: 10
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Elevated blood pressure
+Resolution_Methods: administrative/completed, natural recovery/time-limited, pharmacological
+Common_Resolution_Approach: administrative/completed
+

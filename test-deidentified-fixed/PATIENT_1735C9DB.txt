@@ -1,0 +1,46 @@
+ANONYMOUS_PATIENT_ID: PATIENT_1735C9DB
+AGE_GROUP: Infant (0-1)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Infant (0-1) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 0 months ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Well child visit (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 51.7 cm (0 months ago)
+2. Body Weight: 3.2 kg (0 months ago)
+3. Blood pressure panel: 116/72 mm[Hg] (0 months ago)
+4. Heart rate: 67 /min (0 months ago)
+
+DIAGNOSTIC REPORTS:
+1. CBC panel - Blood by Automated count (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), body, height, weight, blood, pressure, heart, rate, administrative, completed
+
+SIMILARITY_FEATURES:
+Age_Group: Infant (0-1)
+Gender: female
+Active_Conditions_Count: 0
+Total_Conditions_Count: 1
+Resolved_Conditions_Count: 1
+Recent_Encounters_Count: 1
+Resolution_Methods: administrative/completed
+Common_Resolution_Approach: administrative/completed
+

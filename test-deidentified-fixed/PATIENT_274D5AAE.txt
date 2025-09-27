@@ -1,0 +1,102 @@
+ANONYMOUS_PATIENT_ID: PATIENT_274D5AAE
+AGE_GROUP: Child (5-12)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Child (5-12) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Perennial allergic rhinitis (disorder) (onset: 3 years ago)
+2. Medication review due (situation) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 126 days
+3. Otitis media (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 56 days
+4. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 91 days
+5. Fracture of bone (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 79 days
+6. Fracture subluxation of wrist (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 79 days
+7. Streptococcal sore throat (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 14 days
+8. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 637 days
+9. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 11 days
+10. Primary dental caries (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Well child visit (procedure) (Status: finished)
+2. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+3. 1 year ago: Well child visit (procedure) (Status: finished)
+4. 2 years ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 2 years ago: Well child visit (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 131.2 cm (0 months ago)
+2. Body Weight: 30.1 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 17.5 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 69.443 % (0 months ago)
+5. Blood pressure panel: 122/76 mm[Hg] (0 months ago)
+6. Heart rate: 62 /min (0 months ago)
+7. Body Height: 125.6 cm (1 year ago)
+8. Body Weight: 26.9 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 17.03 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 72.167 % (1 year ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 year ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), otitis, media, (disorder), fracture, bone, subluxation, wrist, streptococcal, sore, throat, acute, viral, pharyngitis, primary, dental, caries, leaking, filling, (finding), bronchitis, perennial, allergic, rhinitis, gingival, disease, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature, administrative, completed, pharmacological, unspecified, natural, recovery, time-limited
+
+RISK_FACTORS: Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Child (5-12)
+Gender: female
+Active_Conditions_Count: 2
+Total_Conditions_Count: 22
+Resolved_Conditions_Count: 20
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, pharmacological, unspecified, natural recovery/time-limited
+Common_Resolution_Approach: administrative/completed
+

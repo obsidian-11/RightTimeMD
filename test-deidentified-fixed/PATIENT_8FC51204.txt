@@ -1,0 +1,102 @@
+ANONYMOUS_PATIENT_ID: PATIENT_8FC51204
+AGE_GROUP: Child (5-12)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Child (5-12) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Atopic dermatitis (disorder) (onset: 5-10 years ago)
+2. Seasonal allergic rhinitis (disorder) (onset: 5-10 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 343 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 364 days
+4. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+5. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 182 days
+6. Otitis media (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 98 days
+7. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+8. Primary dental caries (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+9. Viral sinusitis (disorder) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 11 days
+10. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 0 months ago: Well child visit (procedure) (Status: finished)
+3. 1 year ago: Well child visit (procedure) (Status: finished)
+4. 2 years ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 2 years ago: Well child visit (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 127.9 cm (0 months ago)
+2. Body Weight: 27 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 16.52 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 57.522 % (0 months ago)
+5. Blood pressure panel: 140/85 mm[Hg] (0 months ago)
+6. Heart rate: 96 /min (0 months ago)
+7. Body Height: 122.2 cm (1 year ago)
+8. Body Weight: 23 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 15.39 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 40.415 % (1 year ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), atopic, dermatitis, (disorder), seasonal, allergic, rhinitis, otitis, media, primary, dental, caries, viral, sinusitis, gingivitis, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, administrative, completed, pharmacological, natural, recovery, time-limited
+
+RISK_FACTORS: Obesity (BMI ≥30), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Child (5-12)
+Gender: male
+Active_Conditions_Count: 2
+Total_Conditions_Count: 16
+Resolved_Conditions_Count: 14
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Elevated blood pressure
+Resolution_Methods: administrative/completed, pharmacological, natural recovery/time-limited
+Common_Resolution_Approach: administrative/completed
+

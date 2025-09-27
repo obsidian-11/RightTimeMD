@@ -1,0 +1,135 @@
+ANONYMOUS_PATIENT_ID: PATIENT_A8C64C65
+AGE_GROUP: Senior (65-74)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Senior (65-74) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Prediabetes (finding) (onset: 10+ years ago)
+3. Has a criminal record (finding) (onset: 10+ years ago)
+4. Anemia (disorder) (onset: 10+ years ago)
+5. History of tubal ligation (situation) (onset: 10+ years ago)
+6. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+7. Chronic sinusitis (disorder) (onset: 10+ years ago)
+8. Metabolic syndrome X (disorder) (onset: 4 years ago)
+9. Diabetes mellitus type 2 (disorder) (onset: 4 years ago)
+10. Hypertriglyceridemia (disorder) (onset: 3 years ago)
+11. Medication review due (situation) (onset: 1 year ago)
+12. Not in labor force (finding) (onset: 1 months ago)
+13. Limited social contact (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 2226 days
+2. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 371 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+4. Limited social contact (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 371 days
+5. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+6. Acute bronchitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 17 days
+7. Not in labor force (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 372 days
+8. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 10 days
+9. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+10. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 742 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Emergency room admission (procedure) - Reason: Laceration - injury (disorder) (Status: finished)
+2. 1 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: General examination of patient (procedure) (Status: finished)
+4. 2 years ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+5. 2 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 155.4 cm (1 months ago)
+2. Body Weight: 67.2 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 27.83 kg/m2 (1 months ago)
+4. Blood pressure panel: 116/71 mm[Hg] (1 months ago)
+5. Heart rate: 99 /min (1 months ago)
+6. Glucose [Mass/volume] in Blood: 110.5 mg/dL (1 months ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 237.51 mg/dL (1 months ago)
+8. Low Density Lipoprotein Cholesterol: 155.68 mg/dL (1 months ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 45.09 mg/dL (1 months ago)
+10. Body Height: 155.4 cm (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (1 months ago)
+3. Total score [DAST-10]: 1 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+5. Total score [DAST-10]: 1 (2 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (2 years ago)
+8. Total score [DAST-10]: 0 (3 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (4 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+12. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+14. Total score [DAST-10]: 1 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+16. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+17. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+18. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+19. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+20. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Alcohol Use Disorder Identification Test - Consumption [AUDIT-C] (1 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), prediabetes, criminal, record, anemia, (disorder), history, tubal, ligation, (situation), body, mass, index, obesity, full-time, employment, chronic, sinusitis, victim, intimate, partner, abuse, medication, review, limited, social, contact, gingivitis, acute, bronchitis, labor, force, viral, stress, laceration, injury, foot, metabolic, syndrome, diabetes, mellitus, type, hypertriglyceridemia, unemployed, reports, violence, environment, part-time, forearm, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, lifestyle, behavioral, change, administrative, completed, natural, recovery, time-limited, healing, unspecified
+
+RISK_FACTORS: Diabetes risk, Obesity, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Senior (65-74)
+Gender: female
+Active_Conditions_Count: 13
+Total_Conditions_Count: 40
+Resolved_Conditions_Count: 27
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, natural recovery/time-limited, healing/recovery, unspecified
+Common_Resolution_Approach: lifestyle/behavioral change
+

@@ -1,0 +1,137 @@
+ANONYMOUS_PATIENT_ID: PATIENT_64975761
+AGE_GROUP: Senior (65-74)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Senior (65-74) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Educated to high school level (finding) (onset: 10+ years ago)
+3. Prediabetes (finding) (onset: 10+ years ago)
+4. Anemia (disorder) (onset: 10+ years ago)
+5. Ischemic heart disease (disorder) (onset: 10+ years ago)
+6. Abnormal findings diagnostic imaging heart+coronary circulat (finding) (onset: 10+ years ago)
+7. History of coronary artery bypass grafting (situation) (onset: 10+ years ago)
+8. Full-time employment (finding) (onset: 5-10 years ago)
+9. Stress (finding) (onset: 2 years ago)
+10. Social isolation (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Social isolation (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 15716 days
+2. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1855 days
+3. Limited social contact (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 1113 days
+4. Severe anxiety (panic) (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 743 days
+5. Concussion injury of brain (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 30 days
+6. Concussion with no loss of consciousness (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 30 days
+7. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 14 days
+9. Primary dental caries (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+10. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+4. 1 year ago: Encounter for check up (procedure) (Status: finished)
+5. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 168.4 cm (0 months ago)
+2. Body Weight: 79.3 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 27.96 kg/m2 (0 months ago)
+4. Blood pressure panel: 93/60 mm[Hg] (0 months ago)
+5. Heart rate: 67 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 66.49 mg/dL (0 months ago)
+7. Body Height: 168.4 cm (1 year ago)
+8. Body Weight: 79.3 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 27.96 kg/m2 (1 year ago)
+10. Blood pressure panel: 95/58 mm[Hg] (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (0 months ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 year ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (1 year ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (1 year ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (2 years ago)
+9. Total score [DAST-10]: 0 (3 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+11. Total score [DAST-10]: 2 (3 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (3 years ago)
+14. Total score [DAST-10]: 2 (4 years ago)
+15. Total score [DAST-10]: 2 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+17. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+18. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+19. Total score [DAST-10]: 2 (5-10 years ago)
+20. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+21. Total score [DAST-10]: 2 (5-10 years ago)
+22. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+23. Total score [DAST-10]: 2 (5-10 years ago)
+24. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+25. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+3. Morse Fall Scale panel (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), educated, high, school, level, social, isolation, prediabetes, anemia, (disorder), ischemic, heart, disease, full-time, employment, limited, contact, abnormal, findings, diagnostic, imaging, heart+coronary, circulat, history, coronary, artery, bypass, grafting, (situation), severe, anxiety, (panic), concussion, injury, brain, with, loss, consciousness, medication, review, gingivitis, primary, dental, caries, unemployed, stress, acute, bronchitis, victim, intimate, partner, abuse, reports, violence, environment, viral, sinusitis, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, lifestyle, behavioral, change, healing, recovery, natural, time-limited, administrative, completed, unspecified
+
+RISK_FACTORS: Diabetes risk, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Senior (65-74)
+Gender: male
+Active_Conditions_Count: 10
+Total_Conditions_Count: 32
+Resolved_Conditions_Count: 22
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, healing/recovery, natural recovery/time-limited, administrative/completed, unspecified
+Common_Resolution_Approach: lifestyle/behavioral change
+

@@ -1,0 +1,125 @@
+ANONYMOUS_PATIENT_ID: PATIENT_5DAE43FD
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Only received primary school education (finding) (onset: 10+ years ago)
+2. Chronic pain (finding) (onset: 10+ years ago)
+3. Chronic low back pain (finding) (onset: 10+ years ago)
+4. Chronic neck pain (finding) (onset: 10+ years ago)
+5. Medication review due (situation) (onset: 1 months ago)
+6. Part-time employment (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Normal pregnancy (finding) (onset: 10+ years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 238 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 749 days
+3. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 245 days
+4. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 245 days
+5. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 245 days
+6. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 27 days
+7. Streptococcal sore throat (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 14 days
+8. Part-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 134 days
+9. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 372 days
+10. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 372 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 1 months ago: General examination of patient (procedure) (Status: finished)
+3. 7 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 1 year ago: Encounter for symptom (procedure) - Reason: Acute infective cystitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 164.6 cm (1 months ago)
+2. Body Weight: 79.2 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 29.23 kg/m2 (1 months ago)
+4. Blood pressure panel: 131/69 mm[Hg] (1 months ago)
+5. Heart rate: 97 /min (1 months ago)
+6. Body Height: 164.6 cm (1 year ago)
+7. Body Weight: 77.5 kg (1 year ago)
+8. Body mass index (BMI) [Ratio]: 28.6 kg/m2 (1 year ago)
+9. Blood pressure panel: 131/71 mm[Hg] (1 year ago)
+10. Heart rate: 65 /min (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (1 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (1 months ago)
+3. Total score [DAST-10]: 1 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (1 year ago)
+6. Total score [DAST-10]: 1 (2 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 12 (3 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 6 (5-10 years ago)
+16. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 13 (5-10 years ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Alcohol Use Disorder Identification Test - Consumption [AUDIT-C] (1 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: only, received, primary, school, education, (finding), chronic, pain, back, neck, normal, pregnancy, medication, review, (situation), full-time, employment, stress, victim, intimate, partner, abuse, viral, sinusitis, (disorder), streptococcal, sore, throat, part-time, gingivitis, labor, force, gingival, disease, acute, bronchitis, social, isolation, reports, violence, environment, infection, tooth, infective, cystitis, unemployed, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, glucose, urine, test, strip, temperature, unspecified, administrative, completed, lifestyle, behavioral, change, natural, recovery, time-limited, pharmacological
+
+RISK_FACTORS: Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 6
+Total_Conditions_Count: 38
+Resolved_Conditions_Count: 32
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9)
+Resolution_Methods: unspecified, administrative/completed, lifestyle/behavioral change, natural recovery/time-limited, pharmacological
+Common_Resolution_Approach: lifestyle/behavioral change
+

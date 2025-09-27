@@ -1,0 +1,89 @@
+ANONYMOUS_PATIENT_ID: PATIENT_36461445
+AGE_GROUP: Adult (25-34)
+GENDER: male
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) male patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Stress (finding) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 4 years ago)
+4. Not in labor force (finding) (onset: 4 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Unemployed (finding) (onset: 10+ years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 1100 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+3. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1099 days
+4. Sinusitis (disorder) (onset: 1 year ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 21 days
+5. Viral sinusitis (disorder) (onset: 0 months ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 13 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+2. 1 year ago: Encounter for symptom (procedure) - Reason: Sinusitis (disorder) (Status: finished)
+3. 1 year ago: General examination of patient (procedure) (Status: finished)
+4. 1 year ago: Encounter for symptom (procedure) - Reason: Sinusitis (disorder) (Status: finished)
+5. 4 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 177.9 cm (1 year ago)
+2. Body Weight: 89.1 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 28.16 kg/m2 (1 year ago)
+4. Blood pressure panel: 124/87 mm[Hg] (1 year ago)
+5. Heart rate: 77 /min (1 year ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 196.68 mg/dL (1 year ago)
+7. Low Density Lipoprotein Cholesterol: 139.78 mg/dL (1 year ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 31.14 mg/dL (1 year ago)
+9. Body Height: 177.9 cm (4 years ago)
+10. Body Weight: 93 kg (4 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 year ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), stress, unemployed, medication, review, (situation), full-time, employment, labor, force, sinusitis, (disorder), viral, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, unspecified, administrative, completed, lifestyle, behavioral, change, natural, recovery, time-limited
+
+RISK_FACTORS: Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: male
+Active_Conditions_Count: 4
+Total_Conditions_Count: 9
+Resolved_Conditions_Count: 5
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9)
+Resolution_Methods: unspecified, administrative/completed, lifestyle/behavioral change, natural recovery/time-limited
+Common_Resolution_Approach: natural recovery/time-limited
+

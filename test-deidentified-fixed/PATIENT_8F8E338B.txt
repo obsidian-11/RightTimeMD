@@ -1,0 +1,111 @@
+ANONYMOUS_PATIENT_ID: PATIENT_8F8E338B
+AGE_GROUP: Adult (25-34)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Social isolation (finding) (onset: 10+ years ago)
+4. Full-time employment (finding) (onset: 4 years ago)
+5. Fracture of bone (disorder) (onset: 0 months ago)
+6. Fracture of forearm (disorder) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 2199 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1099 days
+3. Part-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1100 days
+4. Normal pregnancy (finding) (onset: 10+ years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 210 days
+5. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 21 days
+6. Unemployed (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 1099 days
+7. Unhealthy alcohol drinking behavior (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 2199 days
+8. Primary dental caries (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+9. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 35 days
+10. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 217 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Emergency room admission (procedure) - Reason: Fracture of bone (disorder) (Status: finished)
+2. 3 months ago: Patient encounter procedure (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+3. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 175.5 cm (1 year ago)
+2. Body Weight: 87.3 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 28.34 kg/m2 (1 year ago)
+4. Blood pressure panel: 116/72 mm[Hg] (1 year ago)
+5. Heart rate: 82 /min (1 year ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 131.96 mg/dL (1 year ago)
+7. Low Density Lipoprotein Cholesterol: 50.13 mg/dL (1 year ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 56.87 mg/dL (1 year ago)
+9. Glucose [Mass/volume] in Urine by Test strip: 8.2424 mg/dL (4 years ago)
+10. Body Height: 175.5 cm (4 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (1 year ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (3 months ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: past, pregnancy, history, miscarriage, (situation), received, higher, education, (finding), stress, medication, review, part-time, employment, social, isolation, normal, viral, sinusitis, (disorder), unemployed, unhealthy, alcohol, drinking, behavior, primary, dental, caries, anemia, acute, pharyngitis, eclampsia, full-time, limited, contact, infective, cystitis, gingivitis, fracture, bone, forearm, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, glucose, urine, test, strip, temperature, lifestyle, behavioral, change, administrative, completed, unspecified, natural, recovery, time-limited
+
+RISK_FACTORS: Alcohol use, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: female
+Active_Conditions_Count: 6
+Total_Conditions_Count: 25
+Resolved_Conditions_Count: 19
+Recent_Encounters_Count: 5
+Risk_Factors: Alcohol use, Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, unspecified, natural recovery/time-limited
+Common_Resolution_Approach: unspecified
+

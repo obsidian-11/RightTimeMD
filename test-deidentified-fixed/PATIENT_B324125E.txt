@@ -1,0 +1,101 @@
+ANONYMOUS_PATIENT_ID: PATIENT_B324125E
+AGE_GROUP: Toddler (1-4)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Toddler (1-4) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 3 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 98 days
+2. Medication review due (situation) (onset: 3 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 364 days
+3. Viral sinusitis (disorder) (onset: 2 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 15 days
+4. Sprain (morphologic abnormality) (onset: 2 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 38 days
+5. Sprain of ankle (disorder) (onset: 2 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 38 days
+6. Medication review due (situation) (onset: 1 year ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+7. Medication review due (situation) (onset: 1 year ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+8. Acute bronchitis (disorder) (onset: 1 year ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 19 days
+9. Gingival disease (disorder) (onset: 1 year ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+10. Sprain (morphologic abnormality) (onset: 1 year ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 31 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+2. 0 months ago: Well child visit (procedure) (Status: finished)
+3. 1 year ago: Well child visit (procedure) (Status: finished)
+4. 1 year ago: Emergency room admission (procedure) - Reason: Sprain (morphologic abnormality) (Status: finished)
+5. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 94.3 cm (0 months ago)
+2. Body Weight: 17.5 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 19.61 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 98.785 % (0 months ago)
+5. Blood pressure panel: 108/74 mm[Hg] (0 months ago)
+6. Heart rate: 85 /min (0 months ago)
+7. Body Height: 90.2 cm (1 year ago)
+8. Body Weight: 14.9 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 18.33 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 92.972 % (1 year ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), viral, sinusitis, (disorder), sprain, (morphologic, abnormality), ankle, acute, bronchitis, gingival, disease, wrist, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, administrative, completed, natural, recovery, time-limited, unspecified
+
+RISK_FACTORS: Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Toddler (1-4)
+Gender: female
+Active_Conditions_Count: 1
+Total_Conditions_Count: 12
+Resolved_Conditions_Count: 11
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, natural recovery/time-limited, unspecified
+Common_Resolution_Approach: administrative/completed
+

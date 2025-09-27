@@ -1,0 +1,115 @@
+ANONYMOUS_PATIENT_ID: PATIENT_7CF8AA25
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Seizure disorder (disorder) (onset: 10+ years ago)
+2. History of seizure (situation) (onset: 10+ years ago)
+3. Epilepsy (disorder) (onset: 10+ years ago)
+4. Educated to high school level (finding) (onset: 10+ years ago)
+5. Stress (finding) (onset: 3 years ago)
+6. Chronic sinusitis (disorder) (onset: 6 months ago)
+7. Part-time employment (finding) (onset: 0 months ago)
+8. Social isolation (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 6993 days
+2. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 4396 days
+3. Unemployed (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 1100 days
+4. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 1100 days
+5. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 2199 days
+6. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+7. Gingival disease (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+8. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 20 days
+9. Medication review due (situation) (onset: 3 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1099 days
+10. Acute bronchitis (disorder) (onset: 1 year ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 15 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 5 months ago: Encounter for symptom (procedure) - Reason: Acute bacterial sinusitis (disorder) (Status: finished)
+3. 6 months ago: Encounter for symptom (procedure) - Reason: Acute bacterial sinusitis (disorder) (Status: finished)
+4. 6 months ago: Encounter for symptom (procedure) - Reason: Acute bacterial sinusitis (disorder) (Status: finished)
+5. 7 months ago: Encounter for symptom (procedure) - Reason: Acute bacterial sinusitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 175.8 cm (0 months ago)
+2. Body Weight: 90.4 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 29.25 kg/m2 (0 months ago)
+4. Blood pressure panel: 101/77 mm[Hg] (0 months ago)
+5. Heart rate: 72 /min (0 months ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 174.03 mg/dL (0 months ago)
+7. Low Density Lipoprotein Cholesterol: 87.24 mg/dL (0 months ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 63.41 mg/dL (0 months ago)
+9. Body Height: 175.8 cm (3 years ago)
+10. Body Weight: 85.7 kg (3 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (0 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (0 months ago)
+4. Total score [DAST-10]: 1 (5-10 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+3. Generalized anxiety disorder 7 item (GAD-7) (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: seizure, (disorder), history, (situation), epilepsy, medication, review, educated, high, school, level, (finding), victim, intimate, partner, abuse, unemployed, stress, full-time, employment, gingivitis, gingival, disease, viral, sinusitis, acute, bronchitis, bacterial, chronic, part-time, social, isolation, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, administrative, completed, lifestyle, behavioral, change, unspecified, natural, recovery, time-limited
+
+RISK_FACTORS: Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 8
+Total_Conditions_Count: 19
+Resolved_Conditions_Count: 11
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9)
+Resolution_Methods: administrative/completed, lifestyle/behavioral change, unspecified, natural recovery/time-limited
+Common_Resolution_Approach: natural recovery/time-limited
+

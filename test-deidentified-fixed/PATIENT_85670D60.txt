@@ -1,0 +1,83 @@
+ANONYMOUS_PATIENT_ID: PATIENT_85670D60
+AGE_GROUP: Adolescent (13-17)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adolescent (13-17) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. History of appendectomy (situation) (onset: 10+ years ago)
+2. Perennial allergic rhinitis (disorder) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 3150 days
+2. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 742 days
+3. Gingivitis (disorder) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+4. Primary dental caries (disorder) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Allergic disorder follow-up assessment (regime/therapy) - Reason: Allergic disposition (finding) (Status: finished)
+2. 1 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+3. 2 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+4. 3 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+5. 3 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 153.9 cm (1 year ago)
+2. Body Weight: 43.5 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 18.37 kg/m2 (1 year ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 20.468 % (1 year ago)
+5. Blood pressure panel: 131/84 mm[Hg] (1 year ago)
+6. Heart rate: 90 /min (1 year ago)
+7. Body Height: 153.3 cm (2 years ago)
+8. Body Weight: 42.5 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 18.07 kg/m2 (2 years ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 22.973 % (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (4 years ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (2 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: history, appendectomy, (situation), medication, review, perennial, allergic, rhinitis, (disorder), gingivitis, primary, dental, caries, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, administrative, completed, natural, recovery, time-limited
+
+RISK_FACTORS: Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adolescent (13-17)
+Gender: female
+Active_Conditions_Count: 3
+Total_Conditions_Count: 7
+Resolved_Conditions_Count: 4
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, natural recovery/time-limited
+Common_Resolution_Approach: administrative/completed
+

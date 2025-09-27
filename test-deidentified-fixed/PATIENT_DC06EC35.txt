@@ -1,0 +1,105 @@
+ANONYMOUS_PATIENT_ID: PATIENT_DC06EC35
+AGE_GROUP: Adolescent (13-17)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adolescent (13-17) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 3 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1855 days
+2. Otitis media (disorder) (onset: 10+ years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 360 days
+3. Streptococcal sore throat (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 13 days
+4. Sprain (morphologic abnormality) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 34 days
+5. Sprain of ankle (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 34 days
+6. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 19 days
+7. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 10 days
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 8 days
+9. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+10. Gingival disease (disorder) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+2. 1 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+3. 1 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+4. 2 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+5. 3 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 174 cm (1 year ago)
+2. Body Weight: 55.4 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 18.29 kg/m2 (1 year ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 35.031 % (1 year ago)
+5. Blood pressure panel: 121/90 mm[Hg] (1 year ago)
+6. Heart rate: 90 /min (1 year ago)
+7. Body Height: 165.7 cm (2 years ago)
+8. Body Weight: 49 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 17.86 kg/m2 (2 years ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 39.619 % (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (2 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), otitis, media, (disorder), streptococcal, sore, throat, sprain, (morphologic, abnormality), ankle, viral, sinusitis, gingivitis, gingival, disease, primary, dental, caries, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature, administrative, completed, pharmacological, unspecified, natural, recovery, time-limited
+
+RISK_FACTORS: Obesity (BMI ≥30), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Adolescent (13-17)
+Gender: male
+Active_Conditions_Count: 1
+Total_Conditions_Count: 13
+Resolved_Conditions_Count: 12
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Elevated blood pressure
+Resolution_Methods: administrative/completed, pharmacological, unspecified, natural recovery/time-limited
+Common_Resolution_Approach: natural recovery/time-limited
+

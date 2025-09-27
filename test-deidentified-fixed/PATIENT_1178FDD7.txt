@@ -1,0 +1,100 @@
+ANONYMOUS_PATIENT_ID: PATIENT_1178FDD7
+AGE_GROUP: Adolescent (13-17)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adolescent (13-17) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Childhood asthma (disorder) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1113 days
+2. Gingivitis (disorder) (onset: 10+ years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 8 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+4. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1484 days
+5. Risk activity involvement (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 1114 days
+6. Gingivitis (disorder) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+7. Acute infective cystitis (disorder) (onset: 2 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 5 days
+8. Traumatic dislocation of temporomandibular joint (disorder) (onset: 2 months ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 46 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Traumatic dislocation of temporomandibular joint (disorder) (Status: finished)
+2. 1 months ago: Encounter for check up (procedure) - Reason: Traumatic dislocation of temporomandibular joint (disorder) (Status: finished)
+3. 2 months ago: Emergency room admission (procedure) - Reason: Traumatic dislocation of temporomandibular joint (disorder) (Status: finished)
+4. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 1 year ago: Well child visit (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 158.2 cm (1 year ago)
+2. Body Weight: 73.3 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 29.32 kg/m2 (1 year ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 94.576 % (1 year ago)
+5. Blood pressure panel: 121/67 mm[Hg] (1 year ago)
+6. Heart rate: 72 /min (1 year ago)
+7. Body Height: 157.8 cm (2 years ago)
+8. Body Weight: 82.4 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 33.08 kg/m2 (2 years ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 97.81 % (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (2 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (4 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (2 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: childhood, asthma, (disorder), medication, review, (situation), gingivitis, risk, activity, involvement, (finding), acute, infective, cystitis, traumatic, dislocation, temporomandibular, joint, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, glucose, [mass/volume], urine, test, strip, serum, plasma, temperature, administrative, completed, natural, recovery, time-limited, unspecified
+
+RISK_FACTORS: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adolescent (13-17)
+Gender: female
+Active_Conditions_Count: 2
+Total_Conditions_Count: 10
+Resolved_Conditions_Count: 8
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, natural recovery/time-limited, unspecified
+Common_Resolution_Approach: administrative/completed
+

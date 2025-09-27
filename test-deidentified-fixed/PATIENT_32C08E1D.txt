@@ -1,0 +1,112 @@
+ANONYMOUS_PATIENT_ID: PATIENT_32C08E1D
+AGE_GROUP: Adult (25-34)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Chronic pain (finding) (onset: 10+ years ago)
+2. Chronic low back pain (finding) (onset: 10+ years ago)
+3. Only received primary school education (finding) (onset: 10+ years ago)
+4. Stress (finding) (onset: 5-10 years ago)
+5. Medication review due (situation) (onset: 5-10 years ago)
+6. Limited social contact (finding) (onset: 3 years ago)
+7. Full-time employment (finding) (onset: 0 months ago)
+8. Social isolation (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 2569 days
+2. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 10 days
+3. Concussion injury of brain (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 58 days
+4. Concussion with no loss of consciousness (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 58 days
+5. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 15 days
+6. Part-time employment (finding) (onset: 3 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1100 days
+7. Gingival disease (disorder) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+8. Laceration - injury (disorder) (onset: 1 year ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 19 days
+9. Laceration of hand (disorder) (onset: 1 year ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 19 days
+10. Primary dental caries (disorder) (onset: 0 months ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Emergency room admission (procedure) - Reason: Laceration - injury (disorder) (Status: finished)
+4. 3 years ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 3 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 182.6 cm (0 months ago)
+2. Body Weight: 75.3 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 22.58 kg/m2 (0 months ago)
+4. Blood pressure panel: 109/84 mm[Hg] (0 months ago)
+5. Heart rate: 63 /min (0 months ago)
+6. Body Height: 182.6 cm (3 years ago)
+7. Body Weight: 71.5 kg (3 years ago)
+8. Body mass index (BMI) [Ratio]: 21.43 kg/m2 (3 years ago)
+9. Blood pressure panel: 110/77 mm[Hg] (3 years ago)
+10. Heart rate: 63 /min (3 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 4 (0 months ago)
+2. Total score [DAST-10]: 0 (3 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. PHQ-9 quick depression assessment panel [Reported.PHQ] (0 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: chronic, pain, (finding), back, only, received, primary, school, education, full-time, employment, stress, viral, sinusitis, (disorder), concussion, injury, brain, with, loss, consciousness, medication, review, (situation), part-time, limited, social, contact, gingival, disease, laceration, hand, isolation, dental, caries, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, lifestyle, behavioral, change, natural, recovery, time-limited, healing, unspecified
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: male
+Active_Conditions_Count: 8
+Total_Conditions_Count: 18
+Resolved_Conditions_Count: 10
+Recent_Encounters_Count: 5
+Resolution_Methods: lifestyle/behavioral change, natural recovery/time-limited, healing/recovery, unspecified
+Common_Resolution_Approach: natural recovery/time-limited
+

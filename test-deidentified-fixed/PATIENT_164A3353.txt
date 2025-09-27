@@ -1,0 +1,118 @@
+ANONYMOUS_PATIENT_ID: PATIENT_164A3353
+AGE_GROUP: Middle-aged (45-54)
+GENDER: male
+MARITAL_STATUS: Widowed
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) male patient with marital status: Widowed. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Full-time employment (finding) (onset: 10+ years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+5. Limited social contact (finding) (onset: 2 years ago)
+6. Stress (finding) (onset: 2 years ago)
+7. Prediabetes (finding) (onset: 1 months ago)
+8. Social isolation (finding) (onset: 1 months ago)
+9. Victim of intimate partner abuse (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 1023 days
+2. Viral sinusitis (disorder) (onset: 10+ years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 24 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 735 days
+4. Primary dental caries (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+5. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 12 days
+6. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 736 days
+7. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 15 days
+8. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+9. Medication review due (situation) (onset: 2 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+10. Gingivitis (disorder) (onset: 2 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Emergency room admission (procedure) - Reason: Injury of neck (disorder) (Status: finished)
+2. 0 months ago: Hospital admission (procedure) - Reason: Patient transfer to skilled nursing facility (procedure) (Status: finished)
+3. 1 months ago: General examination of patient (procedure) (Status: finished)
+4. 2 years ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+5. 2 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 180.4 cm (1 months ago)
+2. Body Weight: 90.5 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 27.81 kg/m2 (1 months ago)
+4. Blood pressure panel: 132/89 mm[Hg] (1 months ago)
+5. Heart rate: 79 /min (1 months ago)
+6. Glucose [Mass/volume] in Blood: 83.84 mg/dL (1 months ago)
+7. Body Height: 180.4 cm (2 years ago)
+8. Body Weight: 90.5 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 27.81 kg/m2 (2 years ago)
+10. Blood pressure panel: 127/84 mm[Hg] (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 2 (1 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 months ago)
+3. Total score [DAST-10]: 0 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (4 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. Drug Abuse Screening Test-10 [DAST-10] (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), received, higher, education, full-time, employment, body, mass, index, obesity, stress, viral, sinusitis, (disorder), medication, review, (situation), primary, dental, caries, limited, social, contact, gingivitis, gingival, disease, prediabetes, isolation, victim, intimate, partner, abuse, injury, neck, whiplash, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, lifestyle, behavioral, change, natural, recovery, time-limited, administrative, completed, healing
+
+RISK_FACTORS: Obesity, Diabetes risk, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: male
+Active_Conditions_Count: 9
+Total_Conditions_Count: 23
+Resolved_Conditions_Count: 14
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Diabetes risk, Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, natural recovery/time-limited, administrative/completed, healing/recovery
+Common_Resolution_Approach: natural recovery/time-limited
+

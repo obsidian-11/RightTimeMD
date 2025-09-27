@@ -1,0 +1,144 @@
+ANONYMOUS_PATIENT_ID: PATIENT_993EB862
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Recurrent urinary tract infection (disorder) (onset: 10+ years ago)
+2. Risk activity involvement (finding) (onset: 10+ years ago)
+3. Educated to high school level (finding) (onset: 10+ years ago)
+4. Essential hypertension (disorder) (onset: 10+ years ago)
+5. History of tubal ligation (situation) (onset: 5-10 years ago)
+6. Chronic kidney disease stage 1 (disorder) (onset: 5-10 years ago)
+7. Disorder of kidney due to diabetes mellitus (disorder) (onset: 5-10 years ago)
+8. Body mass index 30+ - obesity (finding) (onset: 4 years ago)
+9. Chronic kidney disease stage 2 (disorder) (onset: 3 years ago)
+10. Microalbuminuria due to type 2 diabetes mellitus (disorder) (onset: 3 years ago)
+11. Full-time employment (finding) (onset: 1 year ago)
+12. Medication review due (situation) (onset: 6 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Social isolation (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 6238 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1470 days
+3. Part-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 371 days
+4. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 371 days
+5. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 2891 days
+6. Sterilization requested (situation) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 14 days
+7. Laceration - injury (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 21 days
+8. Facial laceration (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 21 days
+9. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 336 days
+10. Part-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 337 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 1 months ago: Encounter for check up (procedure) (Status: finished)
+3. 5 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+4. 6 months ago: General examination of patient (procedure) (Status: finished)
+5. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Serum or Plasma: 88.89 mg/dL (1 months ago)
+2. Glucose [Mass/volume] in Urine by Test strip: 1.2158 mg/dL (1 months ago)
+3. Glucose [Presence] in Urine by Test strip: Urine glucose test = ++ (finding) (1 months ago)
+4. Body Height: 157.1 cm (1 months ago)
+5. Body Weight: 75.6 kg (1 months ago)
+6. Body mass index (BMI) [Ratio]: 30.63 kg/m2 (1 months ago)
+7. Blood pressure panel: 123/80 mm[Hg] (1 months ago)
+8. Heart rate: 89 /min (1 months ago)
+9. Glucose [Mass/volume] in Serum or Plasma: 73.23 mg/dL (6 months ago)
+10. Glucose [Mass/volume] in Urine by Test strip: 1.7746 mg/dL (6 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (1 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (1 months ago)
+4. Total score [DAST-10]: 2 (6 months ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (6 months ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (6 months ago)
+7. Total score [DAST-10]: 1 (1 year ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 year ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (1 year ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (1 year ago)
+12. Total score [DAST-10]: 0 (1 year ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (1 year ago)
+15. Total score [DAST-10]: 1 (1 year ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (1 year ago)
+18. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+19. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+20. Total score [DAST-10]: 1 (4 years ago)
+21. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+22. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 12 (4 years ago)
+23. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+24. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (5-10 years ago)
+25. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+26. Total score [DAST-10]: 0 (5-10 years ago)
+27. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+28. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+29. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+30. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Drug Abuse Screening Test-10 [DAST-10] (1 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: recurrent, urinary, tract, infection, (disorder), risk, activity, involvement, (finding), educated, high, school, level, social, isolation, medication, review, (situation), essential, hypertension, part-time, employment, full-time, stress, sterilization, requested, history, tubal, ligation, laceration, injury, facial, unhealthy, alcohol, drinking, behavior, acute, viral, pharyngitis, chronic, kidney, disease, stage, diabetes, mellitus, gingivitis, gingival, body, mass, index, obesity, microalbuminuria, type, labor, force, bronchitis, primary, dental, caries, glucose, [mass/volume], serum, plasma, urine, test, strip, [presence], height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, density, lipoprotein, temperature, lifestyle, behavioral, change, administrative, completed, natural, recovery, time-limited, healing, unspecified
+
+RISK_FACTORS: Hypertension, Alcohol use, Diabetes risk, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 12
+Total_Conditions_Count: 46
+Resolved_Conditions_Count: 34
+Recent_Encounters_Count: 5
+Risk_Factors: Hypertension, Alcohol use, Diabetes risk, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, natural recovery/time-limited, healing/recovery, unspecified
+Common_Resolution_Approach: lifestyle/behavioral change
+

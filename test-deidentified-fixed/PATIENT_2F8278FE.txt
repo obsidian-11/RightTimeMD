@@ -1,0 +1,127 @@
+ANONYMOUS_PATIENT_ID: PATIENT_2F8278FE
+AGE_GROUP: Senior (65-74)
+GENDER: male
+MARITAL_STATUS: Widowed
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Senior (65-74) male patient with marital status: Widowed. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+3. Limited social contact (finding) (onset: 10+ years ago)
+4. Ischemic heart disease (disorder) (onset: 10+ years ago)
+5. Abnormal findings diagnostic imaging heart+coronary circulat (finding) (onset: 10+ years ago)
+6. History of coronary artery bypass grafting (situation) (onset: 10+ years ago)
+7. Chronic congestive heart failure (disorder) (onset: 1 year ago)
+8. Medication review due (situation) (onset: 3 months ago)
+9. Not in labor force (finding) (onset: 3 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 2226 days
+2. Social isolation (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 3340 days
+3. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 2597 days
+4. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 371 days
+5. Part-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 372 days
+6. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+7. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 2597 days
+8. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 742 days
+9. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+10. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 372 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+2. 1 months ago: Admission to hospice (procedure) - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+3. 2 months ago: Encounter for problem (procedure) - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+4. 2 months ago: Admission to intensive care unit (procedure) - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+5. 3 months ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Weight: 99.5 kg (1 months ago)
+2. Glucose [Mass/volume] in Serum or Plasma: 72.54 mg/dL (1 months ago)
+3. Cholesterol [Mass/volume] in Serum or Plasma: 156.2 mg/dL (1 months ago)
+4. Low Density Lipoprotein Cholesterol: 67.34 mg/dL (1 months ago)
+5. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 60.21 mg/dL (1 months ago)
+6. Body Weight: 99.5 kg (1 months ago)
+7. Glucose [Mass/volume] in Serum or Plasma: 72.54 mg/dL (1 months ago)
+8. Cholesterol [Mass/volume] in Serum or Plasma: 156.2 mg/dL (1 months ago)
+9. Low Density Lipoprotein Cholesterol: 67.34 mg/dL (1 months ago)
+10. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 60.21 mg/dL (1 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 4 (3 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (3 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (1 year ago)
+4. Total score [DAST-10]: 2 (3 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (3 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (3 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (4 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 5 (5-10 years ago)
+12. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+14. Total score [DAST-10]: 1 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (10+ years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), body, mass, index, obesity, limited, social, contact, ischemic, heart, disease, (disorder), abnormal, findings, diagnostic, imaging, heart+coronary, circulat, history, coronary, artery, bypass, grafting, (situation), full-time, employment, isolation, medication, review, stress, part-time, gingivitis, reports, violence, environment, acute, viral, pharyngitis, loose, dental, filling, concussion, injury, brain, with, loss, consciousness, sinusitis, chronic, congestive, failure, labor, force, weight, glucose, [mass/volume], serum, plasma, cholesterol, density, lipoprotein, height, (bmi), [ratio], blood, pressure, rate, temperature, lifestyle, behavioral, change, administrative, completed, natural, recovery, time-limited, healing, unspecified
+
+RISK_FACTORS: Obesity, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Senior (65-74)
+Gender: male
+Active_Conditions_Count: 9
+Total_Conditions_Count: 30
+Resolved_Conditions_Count: 21
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Obesity (BMI ≥30)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, natural recovery/time-limited, healing/recovery, unspecified
+Common_Resolution_Approach: lifestyle/behavioral change
+

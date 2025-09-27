@@ -1,0 +1,109 @@
+ANONYMOUS_PATIENT_ID: PATIENT_7BB601A7
+AGE_GROUP: Young Adult (18-24)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Young Adult (18-24) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Chronic paralysis due to lesion of spinal cord (disorder) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 0 months ago)
+3. Full-time employment (finding) (onset: 0 months ago)
+4. Social isolation (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1827 days
+2. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 8 days
+3. Loose dental filling (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+4. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 8 days
+5. Streptococcal sore throat (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 8 days
+6. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 8 days
+7. Gingival disease (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+8. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1484 days
+9. Suspected disease caused by Severe acute respiratory coronavirus 2 (situation) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: COVID-19 infection - recovery with supportive care
+   Time to Resolution: 1 days
+10. Cough (finding) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Symptom resolution
+   Time to Resolution: 17 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 1 year ago: Well child visit (procedure) (Status: finished)
+3. 1 year ago: Emergency room admission (procedure) - Reason: Injury of neck (disorder) (Status: finished)
+4. 1 year ago: Hospital admission (procedure) - Reason: Patient transfer to skilled nursing facility (procedure) (Status: finished)
+5. 2 years ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 180.4 cm (0 months ago)
+2. Body Weight: 63.5 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 19.51 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 15.974 % (0 months ago)
+5. Blood pressure panel: 118/82 mm[Hg] (0 months ago)
+6. Heart rate: 92 /min (0 months ago)
+7. Body Height: 179.6 cm (1 year ago)
+8. Body Weight: 63.8 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 19.78 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 27.415 % (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 2 (0 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (4 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. Patient Health Questionnaire-9: Modified for Teens [Reported.PHQ.Teen] (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: chronic, paralysis, lesion, spinal, cord, (disorder), medication, review, (situation), gingivitis, loose, dental, filling, (finding), streptococcal, sore, throat, gingival, disease, suspected, caused, severe, acute, respiratory, coronavirus, cough, fever, loss, taste, syndrome, risk, activity, involvement, leaking, injury, neck, whiplash, received, higher, education, full-time, employment, social, isolation, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature, administrative, completed, natural, recovery, time-limited, pharmacological, unspecified, healing
+
+RISK_FACTORS: Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Young Adult (18-24)
+Gender: male
+Active_Conditions_Count: 4
+Total_Conditions_Count: 24
+Resolved_Conditions_Count: 20
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9)
+Resolution_Methods: administrative/completed, natural recovery/time-limited, pharmacological, unspecified, healing/recovery
+Common_Resolution_Approach: natural recovery/time-limited
+

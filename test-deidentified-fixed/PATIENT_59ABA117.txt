@@ -1,0 +1,110 @@
+ANONYMOUS_PATIENT_ID: PATIENT_59ABA117
+AGE_GROUP: Adult (25-34)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 10+ years ago)
+4. Full-time employment (finding) (onset: 10+ years ago)
+5. Social isolation (finding) (onset: 5-10 years ago)
+6. Stress (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 3297 days
+2. Reports of violence in the environment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 1099 days
+3. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+4. Limited social contact (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 2199 days
+5. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+6. Primary dental caries (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+7. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 34 days
+8. Normal pregnancy (finding) (onset: 2 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 231 days
+9. Viral sinusitis (disorder) (onset: 2 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 10 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+4. 1 year ago: Postnatal visit (regime/therapy) (Status: finished)
+5. 1 year ago: Obstetric emergency hospital admission (procedure) - Reason: Normal pregnancy (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 167.3 cm (0 months ago)
+2. Body Weight: 74.4 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 26.6 kg/m2 (0 months ago)
+4. Blood pressure panel: 115/83 mm[Hg] (0 months ago)
+5. Heart rate: 98 /min (0 months ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 182.59 mg/dL (0 months ago)
+7. Low Density Lipoprotein Cholesterol: 125.04 mg/dL (0 months ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 30.27 mg/dL (0 months ago)
+9. Body Height: 167.3 cm (3 years ago)
+10. Body Weight: 69.4 kg (3 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (3 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (3 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+3. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), received, higher, education, medication, review, (situation), full-time, employment, stress, social, isolation, reports, violence, environment, gingivitis, (disorder), limited, contact, primary, dental, caries, normal, pregnancy, viral, sinusitis, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, lifestyle, behavioral, change, natural, recovery, time-limited, unspecified
+
+RISK_FACTORS: Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: female
+Active_Conditions_Count: 6
+Total_Conditions_Count: 15
+Resolved_Conditions_Count: 9
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, natural recovery/time-limited, unspecified
+Common_Resolution_Approach: natural recovery/time-limited
+

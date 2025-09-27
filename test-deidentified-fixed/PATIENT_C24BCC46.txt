@@ -1,0 +1,115 @@
+ANONYMOUS_PATIENT_ID: PATIENT_C24BCC46
+AGE_GROUP: Middle-aged (45-54)
+GENDER: male
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) male patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Educated to high school level (finding) (onset: 10+ years ago)
+2. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+3. Prediabetes (finding) (onset: 10+ years ago)
+4. Anemia (disorder) (onset: 10+ years ago)
+5. Not in labor force (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 2121 days
+2. Not in labor force (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1022 days
+3. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Environmental change and support services
+   Time to Resolution: 1022 days
+4. Part-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 736 days
+5. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 1471 days
+6. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+7. Concussion injury of brain (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 72 days
+8. Concussion with no loss of consciousness (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 72 days
+9. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 735 days
+10. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1471 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 2 years ago: General examination of patient (procedure) (Status: finished)
+3. 4 years ago: General examination of patient (procedure) (Status: finished)
+4. 5-10 years ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+5. 5-10 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 186.8 cm (0 months ago)
+2. Body Weight: 106.6 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 30.55 kg/m2 (0 months ago)
+4. Blood pressure panel: 133/76 mm[Hg] (0 months ago)
+5. Heart rate: 96 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 78.88 mg/dL (0 months ago)
+7. Body Height: 186.8 cm (2 years ago)
+8. Body Weight: 106.6 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 30.55 kg/m2 (2 years ago)
+10. Blood pressure panel: 131/74 mm[Hg] (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 5 (2 years ago)
+3. Total score [DAST-10]: 1 (4 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 10 (5-10 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Alcohol Use Disorder Identification Test - Consumption [AUDIT-C] (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+3. Basic metabolic panel - Blood (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: educated, high, school, level, (finding), body, mass, index, obesity, prediabetes, anemia, (disorder), medication, review, (situation), labor, force, victim, intimate, partner, abuse, part-time, employment, stress, gingivitis, concussion, injury, brain, with, loss, consciousness, full-time, viral, sinusitis, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, administrative, completed, lifestyle, behavioral, change, natural, recovery, time-limited, healing, unspecified
+
+RISK_FACTORS: Obesity, Diabetes risk, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: male
+Active_Conditions_Count: 5
+Total_Conditions_Count: 18
+Resolved_Conditions_Count: 13
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Diabetes risk, Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, lifestyle/behavioral change, natural recovery/time-limited, healing/recovery, unspecified
+Common_Resolution_Approach: lifestyle/behavioral change
+

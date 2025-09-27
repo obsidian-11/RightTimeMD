@@ -1,0 +1,114 @@
+ANONYMOUS_PATIENT_ID: PATIENT_81F026A9
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Housing unsatisfactory (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Social isolation (finding) (onset: 5-10 years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 2 years ago)
+5. Stress (finding) (onset: 2 years ago)
+6. Medication review due (situation) (onset: 1 year ago)
+7. Part-time employment (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 3297 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+4. Acute bronchitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 19 days
+5. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 196 days
+6. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1099 days
+7. Part-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1099 days
+8. Limited social contact (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 1393 days
+9. Acute viral pharyngitis (disorder) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 12 days
+10. Traumatic dislocation of temporomandibular joint (disorder) (onset: 2 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 48 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+2. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+3. 1 year ago: Encounter for check up (procedure) (Status: finished)
+4. 1 year ago: Encounter for symptom (procedure) - Reason: Acute bronchitis (disorder) (Status: finished)
+5. 2 years ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 163.7 cm (1 year ago)
+2. Body Weight: 75.5 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 28.16 kg/m2 (1 year ago)
+4. Blood pressure panel: 131/81 mm[Hg] (1 year ago)
+5. Heart rate: 90 /min (1 year ago)
+6. Body Height: 163.7 cm (2 years ago)
+7. Body Weight: 80.7 kg (2 years ago)
+8. Body mass index (BMI) [Ratio]: 30.12 kg/m2 (2 years ago)
+9. Blood pressure panel: 134/80 mm[Hg] (2 years ago)
+10. Heart rate: 89 /min (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 13 (1 year ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+4. Total score [DAST-10]: 1 (5-10 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 year ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: housing, unsatisfactory, (finding), received, higher, education, full-time, employment, medication, review, (situation), social, isolation, acute, bronchitis, (disorder), normal, pregnancy, part-time, limited, contact, viral, pharyngitis, traumatic, dislocation, temporomandibular, joint, body, mass, index, obesity, labor, force, stress, gingival, disease, height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, temperature, lifestyle, behavioral, change, administrative, completed, natural, recovery, time-limited, unspecified
+
+RISK_FACTORS: Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 7
+Total_Conditions_Count: 20
+Resolved_Conditions_Count: 13
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, natural recovery/time-limited, unspecified
+Common_Resolution_Approach: lifestyle/behavioral change
+

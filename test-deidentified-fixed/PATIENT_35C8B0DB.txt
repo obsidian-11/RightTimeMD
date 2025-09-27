@@ -1,0 +1,127 @@
+ANONYMOUS_PATIENT_ID: PATIENT_35C8B0DB
+AGE_GROUP: Middle-aged (45-54)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Pulmonic valve stenosis (disorder) (onset: 10+ years ago)
+2. Chronic pain (finding) (onset: 10+ years ago)
+3. Impacted molars (disorder) (onset: 10+ years ago)
+4. Chronic intractable migraine without aura (disorder) (onset: 10+ years ago)
+5. Educated to high school level (finding) (onset: 10+ years ago)
+6. Chronic sinusitis (disorder) (onset: 10+ years ago)
+7. Prediabetes (finding) (onset: 10+ years ago)
+8. Anemia (disorder) (onset: 10+ years ago)
+9. Dependent drug abuse (disorder) (onset: 10+ years ago)
+10. Sepsis (disorder) (onset: 5-10 years ago)
+11. Severe anxiety (panic) (finding) (onset: 4 years ago)
+12. Body mass index 30+ - obesity (finding) (onset: 2 years ago)
+13. Full-time employment (finding) (onset: 1 year ago)
+14. Stress (finding) (onset: 3 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 7617 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1099 days
+3. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 3073 days
+4. Homeless (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 1112 days
+5. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+6. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 224 days
+7. Overdose (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+8. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 224 days
+9. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 735 days
+10. Not in labor force (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 525 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Emergency room admission (procedure) - Reason: Overdose (disorder) (Status: finished)
+2. 3 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+3. 3 months ago: General examination of patient (procedure) (Status: finished)
+4. 4 months ago: Postnatal visit (regime/therapy) (Status: finished)
+5. 5 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 164.1 cm (3 months ago)
+2. Body Weight: 76.5 kg (3 months ago)
+3. Body mass index (BMI) [Ratio]: 28.41 kg/m2 (3 months ago)
+4. Blood pressure panel: 147/73 mm[Hg] (3 months ago)
+5. Heart rate: 97 /min (3 months ago)
+6. Glucose [Mass/volume] in Blood: 75.97 mg/dL (3 months ago)
+7. Body Height: 164.1 cm (1 year ago)
+8. Body Weight: 75.3 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 27.98 kg/m2 (1 year ago)
+10. Blood pressure panel: 139/80 mm[Hg] (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (3 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 21 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 18 (4 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (4 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (4 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (3 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (3 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: pulmonic, valve, stenosis, (disorder), chronic, pain, (finding), impacted, molars, intractable, migraine, without, aura, educated, high, school, level, full-time, employment, sinusitis, prediabetes, anemia, dependent, drug, abuse, medication, review, (situation), stress, homeless, gingivitis, normal, pregnancy, overdose, labor, force, victim, intimate, partner, sepsis, acute, bronchitis, primary, dental, caries, part-time, gingival, disease, severe, anxiety, (panic), body, mass, index, obesity, unemployed, otitis, media, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, mean, lifestyle, behavioral, change, administrative, completed, unspecified, natural, recovery, time-limited, pharmacological
+
+RISK_FACTORS: Diabetes risk, Obesity, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: female
+Active_Conditions_Count: 14
+Total_Conditions_Count: 44
+Resolved_Conditions_Count: 30
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, unspecified, natural recovery/time-limited, pharmacological
+Common_Resolution_Approach: natural recovery/time-limited
+

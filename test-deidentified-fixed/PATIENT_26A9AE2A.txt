@@ -1,0 +1,103 @@
+ANONYMOUS_PATIENT_ID: PATIENT_26A9AE2A
+AGE_GROUP: Child (5-12)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Child (5-12) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Childhood asthma (disorder) (onset: 5-10 years ago)
+2. Perennial allergic rhinitis (disorder) (onset: 4 years ago)
+3. Medication review due (situation) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 154 days
+4. Acute allergic reaction (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+5. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 182 days
+6. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 441 days
+7. Otitis media (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 51 days
+8. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 280 days
+9. Sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 46 days
+10. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Asthma follow-up (regime/therapy) - Reason: Childhood asthma (disorder) (Status: finished)
+2. 1 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+3. 1 months ago: Well child visit (procedure) (Status: finished)
+4. 6 months ago: Asthma follow-up (regime/therapy) - Reason: Childhood asthma (disorder) (Status: finished)
+5. 6 months ago: Emergency hospital admission for asthma (procedure) - Reason: Childhood asthma (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 135.3 cm (1 months ago)
+2. Body Weight: 29.5 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 16.1 kg/m2 (1 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 48.534 % (1 months ago)
+5. Blood pressure panel: 109/81 mm[Hg] (1 months ago)
+6. Heart rate: 75 /min (1 months ago)
+7. Body Height: 129.1 cm (1 year ago)
+8. Body Weight: 25.6 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 15.35 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 39.488 % (1 year ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), acute, allergic, reaction, (disorder), childhood, asthma, otitis, media, sinusitis, perennial, rhinitis, bronchitis, viral, pharyngitis, gingivitis, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature, administrative, completed, natural, recovery, time-limited, pharmacological, unspecified
+
+RISK_FACTORS: Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Child (5-12)
+Gender: male
+Active_Conditions_Count: 3
+Total_Conditions_Count: 21
+Resolved_Conditions_Count: 18
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+Resolution_Methods: administrative/completed, natural recovery/time-limited, pharmacological, unspecified
+Common_Resolution_Approach: administrative/completed
+

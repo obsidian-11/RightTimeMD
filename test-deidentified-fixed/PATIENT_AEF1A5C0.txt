@@ -1,0 +1,111 @@
+ANONYMOUS_PATIENT_ID: PATIENT_AEF1A5C0
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Past pregnancy history of miscarriage (situation) (onset: 5-10 years ago)
+3. Body mass index 30+ - obesity (finding) (onset: 3 years ago)
+4. Stress (finding) (onset: 3 years ago)
+5. Part-time employment (finding) (onset: 1 year ago)
+6. Limited social contact (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 3801 days
+2. Social isolation (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 1100 days
+3. Otitis media (disorder) (onset: 10+ years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 811 days
+4. Normal pregnancy (finding) (onset: 10+ years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 210 days
+5. Pre-eclampsia (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 42 days
+6. Laceration - injury (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 20 days
+7. Laceration of hand (disorder) (onset: 5-10 years ago)
+   Resolution Method: healing/recovery
+   Resolution Details: Natural healing with wound care
+   Time to Resolution: 20 days
+8. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 217 days
+9. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+10. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 1100 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+2. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+3. 1 year ago: Postnatal visit (regime/therapy) (Status: finished)
+4. 1 year ago: Obstetric emergency hospital admission (procedure) - Reason: Normal pregnancy (finding) (Status: finished)
+5. 1 year ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 163 cm (1 year ago)
+2. Body Weight: 80.5 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 30.3 kg/m2 (1 year ago)
+4. Blood pressure panel: 110/80 mm[Hg] (1 year ago)
+5. Heart rate: 72 /min (1 year ago)
+6. Body temperature: 37.202 Cel (3 years ago)
+7. Body Height: 163 cm (3 years ago)
+8. Body Weight: 80.5 kg (3 years ago)
+9. Body mass index (BMI) [Ratio]: 30.3 kg/m2 (3 years ago)
+10. Blood pressure panel: 111/80 mm[Hg] (3 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (3 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 year ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), full-time, employment, social, isolation, otitis, media, (disorder), normal, pregnancy, pre-eclampsia, laceration, injury, hand, medication, review, (situation), stress, miscarriage, first, trimester, blighted, ovum, past, history, acute, bronchitis, viral, sinusitis, body, mass, index, obesity, gingival, disease, pharyngitis, part-time, limited, contact, height, weight, (bmi), [ratio], blood, pressure, heart, rate, temperature, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, lifestyle, behavioral, change, pharmacological, unspecified, healing, recovery, administrative, completed, natural, time-limited
+
+RISK_FACTORS: Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 6
+Total_Conditions_Count: 33
+Resolved_Conditions_Count: 27
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, pharmacological, unspecified, healing/recovery, administrative/completed, natural recovery/time-limited
+Common_Resolution_Approach: unspecified
+

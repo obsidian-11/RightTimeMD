@@ -1,0 +1,133 @@
+ANONYMOUS_PATIENT_ID: PATIENT_DB2B6526
+AGE_GROUP: Middle-aged (45-54)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Housing unsatisfactory (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Prediabetes (finding) (onset: 10+ years ago)
+4. Anemia (disorder) (onset: 10+ years ago)
+5. Pulmonary emphysema (disorder) (onset: 10+ years ago)
+6. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+7. Chronic pain (finding) (onset: 10+ years ago)
+8. Chronic low back pain (finding) (onset: 10+ years ago)
+9. Chronic neck pain (finding) (onset: 10+ years ago)
+10. Osteoarthritis of hip (disorder) (onset: 3 years ago)
+11. Medication review due (situation) (onset: 3 years ago)
+12. Stress (finding) (onset: 2 years ago)
+13. Not in labor force (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 4081 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+3. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+4. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 1485 days
+5. Streptococcal sore throat (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 9 days
+6. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 399 days
+7. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 12 days
+8. Gingivitis (disorder) (onset: 2 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+9. Normal pregnancy (finding) (onset: 2 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 231 days
+10. Pre-eclampsia (disorder) (onset: 2 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 63 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 3 months ago: Patient encounter procedure (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+3. 3 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 171.3 cm (0 months ago)
+2. Body Weight: 80.8 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 27.54 kg/m2 (0 months ago)
+4. Blood pressure panel: 110/65 mm[Hg] (0 months ago)
+5. Heart rate: 88 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 73.75 mg/dL (0 months ago)
+7. Body Height: 171.3 cm (1 year ago)
+8. Body Weight: 80.8 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 27.54 kg/m2 (1 year ago)
+10. Blood pressure panel: 108/66 mm[Hg] (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 6 (1 year ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+5. Total score [DAST-10]: 1 (4 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (4 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 5 (5-10 years ago)
+11. Total score [DAST-10]: 2 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+15. Total score [DAST-10]: 1 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (5-10 years ago)
+18. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+2. Basic metabolic panel - Blood (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: housing, unsatisfactory, (finding), received, higher, education, prediabetes, anemia, (disorder), pulmonary, emphysema, past, pregnancy, history, miscarriage, (situation), chronic, pain, back, neck, full-time, employment, medication, review, stress, streptococcal, sore, throat, acute, viral, pharyngitis, osteoarthritis, gingivitis, normal, pre-eclampsia, labor, force, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature, lifestyle, behavioral, change, administrative, completed, pharmacological, natural, recovery, time-limited, unspecified
+
+RISK_FACTORS: Diabetes risk, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: female
+Active_Conditions_Count: 13
+Total_Conditions_Count: 23
+Resolved_Conditions_Count: 10
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, pharmacological, natural recovery/time-limited, unspecified
+Common_Resolution_Approach: administrative/completed
+

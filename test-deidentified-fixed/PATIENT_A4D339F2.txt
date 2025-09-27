@@ -1,0 +1,112 @@
+ANONYMOUS_PATIENT_ID: PATIENT_A4D339F2
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+3. Full-time employment (finding) (onset: 10+ years ago)
+4. Stress (finding) (onset: 2 years ago)
+5. Medication review due (situation) (onset: 2 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 5278 days
+2. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 2199 days
+3. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 231 days
+4. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 10 days
+5. Suspected disease caused by Severe acute respiratory coronavirus 2 (situation) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: COVID-19 infection - recovery with supportive care
+   Time to Resolution: 1 days
+6. Headache (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 22 days
+7. Sputum finding (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Symptom resolution
+   Time to Resolution: 22 days
+8. Chill (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 22 days
+9. Fever (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Symptom resolution
+   Time to Resolution: 22 days
+10. Loss of taste (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Post-viral symptom recovery
+   Time to Resolution: 22 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Patient encounter procedure (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+2. 0 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+3. 1 year ago: Patient encounter procedure (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+4. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+5. 2 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 172.9 cm (2 years ago)
+2. Body Weight: 85.8 kg (2 years ago)
+3. Body mass index (BMI) [Ratio]: 28.7 kg/m2 (2 years ago)
+4. Blood pressure panel: 120/70 mm[Hg] (2 years ago)
+5. Heart rate: 79 /min (2 years ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 222.26 mg/dL (2 years ago)
+7. Low Density Lipoprotein Cholesterol: 134.47 mg/dL (2 years ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 59.44 mg/dL (2 years ago)
+9. Body temperature: 37.033 Cel (2 years ago)
+10. Body Height: 172.9 cm (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 14 (2 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), medication, review, (situation), body, mass, index, obesity, full-time, employment, stress, normal, pregnancy, acute, viral, pharyngitis, (disorder), suspected, disease, caused, severe, respiratory, coronavirus, headache, sputum, chill, fever, loss, taste, syndrome, height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, temperature, administrative, completed, lifestyle, behavioral, change, unspecified, natural, recovery, time-limited
+
+RISK_FACTORS: Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 5
+Total_Conditions_Count: 17
+Resolved_Conditions_Count: 12
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, lifestyle/behavioral change, unspecified, natural recovery/time-limited
+Common_Resolution_Approach: natural recovery/time-limited
+

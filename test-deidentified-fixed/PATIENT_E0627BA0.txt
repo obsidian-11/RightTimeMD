@@ -1,0 +1,110 @@
+ANONYMOUS_PATIENT_ID: PATIENT_E0627BA0
+AGE_GROUP: Adult (25-34)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Part-time employment (finding) (onset: 5-10 years ago)
+3. Past pregnancy history of miscarriage (situation) (onset: 4 years ago)
+4. Prediabetes (finding) (onset: 2 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 1470 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1099 days
+3. Unemployed (finding) (onset: 10+ years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 1016 days
+4. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1183 days
+5. Streptococcal sore throat (disorder) (onset: 5-10 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 14 days
+6. Gingival disease (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+7. Limited social contact (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 1099 days
+8. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 218 days
+9. Anemia (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 218 days
+10. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Postnatal visit (regime/therapy) (Status: finished)
+2. 2 months ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+3. 2 months ago: Obstetric emergency hospital admission (procedure) - Reason: Normal pregnancy (finding) (Status: finished)
+4. 2 months ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+5. 2 months ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 172 cm (2 years ago)
+2. Body Weight: 69.3 kg (2 years ago)
+3. Body mass index (BMI) [Ratio]: 23.42 kg/m2 (2 years ago)
+4. Blood pressure panel: 125/73 mm[Hg] (2 years ago)
+5. Heart rate: 60 /min (2 years ago)
+6. Glucose [Mass/volume] in Blood: 77.93 mg/dL (2 years ago)
+7. Body Height: 172 cm (5-10 years ago)
+8. Body Weight: 64.1 kg (5-10 years ago)
+9. Body mass index (BMI) [Ratio]: 21.65 kg/m2 (5-10 years ago)
+10. Blood pressure panel: 111/73 mm[Hg] (5-10 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (2 months ago)
+   Status: final
+
+3. History and physical note (2 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), stress, medication, review, (situation), unemployed, full-time, employment, streptococcal, sore, throat, (disorder), gingival, disease, limited, social, contact, normal, pregnancy, anemia, part-time, sprain, (morphologic, abnormality), wrist, miscarriage, second, trimester, congenital, uterine, anomaly, past, history, prediabetes, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], temperature, lifestyle, behavioral, change, administrative, completed, unspecified, pharmacological, natural, recovery, time-limited
+
+RISK_FACTORS: Diabetes risk
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: female
+Active_Conditions_Count: 4
+Total_Conditions_Count: 23
+Resolved_Conditions_Count: 19
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, unspecified, pharmacological, natural recovery/time-limited
+Common_Resolution_Approach: unspecified
+

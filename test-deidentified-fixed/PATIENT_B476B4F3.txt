@@ -1,0 +1,134 @@
+ANONYMOUS_PATIENT_ID: PATIENT_B476B4F3
+AGE_GROUP: Middle-aged (55-64)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (55-64) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Atopic dermatitis (disorder) (onset: 10+ years ago)
+2. Risk activity involvement (finding) (onset: 10+ years ago)
+3. Only received primary school education (finding) (onset: 10+ years ago)
+4. Has a criminal record (finding) (onset: 10+ years ago)
+5. Impacted molars (disorder) (onset: 10+ years ago)
+6. Chronic intractable migraine without aura (disorder) (onset: 10+ years ago)
+7. Chronic pain (finding) (onset: 10+ years ago)
+8. Prediabetes (finding) (onset: 10+ years ago)
+9. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+10. Dependent drug abuse (disorder) (onset: 10+ years ago)
+11. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+12. Chronic sinusitis (disorder) (onset: 10+ years ago)
+13. Chronic low back pain (finding) (onset: 10+ years ago)
+14. Chronic neck pain (finding) (onset: 10+ years ago)
+15. Past pregnancy history of miscarriage (situation) (onset: 5-10 years ago)
+16. Social isolation (finding) (onset: 5-10 years ago)
+17. Stress (finding) (onset: 1 year ago)
+18. Full-time employment (finding) (onset: 4 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 7308 days
+2. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 743 days
+3. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 1114 days
+4. Unemployed (finding) (onset: 10+ years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 372 days
+5. Limited social contact (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 372 days
+6. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1750 days
+7. Overdose (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+8. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 371 days
+9. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 12 days
+10. Miscarriage in first trimester (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 12 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Drug rehabilitation and detoxification (regime/therapy) - Reason: Dependent drug abuse (disorder) (Status: finished)
+2. 4 months ago: Emergency room admission (procedure) - Reason: Overdose (disorder) (Status: finished)
+3. 4 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+4. 4 months ago: General examination of patient (procedure) (Status: finished)
+5. 1 year ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 156.9 cm (4 months ago)
+2. Body Weight: 67.8 kg (4 months ago)
+3. Body mass index (BMI) [Ratio]: 27.54 kg/m2 (4 months ago)
+4. Blood pressure panel: 113/70 mm[Hg] (4 months ago)
+5. Heart rate: 89 /min (4 months ago)
+6. Glucose [Mass/volume] in Blood: 94.75 mg/dL (4 months ago)
+7. Body Height: 156.9 cm (1 year ago)
+8. Body Weight: 67.8 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 27.54 kg/m2 (1 year ago)
+10. Blood pressure panel: 116/73 mm[Hg] (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (4 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (4 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (10+ years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (4 months ago)
+   Status: final
+
+3. History and physical note (4 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: atopic, dermatitis, (disorder), risk, activity, involvement, (finding), only, received, primary, school, education, criminal, record, impacted, molars, chronic, intractable, migraine, without, aura, pain, prediabetes, victim, intimate, partner, abuse, dependent, drug, body, mass, index, obesity, sinusitis, medication, review, (situation), full-time, employment, stress, back, neck, unemployed, limited, social, contact, overdose, normal, pregnancy, miscarriage, first, trimester, complete, past, history, isolation, gingivitis, acute, viral, pharyngitis, laceration, injury, forearm, fractured, dental, filling, bronchitis, part-time, reports, violence, environment, labor, force, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature, administrative, completed, lifestyle, behavioral, change, unspecified, natural, recovery, time-limited, healing
+
+RISK_FACTORS: Diabetes risk, Obesity, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (55-64)
+Gender: female
+Active_Conditions_Count: 18
+Total_Conditions_Count: 55
+Resolved_Conditions_Count: 37
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Overweight (BMI 25-29.9)
+Resolution_Methods: administrative/completed, lifestyle/behavioral change, unspecified, natural recovery/time-limited, healing/recovery
+Common_Resolution_Approach: lifestyle/behavioral change
+

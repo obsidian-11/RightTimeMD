@@ -1,0 +1,112 @@
+ANONYMOUS_PATIENT_ID: PATIENT_9DDF6535
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Educated to high school level (finding) (onset: 10+ years ago)
+2. Transport problem (finding) (onset: 10+ years ago)
+3. Stress (finding) (onset: 10+ years ago)
+4. Lack of access to transportation (finding) (onset: 10+ years ago)
+5. Prediabetes (finding) (onset: 5-10 years ago)
+6. Full-time employment (finding) (onset: 5-10 years ago)
+7. Body mass index 30+ - obesity (finding) (onset: 4 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 1099 days
+2. Part-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1099 days
+3. Social isolation (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 1099 days
+4. Unhealthy alcohol drinking behavior (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 1100 days
+5. Medication review due (situation) (onset: 4 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+6. Gingivitis (disorder) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+7. Suspected disease caused by Severe acute respiratory coronavirus 2 (situation) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: COVID-19 infection - recovery with supportive care
+   Time to Resolution: 1 days
+8. Cough (finding) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Symptom resolution
+   Time to Resolution: 23 days
+9. Fever (finding) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Symptom resolution
+   Time to Resolution: 23 days
+10. Loss of taste (finding) (onset: 3 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Post-viral symptom recovery
+   Time to Resolution: 23 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+2. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+3. 1 year ago: General examination of patient (procedure) (Status: finished)
+4. 3 years ago: Administration of vaccine to produce active immunity (procedure) (Status: finished)
+5. 3 years ago: Administration of vaccine to produce active immunity (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 182.3 cm (1 year ago)
+2. Body Weight: 99.9 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 30.06 kg/m2 (1 year ago)
+4. Blood pressure panel: 96/81 mm[Hg] (1 year ago)
+5. Heart rate: 74 /min (1 year ago)
+6. Glucose [Mass/volume] in Blood: 66.07 mg/dL (1 year ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 239.43 mg/dL (1 year ago)
+8. Low Density Lipoprotein Cholesterol: 155.91 mg/dL (1 year ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 57.52 mg/dL (1 year ago)
+10. Body temperature: 40.39 Cel (3 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 year ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 year ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: educated, high, school, level, (finding), transport, problem, stress, lack, access, transportation, medication, review, (situation), part-time, employment, social, isolation, prediabetes, full-time, unhealthy, alcohol, drinking, behavior, body, mass, index, obesity, gingivitis, (disorder), suspected, disease, caused, severe, acute, respiratory, coronavirus, cough, fever, loss, taste, syndrome, leaking, dental, filling, viral, sinusitis, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature, administrative, completed, lifestyle, behavioral, change, unspecified, natural, recovery, time-limited
+
+RISK_FACTORS: Diabetes risk, Alcohol use, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 7
+Total_Conditions_Count: 22
+Resolved_Conditions_Count: 15
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Alcohol use, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+Resolution_Methods: administrative/completed, lifestyle/behavioral change, unspecified, natural recovery/time-limited
+Common_Resolution_Approach: natural recovery/time-limited
+

@@ -1,0 +1,117 @@
+ANONYMOUS_PATIENT_ID: PATIENT_B0FE20B1
+AGE_GROUP: Adult (25-34)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Housing unsatisfactory (finding) (onset: 10+ years ago)
+2. Educated to high school level (finding) (onset: 10+ years ago)
+3. Full-time employment (finding) (onset: 3 years ago)
+4. Medication review due (situation) (onset: 1 year ago)
+5. Stress (finding) (onset: 1 year ago)
+6. Limited social contact (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+2. Part-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 372 days
+3. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 372 days
+4. Full-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1099 days
+5. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 224 days
+6. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+7. Part-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1099 days
+8. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 1099 days
+9. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 217 days
+10. Pre-eclampsia (disorder) (onset: 4 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 49 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 0 months ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+3. 1 months ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+4. 2 months ago: Patient-initiated encounter (procedure) - Reason: Normal pregnancy (finding) (Status: finished)
+5. 2 months ago: Prenatal initial visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 172 cm (0 months ago)
+2. Body Weight: 85.1 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 28.77 kg/m2 (0 months ago)
+4. Blood pressure panel: 126/85 mm[Hg] (0 months ago)
+5. Heart rate: 66 /min (0 months ago)
+6. Body Height: 172 cm (1 year ago)
+7. Body Weight: 83.5 kg (1 year ago)
+8. Body mass index (BMI) [Ratio]: 28.22 kg/m2 (1 year ago)
+9. Blood pressure panel: 132/78 mm[Hg] (1 year ago)
+10. Heart rate: 70 /min (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 2 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (3 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 11 (5-10 years ago)
+7. Total score [DAST-10]: 2 (5-10 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+3. Humiliation, Afraid, Rape, and Kick questionnaire [HARK] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), housing, unsatisfactory, (finding), educated, high, school, level, part-time, employment, stress, full-time, normal, pregnancy, pre-eclampsia, (disorder), primary, dental, caries, anemia, viral, sinusitis, limited, social, contact, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, [percentile], administrative, completed, lifestyle, behavioral, change, unspecified, natural, recovery, time-limited
+
+RISK_FACTORS: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: female
+Active_Conditions_Count: 6
+Total_Conditions_Count: 24
+Resolved_Conditions_Count: 18
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, lifestyle/behavioral change, unspecified, natural recovery/time-limited
+Common_Resolution_Approach: lifestyle/behavioral change
+

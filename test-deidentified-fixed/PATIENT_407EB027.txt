@@ -1,0 +1,119 @@
+ANONYMOUS_PATIENT_ID: PATIENT_407EB027
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Seizure disorder (disorder) (onset: 10+ years ago)
+2. History of seizure (situation) (onset: 10+ years ago)
+3. Epilepsy (disorder) (onset: 10+ years ago)
+4. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+5. Housing unsatisfactory (finding) (onset: 10+ years ago)
+6. Received higher education (finding) (onset: 10+ years ago)
+7. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+8. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+9. Recurrent urinary tract infection (disorder) (onset: 10+ years ago)
+10. Prediabetes (finding) (onset: 10+ years ago)
+11. Full-time employment (finding) (onset: 5-10 years ago)
+12. Anemia (disorder) (onset: 4 years ago)
+13. History of tubal ligation (situation) (onset: 3 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Unhealthy alcohol drinking behavior (finding) (onset: 10+ years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 4768 days
+2. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 4396 days
+3. Part-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1099 days
+4. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 1099 days
+5. Sprain (morphologic abnormality) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 37 days
+6. Sprain of ankle (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 37 days
+7. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 15 days
+8. Fractured dental filling (finding) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Short-term condition - likely self-limiting
+   Time to Resolution: 1 days
+9. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 217 days
+10. Normal pregnancy (finding) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 69 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 1 year ago: General examination of patient (procedure) (Status: finished)
+3. 3 years ago: Admission to surgical department (procedure) - Reason: Sterilization requested (situation) (Status: finished)
+4. 3 years ago: Emergency room admission (procedure) - Reason: Laceration - injury (disorder) (Status: finished)
+5. 3 years ago: Consultation for treatment (procedure) - Reason: Sterilization requested (situation) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 153.2 cm (1 year ago)
+2. Body Weight: 75.7 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 32.25 kg/m2 (1 year ago)
+4. Blood pressure panel: 126/78 mm[Hg] (1 year ago)
+5. Heart rate: 70 /min (1 year ago)
+6. Glucose [Mass/volume] in Blood: 72.29 mg/dL (1 year ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 192.39 mg/dL (1 year ago)
+8. Low Density Lipoprotein Cholesterol: 106.08 mg/dL (1 year ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 62.48 mg/dL (1 year ago)
+10. Body Height: 153.2 cm (4 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 0 (1 year ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Drug Abuse Screening Test-10 [DAST-10] (1 year ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: seizure, (disorder), history, (situation), epilepsy, past, pregnancy, miscarriage, housing, unsatisfactory, (finding), received, higher, education, victim, intimate, partner, abuse, unhealthy, alcohol, drinking, behavior, medication, review, body, mass, index, obesity, recurrent, urinary, tract, infection, prediabetes, part-time, employment, stress, sprain, (morphologic, abnormality), ankle, full-time, gingivitis, fractured, dental, filling, normal, second, trimester, complication, occurring, during, viral, sinusitis, anemia, sterilization, requested, laceration, injury, thigh, tubal, ligation, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, unspecified, administrative, completed, lifestyle, behavioral, change, natural, recovery, time-limited, healing
+
+RISK_FACTORS: Alcohol use, Obesity, Diabetes risk, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 13
+Total_Conditions_Count: 33
+Resolved_Conditions_Count: 20
+Recent_Encounters_Count: 5
+Risk_Factors: Alcohol use, Obesity, Diabetes risk, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+Resolution_Methods: unspecified, administrative/completed, lifestyle/behavioral change, natural recovery/time-limited, healing/recovery
+Common_Resolution_Approach: natural recovery/time-limited
+

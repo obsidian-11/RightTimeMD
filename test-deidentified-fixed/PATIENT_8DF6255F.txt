@@ -1,0 +1,146 @@
+ANONYMOUS_PATIENT_ID: PATIENT_8DF6255F
+AGE_GROUP: Middle-aged (45-54)
+GENDER: female
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) female patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Transport problem (finding) (onset: 10+ years ago)
+4. Lack of access to transportation (finding) (onset: 10+ years ago)
+5. Essential hypertension (disorder) (onset: 10+ years ago)
+6. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+7. Prediabetes (finding) (onset: 10+ years ago)
+8. Chronic pain (finding) (onset: 10+ years ago)
+9. Chronic low back pain (finding) (onset: 10+ years ago)
+10. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+11. Diabetes mellitus type 2 (disorder) (onset: 5-10 years ago)
+12. Refugee (person) (onset: 5-10 years ago)
+13. Hypertriglyceridemia (disorder) (onset: 5-10 years ago)
+14. Metabolic syndrome X (disorder) (onset: 5-10 years ago)
+15. Hyperglycemia (disorder) (onset: 5-10 years ago)
+16. Neuropathy due to type 2 diabetes mellitus (disorder) (onset: 5-10 years ago)
+17. Stress (finding) (onset: 3 years ago)
+18. Full-time employment (finding) (onset: 2 years ago)
+19. Unhealthy alcohol drinking behavior (finding) (onset: 2 years ago)
+20. Medication review due (situation) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 5936 days
+2. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1114 days
+3. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+4. Part-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 371 days
+5. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+6. Not in labor force (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 371 days
+7. Viral sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Viral infection - self-limiting
+   Time to Resolution: 11 days
+8. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+9. Part-time employment (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 372 days
+10. Not in labor force (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 371 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Ophthalmic examination and evaluation (procedure) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 1 year ago: Ophthalmic examination and evaluation (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 167.5 cm (0 months ago)
+2. Body Weight: 84.6 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 30.15 kg/m2 (0 months ago)
+4. Blood pressure panel: 134/100 mm[Hg] (0 months ago)
+5. Heart rate: 93 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 75.25 mg/dL (0 months ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 150.4 mg/dL (0 months ago)
+8. Low Density Lipoprotein Cholesterol: 75.23 mg/dL (0 months ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 51.65 mg/dL (0 months ago)
+10. Body Height: 167.5 cm (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 9 (0 months ago)
+4. Total score [DAST-10]: 2 (1 year ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (2 years ago)
+6. Total score [DAST-10]: 1 (2 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+8. Total score [DAST-10]: 0 (3 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (3 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 3 (3 years ago)
+11. Total score [DAST-10]: 0 (3 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (3 years ago)
+14. Total score [DAST-10]: 1 (4 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (4 years ago)
+16. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (4 years ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 13 (5-10 years ago)
+18. Total score [DAST-10]: 1 (5-10 years ago)
+19. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+20. Total score [DAST-10]: 2 (5-10 years ago)
+21. Total score [DAST-10]: 2 (5-10 years ago)
+22. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+23. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+24. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), received, higher, education, transport, problem, lack, access, transportation, essential, hypertension, (disorder), stress, body, mass, index, obesity, prediabetes, full-time, employment, chronic, pain, back, past, pregnancy, history, miscarriage, (situation), medication, review, diabetes, mellitus, type, part-time, refugee, (person), hypertriglyceridemia, metabolic, syndrome, labor, force, viral, sinusitis, limited, social, contact, normal, hyperglycemia, neuropathy, pre-eclampsia, unemployed, gingivitis, isolation, unhealthy, alcohol, drinking, behavior, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, lifestyle, behavioral, change, administrative, completed, natural, recovery, time-limited, unspecified
+
+RISK_FACTORS: Hypertension, Obesity, Diabetes risk, Alcohol use, Obesity (BMI ≥30), Elevated blood pressure, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: female
+Active_Conditions_Count: 20
+Total_Conditions_Count: 53
+Resolved_Conditions_Count: 33
+Recent_Encounters_Count: 5
+Risk_Factors: Hypertension, Obesity, Diabetes risk, Alcohol use, Obesity (BMI ≥30), Elevated blood pressure, Overweight (BMI 25-29.9)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, natural recovery/time-limited, unspecified
+Common_Resolution_Approach: lifestyle/behavioral change
+

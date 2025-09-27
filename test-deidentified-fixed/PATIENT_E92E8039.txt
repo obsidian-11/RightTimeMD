@@ -1,0 +1,107 @@
+ANONYMOUS_PATIENT_ID: PATIENT_E92E8039
+AGE_GROUP: Adolescent (13-17)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adolescent (13-17) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Atopic dermatitis (disorder) (onset: 10+ years ago)
+2. Perennial allergic rhinitis (disorder) (onset: 10+ years ago)
+3. Child attention deficit disorder (disorder) (onset: 4 years ago)
+4. Medication review due (situation) (onset: 2 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+3. Acute bacterial sinusitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 20 days
+4. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+5. Acute bronchitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 9 days
+6. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+7. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 161 days
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 8 days
+9. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+10. Fracture of bone (disorder) (onset: 5-10 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 74 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+2. 1 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+3. 1 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+4. 2 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+5. 3 months ago: Outpatient procedure (procedure) - Reason: Allergic disposition (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 167.1 cm (5 months ago)
+2. Body Weight: 70.4 kg (5 months ago)
+3. Body mass index (BMI) [Ratio]: 25.21 kg/m2 (5 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 89.097 % (5 months ago)
+5. Blood pressure panel: 121/81 mm[Hg] (5 months ago)
+6. Heart rate: 100 /min (5 months ago)
+7. Body Height: 163.5 cm (1 year ago)
+8. Body Weight: 68.4 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 25.6 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 92.506 % (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (2 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: atopic, dermatitis, (disorder), perennial, allergic, rhinitis, medication, review, (situation), acute, bacterial, sinusitis, bronchitis, gingivitis, fracture, bone, forearm, gingival, disease, child, attention, deficit, risk, activity, involvement, (finding), primary, dental, caries, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, administrative, completed, natural, recovery, time-limited, unspecified
+
+RISK_FACTORS: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adolescent (13-17)
+Gender: male
+Active_Conditions_Count: 4
+Total_Conditions_Count: 19
+Resolved_Conditions_Count: 15
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, natural recovery/time-limited, unspecified
+Common_Resolution_Approach: administrative/completed
+

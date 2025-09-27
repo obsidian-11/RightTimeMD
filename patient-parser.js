@@ -102,10 +102,181 @@ class FHIRPatientParser {
                 display: c.code?.coding?.[0]?.display || c.code?.text,
                 clinicalStatus: c.clinicalStatus?.coding?.[0]?.code, // active | resolved | etc.
                 onsetDate: c.onsetDateTime || c.onsetPeriod?.start,
+                abatementDate: c.abatementDateTime || c.abatementPeriod?.end,
                 recordedDate: c.recordedDate,
-                category: c.category?.[0]?.coding?.[0]?.display
+                category: c.category?.[0]?.coding?.[0]?.display,
+                resolutionInfo: this.getConditionResolutionInfo(c)
             };
         }).filter(c => c.display);
+    }
+
+    // Analyze how a condition was resolved using condition-specific logic and conservative treatment matching
+    getConditionResolutionInfo(condition) {
+        if (condition.clinicalStatus?.coding?.[0]?.code !== 'resolved') {
+            return null;
+        }
+
+        const resolutionInfo = {
+            method: 'unknown',
+            details: [],
+            timeToResolution: null
+        };
+
+        // Calculate time to resolution
+        if (condition.onsetDateTime && condition.abatementDateTime) {
+            const onset = new Date(condition.onsetDateTime);
+            const resolution = new Date(condition.abatementDateTime);
+            const diffDays = Math.ceil((resolution - onset) / (1000 * 60 * 60 * 24));
+            resolutionInfo.timeToResolution = diffDays;
+        }
+
+        // Get condition type for analysis
+        const conditionType = condition.code?.coding?.[0]?.display?.toLowerCase() || '';
+        const conditionCode = condition.code?.coding?.[0]?.code || '';
+
+        // Use condition-specific resolution logic instead of generic procedure/medication matching
+        return this.inferResolutionMethod(conditionType, conditionCode, resolutionInfo, condition);
+    }
+
+    // Improved condition-specific resolution inference
+    inferResolutionMethod(conditionType, conditionCode, resolutionInfo, condition) {
+        // Administrative and procedural completions
+        if (conditionType.includes('medication review')) {
+            resolutionInfo.method = 'administrative/completed';
+            resolutionInfo.details = ['Medication review completed'];
+            return resolutionInfo;
+        }
+
+        // Infectious diseases - typically resolve with time or antibiotics
+        if (conditionType.includes('viral sinusitis') || conditionType.includes('viral')) {
+            resolutionInfo.method = 'natural recovery/time-limited';
+            resolutionInfo.details = ['Viral infection - self-limiting'];
+            return resolutionInfo;
+        }
+
+        if (conditionType.includes('acute bronchitis') && conditionType.includes('acute')) {
+            if (resolutionInfo.timeToResolution && resolutionInfo.timeToResolution <= 21) {
+                resolutionInfo.method = 'natural recovery/time-limited';
+                resolutionInfo.details = ['Acute bronchitis - self-limiting'];
+            } else {
+                resolutionInfo.method = 'pharmacological';
+                resolutionInfo.details = ['Likely antibiotic treatment'];
+            }
+            return resolutionInfo;
+        }
+
+        if (conditionType.includes('otitis media')) {
+            if (resolutionInfo.timeToResolution && resolutionInfo.timeToResolution <= 14) {
+                resolutionInfo.method = 'natural recovery/time-limited';
+                resolutionInfo.details = ['Acute otitis media - self-limiting'];
+            } else {
+                resolutionInfo.method = 'pharmacological';
+                resolutionInfo.details = ['Likely antibiotic treatment'];
+            }
+            return resolutionInfo;
+        }
+
+        if (conditionType.includes('pharyngitis') || conditionType.includes('throat')) {
+            if (conditionType.includes('viral')) {
+                resolutionInfo.method = 'natural recovery/time-limited';
+                resolutionInfo.details = ['Viral pharyngitis - self-limiting'];
+            } else {
+                resolutionInfo.method = 'pharmacological';
+                resolutionInfo.details = ['Likely antibiotic treatment'];
+            }
+            return resolutionInfo;
+        }
+
+        // Injury and trauma
+        if (conditionType.includes('burn') || conditionType.includes('injury') || 
+            conditionType.includes('wound') || conditionType.includes('laceration')) {
+            if (conditionType.includes('full thickness') || conditionType.includes('severe')) {
+                resolutionInfo.method = 'surgical/procedural';
+                resolutionInfo.details = ['Wound care and possible surgical intervention'];
+            } else {
+                resolutionInfo.method = 'healing/recovery';
+                resolutionInfo.details = ['Natural healing with wound care'];
+            }
+            return resolutionInfo;
+        }
+
+        // Psychosocial and lifestyle conditions
+        if (conditionType.includes('stress') || conditionType.includes('anxiety')) {
+            resolutionInfo.method = 'lifestyle/behavioral change';
+            resolutionInfo.details = ['Stress management and behavioral interventions'];
+            return resolutionInfo;
+        }
+
+        if (conditionType.includes('employment') || conditionType.includes('labor force')) {
+            resolutionInfo.method = 'lifestyle/behavioral change';
+            resolutionInfo.details = ['Change in employment status'];
+            return resolutionInfo;
+        }
+
+        if (conditionType.includes('social contact') || conditionType.includes('isolation')) {
+            resolutionInfo.method = 'lifestyle/behavioral change';
+            resolutionInfo.details = ['Improvement in social connections'];
+            return resolutionInfo;
+        }
+
+        if (conditionType.includes('violence') || conditionType.includes('abuse')) {
+            resolutionInfo.method = 'lifestyle/behavioral change';
+            resolutionInfo.details = ['Environmental change and support services'];
+            return resolutionInfo;
+        }
+
+        // Respiratory conditions
+        if (conditionType.includes('cough') || conditionType.includes('sputum')) {
+            resolutionInfo.method = 'natural recovery/time-limited';
+            resolutionInfo.details = ['Symptom resolution'];
+            return resolutionInfo;
+        }
+
+        if (conditionType.includes('fever') || conditionType.includes('fatigue')) {
+            resolutionInfo.method = 'natural recovery/time-limited';
+            resolutionInfo.details = ['Symptom resolution'];
+            return resolutionInfo;
+        }
+
+        // COVID-related conditions
+        if (conditionType.includes('coronavirus') || conditionType.includes('covid') || 
+            conditionType.includes('sars')) {
+            resolutionInfo.method = 'natural recovery/time-limited';
+            resolutionInfo.details = ['COVID-19 infection - recovery with supportive care'];
+            return resolutionInfo;
+        }
+
+        if (conditionType.includes('loss of taste') || conditionType.includes('anosmia')) {
+            resolutionInfo.method = 'natural recovery/time-limited';
+            resolutionInfo.details = ['Post-viral symptom recovery'];
+            return resolutionInfo;
+        }
+
+        // Chronic conditions that resolve (unusual, but can happen)
+        if (conditionType.includes('diabetes') || conditionType.includes('prediabetes')) {
+            resolutionInfo.method = 'lifestyle/behavioral change';
+            resolutionInfo.details = ['Lifestyle modification and weight management'];
+            return resolutionInfo;
+        }
+
+        // Default cases
+        if (resolutionInfo.timeToResolution !== null) {
+            if (resolutionInfo.timeToResolution <= 7) {
+                resolutionInfo.method = 'natural recovery/time-limited';
+                resolutionInfo.details = ['Short-term condition - likely self-limiting'];
+            } else if (resolutionInfo.timeToResolution <= 30) {
+                resolutionInfo.method = 'natural recovery/time-limited';
+                resolutionInfo.details = ['Acute condition - likely self-limiting'];
+            } else {
+                resolutionInfo.method = 'unspecified';
+                resolutionInfo.details = ['Resolution method not clearly determinable'];
+            }
+        } else {
+            resolutionInfo.method = 'unspecified';
+            resolutionInfo.details = ['Resolution method not documented'];
+        }
+
+        return resolutionInfo;
     }
 
     getEncounters() {
@@ -334,6 +505,19 @@ class FHIRPatientParser {
                     console.log(`${i + 1}. ${c.display}`);
                     console.log(`   Status: ${c.clinicalStatus || 'Unknown'}`);
                     if (c.onsetDate) console.log(`   Onset: ${c.onsetDate}`);
+                    
+                    // Add resolution information for resolved conditions
+                    if (c.clinicalStatus === 'resolved' && c.resolutionInfo) {
+                        const res = c.resolutionInfo;
+                        if (c.abatementDate) console.log(`   Resolved: ${c.abatementDate}`);
+                        console.log(`   Resolution Method: ${res.method}`);
+                        if (res.details.length > 0) {
+                            console.log(`   Resolution Details: ${res.details.join(', ')}`);
+                        }
+                        if (res.timeToResolution !== null) {
+                            console.log(`   Time to Resolution: ${res.timeToResolution} days`);
+                        }
+                    }
                     console.log('');
                 });
         }

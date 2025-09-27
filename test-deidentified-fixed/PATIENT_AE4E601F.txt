@@ -1,0 +1,133 @@
+ANONYMOUS_PATIENT_ID: PATIENT_AE4E601F
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Only received primary school education (finding) (onset: 10+ years ago)
+2. Prediabetes (finding) (onset: 10+ years ago)
+3. Essential hypertension (disorder) (onset: 10+ years ago)
+4. Anemia (disorder) (onset: 10+ years ago)
+5. Has a criminal record (finding) (onset: 10+ years ago)
+6. Limited social contact (finding) (onset: 5-10 years ago)
+7. Body mass index 30+ - obesity (finding) (onset: 2 years ago)
+8. Metabolic syndrome X (disorder) (onset: 1 year ago)
+9. Full-time employment (finding) (onset: 1 year ago)
+10. Stress (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Change in employment status
+   Time to Resolution: 1485 days
+2. Social isolation (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 3340 days
+3. Limited social contact (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Improvement in social connections
+   Time to Resolution: 1113 days
+4. Stress (finding) (onset: 10+ years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 371 days
+5. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 77 days
+6. Acute bronchitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute bronchitis - self-limiting
+   Time to Resolution: 8 days
+7. Stress (finding) (onset: 5-10 years ago)
+   Resolution Method: lifestyle/behavioral change
+   Resolution Details: Stress management and behavioral interventions
+   Time to Resolution: 2975 days
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Acute condition - likely self-limiting
+   Time to Resolution: 14 days
+9. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+10. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 0 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+2. 1 months ago: Encounter for symptom (procedure) - Reason: Acute bronchitis (disorder) (Status: finished)
+3. 1 months ago: Encounter for check up (procedure) (Status: finished)
+4. 1 months ago: Urgent care clinic (environment) (Status: finished)
+5. 1 months ago: Urgent care clinic (environment) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 166.8 cm (1 months ago)
+2. Body Weight: 79.4 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 28.53 kg/m2 (1 months ago)
+4. Blood pressure panel: 136/93 mm[Hg] (1 months ago)
+5. Heart rate: 62 /min (1 months ago)
+6. Glucose [Mass/volume] in Blood: 71.6 mg/dL (1 months ago)
+7. Body Height: 166.8 cm (1 months ago)
+8. Body Weight: 79.7 kg (1 months ago)
+9. Body mass index (BMI) [Ratio]: 28.63 kg/m2 (1 months ago)
+10. Blood pressure panel: 140/97 mm[Hg] (1 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (1 months ago)
+3. Total score [DAST-10]: 1 (1 months ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 months ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (1 months ago)
+6. Total score [DAST-10]: 1 (1 year ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+8. Total score [DAST-10]: 2 (2 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (3 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+16. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+17. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+18. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+19. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+20. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+21. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: only, received, primary, school, education, (finding), prediabetes, essential, hypertension, (disorder), anemia, criminal, record, full-time, employment, social, isolation, limited, contact, stress, medication, review, (situation), acute, bronchitis, gingivitis, labor, force, viral, sinusitis, part-time, reports, violence, environment, pharyngitis, body, mass, index, obesity, metabolic, syndrome, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], temperature, cholesterol, serum, plasma, density, lipoprotein, lifestyle, behavioral, change, administrative, completed, natural, recovery, time-limited
+
+RISK_FACTORS: Diabetes risk, Hypertension, Obesity, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 10
+Total_Conditions_Count: 42
+Resolved_Conditions_Count: 32
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Hypertension, Obesity, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+Resolution_Methods: lifestyle/behavioral change, administrative/completed, natural recovery/time-limited
+Common_Resolution_Approach: lifestyle/behavioral change
+

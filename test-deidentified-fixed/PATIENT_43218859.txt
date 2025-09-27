@@ -1,0 +1,104 @@
+ANONYMOUS_PATIENT_ID: PATIENT_43218859
+AGE_GROUP: Adolescent (13-17)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adolescent (13-17) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 742 days
+2. Medication review due (situation) (onset: 5-10 years ago)
+   Resolution Method: administrative/completed
+   Resolution Details: Medication review completed
+   Time to Resolution: 371 days
+3. Otitis media (disorder) (onset: 4 years ago)
+   Resolution Method: pharmacological
+   Resolution Details: Likely antibiotic treatment
+   Time to Resolution: 364 days
+4. Suspected disease caused by Severe acute respiratory coronavirus 2 (situation) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: COVID-19 infection - recovery with supportive care
+   Time to Resolution: 1 days
+5. Headache (finding) (onset: 4 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 32 days
+6. Cough (finding) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Symptom resolution
+   Time to Resolution: 32 days
+7. Sputum finding (finding) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Symptom resolution
+   Time to Resolution: 32 days
+8. Fatigue (finding) (onset: 4 years ago)
+   Resolution Method: natural recovery/time-limited
+   Resolution Details: Symptom resolution
+   Time to Resolution: 32 days
+9. Muscle pain (finding) (onset: 4 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 32 days
+10. Joint pain (finding) (onset: 4 years ago)
+   Resolution Method: unspecified
+   Resolution Details: Resolution method not clearly determinable
+   Time to Resolution: 32 days
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Well child visit (procedure) (Status: finished)
+2. 1 year ago: Administration of vaccine to produce active immunity (procedure) (Status: finished)
+3. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+4. 1 year ago: Well child visit (procedure) (Status: finished)
+5. 2 years ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 155.8 cm (0 months ago)
+2. Body Weight: 48.7 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 20.06 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 71.218 % (0 months ago)
+5. Blood pressure panel: 85/71 mm[Hg] (0 months ago)
+6. Heart rate: 99 /min (0 months ago)
+7. Body Height: 148.7 cm (1 year ago)
+8. Body Weight: 44.4 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 20.05 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 78.252 % (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (1 year ago)
+
+DIAGNOSTIC REPORTS:
+1. Patient Health Questionnaire-9: Modified for Teens [Reported.PHQ.Teen] (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), otitis, media, (disorder), suspected, disease, caused, severe, acute, respiratory, coronavirus, headache, (finding), cough, sputum, fatigue, muscle, pain, joint, fever, loss, taste, syndrome, viral, pharyngitis, gingivitis, dental, filling, lost, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature, administrative, completed, pharmacological, natural, recovery, time-limited, unspecified
+
+RISK_FACTORS: Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adolescent (13-17)
+Gender: male
+Active_Conditions_Count: 1
+Total_Conditions_Count: 20
+Resolved_Conditions_Count: 19
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30)
+Resolution_Methods: administrative/completed, pharmacological, natural recovery/time-limited, unspecified
+Common_Resolution_Approach: natural recovery/time-limited
+
