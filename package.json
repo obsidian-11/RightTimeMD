@@ -1,0 +1,29 @@
+{
+  "name": "righttimemd",
+  "version": "1.0.0",
+  "description": "Welcome to RightTimeMD!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obsidian-11/RightTimeMD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obsidian-11/RightTimeMD/issues"
+  },
+  "homepage": "https://github.com/obsidian-11/RightTimeMD#readme",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
