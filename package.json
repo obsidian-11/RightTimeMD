@@ -10,10 +10,13 @@
     "build-diagnosis": "tsc medical_diagnosis.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
     "build-insurance": "tsc insurance_lookup.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
     "build-complete": "tsc complete_analysis.ts insurance_lookup.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
+    "build-selector": "tsc patient_selector.ts complete_analysis.ts insurance_lookup.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
     "run-test": "npm run build && node build/patient_extraction.js",
     "patient-extraction": "npm run build && node build/patient_extraction.js",
     "medical-diagnosis": "npm run build-diagnosis && node build/medical_diagnosis.js",
-    "complete-analysis": "npm run build-complete && node build/complete_analysis.js"
+    "complete-analysis": "npm run build-complete && node build/complete_analysis.js",
+    "patient-selector": "npm run build-selector && node build/patient_selector.js",
+    "analyze": "npm run build-selector"
   },
   "repository": {
     "type": "git",

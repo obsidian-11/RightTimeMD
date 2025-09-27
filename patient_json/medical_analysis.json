@@ -1,59 +1,59 @@
 {
   "metadata": {
-    "reportId": "report_1758996895478",
-    "generatedAt": "2025-09-27T18:14:55.478Z",
-    "patientId": "9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
-    "patientName": "Abel832 Darrel772 Zieme486",
-    "patientAge": 8,
-    "patientGender": "male"
+    "reportId": "report_1759001177697",
+    "generatedAt": "2025-09-27T19:26:17.697Z",
+    "patientId": "b83846b6-2c63-bcdb-a981-5d61e3b0f7f7",
+    "patientName": "Adele475 Pfannerstill264",
+    "patientAge": 66,
+    "patientGender": "female"
   },
   "diagnosis": {
-    "clinicalSummary": "8 year old male with no active medical conditions, recent vital signs within normal limits, and elevated hemoglobin levels.",
-    "healthAssessment": "Generally healthy with a history of viral infections and dental procedures.",
+    "clinicalSummary": "66-year-old female with multiple active medical conditions including obesity, chronic sinusitis, osteoarthritis, prediabetes, and anemia. Recent lab results indicate low hemoglobin levels.",
+    "healthAssessment": "Patient presents with obesity and chronic pain, which may contribute to her overall health decline. Anemia needs further evaluation.",
     "recommendations": [
-      "Monitor hemoglobin levels to assess for potential underlying conditions.",
-      "Continue regular dental check-ups and maintain oral hygiene.",
-      "Encourage a balanced diet to support overall health and growth."
+      "Evaluate and manage anemia with further lab tests and possible supplementation.",
+      "Implement a weight management program to address obesity and associated health risks.",
+      "Consider physical therapy for chronic low back pain and osteoarthritis management."
     ],
     "riskFactors": [
-      "History of respiratory infections",
-      "Dental issues"
+      "Obesity",
+      "Chronic pain"
     ],
-    "followUpNeeded": "6 months for routine check-up",
-    "urgencyLevel": "low"
+    "followUpNeeded": "4-6 weeks for anemia evaluation and management plan",
+    "urgencyLevel": "moderate"
   },
   "literature": [
     {
-      "pmid": "23796742",
-      "title": "Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years.",
-      "authors": "Wald, Applegate, Bordley et al.",
-      "journal": "Pediatrics",
-      "year": "2013",
-      "doi": "10.1542/peds.2013-1071",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23796742/",
-      "abstract": "To update the American Academy of Pediatrics clinical practice guideline regarding the diagnosis and management of acute bacterial sinusitis in children and adolescents...."
+      "pmid": "25575710",
+      "title": "Pharmacotherapy for neuropathic pain in adults: a systematic review and meta-analysis.",
+      "authors": "Finnerup, Attal, Haroutounian et al.",
+      "journal": "The Lancet. Neurology",
+      "year": "2015",
+      "doi": "10.1016/S1474-4422(14)70251-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25575710/",
+      "abstract": "New drug treatments, clinical trials, and standards of quality for assessment of evidence justify an update of evidence-based recommendations for the pharmacological treatment of neuropathic pain. Using the Grading of Recommendations Assessment, Development, and Evaluation (GRADE), we revised the Special Interest Group on Neuropathic Pain (NeuPSIG) recommendations for the pharmacotherapy of neuropathic pain based on the results of a systematic review and meta-analysis...."
     },
     {
-      "pmid": "19366560",
-      "title": "Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years.",
-      "authors": "Wald, Applegate, Bordley et al.",
-      "journal": "Pediatrics",
-      "year": "2013",
-      "doi": "10.1542/peds.2013-1071",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19366560/",
-      "abstract": "To update the American Academy of Pediatrics clinical practice guideline regarding the diagnosis and management of acute bacterial sinusitis in children and adolescents...."
+      "pmid": "31337484",
+      "title": "Pharmacotherapy for neuropathic pain in adults: a systematic review and meta-analysis.",
+      "authors": "Finnerup, Attal, Haroutounian et al.",
+      "journal": "The Lancet. Neurology",
+      "year": "2015",
+      "doi": "10.1016/S1474-4422(14)70251-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31337484/",
+      "abstract": "New drug treatments, clinical trials, and standards of quality for assessment of evidence justify an update of evidence-based recommendations for the pharmacological treatment of neuropathic pain. Using the Grading of Recommendations Assessment, Development, and Evaluation (GRADE), we revised the Special Interest Group on Neuropathic Pain (NeuPSIG) recommendations for the pharmacotherapy of neuropathic pain based on the results of a systematic review and meta-analysis...."
     },
     {
-      "pmid": "32747473",
-      "title": "Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years.",
-      "authors": "Wald, Applegate, Bordley et al.",
-      "journal": "Pediatrics",
-      "year": "2013",
-      "doi": "10.1542/peds.2013-1071",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32747473/",
-      "abstract": "To update the American Academy of Pediatrics clinical practice guideline regarding the diagnosis and management of acute bacterial sinusitis in children and adolescents...."
+      "pmid": "34812863",
+      "title": "Pharmacotherapy for neuropathic pain in adults: a systematic review and meta-analysis.",
+      "authors": "Finnerup, Attal, Haroutounian et al.",
+      "journal": "The Lancet. Neurology",
+      "year": "2015",
+      "doi": "10.1016/S1474-4422(14)70251-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34812863/",
+      "abstract": "New drug treatments, clinical trials, and standards of quality for assessment of evidence justify an update of evidence-based recommendations for the pharmacological treatment of neuropathic pain. Using the Grading of Recommendations Assessment, Development, and Evaluation (GRADE), we revised the Special Interest Group on Neuropathic Pain (NeuPSIG) recommendations for the pharmacotherapy of neuropathic pain based on the results of a systematic review and meta-analysis...."
     }
   ],
-  "searchQuery": "Acute viral pharyngitis (disorder) OR Viral sinusitis (disorder) pediatric treatment management",
+  "searchQuery": "Received higher education (finding) OR Social isolation (finding) adult treatment management",
   "disclaimer": "This analysis is generated by AI for educational purposes only. Always consult with qualified healthcare professionals for medical advice."
 }
