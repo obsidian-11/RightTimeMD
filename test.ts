@@ -202,18 +202,49 @@ async function demonstrateUtils(): Promise<void> {
             ).filter(Boolean));
             
             console.log('\n--- Encounters Array ---');
-            console.log(`Encounter Types (${encountersArray.length}):`, encountersArray.map(e => 
-                e.type?.[0]?.coding?.[0]?.display
-            ).filter(Boolean));
+            console.log(`Encounter Types with Details (${encountersArray.length}):`, encountersArray.map(e => {
+                const type = e.type?.[0]?.coding?.[0]?.display;
+                let details = '';
+                
+                // Check for description or reason codes
+                if (e.reasonCode && e.reasonCode.length > 0) {
+                    const reasons = e.reasonCode.map(rc => 
+                        rc.coding?.[0]?.display || rc.text
+                    ).filter(Boolean).join(', ');
+                    details += ` (Reason: ${reasons})`;
+                }
+                
+                // Check for diagnosis
+                if (e.diagnosis && e.diagnosis.length > 0) {
+                    details += ` (${e.diagnosis.length} diagnosis/diagnoses)`;
+                }
+                
+                // Check for encounter class details
+                if (e.class?.display && e.class.display !== type) {
+                    details += ` (Class: ${e.class.display})`;
+                }
+                
+                // Check for service type
+                if (e.serviceType?.coding?.[0]?.display) {
+                    details += ` (Service: ${e.serviceType.coding[0].display})`;
+                }
+                
+                // Check for priority
+                if (e.priority?.coding?.[0]?.display) {
+                    details += ` (Priority: ${e.priority.coding[0].display})`;
+                }
+                
+                // Check for status description
+                if (e.statusHistory && e.statusHistory.length > 0) {
+                    details += ` (Status history: ${e.statusHistory.length} entries)`;
+                }
+                
+                return type ? `${type}${details}` : null;
+            }).filter(Boolean));
             
             console.log('\n--- MedicationRequests Array ---');
             console.log(`Medication Names (${medicationRequestsArray.length}):`, medicationRequestsArray.map(m => 
                 m.medicationCodeableConcept?.coding?.[0]?.display || m.medicationCodeableConcept?.text
-            ).filter(Boolean));
-            
-            console.log('\n--- DiagnosticReports Array ---');
-            console.log(`DiagnosticReport Codes (${diagnosticReportsArray.length}):`, diagnosticReportsArray.map(d => 
-                d.code?.coding?.[0]?.display || d.code?.text
             ).filter(Boolean));
             
             console.log('\n--- Immunizations Array ---');
