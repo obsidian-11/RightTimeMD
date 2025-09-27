@@ -136,6 +136,58 @@ async function demonstrateUtils(): Promise<void> {
             const immunizations = bundleUtils.getResources(bundle.entry, 'Immunization');
             console.log(`Found ${immunizations.length} Immunization resource(s)`);
             
+            console.log('\n=== All Resources in Arrays ===');
+            
+            // Convert all resource types to actual resource arrays
+            const patientsArray = patients.map((entry: any) => entry.resource);
+            const observationsArray = observations.map((entry: any) => entry.resource);
+            const conditionsArray = conditions.map((entry: any) => entry.resource);
+            const proceduresArray = procedures.map((entry: any) => entry.resource);
+            const encountersArray = encounters.map((entry: any) => entry.resource);
+            const medicationRequestsArray = medicationRequests.map((entry: any) => entry.resource);
+            const diagnosticReportsArray = diagnosticReports.map((entry: any) => entry.resource);
+            const immunizationsArray = immunizations.map((entry: any) => entry.resource);
+            
+            console.log('\n--- Patients Array ---');
+            console.log(`Patient Names (${patientsArray.length}):`, patientsArray.map(p => 
+                `${p.name?.[0]?.given?.join(' ')} ${p.name?.[0]?.family}`
+            ));
+            
+            console.log('\n--- Observations Array ---');
+            console.log(`Observation Codes (${observationsArray.length}):`, observationsArray.map(o => 
+                o.code?.coding?.[0]?.display || o.code?.text
+            ).filter(Boolean));
+            
+            console.log('\n--- Conditions Array ---');
+            console.log(`Condition Codes (${conditionsArray.length}):`, conditionsArray.map(c => 
+                c.code?.coding?.[0]?.display || c.code?.text
+            ).filter(Boolean));
+            
+            console.log('\n--- Procedures Array ---');
+            console.log(`Procedure Codes (${proceduresArray.length}):`, proceduresArray.map(p => 
+                p.code?.coding?.[0]?.display || p.code?.text
+            ).filter(Boolean));
+            
+            console.log('\n--- Encounters Array ---');
+            console.log(`Encounter Types (${encountersArray.length}):`, encountersArray.map(e => 
+                e.type?.[0]?.coding?.[0]?.display
+            ).filter(Boolean));
+            
+            console.log('\n--- MedicationRequests Array ---');
+            console.log(`Medication Names (${medicationRequestsArray.length}):`, medicationRequestsArray.map(m => 
+                m.medicationCodeableConcept?.coding?.[0]?.display || m.medicationCodeableConcept?.text
+            ).filter(Boolean));
+            
+            console.log('\n--- DiagnosticReports Array ---');
+            console.log(`DiagnosticReport Codes (${diagnosticReportsArray.length}):`, diagnosticReportsArray.map(d => 
+                d.code?.coding?.[0]?.display || d.code?.text
+            ).filter(Boolean));
+            
+            console.log('\n--- Immunizations Array ---');
+            console.log(`Vaccine Codes (${immunizationsArray.length}):`, immunizationsArray.map(i => 
+                i.vaccineCode?.coding?.[0]?.display || i.vaccineCode?.text
+            ).filter(Boolean));
+            
             // Get a specific resource by ID (if we know one exists)
             const patientId = '9f5247cc-6762-3d1d-ebc6-29bf03f921e4';
             const specificPatient = bundleUtils.getResource(bundle.entry, patientId);
