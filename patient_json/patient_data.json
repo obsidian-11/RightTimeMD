@@ -1,0 +1,4879 @@
+{
+  "patients": [
+    {
+      "name": "Abel832 Darrel772 Zieme486",
+      "gender": "male",
+      "birthDate": "2017-05-20",
+      "id": "9f5247cc-6762-3d1d-ebc6-29bf03f921e4"
+    }
+  ],
+  "observations": [
+    {
+      "id": "ca8f1b81-e6c7-d1b7-5018-2bd262803e7f",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "55.2 cm",
+      "valueQuantity": {
+        "value": 55.2,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "cac2e823-853d-4103-fa61-e90d5b4300c9",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "4 {score}",
+      "valueQuantity": {
+        "value": 4,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "4c9124f0-600a-ccb2-8319-d90d2fc02b99",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "3.7 kg",
+      "valueQuantity": {
+        "value": 3.7,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "94ee8381-09cf-30de-a46f-6702fbd63ebd",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "0.16659 %",
+      "valueQuantity": {
+        "value": 0.16659,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "d30610c4-1392-2349-a0e5-b48336e3d516",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "44a5f351-a175-6fd7-06fd-fba6c90ffe7a",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "37.65 cm",
+      "valueQuantity": {
+        "value": 37.65,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "35f35acd-a247-ca1b-cf6c-4ef3b3be9203",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 79,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 103,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 79 mm[Hg], Systolic Blood Pressure: 103 mm[Hg]"
+    },
+    {
+      "id": "56957e1c-2023-7c83-8250-0536623ae411",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "71 /min",
+      "valueQuantity": {
+        "value": 71,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "e4fa8302-b399-f227-b8fa-bb58d596585f",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "13 /min",
+      "valueQuantity": {
+        "value": 13,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "72c39f6d-24ce-6a52-4139-793bc39b1bcb",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Leukocytes [#/volume] in Blood by Automated count",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "7.0033 10*3/uL",
+      "valueQuantity": {
+        "value": 7.0033,
+        "unit": "10*3/uL",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*3/uL"
+      }
+    },
+    {
+      "id": "d6c1bcde-afcf-af50-b592-3da3028bea75",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Erythrocytes [#/volume] in Blood by Automated count",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "5.2625 10*6/uL",
+      "valueQuantity": {
+        "value": 5.2625,
+        "unit": "10*6/uL",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*6/uL"
+      }
+    },
+    {
+      "id": "f72b73f0-78f4-2694-a5bd-571077a06eeb",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Hemoglobin [Mass/volume] in Blood",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "16.582 g/dL",
+      "valueQuantity": {
+        "value": 16.582,
+        "unit": "g/dL",
+        "system": "http://unitsofmeasure.org",
+        "code": "g/dL"
+      }
+    },
+    {
+      "id": "32eb75ab-53ca-bdb5-01d7-0ef4c3850f67",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "47.261 %",
+      "valueQuantity": {
+        "value": 47.261,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "9f69be99-0c88-6b6e-9d58-39eeb3b2ef8b",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "MCV [Entitic volume] by Automated count",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "93.456 fL",
+      "valueQuantity": {
+        "value": 93.456,
+        "unit": "fL",
+        "system": "http://unitsofmeasure.org",
+        "code": "fL"
+      }
+    },
+    {
+      "id": "7a347c5a-2f00-9794-5a28-08f6dba5eb4c",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "MCH [Entitic mass] by Automated count",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "29.598 pg",
+      "valueQuantity": {
+        "value": 29.598,
+        "unit": "pg",
+        "system": "http://unitsofmeasure.org",
+        "code": "pg"
+      }
+    },
+    {
+      "id": "9a78b9a7-4af1-ba80-df06-fc2d35a8896f",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "MCHC [Mass/volume] by Automated count",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "35.114 g/dL",
+      "valueQuantity": {
+        "value": 35.114,
+        "unit": "g/dL",
+        "system": "http://unitsofmeasure.org",
+        "code": "g/dL"
+      }
+    },
+    {
+      "id": "d58d0513-7760-bfec-2a84-923cdb2fb12a",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Erythrocyte distribution width [Entitic volume] by Automated count",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "39.067 fL",
+      "valueQuantity": {
+        "value": 39.067,
+        "unit": "fL",
+        "system": "http://unitsofmeasure.org",
+        "code": "fL"
+      }
+    },
+    {
+      "id": "0dfb64eb-7d47-1a30-d08f-379908e551c0",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Platelets [#/volume] in Blood by Automated count",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "432.88 10*3/uL",
+      "valueQuantity": {
+        "value": 432.88,
+        "unit": "10*3/uL",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*3/uL"
+      }
+    },
+    {
+      "id": "f36416fd-2727-ca59-e146-9ef53bdd7436",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "356.79 fL",
+      "valueQuantity": {
+        "value": 356.79,
+        "unit": "fL",
+        "system": "http://unitsofmeasure.org",
+        "code": "fL"
+      }
+    },
+    {
+      "id": "ac676533-f86f-3ea3-78e6-20cc373d2e6e",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Platelet mean volume [Entitic volume] in Blood by Automated count",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "10.443 fL",
+      "valueQuantity": {
+        "value": 10.443,
+        "unit": "fL",
+        "system": "http://unitsofmeasure.org",
+        "code": "fL"
+      }
+    },
+    {
+      "id": "aae891d6-1dc8-f44f-caea-42dd868d2f88",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2017-05-20T13:54:59-04:00",
+      "issued": "2017-05-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "d07f91a6-9ef2-8bfc-b1bc-715e68876cc4",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2017-06-24T13:54:59-04:00",
+      "issued": "2017-06-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "59.1 cm",
+      "valueQuantity": {
+        "value": 59.1,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "f707efaf-8b16-412c-9cfb-d8347c1e2849",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2017-06-24T13:54:59-04:00",
+      "issued": "2017-06-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "3 {score}",
+      "valueQuantity": {
+        "value": 3,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "cc2a41e5-bb3e-fb60-485f-e599cc1f3459",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2017-06-24T13:54:59-04:00",
+      "issued": "2017-06-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "4.6 kg",
+      "valueQuantity": {
+        "value": 4.6,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "72a584ec-232c-c90b-a0e2-c717e71079bd",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2017-06-24T13:54:59-04:00",
+      "issued": "2017-06-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "0.12413 %",
+      "valueQuantity": {
+        "value": 0.12413,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "0557688c-bc25-c141-9917-155f4d89ad6b",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2017-06-24T13:54:59-04:00",
+      "issued": "2017-06-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "bd2af44a-9082-2abf-516d-76f5340ccc7d",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2017-06-24T13:54:59-04:00",
+      "issued": "2017-06-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "40.83 cm",
+      "valueQuantity": {
+        "value": 40.83,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "4e023f4d-6f34-4816-fe13-f988a3738a0b",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2017-06-24T13:54:59-04:00",
+      "issued": "2017-06-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 87,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 103,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 87 mm[Hg], Systolic Blood Pressure: 103 mm[Hg]"
+    },
+    {
+      "id": "c4592fb9-656e-0cf3-42a4-4bdbfa6034e3",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2017-06-24T13:54:59-04:00",
+      "issued": "2017-06-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "92 /min",
+      "valueQuantity": {
+        "value": 92,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "41f3eefa-3948-25c6-5645-316d733bfac6",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2017-06-24T13:54:59-04:00",
+      "issued": "2017-06-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "15 /min",
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "64ce0c9a-dfdd-18fe-40a7-0d5b8903f99c",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2017-06-24T13:54:59-04:00",
+      "issued": "2017-06-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "dce07840-5f05-beee-a0e2-c840d86162d5",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2017-08-26T13:54:59-04:00",
+      "issued": "2017-08-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "64.6 cm",
+      "valueQuantity": {
+        "value": 64.6,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "4ac373f4-8a78-c581-7238-45890b669661",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2017-08-26T13:54:59-04:00",
+      "issued": "2017-08-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "0 {score}",
+      "valueQuantity": {
+        "value": 0,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "b9b1cce4-208b-af88-9ed5-7c55785c5a08",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2017-08-26T13:54:59-04:00",
+      "issued": "2017-08-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "6 kg",
+      "valueQuantity": {
+        "value": 6,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "d511348c-4e7d-6b21-2ba9-856ae0aa7fd7",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2017-08-26T13:54:59-04:00",
+      "issued": "2017-08-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "0.25921 %",
+      "valueQuantity": {
+        "value": 0.25921,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "883620f1-6364-6a06-33a6-7b02018a7869",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2017-08-26T13:54:59-04:00",
+      "issued": "2017-08-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "1540f4e3-85b5-726b-cc3a-919822eb01c4",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2017-08-26T13:54:59-04:00",
+      "issued": "2017-08-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "43.26 cm",
+      "valueQuantity": {
+        "value": 43.26,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "4062beca-bc73-0085-fb50-fb020db92486",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2017-08-26T13:54:59-04:00",
+      "issued": "2017-08-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 88,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 105,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 88 mm[Hg], Systolic Blood Pressure: 105 mm[Hg]"
+    },
+    {
+      "id": "0f4c9c65-9820-5185-8afd-ee1b1b2b6a28",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2017-08-26T13:54:59-04:00",
+      "issued": "2017-08-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "62 /min",
+      "valueQuantity": {
+        "value": 62,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "a975d401-e758-0f7b-2de2-b3ce17232a68",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2017-08-26T13:54:59-04:00",
+      "issued": "2017-08-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "13 /min",
+      "valueQuantity": {
+        "value": 13,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "9b25120a-6028-2497-f6b2-4695ca3b1a3b",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2017-08-26T13:54:59-04:00",
+      "issued": "2017-08-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "2a8704d2-01c7-53b0-9450-3be213b14bcb",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body temperature",
+      "effectiveDateTime": "2017-09-19T19:54:59-04:00",
+      "issued": "2017-09-19T19:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "37.035 Cel",
+      "valueQuantity": {
+        "value": 37.035,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    },
+    {
+      "id": "f5fbe301-12e7-c1fb-a6fc-1093f519160e",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2017-10-28T13:54:59-04:00",
+      "issued": "2017-10-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "68.7 cm",
+      "valueQuantity": {
+        "value": 68.7,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "a807bc22-9df1-7158-d67d-f0c64970e82c",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2017-10-28T13:54:59-04:00",
+      "issued": "2017-10-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "4 {score}",
+      "valueQuantity": {
+        "value": 4,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "8499360a-c5c8-ccaa-983e-f22679d38503",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2017-10-28T13:54:59-04:00",
+      "issued": "2017-10-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "7.2 kg",
+      "valueQuantity": {
+        "value": 7.2,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "492fc89a-a45c-d46f-dd1d-1687b6bb7935",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2017-10-28T13:54:59-04:00",
+      "issued": "2017-10-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "2.4132 %",
+      "valueQuantity": {
+        "value": 2.4132,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "2f1ffbf7-4bdb-2061-3495-1ae5e612bc68",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2017-10-28T13:54:59-04:00",
+      "issued": "2017-10-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "0d40962b-7b0c-3409-1772-3d62a19c212b",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2017-10-28T13:54:59-04:00",
+      "issued": "2017-10-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "44.83 cm",
+      "valueQuantity": {
+        "value": 44.83,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "87dcffad-a9f8-f3af-2979-f7dfb33c0e19",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2017-10-28T13:54:59-04:00",
+      "issued": "2017-10-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 79,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 111,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 79 mm[Hg], Systolic Blood Pressure: 111 mm[Hg]"
+    },
+    {
+      "id": "7800e0bc-cad5-25e1-8418-94d09b99b9ec",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2017-10-28T13:54:59-04:00",
+      "issued": "2017-10-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "65 /min",
+      "valueQuantity": {
+        "value": 65,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "08bcb405-93e2-77f6-a48f-f11c9086b818",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2017-10-28T13:54:59-04:00",
+      "issued": "2017-10-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "13 /min",
+      "valueQuantity": {
+        "value": 13,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "ef7cea06-d934-94c2-af19-3ce7ebf9ed57",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2017-10-28T13:54:59-04:00",
+      "issued": "2017-10-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "1166f414-5028-93b1-9891-528b0e99ea12",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2018-01-27T12:54:59-05:00",
+      "issued": "2018-01-27T12:54:59.376-05:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "73.7 cm",
+      "valueQuantity": {
+        "value": 73.7,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "29c080e7-8e38-428b-adcf-d5d9f8ad97a4",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2018-01-27T12:54:59-05:00",
+      "issued": "2018-01-27T12:54:59.376-05:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "4 {score}",
+      "valueQuantity": {
+        "value": 4,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "e6067833-6181-dd2a-2429-7d6b7a69ec43",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2018-01-27T12:54:59-05:00",
+      "issued": "2018-01-27T12:54:59.376-05:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "8.6 kg",
+      "valueQuantity": {
+        "value": 8.6,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "c1d651e2-4144-68cf-ef0c-87a8d6e30cbc",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2018-01-27T12:54:59-05:00",
+      "issued": "2018-01-27T12:54:59.376-05:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "8.6504 %",
+      "valueQuantity": {
+        "value": 8.6504,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "ec63b11c-ebf7-8de4-e6a7-eaeee284bd10",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2018-01-27T12:54:59-05:00",
+      "issued": "2018-01-27T12:54:59.376-05:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "46cec580-f2a6-33d5-8344-c3c9a94d906f",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2018-01-27T12:54:59-05:00",
+      "issued": "2018-01-27T12:54:59.376-05:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "46.45 cm",
+      "valueQuantity": {
+        "value": 46.45,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "57105994-e6fd-536d-3c42-a32da32ad3cd",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2018-01-27T12:54:59-05:00",
+      "issued": "2018-01-27T12:54:59.376-05:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 85,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 108,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 85 mm[Hg], Systolic Blood Pressure: 108 mm[Hg]"
+    },
+    {
+      "id": "9bcbb68f-0f72-d7c0-693c-851480c29961",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2018-01-27T12:54:59-05:00",
+      "issued": "2018-01-27T12:54:59.376-05:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "65 /min",
+      "valueQuantity": {
+        "value": 65,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "41205fca-23e9-a410-2271-bd200a7a8620",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2018-01-27T12:54:59-05:00",
+      "issued": "2018-01-27T12:54:59.376-05:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "16 /min",
+      "valueQuantity": {
+        "value": 16,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "407b2c7a-863b-a902-c0de-f6cc374f18b6",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2018-01-27T12:54:59-05:00",
+      "issued": "2018-01-27T12:54:59.376-05:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "7f9b87be-269c-13c1-62b2-91dee7acc235",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2018-04-28T13:54:59-04:00",
+      "issued": "2018-04-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "77.8 cm",
+      "valueQuantity": {
+        "value": 77.8,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "0bacc841-e0f9-4318-511d-552de8fca26b",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2018-04-28T13:54:59-04:00",
+      "issued": "2018-04-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "2 {score}",
+      "valueQuantity": {
+        "value": 2,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "6467f81b-49e2-3c24-fff8-d533de6c56a4",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2018-04-28T13:54:59-04:00",
+      "issued": "2018-04-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "9.7 kg",
+      "valueQuantity": {
+        "value": 9.7,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "3fcb286e-6c72-8a74-f390-3f92c6c237e3",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2018-04-28T13:54:59-04:00",
+      "issued": "2018-04-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "16.27 %",
+      "valueQuantity": {
+        "value": 16.27,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "f2fcac27-6662-ecef-e2d0-5a51529b3319",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2018-04-28T13:54:59-04:00",
+      "issued": "2018-04-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "2f596f71-484f-6915-00ff-2a126725f281",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2018-04-28T13:54:59-04:00",
+      "issued": "2018-04-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "47.58 cm",
+      "valueQuantity": {
+        "value": 47.58,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "5c64c5d7-a9bf-5c31-2231-e0aa2c8d5b1f",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2018-04-28T13:54:59-04:00",
+      "issued": "2018-04-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 89,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 111,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 89 mm[Hg], Systolic Blood Pressure: 111 mm[Hg]"
+    },
+    {
+      "id": "9388c252-85f9-fe4a-0e65-ea3057ea8b85",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2018-04-28T13:54:59-04:00",
+      "issued": "2018-04-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "64 /min",
+      "valueQuantity": {
+        "value": 64,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "7dd937ac-fb5b-59d8-64a6-d3dd4723db0e",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2018-04-28T13:54:59-04:00",
+      "issued": "2018-04-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "15 /min",
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "35dd9d11-76a7-1053-5f77-e797e53905ca",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2018-04-28T13:54:59-04:00",
+      "issued": "2018-04-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "84360363-4849-8ef4-5f35-e21834a8da3b",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body temperature",
+      "effectiveDateTime": "2018-05-02T17:54:59-04:00",
+      "issued": "2018-05-02T17:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "37.935 Cel",
+      "valueQuantity": {
+        "value": 37.935,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    },
+    {
+      "id": "91266578-15d2-cce3-ad90-25b64f15c298",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2018-05-12T13:54:59-04:00",
+      "issued": "2018-05-12T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "77.8 cm",
+      "valueQuantity": {
+        "value": 77.8,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "aabe5cf9-647a-92e9-101e-fbd0835a5340",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2018-05-12T13:54:59-04:00",
+      "issued": "2018-05-12T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "1 {score}",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "814769a6-780c-ae45-ab6f-848a0fb5a3b7",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2018-05-12T13:54:59-04:00",
+      "issued": "2018-05-12T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "9.7 kg",
+      "valueQuantity": {
+        "value": 9.7,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "9062d170-3da5-75eb-a348-8d31ff5f1d4f",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2018-05-12T13:54:59-04:00",
+      "issued": "2018-05-12T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "16.27 %",
+      "valueQuantity": {
+        "value": 16.27,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "af68d07d-98dc-b8d3-375b-b8fd1981d3e9",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2018-05-12T13:54:59-04:00",
+      "issued": "2018-05-12T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "93c8c738-8511-eef2-f13b-40036e5f055d",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2018-05-12T13:54:59-04:00",
+      "issued": "2018-05-12T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "47.58 cm",
+      "valueQuantity": {
+        "value": 47.58,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "7bfb4320-5369-5e7d-a1ff-e103594e1a65",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2018-05-12T13:54:59-04:00",
+      "issued": "2018-05-12T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 85,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 108,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 85 mm[Hg], Systolic Blood Pressure: 108 mm[Hg]"
+    },
+    {
+      "id": "d6e5ec24-97dd-5d02-a3b8-485d3684d819",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2018-05-12T13:54:59-04:00",
+      "issued": "2018-05-12T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "61 /min",
+      "valueQuantity": {
+        "value": 61,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "7613288a-e3e9-632c-0e6a-aef99b2a2054",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2018-05-12T13:54:59-04:00",
+      "issued": "2018-05-12T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "13 /min",
+      "valueQuantity": {
+        "value": 13,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "4bb738d9-6ac3-3a8d-0799-36e2d5bf34b1",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2018-05-12T13:54:59-04:00",
+      "issued": "2018-05-12T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "4501c780-298a-c57e-0ca0-6d06b7ff9889",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2018-07-28T13:54:59-04:00",
+      "issued": "2018-07-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "81.4 cm",
+      "valueQuantity": {
+        "value": 81.4,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "349183e6-4478-f3ad-3347-a65d3bf5dfb3",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2018-07-28T13:54:59-04:00",
+      "issued": "2018-07-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "3 {score}",
+      "valueQuantity": {
+        "value": 3,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "5fa63716-1e33-5ad5-253b-28b88ca3e1e6",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2018-07-28T13:54:59-04:00",
+      "issued": "2018-07-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "10.4 kg",
+      "valueQuantity": {
+        "value": 10.4,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "0c75d3c4-ce5d-5701-8286-23ff0afc7d76",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2018-07-28T13:54:59-04:00",
+      "issued": "2018-07-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "18.471 %",
+      "valueQuantity": {
+        "value": 18.471,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "2098a715-c545-f743-88d7-0c0a6bf11108",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2018-07-28T13:54:59-04:00",
+      "issued": "2018-07-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "88424211-2508-f7a1-4bea-370e517f8ac0",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2018-07-28T13:54:59-04:00",
+      "issued": "2018-07-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "48.44 cm",
+      "valueQuantity": {
+        "value": 48.44,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "6d6513ea-1835-63da-9950-72d9d0ac2b90",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2018-07-28T13:54:59-04:00",
+      "issued": "2018-07-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 87,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 99,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 87 mm[Hg], Systolic Blood Pressure: 99 mm[Hg]"
+    },
+    {
+      "id": "e8913655-7981-3f64-3301-647ff120a25e",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2018-07-28T13:54:59-04:00",
+      "issued": "2018-07-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "69 /min",
+      "valueQuantity": {
+        "value": 69,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "87b5a603-ec10-ae28-6dcd-f09063543fa8",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2018-07-28T13:54:59-04:00",
+      "issued": "2018-07-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "13 /min",
+      "valueQuantity": {
+        "value": 13,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "4ca64c27-6dcd-a242-4b0d-2d7088de9cc6",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2018-07-28T13:54:59-04:00",
+      "issued": "2018-07-28T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "7c930600-9e02-a858-7517-ad542e12c7f4",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2018-10-27T13:54:59-04:00",
+      "issued": "2018-10-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "84.6 cm",
+      "valueQuantity": {
+        "value": 84.6,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "d4640351-c2d4-52e9-ad58-4ef71512e98e",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2018-10-27T13:54:59-04:00",
+      "issued": "2018-10-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "0 {score}",
+      "valueQuantity": {
+        "value": 0,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "ae6ddd6f-2ef1-7211-af94-e1b8d4a52da1",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2018-10-27T13:54:59-04:00",
+      "issued": "2018-10-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "11 kg",
+      "valueQuantity": {
+        "value": 11,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "28dc9a76-70fd-544a-caf2-05a2883393c6",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2018-10-27T13:54:59-04:00",
+      "issued": "2018-10-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "11.365 %",
+      "valueQuantity": {
+        "value": 11.365,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "f9988f16-7030-1f47-bbd6-c8bf4bbe1907",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2018-10-27T13:54:59-04:00",
+      "issued": "2018-10-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "b4bc59c4-0bb6-7fa6-6784-39e7144d2c9a",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2018-10-27T13:54:59-04:00",
+      "issued": "2018-10-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "49.11 cm",
+      "valueQuantity": {
+        "value": 49.11,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "c6cc6203-74f6-6b7e-fec6-b4288a5eb51c",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2018-10-27T13:54:59-04:00",
+      "issued": "2018-10-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 84,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 99,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 84 mm[Hg], Systolic Blood Pressure: 99 mm[Hg]"
+    },
+    {
+      "id": "018322e1-3fa8-c7d3-a2ff-207e760b4d6f",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2018-10-27T13:54:59-04:00",
+      "issued": "2018-10-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "79 /min",
+      "valueQuantity": {
+        "value": 79,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "6407157c-0f9f-bee7-8fe3-aaa7300cb44e",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2018-10-27T13:54:59-04:00",
+      "issued": "2018-10-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "13 /min",
+      "valueQuantity": {
+        "value": 13,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "60f2b7dd-9de8-3589-4126-64858c574336",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2018-10-27T13:54:59-04:00",
+      "issued": "2018-10-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "674eba62-b478-fdf0-9eba-a08d75304ee0",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2019-04-27T13:54:59-04:00",
+      "issued": "2019-04-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "90.2 cm",
+      "valueQuantity": {
+        "value": 90.2,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "abb8df02-bb01-429a-d6dd-5b24121baa5c",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2019-04-27T13:54:59-04:00",
+      "issued": "2019-04-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "0 {score}",
+      "valueQuantity": {
+        "value": 0,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "45f971e7-94d2-b94f-9f72-c30fe8c910af",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2019-04-27T13:54:59-04:00",
+      "issued": "2019-04-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "12 kg",
+      "valueQuantity": {
+        "value": 12,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "1f4e13d6-84a2-249a-3834-b34720263c0c",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2019-04-27T13:54:59-04:00",
+      "issued": "2019-04-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "10.378 %",
+      "valueQuantity": {
+        "value": 10.378,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "3da23d4b-9d22-2e7e-8833-f4a9be1085db",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2019-04-27T13:54:59-04:00",
+      "issued": "2019-04-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "e1849979-b4a7-efab-5864-30eefbef66a4",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2019-04-27T13:54:59-04:00",
+      "issued": "2019-04-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "50.1 cm",
+      "valueQuantity": {
+        "value": 50.1,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "0ba53f4d-13c8-4c66-cf53-1de35ab60a42",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2019-04-27T13:54:59-04:00",
+      "issued": "2019-04-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 87,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 111,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 87 mm[Hg], Systolic Blood Pressure: 111 mm[Hg]"
+    },
+    {
+      "id": "43fbbb75-3f01-704d-ff4b-15110891138e",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2019-04-27T13:54:59-04:00",
+      "issued": "2019-04-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "61 /min",
+      "valueQuantity": {
+        "value": 61,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "49a6adfe-79cc-e530-a235-d7108bd8451d",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2019-04-27T13:54:59-04:00",
+      "issued": "2019-04-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "14 /min",
+      "valueQuantity": {
+        "value": 14,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "0f81898b-f927-9c4f-13d2-d7f41bbea30b",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2019-04-27T13:54:59-04:00",
+      "issued": "2019-04-27T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "211f4700-06f4-a28e-8256-3abc520b01d7",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "94.2 cm",
+      "valueQuantity": {
+        "value": 94.2,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "c1cb9739-1669-424f-84da-50eec8ceb57f",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "1 {score}",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "023127c9-c64a-3f66-a070-0c246dc6606e",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "13.1 kg",
+      "valueQuantity": {
+        "value": 13.1,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "3126d5bb-110a-c54c-47cc-8de3e032cda9",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "15.865 %",
+      "valueQuantity": {
+        "value": 15.865,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "d99f11d2-1129-3e4e-011f-54328056288a",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "fee44aa3-6358-8ca0-9c90-fac8953eb38c",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "50.81 cm",
+      "valueQuantity": {
+        "value": 50.81,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "114ef422-3740-3c5d-96b8-1ebe3f0f73ec",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Ratio]",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "14.74 kg/m2",
+      "valueQuantity": {
+        "value": 14.74,
+        "unit": "kg/m2",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg/m2"
+      }
+    },
+    {
+      "id": "d49bf479-337f-51cb-d1cc-498141b5738d",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Percentile] Per age and sex",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "7.5535 %",
+      "valueQuantity": {
+        "value": 7.5535,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "6eb8bdb4-0fc3-fc33-669e-cb22b133bd42",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 88,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 104,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 88 mm[Hg], Systolic Blood Pressure: 104 mm[Hg]"
+    },
+    {
+      "id": "41e165f4-a08d-3e2a-ef9b-ce2ecbe91cae",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "94 /min",
+      "valueQuantity": {
+        "value": 94,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "d23c1fc8-ca9c-65c1-d9b7-3a268b393906",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "14 /min",
+      "valueQuantity": {
+        "value": 14,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "2ae2557c-6e24-c8a4-98ae-ab1804f9b351",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2019-10-26T13:54:59-04:00",
+      "issued": "2019-10-26T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "b2d1dfad-0944-7a7c-529a-31b3a1e32b7a",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "98.4 cm",
+      "valueQuantity": {
+        "value": 98.4,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "a1029c72-6580-2237-6cbe-c84943f988aa",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "1 {score}",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "c71ab4b6-486d-78d0-a2dc-0a043a86e86b",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "14.7 kg",
+      "valueQuantity": {
+        "value": 14.7,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "cf422376-b65f-ee16-c992-0a55717f16da",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "36.343 %",
+      "valueQuantity": {
+        "value": 36.343,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "f24aadda-4163-3458-831b-840cb514c560",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "1210a58f-1deb-a3f4-eadc-66d5ec5b6ef9",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "51.33 cm",
+      "valueQuantity": {
+        "value": 51.33,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "3c7f7b7a-6eb8-0330-cd7c-64780a309628",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Ratio]",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "15.15 kg/m2",
+      "valueQuantity": {
+        "value": 15.15,
+        "unit": "kg/m2",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg/m2"
+      }
+    },
+    {
+      "id": "817a5895-fc67-774a-20c6-8e56aca66e2b",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Percentile] Per age and sex",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "20.867 %",
+      "valueQuantity": {
+        "value": 20.867,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "63bd07ce-7cb5-af75-c9d2-e0a283cda2d8",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 88,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 103,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 88 mm[Hg], Systolic Blood Pressure: 103 mm[Hg]"
+    },
+    {
+      "id": "389c97bb-bc96-2b88-af52-8b699af7ee18",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "83 /min",
+      "valueQuantity": {
+        "value": 83,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "77092c53-60f9-d22d-c28d-2c901bf93e4e",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "15 /min",
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "c1d70c68-eb0c-208e-c022-20123873247f",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2020-04-25T13:54:59-04:00",
+      "issued": "2020-04-25T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "add22c54-7a86-337f-333d-9c60ce8fbfe8",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "102.3 cm",
+      "valueQuantity": {
+        "value": 102.3,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "3f496616-2a09-7e7d-fef5-ab9a255fdfd2",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "4 {score}",
+      "valueQuantity": {
+        "value": 4,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "598ea3e2-a975-2cba-8a4b-4222a6218227",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "16.1 kg",
+      "valueQuantity": {
+        "value": 16.1,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "e244ad0d-4b5c-e7c5-f303-b419fcd965f0",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "34.651 %",
+      "valueQuantity": {
+        "value": 34.651,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "c35696ec-f49d-b9bb-0f65-c6441bed5e4b",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "82bc5816-f31d-e809-a2a4-e4cdf4d59585",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "51.37 cm",
+      "valueQuantity": {
+        "value": 51.37,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "54a079bd-d569-52fb-1cc4-cd49ea7b88d0",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Ratio]",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "15.43 kg/m2",
+      "valueQuantity": {
+        "value": 15.43,
+        "unit": "kg/m2",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg/m2"
+      }
+    },
+    {
+      "id": "45e4fb55-fcfb-ba92-e97f-54f697e08b33",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Percentile] Per age and sex",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "35.943 %",
+      "valueQuantity": {
+        "value": 35.943,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "2e3923aa-d33f-414d-00f1-8949cbd0cbdc",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 87,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 106,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 87 mm[Hg], Systolic Blood Pressure: 106 mm[Hg]"
+    },
+    {
+      "id": "2bfdd0bb-2cc0-f0df-d8ae-19f1bdccfb15",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "80 /min",
+      "valueQuantity": {
+        "value": 80,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "c36e1a7b-ae53-2ead-fdb8-2ddb0ff9bb11",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "15 /min",
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "d6d72e7c-3b06-5ff0-3def-8e5d4bf7ecc1",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2020-10-24T13:54:59-04:00",
+      "issued": "2020-10-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "4cbe6977-c584-da82-588b-de90d3784644",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "106 cm",
+      "valueQuantity": {
+        "value": 106,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "2917f50c-ff2c-798c-7616-56d212d71cec",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "1 {score}",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "35a2b4fb-3ce0-d451-93de-a41c55fdc5f8",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "17.4 kg",
+      "valueQuantity": {
+        "value": 17.4,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "4eedfdf6-1614-5921-1b0a-59e4f95f6d99",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Weight-for-length Per age and sex",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "34.651 %",
+      "valueQuantity": {
+        "value": 34.651,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "831f8b3a-3b1e-3a8b-b7b7-2319e246f78b",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference Percentile",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "85.82 %",
+      "valueQuantity": {
+        "value": 85.82,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "654f429a-36a4-b107-64b8-0b31b1fbb17a",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Head Occipital-frontal circumference",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "51.37 cm",
+      "valueQuantity": {
+        "value": 51.37,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "9b36feb7-3110-cb17-ca15-7581d3e319c6",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Ratio]",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "15.53 kg/m2",
+      "valueQuantity": {
+        "value": 15.53,
+        "unit": "kg/m2",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg/m2"
+      }
+    },
+    {
+      "id": "6ed8486e-67ac-9ba9-8ec4-b5cf3c31ce85",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Percentile] Per age and sex",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "45.474 %",
+      "valueQuantity": {
+        "value": 45.474,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "e520f71c-82ed-c171-7f8f-0e2487de928d",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 85,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 108,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 85 mm[Hg], Systolic Blood Pressure: 108 mm[Hg]"
+    },
+    {
+      "id": "1d03325e-5123-fac0-5eb3-9b799eb2ab35",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "71 /min",
+      "valueQuantity": {
+        "value": 71,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "633847e3-01f6-ac5a-d1f1-438a1c8b8dec",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "13 /min",
+      "valueQuantity": {
+        "value": 13,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "9cac2c91-64ae-1661-61b8-c7727e5331b7",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2021-04-24T13:54:59-04:00",
+      "issued": "2021-04-24T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "942fa6f5-70da-692a-9226-f65d823c3a50",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2022-04-30T13:54:59-04:00",
+      "issued": "2022-04-30T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "113 cm",
+      "valueQuantity": {
+        "value": 113,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "ace9b206-c7d3-1169-19e8-c60dfabced97",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2022-04-30T13:54:59-04:00",
+      "issued": "2022-04-30T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "0 {score}",
+      "valueQuantity": {
+        "value": 0,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "d93104f5-d520-d8d3-1766-8b6f23f703b2",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2022-04-30T13:54:59-04:00",
+      "issued": "2022-04-30T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "19.8 kg",
+      "valueQuantity": {
+        "value": 19.8,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "88c62c63-60db-a371-cff1-29ce4c7cd2d8",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Ratio]",
+      "effectiveDateTime": "2022-04-30T13:54:59-04:00",
+      "issued": "2022-04-30T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "15.47 kg/m2",
+      "valueQuantity": {
+        "value": 15.47,
+        "unit": "kg/m2",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg/m2"
+      }
+    },
+    {
+      "id": "6a20aab5-0f70-d313-0c28-90b3fdfb1065",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Percentile] Per age and sex",
+      "effectiveDateTime": "2022-04-30T13:54:59-04:00",
+      "issued": "2022-04-30T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "51.476 %",
+      "valueQuantity": {
+        "value": 51.476,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "f27233c6-fdb8-59d7-a369-f370d6a924ed",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2022-04-30T13:54:59-04:00",
+      "issued": "2022-04-30T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 80,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 96,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 80 mm[Hg], Systolic Blood Pressure: 96 mm[Hg]"
+    },
+    {
+      "id": "99c9ca1b-d8d3-46da-acc0-311ee17a3226",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2022-04-30T13:54:59-04:00",
+      "issued": "2022-04-30T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "86 /min",
+      "valueQuantity": {
+        "value": 86,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "c40b937b-acd7-21c0-0d13-bbc1d0dbfa2d",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2022-04-30T13:54:59-04:00",
+      "issued": "2022-04-30T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "14 /min",
+      "valueQuantity": {
+        "value": 14,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "448c0f77-dbd0-350b-d5ed-59fb55f517c2",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2022-04-30T13:54:59-04:00",
+      "issued": "2022-04-30T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "7b058eda-2093-7c46-95ad-cf445b220a26",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "119.9 cm",
+      "valueQuantity": {
+        "value": 119.9,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "c2a6292a-ad17-2aa3-ef9a-713232568024",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "2 {score}",
+      "valueQuantity": {
+        "value": 2,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "e1a8ef5d-cd74-d638-9565-ecb56672a219",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "23.5 kg",
+      "valueQuantity": {
+        "value": 23.5,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "6403d468-8356-bfb5-cd4a-3b0296288a9c",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Ratio]",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "16.33 kg/m2",
+      "valueQuantity": {
+        "value": 16.33,
+        "unit": "kg/m2",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg/m2"
+      }
+    },
+    {
+      "id": "5f9b9323-8279-bd72-62a7-e66769091fa5",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Percentile] Per age and sex",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "74.616 %",
+      "valueQuantity": {
+        "value": 74.616,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "a9bfeb87-2b11-1eb6-9189-c177176c1bb4",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 85,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 103,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 85 mm[Hg], Systolic Blood Pressure: 103 mm[Hg]"
+    },
+    {
+      "id": "63735664-b1ca-1eab-508a-49f8e26c1d62",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "67 /min",
+      "valueQuantity": {
+        "value": 67,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "77ce13b9-a9c1-fdaa-6a0a-ee73adf80d2e",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "15 /min",
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "3e0b5cd5-2e17-3265-4b96-456e4571d2d1",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Leukocytes [#/volume] in Blood by Automated count",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "4.3633 10*3/uL",
+      "valueQuantity": {
+        "value": 4.3633,
+        "unit": "10*3/uL",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*3/uL"
+      }
+    },
+    {
+      "id": "da0ef8f6-79ca-ddf7-f9e7-73947c22264d",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Erythrocytes [#/volume] in Blood by Automated count",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "4.8946 10*6/uL",
+      "valueQuantity": {
+        "value": 4.8946,
+        "unit": "10*6/uL",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*6/uL"
+      }
+    },
+    {
+      "id": "bffade85-1b9d-039e-2440-311683bf2cb2",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Hemoglobin [Mass/volume] in Blood",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "17.421 g/dL",
+      "valueQuantity": {
+        "value": 17.421,
+        "unit": "g/dL",
+        "system": "http://unitsofmeasure.org",
+        "code": "g/dL"
+      }
+    },
+    {
+      "id": "1acd6fe1-9336-c127-2f65-9c307681e7f5",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "47.685 %",
+      "valueQuantity": {
+        "value": 47.685,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "16b881d0-acff-b629-1e76-2c1c44ca0475",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "MCV [Entitic volume] by Automated count",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "87.636 fL",
+      "valueQuantity": {
+        "value": 87.636,
+        "unit": "fL",
+        "system": "http://unitsofmeasure.org",
+        "code": "fL"
+      }
+    },
+    {
+      "id": "2111fd74-1e17-544e-b0b3-f2ff0ff6953b",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "MCH [Entitic mass] by Automated count",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "31.368 pg",
+      "valueQuantity": {
+        "value": 31.368,
+        "unit": "pg",
+        "system": "http://unitsofmeasure.org",
+        "code": "pg"
+      }
+    },
+    {
+      "id": "e55ac96f-52d1-b85c-9e19-7fe35ce9715a",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "MCHC [Mass/volume] by Automated count",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "33.176 g/dL",
+      "valueQuantity": {
+        "value": 33.176,
+        "unit": "g/dL",
+        "system": "http://unitsofmeasure.org",
+        "code": "g/dL"
+      }
+    },
+    {
+      "id": "f9e70903-a363-6df7-4d56-e78e1e541137",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Erythrocyte distribution width [Entitic volume] by Automated count",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "42.304 fL",
+      "valueQuantity": {
+        "value": 42.304,
+        "unit": "fL",
+        "system": "http://unitsofmeasure.org",
+        "code": "fL"
+      }
+    },
+    {
+      "id": "7fb00945-350f-3051-f294-05e2e29694a2",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Platelets [#/volume] in Blood by Automated count",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "414.22 10*3/uL",
+      "valueQuantity": {
+        "value": 414.22,
+        "unit": "10*3/uL",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*3/uL"
+      }
+    },
+    {
+      "id": "9d3d33b2-597c-e84d-1dba-3b04384f130c",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "507.42 fL",
+      "valueQuantity": {
+        "value": 507.42,
+        "unit": "fL",
+        "system": "http://unitsofmeasure.org",
+        "code": "fL"
+      }
+    },
+    {
+      "id": "0e9062df-9d2d-e4b2-4ed5-8e7d0a8b0d37",
+      "status": "final",
+      "category": [
+        "Laboratory"
+      ],
+      "code": "Platelet mean volume [Entitic volume] in Blood by Automated count",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "11.413 fL",
+      "valueQuantity": {
+        "value": 11.413,
+        "unit": "fL",
+        "system": "http://unitsofmeasure.org",
+        "code": "fL"
+      }
+    },
+    {
+      "id": "9f7f9014-9c9c-dc35-8d1c-d39595bfc76b",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2023-05-06T13:54:59-04:00",
+      "issued": "2023-05-06T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "31ef3dbe-355b-963e-189c-6de9cea50a9d",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2024-05-11T13:54:59-04:00",
+      "issued": "2024-05-11T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "126.7 cm",
+      "valueQuantity": {
+        "value": 126.7,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "48c1ae6b-ab2a-de05-0d9d-fa46b1d02a67",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2024-05-11T13:54:59-04:00",
+      "issued": "2024-05-11T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "1 {score}",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "4192de67-9447-26b7-b702-ae5e8bc07b55",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2024-05-11T13:54:59-04:00",
+      "issued": "2024-05-11T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "28.3 kg",
+      "valueQuantity": {
+        "value": 28.3,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "ff26847b-8c86-625b-fa6d-fa1de506b814",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Ratio]",
+      "effectiveDateTime": "2024-05-11T13:54:59-04:00",
+      "issued": "2024-05-11T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "17.63 kg/m2",
+      "valueQuantity": {
+        "value": 17.63,
+        "unit": "kg/m2",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg/m2"
+      }
+    },
+    {
+      "id": "8d20d765-3854-1f66-9099-2d55d7a664b3",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Percentile] Per age and sex",
+      "effectiveDateTime": "2024-05-11T13:54:59-04:00",
+      "issued": "2024-05-11T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "87.451 %",
+      "valueQuantity": {
+        "value": 87.451,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "187e79cf-0b3e-56d0-5a0a-8f085c82711a",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2024-05-11T13:54:59-04:00",
+      "issued": "2024-05-11T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 88,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 111,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 88 mm[Hg], Systolic Blood Pressure: 111 mm[Hg]"
+    },
+    {
+      "id": "d890104a-7bf7-f9ce-2576-4716b7163ced",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2024-05-11T13:54:59-04:00",
+      "issued": "2024-05-11T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "91 /min",
+      "valueQuantity": {
+        "value": 91,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "ca4c5a91-2d30-a43a-9b4b-6d258e2c9a36",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2024-05-11T13:54:59-04:00",
+      "issued": "2024-05-11T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "12 /min",
+      "valueQuantity": {
+        "value": 12,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "273420cd-bb85-4521-c271-45698c2abc38",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2024-05-11T13:54:59-04:00",
+      "issued": "2024-05-11T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "d5bf8c6f-339a-5d4c-07dd-2f05da01ba6f",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2024-07-20T13:54:59-04:00",
+      "issued": "2024-07-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "128.3 cm",
+      "valueQuantity": {
+        "value": 128.3,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "d4d7847b-4115-db3f-39ac-361e60b4c350",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2024-07-20T13:54:59-04:00",
+      "issued": "2024-07-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "4 {score}",
+      "valueQuantity": {
+        "value": 4,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "1bc8d9cb-fa98-22ab-4af7-c6cf69efa183",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2024-07-20T13:54:59-04:00",
+      "issued": "2024-07-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "29.6 kg",
+      "valueQuantity": {
+        "value": 29.6,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "4003ed7e-6aa1-9f50-3584-ee9b6c7be9ec",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Ratio]",
+      "effectiveDateTime": "2024-07-20T13:54:59-04:00",
+      "issued": "2024-07-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "17.96 kg/m2",
+      "valueQuantity": {
+        "value": 17.96,
+        "unit": "kg/m2",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg/m2"
+      }
+    },
+    {
+      "id": "5b6a7d68-fbd1-e1be-c3c8-7802149f03de",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Percentile] Per age and sex",
+      "effectiveDateTime": "2024-07-20T13:54:59-04:00",
+      "issued": "2024-07-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "88.9 %",
+      "valueQuantity": {
+        "value": 88.9,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "b4b6fa90-7d7f-c101-b735-9af86c98e898",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2024-07-20T13:54:59-04:00",
+      "issued": "2024-07-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 85,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 104,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 85 mm[Hg], Systolic Blood Pressure: 104 mm[Hg]"
+    },
+    {
+      "id": "d69560ab-3e3e-a5c5-bc98-aac724519906",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2024-07-20T13:54:59-04:00",
+      "issued": "2024-07-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "65 /min",
+      "valueQuantity": {
+        "value": 65,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "03eee669-ceae-5767-8afc-1be2468fec90",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2024-07-20T13:54:59-04:00",
+      "issued": "2024-07-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "14 /min",
+      "valueQuantity": {
+        "value": 14,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "be56ebf1-d963-178f-119e-8e421886c3c9",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2024-07-20T13:54:59-04:00",
+      "issued": "2024-07-20T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    },
+    {
+      "id": "4e3f308e-961c-f2f9-89c8-4b5008885bcf",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Height",
+      "effectiveDateTime": "2025-05-17T13:54:59-04:00",
+      "issued": "2025-05-17T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "133.2 cm",
+      "valueQuantity": {
+        "value": 133.2,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    },
+    {
+      "id": "19a4d674-27c2-b8cb-3699-e2ee1625bc69",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "effectiveDateTime": "2025-05-17T13:54:59-04:00",
+      "issued": "2025-05-17T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "4 {score}",
+      "valueQuantity": {
+        "value": 4,
+        "unit": "{score}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{score}"
+      }
+    },
+    {
+      "id": "6ff63ff8-d5fc-2361-9d9d-aaf74284dfbc",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body Weight",
+      "effectiveDateTime": "2025-05-17T13:54:59-04:00",
+      "issued": "2025-05-17T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "31.6 kg",
+      "valueQuantity": {
+        "value": 31.6,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    {
+      "id": "1738e9f3-e30b-ee90-351b-42c19da2ed90",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Ratio]",
+      "effectiveDateTime": "2025-05-17T13:54:59-04:00",
+      "issued": "2025-05-17T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "17.84 kg/m2",
+      "valueQuantity": {
+        "value": 17.84,
+        "unit": "kg/m2",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg/m2"
+      }
+    },
+    {
+      "id": "ed73cc78-98aa-04cf-a702-9fcd79754294",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Body mass index (BMI) [Percentile] Per age and sex",
+      "effectiveDateTime": "2025-05-17T13:54:59-04:00",
+      "issued": "2025-05-17T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "84.428 %",
+      "valueQuantity": {
+        "value": 84.428,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "id": "d0d6d1f1-d888-97bf-af96-b593a3172e40",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Blood pressure panel with all children optional",
+      "effectiveDateTime": "2025-05-17T13:54:59-04:00",
+      "issued": "2025-05-17T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "components": [
+        {
+          "code": "Diastolic Blood Pressure",
+          "valueQuantity": {
+            "value": 88,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": "Systolic Blood Pressure",
+          "valueQuantity": {
+            "value": 109,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ],
+      "value": "Diastolic Blood Pressure: 88 mm[Hg], Systolic Blood Pressure: 109 mm[Hg]"
+    },
+    {
+      "id": "66305866-2f24-2815-972c-5aa8ce7b552e",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Heart rate",
+      "effectiveDateTime": "2025-05-17T13:54:59-04:00",
+      "issued": "2025-05-17T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "95 /min",
+      "valueQuantity": {
+        "value": 95,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "38a6fa0a-e3b8-7a05-e3c2-fe6163163ba1",
+      "status": "final",
+      "category": [
+        "Vital signs"
+      ],
+      "code": "Respiratory rate",
+      "effectiveDateTime": "2025-05-17T13:54:59-04:00",
+      "issued": "2025-05-17T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "14 /min",
+      "valueQuantity": {
+        "value": 14,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "id": "f3b69438-2ae6-1d63-827d-fbd4caf96c58",
+      "status": "final",
+      "category": [
+        "Social history"
+      ],
+      "code": "Tobacco smoking status",
+      "effectiveDateTime": "2025-05-17T13:54:59-04:00",
+      "issued": "2025-05-17T13:54:59.376-04:00",
+      "subject": "urn:uuid:9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+      "value": "Never smoked tobacco (finding)",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266919005",
+            "display": "Never smoked tobacco (finding)"
+          }
+        ],
+        "text": "Never smoked tobacco (finding)"
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "code": "Medication review due (situation)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2017-05-20T13:54:59-04:00"
+    },
+    {
+      "code": "Medication review due (situation)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2017-06-24T13:54:59-04:00"
+    },
+    {
+      "code": "Medication review due (situation)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2017-08-26T13:54:59-04:00"
+    },
+    {
+      "code": "Acute viral pharyngitis (disorder)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2017-09-19T19:54:59-04:00"
+    },
+    {
+      "code": "Medication review due (situation)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2017-10-28T13:54:59-04:00"
+    },
+    {
+      "code": "Medication review due (situation)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2018-04-28T13:54:59-04:00"
+    },
+    {
+      "code": "Viral sinusitis (disorder)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2018-05-05T13:54:59-04:00"
+    },
+    {
+      "code": "Acute viral pharyngitis (disorder)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2018-05-02T17:54:59-04:00"
+    },
+    {
+      "code": "Otitis media (disorder)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2018-05-15T13:54:59-04:00"
+    },
+    {
+      "code": "Medication review due (situation)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2018-07-28T13:54:59-04:00"
+    },
+    {
+      "code": "Medication review due (situation)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2019-10-26T13:54:59-04:00"
+    },
+    {
+      "code": "Medication review due (situation)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2024-05-11T13:54:59-04:00"
+    },
+    {
+      "code": "Acute bronchitis (disorder)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2024-07-27T13:54:59-04:00"
+    },
+    {
+      "code": "Viral sinusitis (disorder)",
+      "clinicalStatus": "resolved",
+      "onsetDateTime": "2025-04-19T21:54:59-04:00"
+    },
+    {
+      "code": "Medication review due (situation)",
+      "clinicalStatus": "active",
+      "onsetDateTime": "2025-05-17T13:54:59-04:00"
+    }
+  ],
+  "procedures": [
+    {
+      "code": "Medication reconciliation (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Medication reconciliation (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Medication reconciliation (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Throat culture (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Medication reconciliation (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Medication reconciliation (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Medication reconciliation (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Patient referral for dental care (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental consultation and report (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental care (regime/therapy)",
+      "status": "completed"
+    },
+    {
+      "code": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental plain X-ray bitewing (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Examination of gingivae (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental fluoride treatment (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Oral health education (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Patient referral for dental care (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental consultation and report (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental care (regime/therapy)",
+      "status": "completed"
+    },
+    {
+      "code": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental plain X-ray bitewing (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Examination of gingivae (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental fluoride treatment (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Oral health education (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Medication reconciliation (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Medication reconciliation (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Patient referral for dental care (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental consultation and report (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental care (regime/therapy)",
+      "status": "completed"
+    },
+    {
+      "code": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental plain X-ray bitewing (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Examination of gingivae (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Dental fluoride treatment (procedure)",
+      "status": "completed"
+    },
+    {
+      "code": "Oral health education (procedure)",
+      "status": "completed"
+    }
+  ],
+  "encounters": [
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2017-05-20T13:54:59-04:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2017-06-24T13:54:59-04:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2017-08-26T13:54:59-04:00"
+    },
+    {
+      "type": "Encounter for symptom (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2017-09-19T19:54:59-04:00",
+      "reasons": [
+        "Acute viral pharyngitis (disorder)"
+      ]
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2017-10-28T13:54:59-04:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2018-01-27T12:54:59-05:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2018-04-28T13:54:59-04:00"
+    },
+    {
+      "type": "Encounter for symptom (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2018-05-05T13:54:59-04:00",
+      "reasons": [
+        "Viral sinusitis (disorder)"
+      ]
+    },
+    {
+      "type": "Encounter for symptom (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2018-05-02T17:54:59-04:00",
+      "reasons": [
+        "Acute viral pharyngitis (disorder)"
+      ]
+    },
+    {
+      "type": "Urgent care clinic (environment)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2018-05-12T13:54:59-04:00"
+    },
+    {
+      "type": "Encounter for symptom (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2018-05-15T13:54:59-04:00",
+      "reasons": [
+        "Otitis media (disorder)"
+      ]
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2018-07-28T13:54:59-04:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2018-10-27T13:54:59-04:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2019-04-27T13:54:59-04:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2019-10-26T13:54:59-04:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2020-04-25T13:54:59-04:00"
+    },
+    {
+      "type": "Encounter for check up (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2020-05-02T13:54:59-04:00",
+      "reasons": [
+        "Patient referral for dental care (procedure)"
+      ]
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2020-10-24T13:54:59-04:00"
+    },
+    {
+      "type": "Encounter for check up (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2020-10-31T13:54:59-04:00",
+      "reasons": [
+        "Patient referral for dental care (procedure)"
+      ]
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2021-04-24T13:54:59-04:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2022-04-30T13:54:59-04:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2023-05-06T13:54:59-04:00"
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2024-05-11T13:54:59-04:00"
+    },
+    {
+      "type": "Encounter for check up (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2024-07-20T13:54:59-04:00"
+    },
+    {
+      "type": "Encounter for symptom (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2024-07-27T13:54:59-04:00",
+      "reasons": [
+        "Acute bronchitis (disorder)"
+      ]
+    },
+    {
+      "type": "Encounter for check up (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2024-07-27T13:54:59-04:00",
+      "reasons": [
+        "Patient referral for dental care (procedure)"
+      ]
+    },
+    {
+      "type": "Encounter for symptom (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2025-04-19T21:54:59-04:00",
+      "reasons": [
+        "Viral sinusitis (disorder)"
+      ]
+    },
+    {
+      "type": "Well child visit (procedure)",
+      "status": "finished",
+      "class": "AMB",
+      "period": "2025-05-17T13:54:59-04:00"
+    }
+  ],
+  "medications": [
+    {
+      "medication": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+      "status": "completed",
+      "authoredOn": "2018-05-05T13:54:59-04:00"
+    },
+    {
+      "medication": "Amoxicillin 500 MG Oral Tablet",
+      "status": "completed",
+      "authoredOn": "2018-05-15T13:54:59-04:00"
+    },
+    {
+      "medication": "Acetaminophen 160 MG Chewable Tablet",
+      "status": "completed",
+      "authoredOn": "2018-05-15T13:54:59-04:00"
+    },
+    {
+      "medication": "Acetaminophen 325 MG Oral Tablet",
+      "status": "completed",
+      "authoredOn": "2024-07-27T13:54:59-04:00"
+    }
+  ],
+  "immunizations": [
+    {
+      "vaccine": "Hep B, adolescent or pediatric",
+      "status": "completed",
+      "occurrenceDateTime": "2017-05-20T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Hep B, adolescent or pediatric",
+      "status": "completed",
+      "occurrenceDateTime": "2017-06-24T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Hib (PRP-OMP)",
+      "status": "completed",
+      "occurrenceDateTime": "2017-08-26T13:54:59-04:00"
+    },
+    {
+      "vaccine": "rotavirus, monovalent",
+      "status": "completed",
+      "occurrenceDateTime": "2017-08-26T13:54:59-04:00"
+    },
+    {
+      "vaccine": "IPV",
+      "status": "completed",
+      "occurrenceDateTime": "2017-08-26T13:54:59-04:00"
+    },
+    {
+      "vaccine": "DTaP",
+      "status": "completed",
+      "occurrenceDateTime": "2017-08-26T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Pneumococcal conjugate PCV 13",
+      "status": "completed",
+      "occurrenceDateTime": "2017-08-26T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Hib (PRP-OMP)",
+      "status": "completed",
+      "occurrenceDateTime": "2017-10-28T13:54:59-04:00"
+    },
+    {
+      "vaccine": "rotavirus, monovalent",
+      "status": "completed",
+      "occurrenceDateTime": "2017-10-28T13:54:59-04:00"
+    },
+    {
+      "vaccine": "IPV",
+      "status": "completed",
+      "occurrenceDateTime": "2017-10-28T13:54:59-04:00"
+    },
+    {
+      "vaccine": "DTaP",
+      "status": "completed",
+      "occurrenceDateTime": "2017-10-28T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Pneumococcal conjugate PCV 13",
+      "status": "completed",
+      "occurrenceDateTime": "2017-10-28T13:54:59-04:00"
+    },
+    {
+      "vaccine": "IPV",
+      "status": "completed",
+      "occurrenceDateTime": "2018-01-27T12:54:59-05:00"
+    },
+    {
+      "vaccine": "Influenza, seasonal, injectable, preservative free",
+      "status": "completed",
+      "occurrenceDateTime": "2018-01-27T12:54:59-05:00"
+    },
+    {
+      "vaccine": "DTaP",
+      "status": "completed",
+      "occurrenceDateTime": "2018-01-27T12:54:59-05:00"
+    },
+    {
+      "vaccine": "Pneumococcal conjugate PCV 13",
+      "status": "completed",
+      "occurrenceDateTime": "2018-01-27T12:54:59-05:00"
+    },
+    {
+      "vaccine": "Hep B, adolescent or pediatric",
+      "status": "completed",
+      "occurrenceDateTime": "2018-01-27T12:54:59-05:00"
+    },
+    {
+      "vaccine": "Hib (PRP-OMP)",
+      "status": "completed",
+      "occurrenceDateTime": "2018-07-28T13:54:59-04:00"
+    },
+    {
+      "vaccine": "varicella",
+      "status": "completed",
+      "occurrenceDateTime": "2018-07-28T13:54:59-04:00"
+    },
+    {
+      "vaccine": "MMR",
+      "status": "completed",
+      "occurrenceDateTime": "2018-07-28T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Pneumococcal conjugate PCV 13",
+      "status": "completed",
+      "occurrenceDateTime": "2018-07-28T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Hep A, ped/adol, 2 dose",
+      "status": "completed",
+      "occurrenceDateTime": "2018-07-28T13:54:59-04:00"
+    },
+    {
+      "vaccine": "DTaP",
+      "status": "completed",
+      "occurrenceDateTime": "2018-10-27T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Influenza, seasonal, injectable, preservative free",
+      "status": "completed",
+      "occurrenceDateTime": "2019-04-27T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Hep A, ped/adol, 2 dose",
+      "status": "completed",
+      "occurrenceDateTime": "2019-10-26T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Influenza, seasonal, injectable, preservative free",
+      "status": "completed",
+      "occurrenceDateTime": "2020-04-25T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Influenza, seasonal, injectable, preservative free",
+      "status": "completed",
+      "occurrenceDateTime": "2021-04-24T13:54:59-04:00"
+    },
+    {
+      "vaccine": "varicella",
+      "status": "completed",
+      "occurrenceDateTime": "2022-04-30T13:54:59-04:00"
+    },
+    {
+      "vaccine": "IPV",
+      "status": "completed",
+      "occurrenceDateTime": "2022-04-30T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Influenza, seasonal, injectable, preservative free",
+      "status": "completed",
+      "occurrenceDateTime": "2022-04-30T13:54:59-04:00"
+    },
+    {
+      "vaccine": "DTaP",
+      "status": "completed",
+      "occurrenceDateTime": "2022-04-30T13:54:59-04:00"
+    },
+    {
+      "vaccine": "MMR",
+      "status": "completed",
+      "occurrenceDateTime": "2022-04-30T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Influenza, seasonal, injectable, preservative free",
+      "status": "completed",
+      "occurrenceDateTime": "2023-05-06T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Influenza, seasonal, injectable, preservative free",
+      "status": "completed",
+      "occurrenceDateTime": "2024-05-11T13:54:59-04:00"
+    },
+    {
+      "vaccine": "Influenza, seasonal, injectable, preservative free",
+      "status": "completed",
+      "occurrenceDateTime": "2025-05-17T13:54:59-04:00"
+    }
+  ]
+}
