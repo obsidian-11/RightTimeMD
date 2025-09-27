@@ -1,0 +1,74 @@
+ANONYMOUS_PATIENT_ID: PATIENT_4D28DBEB
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Full-time employment (finding) (onset: 10+ years ago)
+3. Prediabetes (finding) (onset: 10+ years ago)
+4. Anemia (disorder) (onset: 10+ years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Viral sinusitis (disorder) (onset: 5-10 years ago)
+3. Stress (finding) (onset: 5-10 years ago)
+4. Acute viral pharyngitis (disorder) (onset: 1 year ago)
+5. Viral sinusitis (disorder) (onset: 2 months ago)
+6. Viral sinusitis (disorder) (onset: 0 months ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+2. 2 months ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+3. 1 year ago: General examination of patient (procedure) (Status: finished)
+4. 1 year ago: Encounter for symptom (procedure) - Reason: Acute viral pharyngitis (disorder) (Status: finished)
+5. 3 years ago: Administration of vaccine to produce active immunity (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 177.4 cm (1 year ago)
+2. Body Weight: 86.4 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 27.46 kg/m2 (1 year ago)
+4. Blood pressure panel: 99/79 mm[Hg] (1 year ago)
+5. Heart rate: 66 /min (1 year ago)
+6. Glucose [Mass/volume] in Blood: 78.32 mg/dL (1 year ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 171.51 mg/dL (1 year ago)
+8. Low Density Lipoprotein Cholesterol: 89.29 mg/dL (1 year ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 59.06 mg/dL (1 year ago)
+10. Body temperature: 37.547 Cel (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (4 years ago)
+3. Total score [DAST-10]: 1 (5-10 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (2 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), full-time, employment, medication, review, (situation), prediabetes, anemia, (disorder), viral, sinusitis, stress, acute, pharyngitis, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature
+
+RISK_FACTORS: Diabetes risk, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 4
+Total_Conditions_Count: 10
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Overweight (BMI 25-29.9)
+

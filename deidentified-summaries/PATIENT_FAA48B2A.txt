@@ -1,0 +1,86 @@
+ANONYMOUS_PATIENT_ID: PATIENT_FAA48B2A
+AGE_GROUP: Adult (25-34)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Chronic pain (finding) (onset: 10+ years ago)
+2. Chronic low back pain (finding) (onset: 10+ years ago)
+3. Received higher education (finding) (onset: 5-10 years ago)
+4. Medication review due (situation) (onset: 1 year ago)
+5. Full-time employment (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Part-time employment (finding) (onset: 5-10 years ago)
+3. Stress (finding) (onset: 5-10 years ago)
+4. Gingivitis (disorder) (onset: 5-10 years ago)
+5. Primary dental caries (disorder) (onset: 5-10 years ago)
+6. Full-time employment (finding) (onset: 5-10 years ago)
+7. Social isolation (finding) (onset: 5-10 years ago)
+8. Stress (finding) (onset: 5-10 years ago)
+9. Loose dental filling (finding) (onset: 5-10 years ago)
+10. Part-time employment (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 2 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 175.2 cm (0 months ago)
+2. Body Weight: 69.7 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 22.71 kg/m2 (0 months ago)
+4. Blood pressure panel: 116/66 mm[Hg] (0 months ago)
+5. Heart rate: 82 /min (0 months ago)
+6. Body Height: 175.2 cm (1 year ago)
+7. Body Weight: 68.4 kg (1 year ago)
+8. Body mass index (BMI) [Ratio]: 22.28 kg/m2 (1 year ago)
+9. Blood pressure panel: 112/64 mm[Hg] (1 year ago)
+10. Heart rate: 83 /min (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (0 months ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (1 year ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (1 year ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (2 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (3 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+12. Total score [DAST-10]: 2 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+15. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), chronic, pain, (finding), back, received, higher, education, part-time, employment, stress, gingivitis, (disorder), primary, dental, caries, full-time, social, isolation, loose, filling, fractured, viral, sinusitis, unemployed, limited, contact, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, [percentile]
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: male
+Active_Conditions_Count: 5
+Total_Conditions_Count: 29
+Recent_Encounters_Count: 5
+

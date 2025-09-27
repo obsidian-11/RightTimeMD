@@ -1,0 +1,99 @@
+ANONYMOUS_PATIENT_ID: PATIENT_8592597B
+AGE_GROUP: Middle-aged (55-64)
+GENDER: female
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (55-64) female patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+3. Primary fibromyalgia syndrome (disorder) (onset: 10+ years ago)
+4. Chronic pain (finding) (onset: 10+ years ago)
+5. Chronic neck pain (finding) (onset: 10+ years ago)
+6. Hyperlipidemia (disorder) (onset: 5-10 years ago)
+7. Social isolation (finding) (onset: 5-10 years ago)
+8. Full-time employment (finding) (onset: 3 years ago)
+9. Essential hypertension (disorder) (onset: 1 year ago)
+10. Medication review due (situation) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+2. Stress (finding) (onset: 10+ years ago)
+3. Limited social contact (finding) (onset: 10+ years ago)
+4. Full-time employment (finding) (onset: 10+ years ago)
+5. Acute bronchitis (disorder) (onset: 10+ years ago)
+6. Medication review due (situation) (onset: 10+ years ago)
+7. Social isolation (finding) (onset: 10+ years ago)
+8. Medication review due (situation) (onset: 10+ years ago)
+9. Medication review due (situation) (onset: 10+ years ago)
+10. Sinusitis (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 months ago: Encounter for check up (procedure) - Reason: Screening for malignant neoplasm of colon (procedure) (Status: finished)
+4. 1 year ago: Hospital admission (procedure) - Reason: Primary fibromyalgia syndrome (disorder) (Status: finished)
+5. 1 year ago: Follow-up encounter (procedure) - Reason: Essential hypertension (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Blood: 74.68 mg/dL (0 months ago)
+2. Cholesterol [Mass/volume] in Serum or Plasma: 152.11 mg/dL (0 months ago)
+3. Low Density Lipoprotein Cholesterol: 113.41 mg/dL (0 months ago)
+4. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 76.604 mg/dL (0 months ago)
+5. Body Height: 162.5 cm (0 months ago)
+6. Body Weight: 74.9 kg (0 months ago)
+7. Body mass index (BMI) [Ratio]: 28.37 kg/m2 (0 months ago)
+8. Blood pressure panel: 135/85 mm[Hg] (0 months ago)
+9. Heart rate: 91 /min (0 months ago)
+10. Blood pressure panel: 142/84 mm[Hg] (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 year ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+5. Total score [DAST-10]: 0 (2 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 11 (3 years ago)
+10. Total score [DAST-10]: 1 (4 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+12. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (4 years ago)
+13. Total score [DAST-10]: 1 (5-10 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+16. Total score [DAST-10]: 2 (5-10 years ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+18. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (10+ years ago)
+19. Total score [DAST-10]: 1 (10+ years ago)
+20. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (10+ years ago)
+
+DIAGNOSTIC REPORTS:
+1. Comprehensive metabolic 2000 panel - Serum or Plasma (0 months ago)
+   Status: final
+
+2. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), victim, intimate, partner, abuse, stress, body, mass, index, obesity, primary, fibromyalgia, syndrome, (disorder), limited, social, contact, chronic, pain, neck, full-time, employment, acute, bronchitis, medication, review, (situation), isolation, sinusitis, hyperlipidemia, part-time, gingivitis, normal, pregnancy, labor, force, viral, reports, violence, environment, essential, hypertension, glucose, [mass/volume], blood, cholesterol, serum, plasma, density, lipoprotein, height, weight, (bmi), [ratio], pressure, heart, rate
+
+RISK_FACTORS: Obesity, Hypertension, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (55-64)
+Gender: female
+Active_Conditions_Count: 10
+Total_Conditions_Count: 43
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Hypertension, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+

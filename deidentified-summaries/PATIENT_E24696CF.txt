@@ -1,0 +1,101 @@
+ANONYMOUS_PATIENT_ID: PATIENT_E24696CF
+AGE_GROUP: Senior (65-74)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Senior (65-74) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Pulmonary emphysema (disorder) (onset: 10+ years ago)
+3. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+4. Chronic sinusitis (disorder) (onset: 10+ years ago)
+5. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+6. Social isolation (finding) (onset: 10+ years ago)
+7. Hyperlipidemia (disorder) (onset: 10+ years ago)
+8. Essential hypertension (disorder) (onset: 10+ years ago)
+9. Chronic pain (finding) (onset: 10+ years ago)
+10. Chronic neck pain (finding) (onset: 10+ years ago)
+11. Victim of intimate partner abuse (finding) (onset: 5-10 years ago)
+12. Part-time employment (finding) (onset: 0 months ago)
+13. Stress (finding) (onset: 0 months ago)
+14. Reports of violence in the environment (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 10+ years ago)
+3. Gingivitis (disorder) (onset: 5-10 years ago)
+4. Limited social contact (finding) (onset: 5-10 years ago)
+5. Stress (finding) (onset: 5-10 years ago)
+6. Primary dental caries (disorder) (onset: 5-10 years ago)
+7. Part-time employment (finding) (onset: 5-10 years ago)
+8. Unemployed (finding) (onset: 5-10 years ago)
+9. Medication review due (situation) (onset: 4 years ago)
+10. Full-time employment (finding) (onset: 4 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 0 months ago: Urgent care clinic (environment) (Status: finished)
+4. 1 months ago: Encounter for symptom (procedure) - Reason: Acute viral pharyngitis (disorder) (Status: finished)
+5. 1 year ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Blood: 99.66 mg/dL (0 months ago)
+2. Cholesterol [Mass/volume] in Serum or Plasma: 205.01 mg/dL (0 months ago)
+3. Low Density Lipoprotein Cholesterol: 99.651 mg/dL (0 months ago)
+4. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 75.123 mg/dL (0 months ago)
+5. Body Height: 166.5 cm (0 months ago)
+6. Body Weight: 77.4 kg (0 months ago)
+7. Body mass index (BMI) [Ratio]: 27.92 kg/m2 (0 months ago)
+8. Blood pressure panel: 136/84 mm[Hg] (0 months ago)
+9. Heart rate: 88 /min (0 months ago)
+10. Body temperature: 37.101 Cel (1 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (0 months ago)
+4. Total score [DAST-10]: 1 (1 year ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+7. Total score [DAST-10]: 0 (3 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+9. Total score [DAST-10]: 1 (4 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (4 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (4 years ago)
+12. Total score [DAST-10]: 0 (5-10 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+14. Total score [DAST-10]: 1 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 5 (5-10 years ago)
+18. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 11 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Comprehensive metabolic 2000 panel - Serum or Plasma (0 months ago)
+   Status: final
+
+2. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), pulmonary, emphysema, (disorder), past, pregnancy, history, miscarriage, (situation), chronic, sinusitis, body, mass, index, obesity, social, isolation, hyperlipidemia, full-time, employment, essential, hypertension, medication, review, pain, neck, gingivitis, limited, contact, stress, primary, dental, caries, part-time, victim, intimate, partner, abuse, unemployed, infection, tooth, gingival, disease, alveolitis, acute, viral, pharyngitis, reports, violence, environment, glucose, [mass/volume], blood, cholesterol, serum, plasma, density, lipoprotein, height, weight, (bmi), [ratio], pressure, heart, rate, temperature
+
+RISK_FACTORS: Obesity, Hypertension, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Senior (65-74)
+Gender: female
+Active_Conditions_Count: 14
+Total_Conditions_Count: 31
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Hypertension, Overweight (BMI 25-29.9)
+

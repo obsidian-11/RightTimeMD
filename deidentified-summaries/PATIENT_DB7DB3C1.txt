@@ -1,0 +1,75 @@
+ANONYMOUS_PATIENT_ID: PATIENT_DB7DB3C1
+AGE_GROUP: Adolescent (13-17)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adolescent (13-17) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Loss of teeth (disorder) (onset: 4 years ago)
+2. Sprain (morphologic abnormality) (onset: 0 months ago)
+3. Sprain of ankle (disorder) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Otitis media (disorder) (onset: 10+ years ago)
+3. Acute bronchitis (disorder) (onset: 5-10 years ago)
+4. Medication review due (situation) (onset: 5-10 years ago)
+5. Infection of tooth (disorder) (onset: 5-10 years ago)
+6. Fractured dental filling (finding) (onset: 5-10 years ago)
+7. Alveolitis of jaw (disorder) (onset: 5-10 years ago)
+8. Viral sinusitis (disorder) (onset: 5-10 years ago)
+9. Medication review due (situation) (onset: 5-10 years ago)
+10. Gingivitis (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Emergency room admission (procedure) - Reason: Sprain (morphologic abnormality) (Status: finished)
+2. 1 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+3. 2 months ago: Well child visit (procedure) (Status: finished)
+4. 3 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+5. 1 year ago: Encounter for symptom (procedure) - Reason: Acute bronchitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 165.8 cm (2 months ago)
+2. Body Weight: 74.9 kg (2 months ago)
+3. Body mass index (BMI) [Ratio]: 27.25 kg/m2 (2 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 93.692 % (2 months ago)
+5. Blood pressure panel: 107/70 mm[Hg] (2 months ago)
+6. Heart rate: 78 /min (2 months ago)
+7. Body Height: 164.9 cm (1 year ago)
+8. Body Weight: 71 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 26.11 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 92.709 % (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (2 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (1 year ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 12 (1 year ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. Patient Health Questionnaire-9: Modified for Teens [Reported.PHQ.Teen] (2 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), otitis, media, (disorder), acute, bronchitis, infection, tooth, fractured, dental, filling, (finding), alveolitis, viral, sinusitis, gingivitis, suspected, disease, caused, severe, respiratory, coronavirus, nasal, congestion, cough, sputum, fever, loss, taste, syndrome, gingival, teeth, tongue, resorption, alveolar, process, trauma, sprain, (morphologic, abnormality), ankle, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature
+
+RISK_FACTORS: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adolescent (13-17)
+Gender: female
+Active_Conditions_Count: 3
+Total_Conditions_Count: 29
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+

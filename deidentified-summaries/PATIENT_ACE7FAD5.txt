@@ -1,0 +1,95 @@
+ANONYMOUS_PATIENT_ID: PATIENT_ACE7FAD5
+AGE_GROUP: Middle-aged (55-64)
+GENDER: female
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (55-64) female patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Only received primary school education (finding) (onset: 10+ years ago)
+3. Has a criminal record (finding) (onset: 10+ years ago)
+4. Chronic intractable migraine without aura (disorder) (onset: 10+ years ago)
+5. Chronic pain (finding) (onset: 10+ years ago)
+6. Impacted molars (disorder) (onset: 10+ years ago)
+7. Dependent drug abuse (disorder) (onset: 10+ years ago)
+8. Body mass index 30+ - obesity (finding) (onset: 5-10 years ago)
+9. Prediabetes (finding) (onset: 4 years ago)
+10. Chronic congestive heart failure (disorder) (onset: 3 years ago)
+11. Stress (finding) (onset: 2 years ago)
+12. Not in labor force (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+2. Stress (finding) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 10+ years ago)
+4. Gingivitis (disorder) (onset: 10+ years ago)
+5. Primary dental caries (disorder) (onset: 10+ years ago)
+6. Part-time employment (finding) (onset: 5-10 years ago)
+7. Social isolation (finding) (onset: 5-10 years ago)
+8. Viral sinusitis (disorder) (onset: 5-10 years ago)
+9. Full-time employment (finding) (onset: 5-10 years ago)
+10. Limited social contact (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+2. 1 months ago: Encounter for problem (procedure) - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+3. 1 months ago: Admission to intensive care unit (procedure) - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 1 year ago: Encounter for problem (procedure) - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Weight: 74.6 kg (1 months ago)
+2. Glucose [Mass/volume] in Serum or Plasma: 88.57 mg/dL (1 months ago)
+3. Cholesterol [Mass/volume] in Serum or Plasma: 271.2 mg/dL (1 months ago)
+4. Low Density Lipoprotein Cholesterol: 192.87 mg/dL (1 months ago)
+5. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 49.97 mg/dL (1 months ago)
+6. Body Weight: 74.6 kg (1 months ago)
+7. Glucose [Mass/volume] in Serum or Plasma: 88.57 mg/dL (1 months ago)
+8. Cholesterol [Mass/volume] in Serum or Plasma: 271.2 mg/dL (1 months ago)
+9. Low Density Lipoprotein Cholesterol: 192.87 mg/dL (1 months ago)
+10. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 49.97 mg/dL (1 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (1 year ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 4 (5-10 years ago)
+6. Total score [DAST-10]: 2 (5-10 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (5-10 years ago)
+9. Total score [DAST-10]: 0 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+11. Total score [DAST-10]: 1 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+13. Total score [DAST-10]: 2 (10+ years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (10+ years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. CBC panel - Blood by Automated count (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), only, received, primary, school, education, criminal, record, chronic, intractable, migraine, without, aura, (disorder), pain, impacted, molars, full-time, employment, dependent, drug, abuse, stress, medication, review, (situation), gingivitis, dental, caries, part-time, social, isolation, viral, sinusitis, body, mass, index, obesity, limited, contact, acute, pharyngitis, fracture, mandible, overdose, normal, pregnancy, prediabetes, congestive, heart, failure, labor, force, weight, glucose, [mass/volume], serum, plasma, cholesterol, density, lipoprotein, height, (bmi), [ratio], blood, pressure, rate, temperature
+
+RISK_FACTORS: Obesity, Diabetes risk, Obesity (BMI ≥30), Elevated blood pressure, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (55-64)
+Gender: female
+Active_Conditions_Count: 12
+Total_Conditions_Count: 31
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Diabetes risk, Obesity (BMI ≥30), Elevated blood pressure, Overweight (BMI 25-29.9)
+

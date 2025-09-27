@@ -1,0 +1,77 @@
+ANONYMOUS_PATIENT_ID: PATIENT_FD9806C8
+AGE_GROUP: Young Adult (18-24)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Young Adult (18-24) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Educated to high school level (finding) (onset: 1 year ago)
+2. Medication review due (situation) (onset: 0 months ago)
+3. Full-time employment (finding) (onset: 0 months ago)
+4. Limited social contact (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Gingivitis (disorder) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 5-10 years ago)
+4. Gingivitis (disorder) (onset: 5-10 years ago)
+5. Medication review due (situation) (onset: 5-10 years ago)
+6. Medication review due (situation) (onset: 4 years ago)
+7. Severe anxiety (panic) (finding) (onset: 4 years ago)
+8. Medication review due (situation) (onset: 3 years ago)
+9. Normal pregnancy (finding) (onset: 3 years ago)
+10. Anemia (disorder) (onset: 3 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Encounter for symptom (procedure) - Reason: Acute bacterial sinusitis (disorder) (Status: finished)
+4. 1 year ago: Postnatal visit (regime/therapy) (Status: finished)
+5. 1 year ago: Obstetric emergency hospital admission (procedure) - Reason: Normal pregnancy (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 168.5 cm (0 months ago)
+2. Body Weight: 62.4 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 21.97 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 54.822 % (0 months ago)
+5. Blood pressure panel: 119/73 mm[Hg] (0 months ago)
+6. Heart rate: 69 /min (0 months ago)
+7. Body Height: 168.4 cm (1 year ago)
+8. Body Weight: 63.6 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 22.44 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 63.079 % (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (0 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (1 year ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (3 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 18 (4 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+3. Humiliation, Afraid, Rape, and Kick questionnaire [HARK] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), gingivitis, (disorder), severe, anxiety, (panic), (finding), normal, pregnancy, anemia, viral, sinusitis, acute, infective, cystitis, educated, high, school, level, part-time, employment, stress, bacterial, full-time, limited, social, contact, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, glucose, [mass/volume], urine, test, strip, temperature
+
+RISK_FACTORS: Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Young Adult (18-24)
+Gender: female
+Active_Conditions_Count: 4
+Total_Conditions_Count: 22
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+

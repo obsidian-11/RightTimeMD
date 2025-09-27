@@ -1,0 +1,71 @@
+ANONYMOUS_PATIENT_ID: PATIENT_14D516E5
+AGE_GROUP: Adolescent (13-17)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adolescent (13-17) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Otitis media (disorder) (onset: 5-10 years ago)
+3. Acute bronchitis (disorder) (onset: 5-10 years ago)
+4. Gingivitis (disorder) (onset: 5-10 years ago)
+5. Primary dental caries (disorder) (onset: 5-10 years ago)
+6. Suspected disease caused by Severe acute respiratory coronavirus 2 (situation) (onset: 4 years ago)
+7. Headache (finding) (onset: 4 years ago)
+8. Cough (finding) (onset: 4 years ago)
+9. Fever (finding) (onset: 4 years ago)
+10. Loss of taste (finding) (onset: 4 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+2. 0 months ago: Encounter for check up (procedure) (Status: finished)
+3. 0 months ago: Encounter for symptom (procedure) - Reason: Acute bronchitis (disorder) (Status: finished)
+4. 1 year ago: Well child visit (procedure) (Status: finished)
+5. 2 years ago: Administration of vaccine to produce active immunity (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 145.6 cm (0 months ago)
+2. Body Weight: 58.6 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 27.66 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 96.403 % (0 months ago)
+5. Blood pressure panel: 124/67 mm[Hg] (0 months ago)
+6. Heart rate: 75 /min (0 months ago)
+7. Body Height: 145.1 cm (1 year ago)
+8. Body Weight: 57.9 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 27.49 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 96.329 % (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (1 year ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire-9: Modified for Teens [Reported.PHQ.Teen] (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), otitis, media, (disorder), acute, bronchitis, gingivitis, primary, dental, caries, suspected, disease, caused, severe, respiratory, coronavirus, headache, (finding), cough, fever, loss, taste, syndrome, laceration, injury, forearm, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature
+
+RISK_FACTORS: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adolescent (13-17)
+Gender: female
+Active_Conditions_Count: 1
+Total_Conditions_Count: 15
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+

@@ -1,0 +1,85 @@
+ANONYMOUS_PATIENT_ID: PATIENT_672EDD12
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Pulmonary emphysema (disorder) (onset: 10+ years ago)
+3. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+4. Not in labor force (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Part-time employment (finding) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 10+ years ago)
+3. Social isolation (finding) (onset: 10+ years ago)
+4. Full-time employment (finding) (onset: 5-10 years ago)
+5. Stress (finding) (onset: 5-10 years ago)
+6. Victim of intimate partner abuse (finding) (onset: 5-10 years ago)
+7. Normal pregnancy (finding) (onset: 5-10 years ago)
+8. Part-time employment (finding) (onset: 5-10 years ago)
+9. Gingivitis (disorder) (onset: 5-10 years ago)
+10. Gingival disease (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 1 year ago: Patient encounter procedure (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+3. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+4. 1 year ago: Asthma follow-up (regime/therapy) - Reason: Asthma (disorder) (Status: finished)
+5. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 173.9 cm (0 months ago)
+2. Body Weight: 89.2 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 29.49 kg/m2 (0 months ago)
+4. Blood pressure panel: 107/85 mm[Hg] (0 months ago)
+5. Heart rate: 97 /min (0 months ago)
+6. Body Height: 173.9 cm (1 year ago)
+7. Body Weight: 90.7 kg (1 year ago)
+8. Body mass index (BMI) [Ratio]: 29.99 kg/m2 (1 year ago)
+9. Blood pressure panel: 99/86 mm[Hg] (1 year ago)
+10. Heart rate: 78 /min (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (1 year ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+4. Total score [DAST-10]: 1 (4 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (4 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (4 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (4 years ago)
+8. Total score [DAST-10]: 1 (5-10 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+11. Total score [DAST-10]: 0 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Alcohol Use Disorder Identification Test - Consumption [AUDIT-C] (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), pulmonary, emphysema, (disorder), part-time, employment, medication, review, (situation), body, mass, index, obesity, social, isolation, full-time, stress, victim, intimate, partner, abuse, normal, pregnancy, gingivitis, gingival, disease, labor, force, infection, tooth, laceration, injury, hand, limited, contact, viral, sinusitis, unemployed, reports, violence, environment, height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 4
+Total_Conditions_Count: 35
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+

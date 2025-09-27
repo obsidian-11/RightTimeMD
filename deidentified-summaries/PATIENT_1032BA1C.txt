@@ -1,0 +1,116 @@
+ANONYMOUS_PATIENT_ID: PATIENT_1032BA1C
+AGE_GROUP: Senior (65-74)
+GENDER: female
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Senior (65-74) female patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+3. Prediabetes (finding) (onset: 10+ years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+5. Essential hypertension (disorder) (onset: 10+ years ago)
+6. Metabolic syndrome X (disorder) (onset: 10+ years ago)
+7. Seizure disorder (disorder) (onset: 10+ years ago)
+8. History of seizure (situation) (onset: 10+ years ago)
+9. Epilepsy (disorder) (onset: 10+ years ago)
+10. Osteoarthritis of knee (disorder) (onset: 10+ years ago)
+11. Chronic kidney disease stage 1 (disorder) (onset: 5-10 years ago)
+12. Disorder of kidney due to diabetes mellitus (disorder) (onset: 5-10 years ago)
+13. Full-time employment (finding) (onset: 4 years ago)
+14. Chronic kidney disease stage 2 (disorder) (onset: 2 years ago)
+15. Microalbuminuria due to type 2 diabetes mellitus (disorder) (onset: 2 years ago)
+16. Social isolation (finding) (onset: 1 year ago)
+17. Medication review due (situation) (onset: 1 year ago)
+18. Ischemic heart disease (disorder) (onset: 1 year ago)
+19. Limited social contact (finding) (onset: 1 year ago)
+20. Stress (finding) (onset: 1 year ago)
+21. Abnormal findings diagnostic imaging heart+coronary circulat (finding) (onset: 1 year ago)
+22. History of coronary artery bypass grafting (situation) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Part-time employment (finding) (onset: 10+ years ago)
+3. Stress (finding) (onset: 10+ years ago)
+4. Viral sinusitis (disorder) (onset: 10+ years ago)
+5. Full-time employment (finding) (onset: 10+ years ago)
+6. Gingival disease (disorder) (onset: 5-10 years ago)
+7. Primary dental caries (disorder) (onset: 5-10 years ago)
+8. Acute bronchitis (disorder) (onset: 5-10 years ago)
+9. Not in labor force (finding) (onset: 5-10 years ago)
+10. Gingivitis (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Ischemic heart disease (disorder) (Status: finished)
+2. 0 months ago: Hospital admission (procedure) - Reason: Abnormal findings diagnostic imaging heart+coronary circulat (finding) (Status: finished)
+3. 0 months ago: Follow-up encounter (procedure) - Reason: Abnormal findings diagnostic imaging heart+coronary circulat (finding) (Status: finished)
+4. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 1 year ago: Encounter for problem (procedure) - Reason: Ischemic heart disease (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Serum or Plasma: 95.08 mg/dL (0 months ago)
+2. Cholesterol [Mass/volume] in Serum or Plasma: 73.88 mg/dL (0 months ago)
+3. Low Density Lipoprotein Cholesterol: -10.4 mg/dL (0 months ago)
+4. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 63.04 mg/dL (0 months ago)
+5. Glucose [Presence] in Urine by Test strip: 1 {presence} (0 months ago)
+6. Glucose [Mass/volume] in Serum or Plasma: 74.54 mg/dL (1 year ago)
+7. Glucose [Mass/volume] in Urine by Test strip: 1.9544 mg/dL (1 year ago)
+8. Glucose [Presence] in Urine by Test strip: Urine glucose test = ++ (finding) (1 year ago)
+9. Body Height: 161.5 cm (1 year ago)
+10. Body Weight: 71.6 kg (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 0 (1 year ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 year ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+5. Total score [DAST-10]: 2 (2 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (2 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (2 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 13 (3 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+13. Total score [DAST-10]: 0 (4 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+15. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 19 (4 years ago)
+16. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (5-10 years ago)
+17. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+18. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (5-10 years ago)
+19. Total score [DAST-10]: 1 (5-10 years ago)
+20. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+21. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+22. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+23. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+24. Total score [DAST-10]: 2 (10+ years ago)
+25. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (10+ years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. Gas panel - Arterial blood (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), past, pregnancy, history, miscarriage, (situation), prediabetes, body, mass, index, obesity, essential, hypertension, (disorder), metabolic, syndrome, seizure, epilepsy, osteoarthritis, knee, medication, review, part-time, employment, stress, viral, sinusitis, full-time, gingival, disease, primary, dental, caries, acute, bronchitis, labor, force, gingivitis, chronic, kidney, stage, diabetes, mellitus, limited, social, contact, reports, violence, environment, victim, intimate, partner, abuse, severe, anxiety, (panic), pharyngitis, microalbuminuria, type, isolation, ischemic, heart, abnormal, findings, diagnostic, imaging, heart+coronary, circulat, coronary, artery, bypass, grafting, glucose, [mass/volume], serum, plasma, cholesterol, density, lipoprotein, [presence], urine, test, strip, height, weight, (bmi), [ratio], blood, pressure, rate, temperature
+
+RISK_FACTORS: Diabetes risk, Obesity, Hypertension, Overweight (BMI 25-29.9), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Senior (65-74)
+Gender: female
+Active_Conditions_Count: 22
+Total_Conditions_Count: 54
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Hypertension, Overweight (BMI 25-29.9), Elevated blood pressure
+

@@ -1,0 +1,83 @@
+ANONYMOUS_PATIENT_ID: PATIENT_4D8A83B9
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Only received primary school education (finding) (onset: 10+ years ago)
+2. Lack of access to transportation (finding) (onset: 10+ years ago)
+3. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+4. Transport problem (finding) (onset: 10+ years ago)
+5. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+6. History of tubal ligation (situation) (onset: 4 years ago)
+7. Unemployed (finding) (onset: 1 months ago)
+8. Social isolation (finding) (onset: 1 months ago)
+9. Stress (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 10+ years ago)
+3. Unemployed (finding) (onset: 5-10 years ago)
+4. Stress (finding) (onset: 5-10 years ago)
+5. Normal pregnancy (finding) (onset: 5-10 years ago)
+6. Miscarriage in first trimester (disorder) (onset: 5-10 years ago)
+7. Complete miscarriage (disorder) (onset: 5-10 years ago)
+8. Full-time employment (finding) (onset: 5-10 years ago)
+9. Victim of intimate partner abuse (finding) (onset: 5-10 years ago)
+10. Sterilization requested (situation) (onset: 4 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+2. 1 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Patient encounter procedure (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+4. 2 years ago: General examination of patient (procedure) (Status: finished)
+5. 3 years ago: Administration of vaccine to produce active immunity (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 158.1 cm (1 months ago)
+2. Body Weight: 69.7 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 27.88 kg/m2 (1 months ago)
+4. Blood pressure panel: 105/87 mm[Hg] (1 months ago)
+5. Heart rate: 72 /min (1 months ago)
+6. Body Height: 158.1 cm (2 years ago)
+7. Body Weight: 69.7 kg (2 years ago)
+8. Body mass index (BMI) [Ratio]: 27.88 kg/m2 (2 years ago)
+9. Blood pressure panel: 104/84 mm[Hg] (2 years ago)
+10. Heart rate: 88 /min (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 months ago)
+2. Total score [DAST-10]: 1 (2 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (2 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 months ago)
+   Status: final
+
+3. CBC panel - Blood by Automated count (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: only, received, primary, school, education, (finding), lack, access, transportation, body, mass, index, obesity, transport, problem, full-time, employment, past, pregnancy, history, miscarriage, (situation), medication, review, unemployed, stress, normal, first, trimester, (disorder), complete, victim, intimate, partner, abuse, sterilization, requested, tubal, ligation, part-time, social, isolation, height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Obesity, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 9
+Total_Conditions_Count: 20
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Overweight (BMI 25-29.9)
+

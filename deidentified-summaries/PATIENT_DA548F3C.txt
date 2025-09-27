@@ -1,0 +1,104 @@
+ANONYMOUS_PATIENT_ID: PATIENT_DA548F3C
+AGE_GROUP: Middle-aged (45-54)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Chronic sinusitis (disorder) (onset: 10+ years ago)
+2. Educated to high school level (finding) (onset: 10+ years ago)
+3. Impacted molars (disorder) (onset: 10+ years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+5. Dependent drug abuse (disorder) (onset: 10+ years ago)
+6. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+7. Diabetes mellitus type 2 (disorder) (onset: 10+ years ago)
+8. Anemia (disorder) (onset: 10+ years ago)
+9. Hypertriglyceridemia (disorder) (onset: 10+ years ago)
+10. Metabolic syndrome X (disorder) (onset: 10+ years ago)
+11. Limited social contact (finding) (onset: 5-10 years ago)
+12. Full-time employment (finding) (onset: 5-10 years ago)
+13. History of appendectomy (situation) (onset: 4 years ago)
+14. Ischemic heart disease (disorder) (onset: 1 year ago)
+15. Abnormal findings diagnostic imaging heart+coronary circulat (finding) (onset: 1 year ago)
+16. Medication review due (situation) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 10+ years ago)
+3. Not in labor force (finding) (onset: 5-10 years ago)
+4. Social isolation (finding) (onset: 5-10 years ago)
+5. Stress (finding) (onset: 5-10 years ago)
+6. Medication review due (situation) (onset: 5-10 years ago)
+7. Full-time employment (finding) (onset: 5-10 years ago)
+8. Overdose (disorder) (onset: 5-10 years ago)
+9. Medication review due (situation) (onset: 5-10 years ago)
+10. Not in labor force (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 3 months ago: Patient encounter procedure (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+3. 1 year ago: Patient encounter procedure (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+4. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+5. 1 year ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 157.9 cm (0 months ago)
+2. Body Weight: 78 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 31.29 kg/m2 (0 months ago)
+4. Blood pressure panel: 96/62 mm[Hg] (0 months ago)
+5. Heart rate: 97 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 99.06 mg/dL (0 months ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 281.33 mg/dL (0 months ago)
+8. Low Density Lipoprotein Cholesterol: 207.27 mg/dL (0 months ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 52.44 mg/dL (0 months ago)
+10. Body Height: 157.9 cm (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 14 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (2 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (3 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (4 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (4 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+12. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 3 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+18. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+19. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+2. Basic metabolic panel - Blood (0 months ago)
+   Status: final
+
+3. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: chronic, sinusitis, (disorder), educated, high, school, level, (finding), impacted, molars, body, mass, index, obesity, dependent, drug, abuse, past, pregnancy, history, miscarriage, (situation), diabetes, mellitus, type, anemia, hypertriglyceridemia, metabolic, syndrome, full-time, employment, medication, review, labor, force, social, isolation, stress, limited, contact, overdose, gingivitis, primary, dental, caries, suspected, disease, caused, severe, acute, respiratory, coronavirus, nasal, congestion, muscle, pain, joint, fever, victim, intimate, partner, appendicitis, appendectomy, viral, ischemic, heart, abnormal, findings, diagnostic, imaging, heart+coronary, circulat, height, weight, (bmi), [ratio], blood, pressure, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature
+
+RISK_FACTORS: Obesity, Diabetes risk, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: female
+Active_Conditions_Count: 16
+Total_Conditions_Count: 53
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Diabetes risk, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+

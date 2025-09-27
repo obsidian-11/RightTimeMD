@@ -1,0 +1,69 @@
+ANONYMOUS_PATIENT_ID: PATIENT_48BE690A
+AGE_GROUP: Middle-aged (55-64)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (55-64) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Seizure disorder (disorder) (onset: 1 year ago)
+2. History of seizure (situation) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+2. Otitis media (disorder) (onset: 5-10 years ago)
+3. Otitis media (disorder) (onset: 4 years ago)
+4. Medication review due (situation) (onset: 4 years ago)
+5. Medication review due (situation) (onset: 4 years ago)
+6. Medication review due (situation) (onset: 4 years ago)
+7. Viral sinusitis (disorder) (onset: 4 years ago)
+8. Sinusitis (disorder) (onset: 3 years ago)
+9. Medication review due (situation) (onset: 2 years ago)
+10. Medication review due (situation) (onset: 2 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Sudden cardiac death (disorder) (Status: finished)
+2. 1 months ago: Admission to hospice (procedure) (Status: finished)
+3. 5 months ago: Emergency room admission (procedure) - Reason: Sprain (morphologic abnormality) (Status: finished)
+4. 7 months ago: Well child visit (procedure) (Status: finished)
+5. 1 year ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 106.2 cm (7 months ago)
+2. Body Weight: 18.8 kg (7 months ago)
+3. Body mass index (BMI) [Ratio]: 16.69 kg/m2 (7 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 82.651 % (7 months ago)
+5. Blood pressure panel: 132/83 mm[Hg] (7 months ago)
+6. Heart rate: 100 /min (7 months ago)
+7. Body Height: 99.7 cm (2 years ago)
+8. Body Weight: 16.3 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 16.4 kg/m2 (2 years ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 73.325 % (2 years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), otitis, media, (disorder), viral, sinusitis, seizure, history, sprain, (morphologic, abnormality), wrist, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate
+
+RISK_FACTORS: Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (55-64)
+Gender: male
+Active_Conditions_Count: 2
+Total_Conditions_Count: 18
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30)
+

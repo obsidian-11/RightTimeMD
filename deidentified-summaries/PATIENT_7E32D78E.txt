@@ -1,0 +1,91 @@
+ANONYMOUS_PATIENT_ID: PATIENT_7E32D78E
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Only received primary school education (finding) (onset: 10+ years ago)
+2. Has a criminal record (finding) (onset: 10+ years ago)
+3. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+4. Prediabetes (finding) (onset: 10+ years ago)
+5. Anemia (disorder) (onset: 10+ years ago)
+6. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+7. Chronic pain (finding) (onset: 10+ years ago)
+8. Chronic low back pain (finding) (onset: 10+ years ago)
+9. Medication review due (situation) (onset: 1 year ago)
+10. Part-time employment (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Stress (finding) (onset: 10+ years ago)
+3. Part-time employment (finding) (onset: 10+ years ago)
+4. Full-time employment (finding) (onset: 5-10 years ago)
+5. Normal pregnancy (finding) (onset: 5-10 years ago)
+6. Medication review due (situation) (onset: 5-10 years ago)
+7. Social isolation (finding) (onset: 5-10 years ago)
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+9. Medication review due (situation) (onset: 5-10 years ago)
+10. Stress (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 0 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+3. 2 months ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+4. 1 year ago: Patient encounter procedure (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+5. 1 year ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 170.6 cm (0 months ago)
+2. Body Weight: 86.4 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 29.7 kg/m2 (0 months ago)
+4. Blood pressure panel: 137/72 mm[Hg] (0 months ago)
+5. Heart rate: 66 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 73.71 mg/dL (0 months ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 185.21 mg/dL (0 months ago)
+8. Low Density Lipoprotein Cholesterol: 111.14 mg/dL (0 months ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 51.16 mg/dL (0 months ago)
+10. Body Height: 170.6 cm (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (0 months ago)
+2. Total score [DAST-10]: 1 (1 year ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (1 year ago)
+4. Total score [DAST-10]: 0 (2 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+6. Total score [DAST-10]: 2 (3 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+8. Total score [DAST-10]: 0 (4 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (4 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+12. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+2. Basic metabolic panel - Blood (0 months ago)
+   Status: final
+
+3. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: only, received, primary, school, education, (finding), criminal, record, body, mass, index, obesity, prediabetes, anemia, (disorder), past, pregnancy, history, miscarriage, (situation), medication, review, stress, chronic, pain, back, part-time, employment, full-time, normal, social, isolation, gingivitis, suspected, disease, caused, severe, acute, respiratory, coronavirus, nasal, congestion, fatigue, dyspnea, wheezing, fever, loss, taste, syndrome, viral, sinusitis, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature
+
+RISK_FACTORS: Obesity, Diabetes risk, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 10
+Total_Conditions_Count: 40
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Diabetes risk, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+

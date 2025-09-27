@@ -1,0 +1,65 @@
+ANONYMOUS_PATIENT_ID: PATIENT_166D6A85
+AGE_GROUP: Child (5-12)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Child (5-12) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+2. Medication review due (situation) (onset: 5-10 years ago)
+3. Medication review due (situation) (onset: 5-10 years ago)
+4. Medication review due (situation) (onset: 5-10 years ago)
+5. Medication review due (situation) (onset: 5-10 years ago)
+6. Viral sinusitis (disorder) (onset: 5-10 years ago)
+7. Medication review due (situation) (onset: 5-10 years ago)
+8. Medication review due (situation) (onset: 3 years ago)
+9. Gingivitis (disorder) (onset: 3 years ago)
+10. Primary dental caries (disorder) (onset: 3 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+2. 0 months ago: Well child visit (procedure) (Status: finished)
+3. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+4. 1 year ago: Well child visit (procedure) (Status: finished)
+5. 2 years ago: Well child visit (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 146.9 cm (0 months ago)
+2. Body Weight: 41.4 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 19.19 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 72.359 % (0 months ago)
+5. Blood pressure panel: 133/76 mm[Hg] (0 months ago)
+6. Heart rate: 80 /min (0 months ago)
+7. Body Height: 140.6 cm (1 year ago)
+8. Body Weight: 37.9 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 19.18 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 79.399 % (1 year ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. CBC panel - Blood by Automated count (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), viral, sinusitis, (disorder), gingivitis, primary, dental, caries, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate
+
+RISK_FACTORS: Obesity (BMI ≥30), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Child (5-12)
+Gender: female
+Active_Conditions_Count: 0
+Total_Conditions_Count: 12
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Elevated blood pressure
+

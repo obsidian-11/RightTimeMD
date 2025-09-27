@@ -1,0 +1,101 @@
+ANONYMOUS_PATIENT_ID: PATIENT_20A3E484
+AGE_GROUP: Senior (65-74)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Senior (65-74) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Housing unsatisfactory (finding) (onset: 10+ years ago)
+2. Only received primary school education (finding) (onset: 10+ years ago)
+3. Prediabetes (finding) (onset: 10+ years ago)
+4. Anemia (disorder) (onset: 10+ years ago)
+5. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+6. Chronic pain (finding) (onset: 10+ years ago)
+7. Chronic low back pain (finding) (onset: 10+ years ago)
+8. Stress (finding) (onset: 3 years ago)
+9. Part-time employment (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Social isolation (finding) (onset: 10+ years ago)
+2. Full-time employment (finding) (onset: 10+ years ago)
+3. Limited social contact (finding) (onset: 10+ years ago)
+4. Stress (finding) (onset: 10+ years ago)
+5. Viral sinusitis (disorder) (onset: 10+ years ago)
+6. Medication review due (situation) (onset: 5-10 years ago)
+7. Gingivitis (disorder) (onset: 5-10 years ago)
+8. Primary dental caries (disorder) (onset: 5-10 years ago)
+9. Unemployed (finding) (onset: 5-10 years ago)
+10. Full-time employment (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Emergency room admission (procedure) - Reason: Cerebrovascular accident (disorder) (Status: finished)
+4. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+5. 1 year ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 175.8 cm (0 months ago)
+2. Body Weight: 92.8 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 30.03 kg/m2 (0 months ago)
+4. Blood pressure panel: 117/79 mm[Hg] (0 months ago)
+5. Heart rate: 93 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 90.28 mg/dL (0 months ago)
+7. Body Height: 175.8 cm (1 year ago)
+8. Body Weight: 90.9 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 29.42 kg/m2 (1 year ago)
+10. Blood pressure panel: 126/80 mm[Hg] (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 5 (0 months ago)
+4. Total score [DAST-10]: 1 (1 year ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+6. Total score [DAST-10]: 2 (2 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (3 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (3 years ago)
+10. Total score [DAST-10]: 2 (3 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+12. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (3 years ago)
+13. Total score [DAST-10]: 1 (4 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+15. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (4 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+17. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+18. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+19. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 6 (5-10 years ago)
+20. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (5-10 years ago)
+21. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+22. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+23. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: housing, unsatisfactory, (finding), only, received, primary, school, education, prediabetes, anemia, (disorder), body, mass, index, obesity, social, isolation, full-time, employment, chronic, pain, back, limited, contact, stress, viral, sinusitis, medication, review, (situation), gingivitis, dental, caries, unemployed, reports, violence, environment, part-time, acute, bronchitis, cerebrovascular, accident, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Diabetes risk, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Senior (65-74)
+Gender: male
+Active_Conditions_Count: 9
+Total_Conditions_Count: 38
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+

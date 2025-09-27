@@ -1,0 +1,75 @@
+ANONYMOUS_PATIENT_ID: PATIENT_534F2D70
+AGE_GROUP: Young Adult (18-24)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Young Adult (18-24) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 1 year ago)
+2. Full-time employment (finding) (onset: 1 year ago)
+3. Stress (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Viral sinusitis (disorder) (onset: 5-10 years ago)
+2. Fracture of bone (disorder) (onset: 5-10 years ago)
+3. Fracture subluxation of wrist (disorder) (onset: 5-10 years ago)
+4. Medication review due (situation) (onset: 5-10 years ago)
+5. Risk activity involvement (finding) (onset: 5-10 years ago)
+6. Gingivitis (disorder) (onset: 5-10 years ago)
+7. Primary dental caries (disorder) (onset: 5-10 years ago)
+8. Medication review due (situation) (onset: 4 years ago)
+9. Medication review due (situation) (onset: 3 years ago)
+10. Medication review due (situation) (onset: 2 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+3. 1 year ago: General examination of patient (procedure) (Status: finished)
+4. 1 year ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+5. 2 years ago: Well child visit (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 174.3 cm (0 months ago)
+2. Body Weight: 60 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 19.75 kg/m2 (0 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 12.924 % (0 months ago)
+5. Blood pressure panel: 120/88 mm[Hg] (0 months ago)
+6. Heart rate: 76 /min (0 months ago)
+7. Body Height: 173.9 cm (1 year ago)
+8. Body Weight: 57.6 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 19.06 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 11.111 % (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (0 months ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 12 (3 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+2. Generalized anxiety disorder 7 item (GAD-7) (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: viral, sinusitis, (disorder), fracture, bone, subluxation, wrist, medication, review, (situation), risk, activity, involvement, (finding), gingivitis, primary, dental, caries, received, higher, education, full-time, employment, social, isolation, stress, gingival, disease, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate
+
+SIMILARITY_FEATURES:
+Age_Group: Young Adult (18-24)
+Gender: male
+Active_Conditions_Count: 3
+Total_Conditions_Count: 18
+Recent_Encounters_Count: 5
+

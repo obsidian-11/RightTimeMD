@@ -1,0 +1,82 @@
+ANONYMOUS_PATIENT_ID: PATIENT_8D80D30F
+AGE_GROUP: Adult (25-34)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 5-10 years ago)
+2. Full-time employment (finding) (onset: 5-10 years ago)
+3. Victim of intimate partner abuse (finding) (onset: 1 year ago)
+4. Stress (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Gingivitis (disorder) (onset: 5-10 years ago)
+3. Social isolation (finding) (onset: 5-10 years ago)
+4. Stress (finding) (onset: 5-10 years ago)
+5. Unhealthy alcohol drinking behavior (finding) (onset: 5-10 years ago)
+6. Medication review due (situation) (onset: 5-10 years ago)
+7. Acute infective cystitis (disorder) (onset: 5-10 years ago)
+8. Viral sinusitis (disorder) (onset: 5-10 years ago)
+9. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+10. Suspected disease caused by Severe acute respiratory coronavirus 2 (situation) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+2. 0 months ago: Patient-initiated encounter (procedure) - Reason: Normal pregnancy (finding) (Status: finished)
+3. 1 months ago: Prenatal initial visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+4. 1 year ago: Encounter for check up (procedure) (Status: finished)
+5. 1 year ago: Encounter for symptom (procedure) - Reason: Acute bronchitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 170.6 cm (1 year ago)
+2. Body Weight: 70.4 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 24.18 kg/m2 (1 year ago)
+4. Blood pressure panel: 106/76 mm[Hg] (1 year ago)
+5. Heart rate: 83 /min (1 year ago)
+6. Body Height: 170.6 cm (1 year ago)
+7. Body Weight: 70.4 kg (1 year ago)
+8. Body mass index (BMI) [Ratio]: 24.18 kg/m2 (1 year ago)
+9. Blood pressure panel: 109/69 mm[Hg] (1 year ago)
+10. Heart rate: 64 /min (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (1 year ago)
+3. Total score [DAST-10]: 0 (1 year ago)
+4. Total score [DAST-10]: 1 (4 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), gingivitis, (disorder), received, higher, education, (finding), full-time, employment, social, isolation, stress, unhealthy, alcohol, drinking, behavior, acute, infective, cystitis, viral, sinusitis, pharyngitis, suspected, disease, caused, severe, respiratory, coronavirus, cough, fever, loss, taste, syndrome, victim, intimate, partner, abuse, bronchitis, normal, pregnancy, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, temperature, glucose, [mass/volume], urine, test, strip, [percentile]
+
+RISK_FACTORS: Alcohol use, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: female
+Active_Conditions_Count: 4
+Total_Conditions_Count: 22
+Recent_Encounters_Count: 5
+Risk_Factors: Alcohol use, Obesity (BMI ≥30)
+

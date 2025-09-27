@@ -1,0 +1,95 @@
+ANONYMOUS_PATIENT_ID: PATIENT_EA0DB14A
+AGE_GROUP: Senior (65-74)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Senior (65-74) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+3. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+4. Essential hypertension (disorder) (onset: 10+ years ago)
+5. Social isolation (finding) (onset: 10+ years ago)
+6. Full-time employment (finding) (onset: 2 years ago)
+7. Stress (finding) (onset: 1 year ago)
+8. Medication review due (situation) (onset: 4 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Misuses drugs (finding) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 10+ years ago)
+3. Not in labor force (finding) (onset: 10+ years ago)
+4. Unemployed (finding) (onset: 10+ years ago)
+5. Primary dental caries (disorder) (onset: 5-10 years ago)
+6. Viral sinusitis (disorder) (onset: 5-10 years ago)
+7. Full-time employment (finding) (onset: 5-10 years ago)
+8. Stress (finding) (onset: 5-10 years ago)
+9. Viral sinusitis (disorder) (onset: 5-10 years ago)
+10. Limited social contact (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Fracture of clavicle (disorder) (Status: finished)
+2. 2 months ago: Emergency room admission (procedure) - Reason: Fracture of bone (disorder) (Status: finished)
+3. 4 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+4. 4 months ago: General examination of patient (procedure) (Status: finished)
+5. 1 year ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 170.6 cm (4 months ago)
+2. Body Weight: 88.5 kg (4 months ago)
+3. Body mass index (BMI) [Ratio]: 30.41 kg/m2 (4 months ago)
+4. Blood pressure panel: 120/84 mm[Hg] (4 months ago)
+5. Heart rate: 61 /min (4 months ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 199.7 mg/dL (4 months ago)
+7. Low Density Lipoprotein Cholesterol: 119.44 mg/dL (4 months ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 51.8 mg/dL (4 months ago)
+9. Body Height: 170.6 cm (1 year ago)
+10. Body Weight: 88.5 kg (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (4 months ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (1 year ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 20 (1 year ago)
+5. Total score [DAST-10]: 2 (2 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+7. Total score [DAST-10]: 1 (3 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (3 years ago)
+10. Total score [DAST-10]: 1 (4 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+12. Total score [DAST-10]: 1 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+17. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (10+ years ago)
+18. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (10+ years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (2 months ago)
+   Status: final
+
+3. History and physical note (4 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), past, pregnancy, history, miscarriage, (situation), body, mass, index, obesity, essential, hypertension, (disorder), misuses, drugs, medication, review, labor, force, unemployed, social, isolation, primary, dental, caries, viral, sinusitis, full-time, employment, stress, limited, contact, part-time, gingivitis, severe, anxiety, (panic), gingival, disease, fracture, bone, clavicle, height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Obesity, Hypertension, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Senior (65-74)
+Gender: female
+Active_Conditions_Count: 8
+Total_Conditions_Count: 31
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Hypertension, Obesity (BMI ≥30)
+

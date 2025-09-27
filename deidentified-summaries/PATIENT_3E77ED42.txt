@@ -1,0 +1,74 @@
+ANONYMOUS_PATIENT_ID: PATIENT_3E77ED42
+AGE_GROUP: Adolescent (13-17)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adolescent (13-17) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 1 year ago)
+2. Risk activity involvement (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 5-10 years ago)
+2. Gingivitis (disorder) (onset: 5-10 years ago)
+3. Gingivitis (disorder) (onset: 5-10 years ago)
+4. Viral sinusitis (disorder) (onset: 5-10 years ago)
+5. Medication review due (situation) (onset: 5-10 years ago)
+6. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+7. Medication review due (situation) (onset: 5-10 years ago)
+8. Risk activity involvement (finding) (onset: 5-10 years ago)
+9. Viral sinusitis (disorder) (onset: 4 years ago)
+10. Gingivitis (disorder) (onset: 4 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+2. 1 months ago: Well child visit (procedure) (Status: finished)
+3. 1 year ago: Well child visit (procedure) (Status: finished)
+4. 2 years ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+5. 2 years ago: Well child visit (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 177.5 cm (1 months ago)
+2. Body Weight: 70.2 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 22.28 kg/m2 (1 months ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 62.702 % (1 months ago)
+5. Blood pressure panel: 150/86 mm[Hg] (1 months ago)
+6. Heart rate: 68 /min (1 months ago)
+7. Body Height: 175.9 cm (1 year ago)
+8. Body Weight: 68.2 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 22.03 kg/m2 (1 year ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 67.856 % (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (1 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (2 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire-9: Modified for Teens [Reported.PHQ.Teen] (1 months ago)
+   Status: final
+
+3. Generalized anxiety disorder 7 item (GAD-7) (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), gingivitis, (disorder), viral, sinusitis, acute, pharyngitis, risk, activity, involvement, (finding), gingival, disease, primary, dental, caries, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature
+
+RISK_FACTORS: Obesity (BMI ≥30), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Adolescent (13-17)
+Gender: male
+Active_Conditions_Count: 2
+Total_Conditions_Count: 19
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Elevated blood pressure
+

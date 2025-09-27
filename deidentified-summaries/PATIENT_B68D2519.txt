@@ -1,0 +1,85 @@
+ANONYMOUS_PATIENT_ID: PATIENT_B68D2519
+AGE_GROUP: Young Adult (18-24)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Young Adult (18-24) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 3 years ago)
+2. Received higher education (finding) (onset: 3 years ago)
+3. Full-time employment (finding) (onset: 1 year ago)
+4. Social isolation (finding) (onset: 1 year ago)
+5. Stress (finding) (onset: 3 months ago)
+6. Medication review due (situation) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Perennial allergic rhinitis (disorder) (onset: 10+ years ago)
+2. Childhood asthma (disorder) (onset: 10+ years ago)
+3. Risk activity involvement (finding) (onset: 5-10 years ago)
+4. Medication review due (situation) (onset: 5-10 years ago)
+5. Streptococcal sore throat (disorder) (onset: 5-10 years ago)
+6. Medication review due (situation) (onset: 5-10 years ago)
+7. Gingivitis (disorder) (onset: 5-10 years ago)
+8. Medication review due (situation) (onset: 4 years ago)
+9. Gingivitis (disorder) (onset: 4 years ago)
+10. Sprain (morphologic abnormality) (onset: 4 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 2 months ago: Encounter for symptom (procedure) - Reason: Acute viral pharyngitis (disorder) (Status: finished)
+3. 2 months ago: Encounter for check up (procedure) (Status: finished)
+4. 3 months ago: Urgent care clinic (environment) (Status: finished)
+5. 1 year ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 165 cm (0 months ago)
+2. Body Weight: 61 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 22.42 kg/m2 (0 months ago)
+4. Blood pressure panel: 116/76 mm[Hg] (0 months ago)
+5. Heart rate: 64 /min (0 months ago)
+6. Body temperature: 37.329 Cel (2 months ago)
+7. Body Height: 165 cm (3 months ago)
+8. Body Weight: 59.8 kg (3 months ago)
+9. Body mass index (BMI) [Ratio]: 21.98 kg/m2 (3 months ago)
+10. Blood pressure panel: 111/77 mm[Hg] (3 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (0 months ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 months ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (1 year ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (1 year ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (2 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (3 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+3. CBC panel - Blood by Automated count (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: perennial, allergic, rhinitis, (disorder), childhood, asthma, risk, activity, involvement, (finding), medication, review, (situation), streptococcal, sore, throat, gingivitis, sprain, (morphologic, abnormality), ankle, viral, sinusitis, primary, dental, caries, received, higher, education, full-time, employment, stress, part-time, social, isolation, limited, contact, acute, pharyngitis, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, temperature, [percentile]
+
+RISK_FACTORS: Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Young Adult (18-24)
+Gender: male
+Active_Conditions_Count: 6
+Total_Conditions_Count: 27
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9)
+

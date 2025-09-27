@@ -1,0 +1,106 @@
+ANONYMOUS_PATIENT_ID: PATIENT_8377DD37
+AGE_GROUP: Middle-aged (45-54)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Recurrent urinary tract infection (disorder) (onset: 10+ years ago)
+3. Received higher education (finding) (onset: 10+ years ago)
+4. Chronic sinusitis (disorder) (onset: 10+ years ago)
+5. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+6. Social isolation (finding) (onset: 10+ years ago)
+7. Chronic pain (finding) (onset: 10+ years ago)
+8. Chronic low back pain (finding) (onset: 10+ years ago)
+9. Chronic neck pain (finding) (onset: 10+ years ago)
+10. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+11. Stress (finding) (onset: 2 years ago)
+12. Prediabetes (finding) (onset: 1 year ago)
+13. Anemia (disorder) (onset: 2 months ago)
+14. Full-time employment (finding) (onset: 1 months ago)
+15. Victim of intimate partner abuse (finding) (onset: 1 months ago)
+16. Medication review due (situation) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Limited social contact (finding) (onset: 10+ years ago)
+2. Full-time employment (finding) (onset: 10+ years ago)
+3. Stress (finding) (onset: 10+ years ago)
+4. Medication review due (situation) (onset: 5-10 years ago)
+5. Normal pregnancy (finding) (onset: 5-10 years ago)
+6. Medication review due (situation) (onset: 5-10 years ago)
+7. Part-time employment (finding) (onset: 5-10 years ago)
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+9. Viral sinusitis (disorder) (onset: 5-10 years ago)
+10. Not in labor force (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 0 months ago: Encounter for symptom (procedure) - Reason: Acute bronchitis (disorder) (Status: finished)
+3. 1 months ago: Encounter for check up (procedure) (Status: finished)
+4. 1 months ago: Urgent care clinic (environment) (Status: finished)
+5. 1 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 155.7 cm (1 months ago)
+2. Body Weight: 67.8 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 27.97 kg/m2 (1 months ago)
+4. Blood pressure panel: 126/88 mm[Hg] (1 months ago)
+5. Heart rate: 77 /min (1 months ago)
+6. Glucose [Mass/volume] in Blood: 95.26 mg/dL (1 months ago)
+7. Body Height: 155.7 cm (2 months ago)
+8. Body Weight: 67.8 kg (2 months ago)
+9. Body mass index (BMI) [Ratio]: 27.97 kg/m2 (2 months ago)
+10. Blood pressure panel: 120/88 mm[Hg] (2 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (1 months ago)
+3. Total score [DAST-10]: 1 (2 months ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (2 months ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 12 (1 year ago)
+7. Total score [DAST-10]: 2 (3 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (3 years ago)
+9. Total score [DAST-10]: 2 (4 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+11. Total score [DAST-10]: 2 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+14. Total score [DAST-10]: 1 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+16. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+17. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+18. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 10 (5-10 years ago)
+19. Total score [DAST-10]: 1 (5-10 years ago)
+20. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+21. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), recurrent, urinary, tract, infection, (disorder), received, higher, education, chronic, sinusitis, past, pregnancy, history, miscarriage, (situation), social, isolation, pain, back, neck, limited, contact, body, mass, index, obesity, full-time, employment, stress, medication, review, normal, part-time, gingivitis, viral, labor, force, acute, bronchitis, primary, dental, caries, unemployed, gingival, disease, unhealthy, alcohol, drinking, behavior, prediabetes, anemia, victim, intimate, partner, abuse, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Obesity, Alcohol use, Diabetes risk, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: female
+Active_Conditions_Count: 16
+Total_Conditions_Count: 48
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Alcohol use, Diabetes risk, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+

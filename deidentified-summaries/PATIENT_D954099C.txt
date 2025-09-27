@@ -1,0 +1,102 @@
+ANONYMOUS_PATIENT_ID: PATIENT_D954099C
+AGE_GROUP: Middle-aged (45-54)
+GENDER: male
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) male patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. History of appendectomy (situation) (onset: 10+ years ago)
+2. Chronic pain (finding) (onset: 10+ years ago)
+3. Chronic intractable migraine without aura (disorder) (onset: 10+ years ago)
+4. Impacted molars (disorder) (onset: 10+ years ago)
+5. Risk activity involvement (finding) (onset: 10+ years ago)
+6. Only received primary school education (finding) (onset: 10+ years ago)
+7. Dependent drug abuse (disorder) (onset: 10+ years ago)
+8. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+9. Chronic sinusitis (disorder) (onset: 10+ years ago)
+10. Sleep disorder (disorder) (onset: 10+ years ago)
+11. Obstructive sleep apnea syndrome (disorder) (onset: 10+ years ago)
+12. Essential hypertension (disorder) (onset: 10+ years ago)
+13. Limited social contact (finding) (onset: 2 years ago)
+14. Medication review due (situation) (onset: 1 year ago)
+15. Not in labor force (finding) (onset: 1 year ago)
+16. Polyp of colon (disorder) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 10+ years ago)
+3. Unemployed (finding) (onset: 10+ years ago)
+4. Reports of violence in the environment (finding) (onset: 10+ years ago)
+5. Viral sinusitis (disorder) (onset: 10+ years ago)
+6. Overdose (disorder) (onset: 10+ years ago)
+7. Full-time employment (finding) (onset: 5-10 years ago)
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+9. Part-time employment (finding) (onset: 5-10 years ago)
+10. Gingivitis (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+2. 1 months ago: Encounter for check up (procedure) - Reason: Screening for malignant neoplasm of colon (procedure) (Status: finished)
+3. 2 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+4. 3 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+5. 3 months ago: Emergency room admission (procedure) - Reason: Overdose (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 176.5 cm (1 year ago)
+2. Body Weight: 87.2 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 27.99 kg/m2 (1 year ago)
+4. Blood pressure panel: 119/85 mm[Hg] (1 year ago)
+5. Heart rate: 93 /min (1 year ago)
+6. Body Height: 176.5 cm (2 years ago)
+7. Body Weight: 87.2 kg (2 years ago)
+8. Body mass index (BMI) [Ratio]: 27.99 kg/m2 (2 years ago)
+9. Blood pressure panel: 117/80 mm[Hg] (2 years ago)
+10. Heart rate: 94 /min (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (1 year ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (3 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 5 (4 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (4 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+15. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+17. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (2 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: history, appendectomy, (situation), chronic, pain, (finding), intractable, migraine, without, aura, (disorder), impacted, molars, risk, activity, involvement, only, received, primary, school, education, stress, dependent, drug, abuse, body, mass, index, obesity, sinusitis, medication, review, unemployed, sleep, obstructive, apnea, syndrome, essential, hypertension, reports, violence, environment, viral, overdose, full-time, employment, gingivitis, part-time, gingival, disease, dental, caries, social, isolation, acute, pharyngitis, victim, intimate, partner, limited, contact, labor, force, polyp, colon, height, weight, (bmi), [ratio], blood, pressure, heart, rate, temperature, cholesterol, [mass/volume], serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Obesity, Hypertension, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: male
+Active_Conditions_Count: 16
+Total_Conditions_Count: 55
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Hypertension, Overweight (BMI 25-29.9)
+

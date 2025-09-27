@@ -1,0 +1,102 @@
+ANONYMOUS_PATIENT_ID: PATIENT_7AB887FD
+AGE_GROUP: Senior (65-74)
+GENDER: male
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Senior (65-74) male patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Prediabetes (finding) (onset: 10+ years ago)
+4. Anemia (disorder) (onset: 10+ years ago)
+5. Essential hypertension (disorder) (onset: 10+ years ago)
+6. Diabetes mellitus type 2 (disorder) (onset: 10+ years ago)
+7. Hypertriglyceridemia (disorder) (onset: 10+ years ago)
+8. Hyperlipidemia (disorder) (onset: 10+ years ago)
+9. Metabolic syndrome X (disorder) (onset: 10+ years ago)
+10. Neuropathy due to type 2 diabetes mellitus (disorder) (onset: 10+ years ago)
+11. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+12. Hyperglycemia (disorder) (onset: 10+ years ago)
+13. Ischemic heart disease (disorder) (onset: 10+ years ago)
+14. Abnormal findings diagnostic imaging heart+coronary circulat (finding) (onset: 10+ years ago)
+15. Acute non-ST segment elevation myocardial infarction (disorder) (onset: 10+ years ago)
+16. History of myocardial infarction (situation) (onset: 10+ years ago)
+17. Social isolation (finding) (onset: 5-10 years ago)
+18. Full-time employment (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Social isolation (finding) (onset: 10+ years ago)
+2. Limited social contact (finding) (onset: 10+ years ago)
+3. Full-time employment (finding) (onset: 10+ years ago)
+4. Stress (finding) (onset: 10+ years ago)
+5. Medication review due (situation) (onset: 5-10 years ago)
+6. Part-time employment (finding) (onset: 5-10 years ago)
+7. Acute bronchitis (disorder) (onset: 5-10 years ago)
+8. Full-time employment (finding) (onset: 5-10 years ago)
+9. Stress (finding) (onset: 5-10 years ago)
+10. Reports of violence in the environment (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 5 months ago: Ophthalmic examination and evaluation (procedure) (Status: finished)
+4. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 1 year ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Blood: 95.34 mg/dL (0 months ago)
+2. Cholesterol [Mass/volume] in Serum or Plasma: 196.66 mg/dL (0 months ago)
+3. Low Density Lipoprotein Cholesterol: 147.73 mg/dL (0 months ago)
+4. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 54.318 mg/dL (0 months ago)
+5. Body Height: 186.4 cm (0 months ago)
+6. Body Weight: 97.6 kg (0 months ago)
+7. Body mass index (BMI) [Ratio]: 28.09 kg/m2 (0 months ago)
+8. Blood pressure panel: 98/62 mm[Hg] (0 months ago)
+9. Heart rate: 65 /min (0 months ago)
+10. Glucose [Mass/volume] in Blood: 78.27 mg/dL (0 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (0 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (3 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (4 years ago)
+7. Total score [DAST-10]: 1 (4 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+9. Total score [DAST-10]: 0 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 4 (5-10 years ago)
+11. Total score [DAST-10]: 1 (5-10 years ago)
+12. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 11 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Comprehensive metabolic 2000 panel - Serum or Plasma (0 months ago)
+   Status: final
+
+2. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), received, higher, education, prediabetes, anemia, (disorder), social, isolation, essential, hypertension, diabetes, mellitus, type, hypertriglyceridemia, hyperlipidemia, metabolic, syndrome, limited, contact, neuropathy, body, mass, index, obesity, hyperglycemia, ischemic, heart, disease, abnormal, findings, diagnostic, imaging, heart+coronary, circulat, acute, non-st, segment, elevation, myocardial, infarction, history, (situation), full-time, employment, stress, medication, review, part-time, bronchitis, reports, violence, environment, victim, intimate, partner, abuse, fractured, dental, filling, unemployed, gingivitis, viral, pharyngitis, laceration, injury, foot, labor, force, gingival, infection, tooth, glucose, [mass/volume], blood, cholesterol, serum, plasma, density, lipoprotein, height, weight, (bmi), [ratio], pressure, rate, temperature
+
+RISK_FACTORS: Diabetes risk, Hypertension, Obesity, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Senior (65-74)
+Gender: male
+Active_Conditions_Count: 18
+Total_Conditions_Count: 58
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Hypertension, Obesity, Overweight (BMI 25-29.9)
+

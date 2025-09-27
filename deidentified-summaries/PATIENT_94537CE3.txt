@@ -1,0 +1,92 @@
+ANONYMOUS_PATIENT_ID: PATIENT_94537CE3
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. History of tubal ligation (situation) (onset: 10+ years ago)
+4. Has a criminal record (finding) (onset: 10+ years ago)
+5. Essential hypertension (disorder) (onset: 5-10 years ago)
+6. Stress (finding) (onset: 2 years ago)
+7. Medication review due (situation) (onset: 1 year ago)
+8. Body mass index 30+ - obesity (finding) (onset: 0 months ago)
+9. Part-time employment (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+2. Unemployed (finding) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 5-10 years ago)
+4. Full-time employment (finding) (onset: 5-10 years ago)
+5. Medication review due (situation) (onset: 5-10 years ago)
+6. Part-time employment (finding) (onset: 5-10 years ago)
+7. Limited social contact (finding) (onset: 5-10 years ago)
+8. Viral sinusitis (disorder) (onset: 5-10 years ago)
+9. Not in labor force (finding) (onset: 5-10 years ago)
+10. Medication review due (situation) (onset: 4 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 1 year ago: General examination of patient (procedure) (Status: finished)
+3. 2 years ago: General examination of patient (procedure) (Status: finished)
+4. 3 years ago: General examination of patient (procedure) (Status: finished)
+5. 4 years ago: Administration of vaccine to produce active immunity (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 159.6 cm (0 months ago)
+2. Body Weight: 76.9 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 30.19 kg/m2 (0 months ago)
+4. Blood pressure panel: 124/75 mm[Hg] (0 months ago)
+5. Heart rate: 61 /min (0 months ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 134.33 mg/dL (0 months ago)
+7. Low Density Lipoprotein Cholesterol: 46.06 mg/dL (0 months ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 61.63 mg/dL (0 months ago)
+9. Body Height: 159.6 cm (1 year ago)
+10. Body Weight: 75 kg (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (2 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (4 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+10. Total score [DAST-10]: 0 (5-10 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+12. Total score [DAST-10]: 0 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 5 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Alcohol Use Disorder Identification Test - Consumption [AUDIT-C] (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+3. Humiliation, Afraid, Rape, and Kick questionnaire [HARK] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), received, higher, education, history, tubal, ligation, (situation), stress, criminal, record, unemployed, medication, review, full-time, employment, essential, hypertension, (disorder), part-time, limited, social, contact, viral, sinusitis, labor, force, gingivitis, isolation, body, mass, index, obesity, height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Hypertension, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 9
+Total_Conditions_Count: 24
+Recent_Encounters_Count: 5
+Risk_Factors: Hypertension, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9), Elevated blood pressure
+

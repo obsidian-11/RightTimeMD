@@ -1,0 +1,83 @@
+ANONYMOUS_PATIENT_ID: PATIENT_B7C25A8C
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Only received primary school education (finding) (onset: 10+ years ago)
+2. Full-time employment (finding) (onset: 3 years ago)
+3. Prediabetes (finding) (onset: 1 months ago)
+4. Body mass index 30+ - obesity (finding) (onset: 1 months ago)
+5. Social isolation (finding) (onset: 1 months ago)
+6. Stress (finding) (onset: 1 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Part-time employment (finding) (onset: 10+ years ago)
+3. Full-time employment (finding) (onset: 5-10 years ago)
+4. Stress (finding) (onset: 5-10 years ago)
+5. Viral sinusitis (disorder) (onset: 5-10 years ago)
+6. Not in labor force (finding) (onset: 5-10 years ago)
+7. Concussion injury of brain (disorder) (onset: 5-10 years ago)
+8. Concussion with no loss of consciousness (disorder) (onset: 5-10 years ago)
+9. Acute viral pharyngitis (disorder) (onset: 4 years ago)
+10. Viral sinusitis (disorder) (onset: 3 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 1 months ago: General examination of patient (procedure) (Status: finished)
+3. 3 years ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+4. 3 years ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 3 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 180.2 cm (1 months ago)
+2. Body Weight: 97.5 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 30.03 kg/m2 (1 months ago)
+4. Blood pressure panel: 103/86 mm[Hg] (1 months ago)
+5. Heart rate: 96 /min (1 months ago)
+6. Glucose [Mass/volume] in Blood: 77.02 mg/dL (1 months ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 178.18 mg/dL (1 months ago)
+8. Low Density Lipoprotein Cholesterol: 93.38 mg/dL (1 months ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 57.43 mg/dL (1 months ago)
+10. Body Height: 180.2 cm (3 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 months ago)
+2. Total score [DAST-10]: 2 (3 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (3 years ago)
+4. Total score [DAST-10]: 1 (5-10 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+6. Total score [DAST-10]: 1 (5-10 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 12 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Alcohol Use Disorder Identification Test - Consumption [AUDIT-C] (1 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: only, received, primary, school, education, (finding), medication, review, (situation), part-time, employment, full-time, stress, viral, sinusitis, (disorder), labor, force, concussion, injury, brain, with, loss, consciousness, acute, pharyngitis, prediabetes, body, mass, index, obesity, social, isolation, gingivitis, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature
+
+RISK_FACTORS: Diabetes risk, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 6
+Total_Conditions_Count: 18
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+

@@ -1,0 +1,85 @@
+ANONYMOUS_PATIENT_ID: PATIENT_4C8FA7D8
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Impacted molars (disorder) (onset: 10+ years ago)
+2. Chronic pain (finding) (onset: 10+ years ago)
+3. Chronic intractable migraine without aura (disorder) (onset: 10+ years ago)
+4. Risk activity involvement (finding) (onset: 10+ years ago)
+5. Received higher education (finding) (onset: 10+ years ago)
+6. Has a criminal record (finding) (onset: 10+ years ago)
+7. Dependent drug abuse (disorder) (onset: 10+ years ago)
+8. Prediabetes (finding) (onset: 10+ years ago)
+9. Anemia (disorder) (onset: 10+ years ago)
+10. Medication review due (situation) (onset: 2 years ago)
+11. Not in labor force (finding) (onset: 2 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+2. Full-time employment (finding) (onset: 10+ years ago)
+3. Laceration - injury (disorder) (onset: 5-10 years ago)
+4. Laceration of foot (disorder) (onset: 5-10 years ago)
+5. Medication review due (situation) (onset: 5-10 years ago)
+6. Part-time employment (finding) (onset: 5-10 years ago)
+7. Gingivitis (disorder) (onset: 5-10 years ago)
+8. Fracture of mandible (disorder) (onset: 5-10 years ago)
+9. Full-time employment (finding) (onset: 5-10 years ago)
+10. Gingivitis (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+2. 1 months ago: Emergency room admission (procedure) - Reason: Overdose (disorder) (Status: finished)
+3. 1 year ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+4. 1 year ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+5. 1 year ago: Encounter for problem (procedure) - Reason: Dependent drug abuse (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 179.4 cm (2 years ago)
+2. Body Weight: 94.5 kg (2 years ago)
+3. Body mass index (BMI) [Ratio]: 29.36 kg/m2 (2 years ago)
+4. Blood pressure panel: 101/75 mm[Hg] (2 years ago)
+5. Heart rate: 78 /min (2 years ago)
+6. Glucose [Mass/volume] in Blood: 68.86 mg/dL (2 years ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 257.1 mg/dL (2 years ago)
+8. Low Density Lipoprotein Cholesterol: 173.5 mg/dL (2 years ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 55.35 mg/dL (2 years ago)
+10. Body Height: 179.4 cm (4 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (2 years ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 11 (2 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (4 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: impacted, molars, (disorder), chronic, pain, (finding), intractable, migraine, without, aura, risk, activity, involvement, received, higher, education, criminal, record, dependent, drug, abuse, prediabetes, anemia, stress, full-time, employment, laceration, injury, foot, medication, review, (situation), part-time, gingivitis, fracture, mandible, fractured, dental, filling, social, isolation, acute, bronchitis, overdose, labor, force, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Diabetes risk, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 11
+Total_Conditions_Count: 29
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Overweight (BMI 25-29.9)
+

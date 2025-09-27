@@ -1,0 +1,81 @@
+ANONYMOUS_PATIENT_ID: PATIENT_D28219A9
+AGE_GROUP: Middle-aged (45-54)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Transport problem (finding) (onset: 10+ years ago)
+3. Lack of access to transportation (finding) (onset: 10+ years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+5. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+6. Full-time employment (finding) (onset: 5-10 years ago)
+7. Severe anxiety (panic) (finding) (onset: 2 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Limited social contact (finding) (onset: 10+ years ago)
+2. Stress (finding) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 10+ years ago)
+4. Social isolation (finding) (onset: 10+ years ago)
+5. Not in labor force (finding) (onset: 10+ years ago)
+6. Normal pregnancy (finding) (onset: 5-10 years ago)
+7. Anemia (disorder) (onset: 5-10 years ago)
+8. Laceration - injury (disorder) (onset: 5-10 years ago)
+9. Facial laceration (disorder) (onset: 5-10 years ago)
+10. Viral sinusitis (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+2. 1 year ago: Consultation for treatment (procedure) - Reason: Contraception care (regime/therapy) (Status: finished)
+3. 1 year ago: Postnatal visit (regime/therapy) (Status: finished)
+4. 2 years ago: Obstetric emergency hospital admission (procedure) - Reason: Normal pregnancy (finding) (Status: finished)
+5. 2 years ago: Prenatal visit (regime/therapy) - Reason: Normal pregnancy (finding) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 152.6 cm (2 years ago)
+2. Body Weight: 65.9 kg (2 years ago)
+3. Body mass index (BMI) [Ratio]: 28.3 kg/m2 (2 years ago)
+4. Blood pressure panel: 100/82 mm[Hg] (2 years ago)
+5. Heart rate: 66 /min (2 years ago)
+6. Body Height: 152.6 cm (4 years ago)
+7. Body Weight: 65.9 kg (4 years ago)
+8. Body mass index (BMI) [Ratio]: 28.3 kg/m2 (4 years ago)
+9. Blood pressure panel: 104/75 mm[Hg] (4 years ago)
+10. Heart rate: 89 /min (4 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 16 (2 years ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+3. Total score [DAST-10]: 2 (5-10 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 12 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 year ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), transport, problem, lack, access, transportation, limited, social, contact, stress, body, mass, index, obesity, medication, review, (situation), isolation, past, pregnancy, history, miscarriage, labor, force, normal, anemia, (disorder), laceration, injury, facial, full-time, employment, viral, sinusitis, concussion, brain, with, loss, consciousness, pre-eclampsia, neck, whiplash, first, trimester, blighted, ovum, severe, anxiety, (panic), height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Obesity, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: female
+Active_Conditions_Count: 7
+Total_Conditions_Count: 28
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Overweight (BMI 25-29.9)
+

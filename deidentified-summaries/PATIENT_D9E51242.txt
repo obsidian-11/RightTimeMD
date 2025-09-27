@@ -1,0 +1,97 @@
+ANONYMOUS_PATIENT_ID: PATIENT_D9E51242
+AGE_GROUP: Adult (25-34)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+3. Housing unsatisfactory (finding) (onset: 10+ years ago)
+4. Only received primary school education (finding) (onset: 10+ years ago)
+5. Refugee (person) (onset: 10+ years ago)
+6. History of tubal ligation (situation) (onset: 5-10 years ago)
+7. Body mass index 30+ - obesity (finding) (onset: 5-10 years ago)
+8. Has a criminal record (finding) (onset: 5-10 years ago)
+9. Loss of teeth (disorder) (onset: 5-10 years ago)
+10. Part-time employment (finding) (onset: 2 months ago)
+11. Stress (finding) (onset: 2 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+2. Full-time employment (finding) (onset: 10+ years ago)
+3. Homeless (finding) (onset: 5-10 years ago)
+4. Normal pregnancy (finding) (onset: 5-10 years ago)
+5. Medication review due (situation) (onset: 5-10 years ago)
+6. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+7. Medication review due (situation) (onset: 5-10 years ago)
+8. Not in labor force (finding) (onset: 5-10 years ago)
+9. Normal pregnancy (finding) (onset: 5-10 years ago)
+10. Full-time employment (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Asthma follow-up (regime/therapy) - Reason: Asthma (disorder) (Status: finished)
+2. 1 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+3. 2 months ago: General examination of patient (procedure) (Status: finished)
+4. 6 months ago: Asthma follow-up (regime/therapy) - Reason: Asthma (disorder) (Status: finished)
+5. 1 year ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 157.9 cm (2 months ago)
+2. Body Weight: 70.5 kg (2 months ago)
+3. Body mass index (BMI) [Ratio]: 28.3 kg/m2 (2 months ago)
+4. Blood pressure panel: 133/82 mm[Hg] (2 months ago)
+5. Heart rate: 87 /min (2 months ago)
+6. Body Height: 157.9 cm (1 year ago)
+7. Body Weight: 73.8 kg (1 year ago)
+8. Body mass index (BMI) [Ratio]: 29.59 kg/m2 (1 year ago)
+9. Blood pressure panel: 129/76 mm[Hg] (1 year ago)
+10. Heart rate: 68 /min (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (2 months ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 18 (2 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (4 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (5-10 years ago)
+12. Total score [DAST-10]: 2 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+14. Total score [DAST-10]: 2 (5-10 years ago)
+15. Total score [DAST-10]: 1 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 5 (5-10 years ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (2 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), past, pregnancy, history, miscarriage, (situation), housing, unsatisfactory, only, received, primary, school, education, stress, refugee, (person), full-time, employment, homeless, normal, medication, review, acute, viral, pharyngitis, (disorder), labor, force, sterilization, requested, tubal, ligation, body, mass, index, obesity, limited, social, contact, criminal, record, victim, intimate, partner, abuse, infection, tooth, dental, caries, loss, teeth, resorption, alveolar, process, trauma, part-time, sprain, (morphologic, abnormality), ankle, gingivitis, gingival, disease, severe, anxiety, (panic), wrist, unemployed, isolation, height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, temperature
+
+RISK_FACTORS: Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: female
+Active_Conditions_Count: 11
+Total_Conditions_Count: 44
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+

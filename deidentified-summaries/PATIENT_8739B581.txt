@@ -1,0 +1,92 @@
+ANONYMOUS_PATIENT_ID: PATIENT_8739B581
+AGE_GROUP: Middle-aged (55-64)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (55-64) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Recurrent urinary tract infection (disorder) (onset: 10+ years ago)
+3. Impacted molars (disorder) (onset: 10+ years ago)
+4. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+5. Has a criminal record (finding) (onset: 10+ years ago)
+6. Essential hypertension (disorder) (onset: 10+ years ago)
+7. Prediabetes (finding) (onset: 10+ years ago)
+8. Anemia (disorder) (onset: 10+ years ago)
+9. Hyperlipidemia (disorder) (onset: 10+ years ago)
+10. Full-time employment (finding) (onset: 1 year ago)
+11. Stress (finding) (onset: 1 year ago)
+12. Social isolation (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+2. Full-time employment (finding) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 10+ years ago)
+4. Acute bronchitis (disorder) (onset: 5-10 years ago)
+5. Part-time employment (finding) (onset: 5-10 years ago)
+6. Social isolation (finding) (onset: 5-10 years ago)
+7. Stress (finding) (onset: 5-10 years ago)
+8. Normal pregnancy (finding) (onset: 5-10 years ago)
+9. Medication review due (situation) (onset: 5-10 years ago)
+10. Full-time employment (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Encounter for check up (procedure) - Reason: Screening for malignant neoplasm of colon (procedure) (Status: finished)
+4. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 1 year ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Blood: 80.04 mg/dL (0 months ago)
+2. Cholesterol [Mass/volume] in Serum or Plasma: 152.5 mg/dL (0 months ago)
+3. Low Density Lipoprotein Cholesterol: 97.425 mg/dL (0 months ago)
+4. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 76.836 mg/dL (0 months ago)
+5. Body Height: 169.5 cm (0 months ago)
+6. Body Weight: 75.5 kg (0 months ago)
+7. Body mass index (BMI) [Ratio]: 26.28 kg/m2 (0 months ago)
+8. Blood pressure panel: 142/93 mm[Hg] (0 months ago)
+9. Heart rate: 67 /min (0 months ago)
+10. Glucose [Mass/volume] in Blood: 89.96 mg/dL (0 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (1 year ago)
+3. Total score [DAST-10]: 1 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (2 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (3 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 3 (5-10 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 11 (5-10 years ago)
+11. Total score [DAST-10]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Comprehensive metabolic 2000 panel - Serum or Plasma (0 months ago)
+   Status: final
+
+2. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), recurrent, urinary, tract, infection, (disorder), impacted, molars, past, pregnancy, history, miscarriage, (situation), criminal, record, essential, hypertension, prediabetes, anemia, stress, hyperlipidemia, full-time, employment, medication, review, acute, bronchitis, part-time, social, isolation, normal, leaking, dental, filling, injury, neck, whiplash, gingivitis, gingival, disease, viral, sinusitis, labor, force, glucose, [mass/volume], blood, cholesterol, serum, plasma, density, lipoprotein, body, height, weight, mass, index, (bmi), [ratio], pressure, heart, rate
+
+RISK_FACTORS: Hypertension, Diabetes risk, Overweight (BMI 25-29.9), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (55-64)
+Gender: female
+Active_Conditions_Count: 12
+Total_Conditions_Count: 33
+Recent_Encounters_Count: 5
+Risk_Factors: Hypertension, Diabetes risk, Overweight (BMI 25-29.9), Elevated blood pressure
+

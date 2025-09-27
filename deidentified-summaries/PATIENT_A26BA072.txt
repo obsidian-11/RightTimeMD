@@ -1,0 +1,83 @@
+ANONYMOUS_PATIENT_ID: PATIENT_A26BA072
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Stress (finding) (onset: 10+ years ago)
+3. Past pregnancy history of miscarriage (situation) (onset: 5-10 years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 4 years ago)
+5. Full-time employment (finding) (onset: 4 years ago)
+6. History of tubal ligation (situation) (onset: 3 years ago)
+7. Essential hypertension (disorder) (onset: 1 year ago)
+8. Limited social contact (finding) (onset: 1 year ago)
+9. Has a criminal record (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+2. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+3. Injury of knee (disorder) (onset: 10+ years ago)
+4. Injury of anterior cruciate ligament (disorder) (onset: 10+ years ago)
+5. Normal pregnancy (finding) (onset: 10+ years ago)
+6. Viral sinusitis (disorder) (onset: 10+ years ago)
+7. Medication review due (situation) (onset: 10+ years ago)
+8. Unemployed (finding) (onset: 10+ years ago)
+9. Limited social contact (finding) (onset: 10+ years ago)
+10. Normal pregnancy (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Follow-up encounter (procedure) - Reason: Essential hypertension (disorder) (Status: finished)
+2. 2 months ago: Follow-up encounter (procedure) - Reason: Essential hypertension (disorder) (Status: finished)
+3. 1 year ago: Follow-up encounter (procedure) - Reason: Essential hypertension (disorder) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 3 years ago: Admission to surgical department (procedure) - Reason: Sterilization requested (situation) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Blood pressure panel: 87/68 mm[Hg] (0 months ago)
+2. Blood pressure panel: 111/82 mm[Hg] (2 months ago)
+3. Blood pressure panel: 116/93 mm[Hg] (1 year ago)
+4. Body Height: 160.5 cm (1 year ago)
+5. Body Weight: 71.9 kg (1 year ago)
+6. Body mass index (BMI) [Ratio]: 27.91 kg/m2 (1 year ago)
+7. Blood pressure panel: 140/94 mm[Hg] (1 year ago)
+8. Heart rate: 67 /min (1 year ago)
+9. Cholesterol [Mass/volume] in Serum or Plasma: 121.25 mg/dL (1 year ago)
+10. Low Density Lipoprotein Cholesterol: 36.23 mg/dL (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (1 year ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (4 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (2 months ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), full-time, employment, victim, intimate, partner, abuse, injury, knee, (disorder), anterior, cruciate, ligament, normal, pregnancy, viral, sinusitis, medication, review, (situation), unemployed, limited, social, contact, stress, labor, force, gingivitis, acute, bronchitis, miscarriage, first, trimester, complete, past, history, body, mass, index, obesity, sterilization, requested, tubal, ligation, essential, hypertension, criminal, record, blood, pressure, height, weight, (bmi), [ratio], heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Obesity, Hypertension, Elevated blood pressure, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 9
+Total_Conditions_Count: 34
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Hypertension, Elevated blood pressure, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+

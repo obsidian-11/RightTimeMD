@@ -1,0 +1,88 @@
+ANONYMOUS_PATIENT_ID: PATIENT_8ED575A9
+AGE_GROUP: Middle-aged (45-54)
+GENDER: female
+MARITAL_STATUS: Divorced
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) female patient with marital status: Divorced. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Loss of teeth (disorder) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. History of tubal ligation (situation) (onset: 10+ years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 5-10 years ago)
+5. Full-time employment (finding) (onset: 2 years ago)
+6. Social isolation (finding) (onset: 0 months ago)
+7. Stress (finding) (onset: 0 months ago)
+8. Has a criminal record (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+2. Part-time employment (finding) (onset: 10+ years ago)
+3. Reports of violence in the environment (finding) (onset: 10+ years ago)
+4. Medication review due (situation) (onset: 5-10 years ago)
+5. Full-time employment (finding) (onset: 5-10 years ago)
+6. Gingivitis (disorder) (onset: 5-10 years ago)
+7. Acute bronchitis (disorder) (onset: 5-10 years ago)
+8. Medication review due (situation) (onset: 5-10 years ago)
+9. Reports of violence in the environment (finding) (onset: 5-10 years ago)
+10. Medication review due (situation) (onset: 4 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+2. 0 months ago: Encounter for check up (procedure) - Reason: Screening for malignant neoplasm of colon (procedure) (Status: finished)
+3. 0 months ago: General examination of patient (procedure) (Status: finished)
+4. 2 years ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+5. 2 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 169 cm (0 months ago)
+2. Body Weight: 81.9 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 28.68 kg/m2 (0 months ago)
+4. Blood pressure panel: 121/91 mm[Hg] (0 months ago)
+5. Heart rate: 63 /min (0 months ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 133.45 mg/dL (0 months ago)
+7. Low Density Lipoprotein Cholesterol: 79.43 mg/dL (0 months ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 31.03 mg/dL (0 months ago)
+9. Body Height: 169 cm (2 years ago)
+10. Body Weight: 78.2 kg (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (0 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (0 months ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (2 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+6. Total score [DAST-10]: 1 (5-10 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (5-10 years ago)
+10. Total score [DAST-10]: 1 (5-10 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. Alcohol Use Disorder Identification Test - Consumption [AUDIT-C] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: loss, teeth, (disorder), received, higher, education, (finding), history, tubal, ligation, (situation), stress, part-time, employment, reports, violence, environment, medication, review, full-time, gingivitis, acute, bronchitis, body, mass, index, obesity, primary, dental, caries, social, isolation, criminal, record, height, weight, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein
+
+RISK_FACTORS: Obesity, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: female
+Active_Conditions_Count: 8
+Total_Conditions_Count: 22
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Overweight (BMI 25-29.9), Elevated blood pressure, Obesity (BMI ≥30)
+

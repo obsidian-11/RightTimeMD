@@ -1,0 +1,70 @@
+ANONYMOUS_PATIENT_ID: PATIENT_36737FAB
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Chronic sinusitis (disorder) (onset: 10+ years ago)
+2. Gunshot wound (disorder) (onset: 0 months ago)
+3. Bullet wound (disorder) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 5-10 years ago)
+4. Medication review due (situation) (onset: 5-10 years ago)
+5. Medication review due (situation) (onset: 5-10 years ago)
+6. Medication review due (situation) (onset: 5-10 years ago)
+7. Acute bronchitis (disorder) (onset: 5-10 years ago)
+8. Medication review due (situation) (onset: 5-10 years ago)
+9. Primary dental caries (disorder) (onset: 5-10 years ago)
+10. Concussion injury of brain (disorder) (onset: 4 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Bullet wound (disorder) (Status: finished)
+2. 0 months ago: Emergency room admission (procedure) - Reason: Gunshot wound (disorder) (Status: finished)
+3. 1 year ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+4. 1 year ago: Well child visit (procedure) (Status: finished)
+5. 1 year ago: Encounter for check up (procedure) - Reason: Fracture of rib (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 147.4 cm (1 year ago)
+2. Body Weight: 37.3 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 17.14 kg/m2 (1 year ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 48.821 % (1 year ago)
+5. Blood pressure panel: 108/82 mm[Hg] (1 year ago)
+6. Heart rate: 62 /min (1 year ago)
+7. Body Height: 142.3 cm (2 years ago)
+8. Body Weight: 33.9 kg (2 years ago)
+9. Body mass index (BMI) [Ratio]: 16.75 kg/m2 (2 years ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 52.024 % (2 years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), chronic, sinusitis, (disorder), acute, bronchitis, primary, dental, caries, concussion, injury, brain, with, loss, consciousness, gingivitis, gingival, disease, viral, fracture, bone, infection, tooth, alveolitis, gunshot, wound, bullet, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate
+
+RISK_FACTORS: Obesity (BMI ≥30), Elevated blood pressure, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 3
+Total_Conditions_Count: 22
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity (BMI ≥30), Elevated blood pressure, Overweight (BMI 25-29.9)
+

@@ -1,0 +1,126 @@
+ANONYMOUS_PATIENT_ID: PATIENT_AA4BD5AF
+AGE_GROUP: Senior (65-74)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Senior (65-74) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Educated to high school level (finding) (onset: 10+ years ago)
+2. Sepsis (disorder) (onset: 10+ years ago)
+3. Prediabetes (finding) (onset: 10+ years ago)
+4. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+5. Anemia (disorder) (onset: 10+ years ago)
+6. Essential hypertension (disorder) (onset: 10+ years ago)
+7. Chronic kidney disease stage 1 (disorder) (onset: 10+ years ago)
+8. Disorder of kidney due to diabetes mellitus (disorder) (onset: 10+ years ago)
+9. Ischemic heart disease (disorder) (onset: 10+ years ago)
+10. Abnormal findings diagnostic imaging heart+coronary circulat (finding) (onset: 10+ years ago)
+11. Chronic pain (finding) (onset: 10+ years ago)
+12. Chronic low back pain (finding) (onset: 10+ years ago)
+13. Metabolic syndrome X (disorder) (onset: 5-10 years ago)
+14. Chronic kidney disease stage 2 (disorder) (onset: 5-10 years ago)
+15. Microalbuminuria due to type 2 diabetes mellitus (disorder) (onset: 5-10 years ago)
+16. Full-time employment (finding) (onset: 5 months ago)
+17. Stress (finding) (onset: 5 months ago)
+18. Medication review due (situation) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+2. Stress (finding) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 5-10 years ago)
+4. Gingivitis (disorder) (onset: 5-10 years ago)
+5. Gingival disease (disorder) (onset: 5-10 years ago)
+6. Medication review due (situation) (onset: 5-10 years ago)
+7. Limited social contact (finding) (onset: 5-10 years ago)
+8. Gingivitis (disorder) (onset: 5-10 years ago)
+9. Medication review due (situation) (onset: 5-10 years ago)
+10. Gingivitis (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 5 months ago: Encounter for check up (procedure) (Status: finished)
+3. 7 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+4. 8 months ago: Encounter for check up (procedure) (Status: finished)
+5. 1 year ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Serum or Plasma: 95.06 mg/dL (0 months ago)
+2. Glucose [Mass/volume] in Urine by Test strip: 2.0275 mg/dL (0 months ago)
+3. Glucose [Presence] in Urine by Test strip: Urine glucose test = ++ (finding) (0 months ago)
+4. Body Height: 175.9 cm (0 months ago)
+5. Body Weight: 93.5 kg (0 months ago)
+6. Body mass index (BMI) [Ratio]: 30.22 kg/m2 (0 months ago)
+7. Blood pressure panel: 86/47 mm[Hg] (0 months ago)
+8. Heart rate: 86 /min (0 months ago)
+9. Glucose [Mass/volume] in Blood: 95.06 mg/dL (0 months ago)
+10. Glucose [Mass/volume] in Serum or Plasma: 86.21 mg/dL (5 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 0 (5 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5 months ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (8 months ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 13 (8 months ago)
+5. Total score [DAST-10]: 2 (1 year ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (1 year ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (2 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (3 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (3 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (3 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (4 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (4 years ago)
+14. Total score [DAST-10]: 0 (4 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+16. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (4 years ago)
+17. Total score [DAST-10]: 1 (4 years ago)
+18. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (4 years ago)
+19. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+20. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+21. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+22. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+23. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (5-10 years ago)
+24. Total score [DAST-10]: 2 (5-10 years ago)
+25. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+26. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+27. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+28. Total score [DAST-10]: 2 (5-10 years ago)
+29. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+30. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+31. Total score [DAST-10]: 1 (5-10 years ago)
+32. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+33. Total score [DAST-10]: 2 (5-10 years ago)
+34. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+35. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+36. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+37. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+38. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+39. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Basic metabolic 2000 panel - Serum or Plasma (0 months ago)
+   Status: final
+
+2. Urinalysis macro (dipstick) panel - Urine (0 months ago)
+   Status: final
+
+3. Basic metabolic panel - Blood (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: educated, high, school, level, (finding), sepsis, (disorder), prediabetes, body, mass, index, obesity, anemia, essential, hypertension, chronic, kidney, disease, stage, diabetes, mellitus, ischemic, heart, full-time, employment, abnormal, findings, diagnostic, imaging, heart+coronary, circulat, pain, back, stress, medication, review, (situation), gingivitis, gingival, limited, social, contact, metabolic, syndrome, primary, dental, caries, microalbuminuria, type, filling, lost, labor, force, part-time, victim, intimate, partner, abuse, suspected, caused, severe, acute, respiratory, coronavirus, cough, sputum, fatigue, fever, loss, taste, pneumonia, hypoxemia, distress, deep, venous, thrombosis, isolation, unemployed, glucose, [mass/volume], serum, plasma, urine, test, strip, [presence], height, weight, (bmi), [ratio], blood, pressure, rate, cholesterol, density, lipoprotein, temperature
+
+RISK_FACTORS: Diabetes risk, Obesity, Hypertension, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Senior (65-74)
+Gender: male
+Active_Conditions_Count: 18
+Total_Conditions_Count: 73
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Hypertension, Obesity (BMI ≥30), Overweight (BMI 25-29.9)
+

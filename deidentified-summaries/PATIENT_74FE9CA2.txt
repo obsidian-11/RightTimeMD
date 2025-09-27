@@ -1,0 +1,99 @@
+ANONYMOUS_PATIENT_ID: PATIENT_74FE9CA2
+AGE_GROUP: Adult (35-44)
+GENDER: male
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) male patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Received higher education (finding) (onset: 10+ years ago)
+3. Chronic pain (finding) (onset: 10+ years ago)
+4. Chronic low back pain (finding) (onset: 10+ years ago)
+5. Chronic neck pain (finding) (onset: 10+ years ago)
+6. Prediabetes (finding) (onset: 10+ years ago)
+7. Anemia (disorder) (onset: 10+ years ago)
+8. Refugee (person) (onset: 5-10 years ago)
+9. Body mass index 30+ - obesity (finding) (onset: 5-10 years ago)
+10. Full-time employment (finding) (onset: 1 year ago)
+11. Medication review due (situation) (onset: 0 months ago)
+12. Stress (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+2. Stress (finding) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 10+ years ago)
+4. Unemployed (finding) (onset: 5-10 years ago)
+5. Medication review due (situation) (onset: 5-10 years ago)
+6. Full-time employment (finding) (onset: 5-10 years ago)
+7. Fracture of bone (disorder) (onset: 5-10 years ago)
+8. Fracture of forearm (disorder) (onset: 5-10 years ago)
+9. Medication review due (situation) (onset: 5-10 years ago)
+10. Stress (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: General examination of patient (procedure) (Status: finished)
+2. 1 year ago: General examination of patient (procedure) (Status: finished)
+3. 2 years ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+4. 2 years ago: General examination of patient (procedure) (Status: finished)
+5. 3 years ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 166.3 cm (0 months ago)
+2. Body Weight: 80.5 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 29.12 kg/m2 (0 months ago)
+4. Blood pressure panel: 130/86 mm[Hg] (0 months ago)
+5. Heart rate: 62 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 68.19 mg/dL (0 months ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 174.57 mg/dL (0 months ago)
+8. Low Density Lipoprotein Cholesterol: 94.13 mg/dL (0 months ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 52.88 mg/dL (0 months ago)
+10. Body Height: 166.3 cm (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (0 months ago)
+3. Total score [DAST-10]: 1 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (1 year ago)
+6. Total score [DAST-10]: 0 (2 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (4 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+13. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 0 (5-10 years ago)
+14. Total score [DAST-10]: 0 (5-10 years ago)
+15. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+16. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+17. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+18. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+2. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+3. Basic metabolic panel - Blood (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), received, higher, education, full-time, employment, stress, chronic, pain, back, neck, medication, review, (situation), prediabetes, anemia, (disorder), unemployed, fracture, bone, forearm, refugee, (person), acute, viral, pharyngitis, body, mass, index, obesity, part-time, labor, force, fractured, dental, filling, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature
+
+RISK_FACTORS: Diabetes risk, Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: male
+Active_Conditions_Count: 12
+Total_Conditions_Count: 30
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+

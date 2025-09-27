@@ -1,0 +1,77 @@
+ANONYMOUS_PATIENT_ID: PATIENT_1F62EDCD
+AGE_GROUP: Adult (25-34)
+GENDER: male
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) male patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Prediabetes (finding) (onset: 3 years ago)
+3. Anemia (disorder) (onset: 3 years ago)
+4. Stress (finding) (onset: 3 years ago)
+5. Full-time employment (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Full-time employment (finding) (onset: 10+ years ago)
+3. Social isolation (finding) (onset: 10+ years ago)
+4. Concussion injury of brain (disorder) (onset: 5-10 years ago)
+5. Concussion with loss of consciousness (disorder) (onset: 5-10 years ago)
+6. Stress (finding) (onset: 5-10 years ago)
+7. Acute viral pharyngitis (disorder) (onset: 5-10 years ago)
+8. Acute bronchitis (disorder) (onset: 5-10 years ago)
+9. Medication review due (situation) (onset: 5-10 years ago)
+10. Not in labor force (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Encounter for check up (procedure) - Reason: Patient referral for dental care (procedure) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 7 months ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+4. 2 years ago: Encounter for symptom (procedure) - Reason: Viral sinusitis (disorder) (Status: finished)
+5. 3 years ago: Encounter for problem (procedure) - Reason: Anemia (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 184.9 cm (0 months ago)
+2. Body Weight: 82.8 kg (0 months ago)
+3. Body mass index (BMI) [Ratio]: 24.22 kg/m2 (0 months ago)
+4. Blood pressure panel: 118/90 mm[Hg] (0 months ago)
+5. Heart rate: 75 /min (0 months ago)
+6. Glucose [Mass/volume] in Blood: 86.85 mg/dL (0 months ago)
+7. Body Height: 184.9 cm (3 years ago)
+8. Body Weight: 79 kg (3 years ago)
+9. Body mass index (BMI) [Ratio]: 23.12 kg/m2 (3 years ago)
+10. Blood pressure panel: 117/90 mm[Hg] (3 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 0 (0 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. Drug Abuse Screening Test-10 [DAST-10] (0 months ago)
+   Status: final
+
+3. Patient Health Questionnaire 2 item (PHQ-2) [Reported] (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: medication, review, (situation), received, higher, education, (finding), full-time, employment, social, isolation, concussion, injury, brain, (disorder), with, loss, consciousness, stress, acute, viral, pharyngitis, bronchitis, labor, force, gingival, disease, primary, dental, caries, prediabetes, anemia, part-time, sinusitis, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], temperature, [percentile]
+
+RISK_FACTORS: Diabetes risk, Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: male
+Active_Conditions_Count: 5
+Total_Conditions_Count: 21
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Elevated blood pressure
+

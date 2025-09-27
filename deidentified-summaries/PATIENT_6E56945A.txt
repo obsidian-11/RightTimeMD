@@ -1,0 +1,81 @@
+ANONYMOUS_PATIENT_ID: PATIENT_6E56945A
+AGE_GROUP: Young Adult (18-24)
+GENDER: male
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Young Adult (18-24) male patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Loss of teeth (disorder) (onset: 5-10 years ago)
+2. Medication review due (situation) (onset: 3 years ago)
+3. Serving in military service (finding) (onset: 3 years ago)
+4. Only received primary school education (finding) (onset: 3 years ago)
+5. Unhealthy alcohol drinking behavior (finding) (onset: 3 years ago)
+6. Major depressive disorder (disorder) (onset: 2 years ago)
+7. Full-time employment (finding) (onset: 2 years ago)
+8. Stress (finding) (onset: 2 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Infection of tooth (disorder) (onset: 5-10 years ago)
+2. Gingival disease (disorder) (onset: 5-10 years ago)
+3. Alveolitis of jaw (disorder) (onset: 5-10 years ago)
+4. Fracture of bone (disorder) (onset: 5-10 years ago)
+5. Fracture subluxation of wrist (disorder) (onset: 5-10 years ago)
+6. Medication review due (situation) (onset: 5-10 years ago)
+7. Gingivitis (disorder) (onset: 5-10 years ago)
+8. Streptococcal sore throat (disorder) (onset: 5-10 years ago)
+9. Gingivitis (disorder) (onset: 5-10 years ago)
+10. Part-time employment (finding) (onset: 3 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Follow-up encounter (procedure) - Reason: Loss of teeth (disorder) (Status: finished)
+2. 1 months ago: Encounter for problem (procedure) - Reason: Loss of teeth (disorder) (Status: finished)
+3. 1 year ago: Encounter for problem (procedure) - Reason: Major depressive disorder (disorder) (Status: finished)
+4. 1 year ago: Follow-up encounter (procedure) - Reason: Major depressive disorder (disorder) (Status: finished)
+5. 1 year ago: Encounter for problem (procedure) - Reason: Major depressive disorder (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 181.4 cm (2 years ago)
+2. Body Weight: 76.3 kg (2 years ago)
+3. Body mass index (BMI) [Ratio]: 23.18 kg/m2 (2 years ago)
+4. Body mass index (BMI) [Percentile] Per age and sex: 58.006 % (2 years ago)
+5. Blood pressure panel: 126/82 mm[Hg] (2 years ago)
+6. Heart rate: 60 /min (2 years ago)
+7. Body Height: 181 cm (3 years ago)
+8. Body Weight: 70.3 kg (3 years ago)
+9. Body mass index (BMI) [Ratio]: 21.44 kg/m2 (3 years ago)
+10. Body mass index (BMI) [Percentile] Per age and sex: 42.748 % (3 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (4 years ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 6 (5-10 years ago)
+3. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (5-10 years ago)
+4. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (1 year ago)
+   Status: final
+
+CLINICAL_KEYWORDS: infection, tooth, (disorder), gingival, disease, alveolitis, loss, teeth, fracture, bone, subluxation, wrist, medication, review, (situation), gingivitis, streptococcal, sore, throat, serving, military, service, (finding), only, received, primary, school, education, part-time, employment, unhealthy, alcohol, drinking, behavior, fractured, dental, filling, major, depression,, single, episode, depressive, full-time, stress, body, height, weight, mass, index, (bmi), [ratio], [percentile], blood, pressure, heart, rate, temperature
+
+RISK_FACTORS: Alcohol use, Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Young Adult (18-24)
+Gender: male
+Active_Conditions_Count: 8
+Total_Conditions_Count: 20
+Recent_Encounters_Count: 5
+Risk_Factors: Alcohol use, Obesity (BMI ≥30)
+

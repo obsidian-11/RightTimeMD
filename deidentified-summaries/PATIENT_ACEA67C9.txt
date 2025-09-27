@@ -1,0 +1,95 @@
+ANONYMOUS_PATIENT_ID: PATIENT_ACEA67C9
+AGE_GROUP: Middle-aged (45-54)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (45-54) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Chronic sinusitis (disorder) (onset: 10+ years ago)
+3. Osteoarthritis of knee (disorder) (onset: 10+ years ago)
+4. Cough (finding) (onset: 4 years ago)
+5. Fatigue (finding) (onset: 4 years ago)
+6. Dyspnea (finding) (onset: 4 years ago)
+7. Wheezing (finding) (onset: 4 years ago)
+8. Muscle pain (finding) (onset: 4 years ago)
+9. Joint pain (finding) (onset: 4 years ago)
+10. Fever (finding) (onset: 4 years ago)
+11. Hyperlipidemia (disorder) (onset: 3 years ago)
+12. Not in labor force (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 10+ years ago)
+3. Acute bronchitis (disorder) (onset: 5-10 years ago)
+4. Part-time employment (finding) (onset: 5-10 years ago)
+5. Full-time employment (finding) (onset: 5-10 years ago)
+6. Gingivitis (disorder) (onset: 5-10 years ago)
+7. Gingival disease (disorder) (onset: 5-10 years ago)
+8. Dental filling lost (finding) (onset: 5-10 years ago)
+9. Stress (finding) (onset: 5-10 years ago)
+10. Severe anxiety (panic) (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+2. 0 months ago: General examination of patient (procedure) (Status: finished)
+3. 1 year ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+4. 1 year ago: General examination of patient (procedure) (Status: finished)
+5. 2 years ago: Follow-up encounter (procedure) - Reason: Hyperlipidemia (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Glucose [Mass/volume] in Blood: 74.19 mg/dL (0 months ago)
+2. Cholesterol [Mass/volume] in Serum or Plasma: 197.27 mg/dL (0 months ago)
+3. Low Density Lipoprotein Cholesterol: 93.411 mg/dL (0 months ago)
+4. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 51.923 mg/dL (0 months ago)
+5. Body Height: 170.3 cm (0 months ago)
+6. Body Weight: 76 kg (0 months ago)
+7. Body mass index (BMI) [Ratio]: 26.21 kg/m2 (0 months ago)
+8. Blood pressure panel: 138/87 mm[Hg] (0 months ago)
+9. Heart rate: 85 /min (0 months ago)
+10. Glucose [Mass/volume] in Blood: 67.55 mg/dL (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (0 months ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (0 months ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 5 (1 year ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 4 (2 years ago)
+6. Total score [DAST-10]: 1 (3 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+8. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (3 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (4 years ago)
+10. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 8 (4 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+12. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 18 (5-10 years ago)
+13. Total score [DAST-10]: 1 (5-10 years ago)
+14. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. Comprehensive metabolic 2000 panel - Serum or Plasma (0 months ago)
+   Status: final
+
+2. Lipid panel with direct LDL - Serum or Plasma (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), chronic, sinusitis, (disorder), full-time, employment, medication, review, (situation), osteoarthritis, knee, acute, bronchitis, part-time, gingivitis, gingival, disease, dental, filling, lost, stress, severe, anxiety, (panic), suspected, caused, respiratory, coronavirus, cough, fatigue, dyspnea, wheezing, muscle, pain, joint, fever, hyperlipidemia, labor, force, glucose, [mass/volume], blood, cholesterol, serum, plasma, density, lipoprotein, body, height, weight, mass, index, (bmi), [ratio], pressure, heart, rate, temperature
+
+RISK_FACTORS: Overweight (BMI 25-29.9), Elevated blood pressure
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (45-54)
+Gender: female
+Active_Conditions_Count: 12
+Total_Conditions_Count: 29
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9), Elevated blood pressure
+

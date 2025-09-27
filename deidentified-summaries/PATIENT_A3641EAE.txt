@@ -1,0 +1,101 @@
+ANONYMOUS_PATIENT_ID: PATIENT_A3641EAE
+AGE_GROUP: Middle-aged (55-64)
+GENDER: female
+MARITAL_STATUS: Never Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Middle-aged (55-64) female patient with marital status: Never Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Housing unsatisfactory (finding) (onset: 10+ years ago)
+2. Only received primary school education (finding) (onset: 10+ years ago)
+3. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+4. Social isolation (finding) (onset: 10+ years ago)
+5. History of tubal ligation (situation) (onset: 10+ years ago)
+6. Prediabetes (finding) (onset: 10+ years ago)
+7. Osteoarthritis of knee (disorder) (onset: 10+ years ago)
+8. Chronic sinusitis (disorder) (onset: 10+ years ago)
+9. Sepsis (disorder) (onset: 10+ years ago)
+10. Loss of teeth (disorder) (onset: 5-10 years ago)
+11. Stress (finding) (onset: 2 years ago)
+12. Idiopathic atrophic hypothyroidism (disorder) (onset: 1 year ago)
+13. Full-time employment (finding) (onset: 1 year ago)
+14. Chronic congestive heart failure (disorder) (onset: 1 year ago)
+15. Seizure disorder (disorder) (onset: 3 months ago)
+16. History of seizure (situation) (onset: 3 months ago)
+17. Epilepsy (disorder) (onset: 3 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Limited social contact (finding) (onset: 10+ years ago)
+2. Stress (finding) (onset: 10+ years ago)
+3. Medication review due (situation) (onset: 10+ years ago)
+4. Full-time employment (finding) (onset: 10+ years ago)
+5. Burn injury (morphologic abnormality) (onset: 10+ years ago)
+6. Partial thickness burn (disorder) (onset: 10+ years ago)
+7. Reports of violence in the environment (finding) (onset: 5-10 years ago)
+8. Unemployed (finding) (onset: 5-10 years ago)
+9. Stress (finding) (onset: 5-10 years ago)
+10. Gingivitis (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+2. 0 months ago: Admission to hospice (procedure) - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+3. 0 months ago: Telemedicine consultation with patient (procedure) - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+4. 0 months ago: Emergency room admission (procedure) - Reason: Seizure disorder (disorder) (Status: finished)
+5. 0 months ago: Telemedicine consultation with patient (procedure) - Reason: Chronic congestive heart failure (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Blood pressure panel: 98/76 mm[Hg] (0 months ago)
+2. Blood pressure panel: 104/78 mm[Hg] (0 months ago)
+3. Blood pressure panel: 105/78 mm[Hg] (0 months ago)
+4. Body Weight: 76 kg (0 months ago)
+5. Glucose [Mass/volume] in Serum or Plasma: 64.18 mg/dL (0 months ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 279.77 mg/dL (0 months ago)
+7. Low Density Lipoprotein Cholesterol: 193.56 mg/dL (0 months ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 59.55 mg/dL (0 months ago)
+9. Body Weight: 76 kg (0 months ago)
+10. Glucose [Mass/volume] in Serum or Plasma: 64.18 mg/dL (0 months ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+2. Total score [DAST-10]: 1 (2 years ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+4. Total score [DAST-10]: 1 (3 years ago)
+5. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (3 years ago)
+6. Total score [DAST-10]: 2 (5-10 years ago)
+7. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+9. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 3 (5-10 years ago)
+10. Total score [DAST-10]: 1 (5-10 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+12. Total score [DAST-10]: 1 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+15. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 7 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: housing, unsatisfactory, (finding), only, received, primary, school, education, body, mass, index, obesity, social, isolation, limited, contact, history, tubal, ligation, (situation), prediabetes, osteoarthritis, knee, (disorder), stress, chronic, sinusitis, sepsis, medication, review, full-time, employment, burn, injury, (morphologic, abnormality), partial, thickness, reports, violence, environment, unemployed, gingivitis, infection, tooth, gingival, disease, fractured, dental, filling, loss, teeth, acute, bronchitis, victim, intimate, partner, abuse, labor, force, idiopathic, atrophic, hypothyroidism, rupture, patellar, tendon, congestive, heart, failure, seizure, epilepsy, blood, pressure, weight, glucose, [mass/volume], serum, plasma, cholesterol, density, lipoprotein, height, (bmi), [ratio], rate
+
+RISK_FACTORS: Obesity, Diabetes risk, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Middle-aged (55-64)
+Gender: female
+Active_Conditions_Count: 17
+Total_Conditions_Count: 45
+Recent_Encounters_Count: 5
+Risk_Factors: Obesity, Diabetes risk, Overweight (BMI 25-29.9)
+

@@ -1,0 +1,108 @@
+ANONYMOUS_PATIENT_ID: PATIENT_B1A1D1CD
+AGE_GROUP: Elderly (85+)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Elderly (85+) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Housing unsatisfactory (finding) (onset: 10+ years ago)
+2. Only received primary school education (finding) (onset: 10+ years ago)
+3. Transport problem (finding) (onset: 10+ years ago)
+4. Refugee (person) (onset: 10+ years ago)
+5. Lack of access to transportation (finding) (onset: 10+ years ago)
+6. Chronic sinusitis (disorder) (onset: 10+ years ago)
+7. Prediabetes (finding) (onset: 10+ years ago)
+8. Body mass index 30+ - obesity (finding) (onset: 10+ years ago)
+9. Diabetes mellitus type 2 (disorder) (onset: 10+ years ago)
+10. Loss of teeth (disorder) (onset: 10+ years ago)
+11. Essential hypertension (disorder) (onset: 10+ years ago)
+12. Hypertriglyceridemia (disorder) (onset: 10+ years ago)
+13. Metabolic syndrome X (disorder) (onset: 10+ years ago)
+14. Neuropathy due to type 2 diabetes mellitus (disorder) (onset: 5-10 years ago)
+15. Polyp of colon (disorder) (onset: 4 years ago)
+16. Overlapping malignant neoplasm of colon (disorder) (onset: 4 years ago)
+17. Osteoporosis (disorder) (onset: 4 years ago)
+18. Stress (finding) (onset: 3 years ago)
+19. Acute ST segment elevation myocardial infarction (disorder) (onset: 2 years ago)
+20. History of myocardial infarction (situation) (onset: 2 years ago)
+21. Not in labor force (finding) (onset: 1 year ago)
+22. Died in hospice (finding) (onset: 0 months ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Stress (finding) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 10+ years ago)
+3. Full-time employment (finding) (onset: 10+ years ago)
+4. Part-time employment (finding) (onset: 10+ years ago)
+5. Gingivitis (disorder) (onset: 10+ years ago)
+6. Gingival disease (disorder) (onset: 10+ years ago)
+7. Medication review due (situation) (onset: 5-10 years ago)
+8. Full-time employment (finding) (onset: 5-10 years ago)
+9. Gingivitis (disorder) (onset: 5-10 years ago)
+10. Gingival disease (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Overlapping malignant neoplasm of colon (disorder) (Status: finished)
+2. 1 months ago: Admission to hospice (procedure) - Reason: Overlapping malignant neoplasm of colon (disorder) (Status: finished)
+3. 1 year ago: General examination of patient (procedure) (Status: finished)
+4. 2 years ago: Hospital admission (procedure) - Reason: Acute ST segment elevation myocardial infarction (disorder) (Status: finished)
+5. 2 years ago: Emergency room admission (procedure) - Reason: Myocardial infarction (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 167.5 cm (1 year ago)
+2. Body Weight: 78.2 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 27.87 kg/m2 (1 year ago)
+4. Blood pressure panel: 83/61 mm[Hg] (1 year ago)
+5. Heart rate: 83 /min (1 year ago)
+6. Glucose [Mass/volume] in Blood: 114.93 mg/dL (1 year ago)
+7. Cholesterol [Mass/volume] in Serum or Plasma: 230.87 mg/dL (1 year ago)
+8. Low Density Lipoprotein Cholesterol: 135.49 mg/dL (1 year ago)
+9. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 58.8 mg/dL (1 year ago)
+10. Glucose [Mass/volume] in Serum or Plasma: 117.88 mg/dL (2 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Total score [DAST-10]: 1 (1 year ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 5 (1 year ago)
+3. Total score [DAST-10]: 2 (2 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (2 years ago)
+5. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 12 (2 years ago)
+6. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (3 years ago)
+7. Total score [DAST-10]: 2 (4 years ago)
+8. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+9. Total score [DAST-10]: 0 (5-10 years ago)
+10. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+11. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 12 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+13. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (5-10 years ago)
+14. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+15. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+16. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (10+ years ago)
+17. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 1 (10+ years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (1 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: housing, unsatisfactory, (finding), only, received, primary, school, education, transport, problem, refugee, (person), lack, access, transportation, chronic, sinusitis, (disorder), prediabetes, body, mass, index, obesity, diabetes, mellitus, type, stress, loss, teeth, essential, hypertension, medication, review, (situation), hypertriglyceridemia, metabolic, syndrome, full-time, employment, part-time, gingivitis, gingival, disease, acute, viral, pharyngitis, neuropathy, polyp, colon, overlapping, malignant, neoplasm, osteoporosis, limited, social, contact, unemployed, isolation, myocardial, infarction, segment, elevation, history, labor, force, died, hospice, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature
+
+RISK_FACTORS: Diabetes risk, Obesity, Hypertension, Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Elderly (85+)
+Gender: female
+Active_Conditions_Count: 22
+Total_Conditions_Count: 50
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Obesity, Hypertension, Overweight (BMI 25-29.9)
+

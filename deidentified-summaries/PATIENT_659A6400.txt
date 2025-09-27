@@ -1,0 +1,78 @@
+ANONYMOUS_PATIENT_ID: PATIENT_659A6400
+AGE_GROUP: Adult (25-34)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (25-34) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Risk activity involvement (finding) (onset: 10+ years ago)
+2. Housing unsatisfactory (finding) (onset: 10+ years ago)
+3. Educated to high school level (finding) (onset: 10+ years ago)
+4. Loss of teeth (disorder) (onset: 10+ years ago)
+5. Stress (finding) (onset: 4 years ago)
+6. Medication review due (situation) (onset: 1 year ago)
+7. Full-time employment (finding) (onset: 1 year ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Full-time employment (finding) (onset: 10+ years ago)
+2. Medication review due (situation) (onset: 10+ years ago)
+3. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+4. Stress (finding) (onset: 10+ years ago)
+5. Gingivitis (disorder) (onset: 10+ years ago)
+6. Normal pregnancy (finding) (onset: 5-10 years ago)
+7. Normal pregnancy (finding) (onset: 5-10 years ago)
+8. Normal pregnancy (finding) (onset: 5-10 years ago)
+9. Anemia (disorder) (onset: 5-10 years ago)
+10. Viral sinusitis (disorder) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Emergency room admission (procedure) - Reason: Laceration - injury (disorder) (Status: finished)
+2. 1 months ago: Postnatal visit (regime/therapy) (Status: finished)
+3. 2 months ago: Encounter for check up (procedure) - Reason: Gingivitis (disorder) (Status: finished)
+4. 2 months ago: Obstetric emergency hospital admission (procedure) - Reason: Normal pregnancy (finding) (Status: finished)
+5. 1 year ago: General examination of patient (procedure) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 160.7 cm (1 year ago)
+2. Body Weight: 74.7 kg (1 year ago)
+3. Body mass index (BMI) [Ratio]: 28.93 kg/m2 (1 year ago)
+4. Blood pressure panel: 124/68 mm[Hg] (1 year ago)
+5. Heart rate: 96 /min (1 year ago)
+6. Cholesterol [Mass/volume] in Serum or Plasma: 186.45 mg/dL (1 year ago)
+7. Low Density Lipoprotein Cholesterol: 107.96 mg/dL (1 year ago)
+8. Cholesterol in HDL [Mass/volume] in Serum or Plasma: 55.7 mg/dL (1 year ago)
+9. Body temperature: 37.322 Cel (2 years ago)
+10. Body Height: 160.7 cm (4 years ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (4 years ago)
+2. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 2 (5-10 years ago)
+
+DIAGNOSTIC REPORTS:
+1. History and physical note (0 months ago)
+   Status: final
+
+2. History and physical note (1 months ago)
+   Status: final
+
+3. History and physical note (2 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: risk, activity, involvement, (finding), housing, unsatisfactory, educated, high, school, level, full-time, employment, loss, teeth, (disorder), medication, review, (situation), victim, intimate, partner, abuse, stress, gingivitis, normal, pregnancy, anemia, viral, sinusitis, part-time, limited, social, contact, acute, pharyngitis, laceration, injury, foot, body, height, weight, mass, index, (bmi), [ratio], blood, pressure, heart, rate, cholesterol, [mass/volume], serum, plasma, density, lipoprotein, temperature
+
+RISK_FACTORS: Overweight (BMI 25-29.9)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (25-34)
+Gender: female
+Active_Conditions_Count: 7
+Total_Conditions_Count: 26
+Recent_Encounters_Count: 5
+Risk_Factors: Overweight (BMI 25-29.9)
+

@@ -1,0 +1,92 @@
+ANONYMOUS_PATIENT_ID: PATIENT_30F29184
+AGE_GROUP: Adult (35-44)
+GENDER: female
+MARITAL_STATUS: Married
+REGION: CITY_001, GA
+PROCESSING_DATE: 2025-09-27
+
+---
+
+PATIENT CLINICAL PROFILE:
+This is a Adult (35-44) female patient with marital status: Married. Located in region: CITY_001, GA.
+
+ACTIVE MEDICAL CONDITIONS:
+1. Received higher education (finding) (onset: 10+ years ago)
+2. Past pregnancy history of miscarriage (situation) (onset: 10+ years ago)
+3. Social isolation (finding) (onset: 10+ years ago)
+4. Prediabetes (finding) (onset: 10+ years ago)
+5. Anemia (disorder) (onset: 10+ years ago)
+6. Has a criminal record (finding) (onset: 10+ years ago)
+7. Osteoarthritis of knee (disorder) (onset: 10+ years ago)
+8. Chronic obstructive bronchitis (disorder) (onset: 5-10 years ago)
+9. Body mass index 30+ - obesity (finding) (onset: 4 years ago)
+10. Full-time employment (finding) (onset: 2 years ago)
+11. Stress (finding) (onset: 2 years ago)
+
+RESOLVED MEDICAL CONDITIONS:
+1. Medication review due (situation) (onset: 10+ years ago)
+2. Stress (finding) (onset: 10+ years ago)
+3. Full-time employment (finding) (onset: 10+ years ago)
+4. Part-time employment (finding) (onset: 10+ years ago)
+5. Limited social contact (finding) (onset: 10+ years ago)
+6. Victim of intimate partner abuse (finding) (onset: 10+ years ago)
+7. Unhealthy alcohol drinking behavior (finding) (onset: 10+ years ago)
+8. Loose dental filling (finding) (onset: 10+ years ago)
+9. Viral sinusitis (disorder) (onset: 5-10 years ago)
+10. Not in labor force (finding) (onset: 5-10 years ago)
+
+RECENT MEDICAL ENCOUNTERS:
+1. 0 months ago: Death Certification - Reason: Chronic obstructive bronchitis (disorder) (Status: finished)
+2. 0 months ago: Admission to hospice (procedure) - Reason: Chronic obstructive bronchitis (disorder) (Status: finished)
+3. 1 months ago: Encounter for check up (procedure) (Status: finished)
+4. 1 months ago: Urgent care clinic (environment) (Status: finished)
+5. 1 months ago: Encounter for symptom (procedure) - Reason: Acute bronchitis (disorder) (Status: finished)
+
+CLINICAL MEASUREMENTS:
+1. Body Height: 159.4 cm (1 months ago)
+2. Body Weight: 74.5 kg (1 months ago)
+3. Body mass index (BMI) [Ratio]: 29.31 kg/m2 (1 months ago)
+4. Blood pressure panel: 111/70 mm[Hg] (1 months ago)
+5. Heart rate: 75 /min (1 months ago)
+6. Glucose [Mass/volume] in Blood: 97.74 mg/dL (1 months ago)
+7. Body Height: 159.4 cm (1 year ago)
+8. Body Weight: 74.4 kg (1 year ago)
+9. Body mass index (BMI) [Ratio]: 29.26 kg/m2 (1 year ago)
+10. Blood pressure panel: 115/68 mm[Hg] (1 year ago)
+
+SCREENING AND ASSESSMENT SCORES:
+1. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 months ago)
+2. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (1 year ago)
+3. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (3 years ago)
+4. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (4 years ago)
+5. Total score [DAST-10]: 0 (5-10 years ago)
+6. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+7. Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]: 5 (5-10 years ago)
+8. Total score [DAST-10]: 1 (5-10 years ago)
+9. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 0 (5-10 years ago)
+10. Total score [DAST-10]: 2 (5-10 years ago)
+11. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 1 (5-10 years ago)
+12. Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]: 2 (10+ years ago)
+
+DIAGNOSTIC REPORTS:
+1. U.S. standard certificate of death - 2003 revision (0 months ago)
+   Status: final
+
+2. History and physical note (0 months ago)
+   Status: final
+
+3. History and physical note (0 months ago)
+   Status: final
+
+CLINICAL_KEYWORDS: received, higher, education, (finding), past, pregnancy, history, miscarriage, (situation), social, isolation, prediabetes, medication, review, anemia, (disorder), stress, criminal, record, full-time, employment, osteoarthritis, knee, part-time, limited, contact, victim, intimate, partner, abuse, unhealthy, alcohol, drinking, behavior, loose, dental, filling, viral, sinusitis, chronic, obstructive, bronchitis, labor, force, acute, pharyngitis, normal, reports, violence, environment, body, mass, index, obesity, unemployed, gingivitis, fracture, bone, closed, eclampsia, height, weight, (bmi), [ratio], blood, pressure, heart, rate, glucose, [mass/volume], cholesterol, serum, plasma, density, lipoprotein, temperature
+
+RISK_FACTORS: Diabetes risk, Alcohol use, Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
+SIMILARITY_FEATURES:
+Age_Group: Adult (35-44)
+Gender: female
+Active_Conditions_Count: 11
+Total_Conditions_Count: 46
+Recent_Encounters_Count: 5
+Risk_Factors: Diabetes risk, Alcohol use, Obesity, Overweight (BMI 25-29.9), Obesity (BMI ≥30)
+
