@@ -8,9 +8,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc patient_extraction.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
     "build-diagnosis": "tsc medical_diagnosis.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
+    "build-complete": "tsc complete_analysis.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
     "run-test": "npm run build && node build/patient_extraction.js",
     "patient-extraction": "npm run build && node build/patient_extraction.js",
-    "medical-diagnosis": "npm run build-diagnosis && node build/medical_diagnosis.js"
+    "medical-diagnosis": "npm run build-diagnosis && node build/medical_diagnosis.js",
+    "complete-analysis": "npm run build-complete && node build/complete_analysis.js"
   },
   "repository": {
     "type": "git",

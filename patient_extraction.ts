@@ -7,7 +7,7 @@ import { join } from 'path';
 async function loadPatientFromFile(): Promise<fhirR4.Patient | null> {
     try {
         // Read the first FHIR file from the fhir directory
-        const fhirFilePath = join('./fhir', 'Clemente531_Hagenes547_997c14c0-1295-bbe2-0762-6cf052c7a05b.json');
+        const fhirFilePath = join('./fhir', 'Kelly223_Santana368_Gusikowski974_db51b965-a6a0-7d0b-0961-c2684de4f4be.json');
         const fileContent = readFileSync(fhirFilePath, 'utf8');
         const bundle: fhirR4.Bundle = JSON.parse(fileContent);
         
