@@ -1,4 +1,4 @@
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, mkdirSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { BundleUtils } from '@smile-cdr/fhirts';
 import { createClient } from '@supabase/supabase-js';
@@ -39,7 +39,7 @@ const openai = new OpenAI({
     apiKey: OPENAI_API_KEY,
 });
 
-// Supabase storage helper functions
+// Supabase storage helper functions with local fallback
 async function downloadJsonFromStorage(bucketName: string, fileName: string): Promise<string> {
     try {
         console.log(`📥 Downloading ${fileName} from Supabase storage bucket: ${bucketName}`);
@@ -50,17 +50,14 @@ async function downloadJsonFromStorage(bucketName: string, fileName: string): Pr
             
         if (error) {
             console.error('Detailed error:', error);
-            if (error.message.includes('not found')) {
-                throw new Error(`File '${fileName}' not found in bucket '${bucketName}'. Please verify the file name and bucket name.`);
-            }
-            if (error.message.includes('not allowed')) {
-                throw new Error(`Access denied to bucket '${bucketName}'. Please check your Supabase permissions and bucket policy.`);
-            }
-            throw new Error(`Supabase storage error: ${JSON.stringify(error)}`);
+            // Try local fallback
+            console.log(`⚠️ Supabase error, trying local file: ./fhir/${fileName}`);
+            return await readLocalFile(fileName);
         }
         
         if (!data) {
-            throw new Error('No data received from Supabase storage');
+            console.log(`⚠️ No data from Supabase, trying local file: ./fhir/${fileName}`);
+            return await readLocalFile(fileName);
         }
         
         const text = await data.text();
@@ -76,8 +73,29 @@ async function downloadJsonFromStorage(bucketName: string, fileName: string): Pr
         return text;
         
     } catch (error) {
-        console.error(`❌ Error downloading ${fileName} from storage:`, error);
-        throw error;
+        console.log(`⚠️ Supabase unavailable, trying local file: ./fhir/${fileName}`);
+        return await readLocalFile(fileName);
+    }
+}
+
+async function readLocalFile(fileName: string): Promise<string> {
+    try {
+        const localPath = join('./fhir', fileName);
+        const text = readFileSync(localPath, 'utf8');
+        
+        // Validate that it's valid JSON
+        try {
+            JSON.parse(text);
+        } catch (parseError) {
+            throw new Error(`Local file '${fileName}' is not valid JSON: ${parseError instanceof Error ? parseError.message : 'Unknown parsing error'}`);
+        }
+        
+        console.log(`✅ Successfully read local file ${localPath} (${text.length} characters)`);
+        return text;
+        
+    } catch (error) {
+        console.error(`❌ Error reading local file ${fileName}:`, error);
+        throw new Error(`File '${fileName}' not found in Supabase storage or local ./fhir/ directory`);
     }
 }
 
@@ -298,50 +316,65 @@ async function searchPubMed(query: string, maxResults: number = 3): Promise<PubM
         
         const xmlData = await detailsResponse.text();
         
-        // Parse XML data (simplified parsing for essential fields)
+        // Parse XML data more reliably
         const articles: PubMedArticle[] = [];
         
-        for (const pmid of pmids) {
+        // Split XML into individual articles
+        const articleSections = xmlData.split('<PubmedArticle>').slice(1); // Remove first empty element
+        
+        for (let i = 0; i < articleSections.length && i < pmids.length; i++) {
             try {
-                // Extract article info using regex (simplified approach)
-                const articleMatch = xmlData.match(new RegExp(`<PubmedArticle>.*?<PMID.*?>${pmid}</PMID>.*?</PubmedArticle>`, 's'));
+                const articleXml = '<PubmedArticle>' + articleSections[i].split('</PubmedArticle>')[0] + '</PubmedArticle>';
+                const pmid = pmids[i];
                 
-                if (articleMatch) {
-                    const articleXml = articleMatch[0];
-                    
-                    const titleMatch = articleXml.match(/<ArticleTitle>(.*?)<\/ArticleTitle>/s);
-                    const title = titleMatch ? titleMatch[1].replace(/<[^>]*>/g, '').trim() : 'Title not available';
-                    
-                    const journalMatch = articleXml.match(/<Title>(.*?)<\/Title>/);
-                    const journal = journalMatch ? journalMatch[1] : 'Journal not available';
-                    
-                    const yearMatch = articleXml.match(/<PubDate>.*?<Year>(\d{4})<\/Year>/s);
-                    const year = yearMatch ? yearMatch[1] : 'Year not available';
-                    
-                    const abstractMatch = articleXml.match(/<AbstractText.*?>(.*?)<\/AbstractText>/s);
-                    const abstract = abstractMatch ? abstractMatch[1].replace(/<[^>]*>/g, '').trim().substring(0, 500) + '...' : 'Abstract not available';
-                    
-                    const authorMatches = articleXml.match(/<LastName>(.*?)<\/LastName>/g);
-                    const authors = authorMatches ? 
-                        authorMatches.slice(0, 3).map(match => match.replace(/<[^>]*>/g, '')).join(', ') + (authorMatches.length > 3 ? ' et al.' : '') 
-                        : 'Authors not available';
-                    
-                    const doiMatch = articleXml.match(/<ArticleId IdType="doi">(.*?)<\/ArticleId>/);
-                    const doi = doiMatch ? doiMatch[1] : undefined;
-                    
-                    articles.push({
-                        pmid,
-                        title,
-                        authors,
-                        journal,
-                        year,
-                        abstract,
-                        doi,
-                        url: `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`
-                    });
+                // Extract title
+                const titleMatch = articleXml.match(/<ArticleTitle>(.*?)<\/ArticleTitle>/s);
+                const title = titleMatch ? titleMatch[1].replace(/<[^>]*>/g, '').trim() : 'Title not available';
+                
+                // Extract journal - look for Journal Title specifically
+                const journalMatch = articleXml.match(/<Journal>[\s\S]*?<Title>(.*?)<\/Title>/);
+                const journal = journalMatch ? journalMatch[1] : 'Journal not available';
+                
+                // Extract year
+                const yearMatch = articleXml.match(/<PubDate>[\s\S]*?<Year>(\d{4})<\/Year>/);
+                const year = yearMatch ? yearMatch[1] : 'Year not available';
+                
+                // Extract abstract - get first AbstractText
+                const abstractMatch = articleXml.match(/<AbstractText[^>]*>(.*?)<\/AbstractText>/s);
+                const abstract = abstractMatch ? 
+                    abstractMatch[1].replace(/<[^>]*>/g, '').trim().substring(0, 500) + '...' : 
+                    'Abstract not available';
+                
+                // Extract authors - look in AuthorList
+                const authorListMatch = articleXml.match(/<AuthorList[^>]*>([\s\S]*?)<\/AuthorList>/);
+                let authors = 'Authors not available';
+                if (authorListMatch) {
+                    const authorMatches = authorListMatch[1].match(/<LastName>(.*?)<\/LastName>/g);
+                    if (authorMatches && authorMatches.length > 0) {
+                        const authorNames = authorMatches.slice(0, 3).map(match => 
+                            match.replace(/<[^>]*>/g, '').trim()
+                        );
+                        authors = authorNames.join(', ') + (authorMatches.length > 3 ? ' et al.' : '');
+                    }
                 }
+                
+                // Extract DOI
+                const doiMatch = articleXml.match(/<ArticleId IdType="doi">(.*?)<\/ArticleId>/);
+                const doi = doiMatch ? doiMatch[1] : undefined;
+                
+                articles.push({
+                    pmid,
+                    title,
+                    authors,
+                    journal,
+                    year,
+                    abstract,
+                    doi,
+                    url: `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`
+                });
+                
             } catch (error) {
-                console.log(`⚠️ Error parsing article ${pmid}:`, error);
+                console.log(`⚠️ Error parsing article ${pmids[i]}:`, error);
             }
         }
         
@@ -708,15 +741,7 @@ Provide ONLY the JSON object, no other text or formatting.`;
         console.log(JSON.stringify(medicalReport, null, 2));
         console.log('='.repeat(50));
         
-        // Generate unique filename with timestamp and patient ID
-        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-        const jsonFileName = `medical_analysis_${patient.id}_${timestamp}.json`;
-        
-        // Upload only JSON format to Diagnosis bucket
-        console.log('\n📤 Uploading diagnosis to Supabase Storage...');
-        await uploadJsonToStorage('Diagnosis', jsonFileName, medicalReport);
-        
-        // Also save locally for backup (optional)
+        // Save locally for backup only (no separate upload to Supabase)
         try {
             mkdirSync('./patient_json', { recursive: true });
             const jsonAnalysisPath = join('./patient_json', 'medical_analysis.json');
@@ -726,8 +751,7 @@ Provide ONLY the JSON object, no other text or formatting.`;
             console.log('⚠️ Could not save local backup:', error);
         }
         
-        console.log(`\n💾 Analysis saved to Supabase Storage:`);
-        console.log(`   📋 JSON format: Diagnosis/${jsonFileName}`);
+        console.log(`\n✅ Medical analysis complete (will be included in comprehensive report)`);
         
         // Return the medical report for insurance analysis
         return medicalReport;

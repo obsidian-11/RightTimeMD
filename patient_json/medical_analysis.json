@@ -1,59 +1,59 @@
 {
   "metadata": {
-    "reportId": "report_1759001177697",
-    "generatedAt": "2025-09-27T19:26:17.697Z",
-    "patientId": "b83846b6-2c63-bcdb-a981-5d61e3b0f7f7",
-    "patientName": "Adele475 Pfannerstill264",
-    "patientAge": 66,
-    "patientGender": "female"
+    "reportId": "report_1759001316505",
+    "generatedAt": "2025-09-27T19:28:36.505Z",
+    "patientId": "9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
+    "patientName": "Abel832 Darrel772 Zieme486",
+    "patientAge": 8,
+    "patientGender": "male"
   },
   "diagnosis": {
-    "clinicalSummary": "66-year-old female with multiple active medical conditions including obesity, chronic sinusitis, osteoarthritis, prediabetes, and anemia. Recent lab results indicate low hemoglobin levels.",
-    "healthAssessment": "Patient presents with obesity and chronic pain, which may contribute to her overall health decline. Anemia needs further evaluation.",
+    "clinicalSummary": "8 year old male with no active medical conditions. Recent vital signs are within normal limits except for slightly elevated diastolic blood pressure. Hemoglobin level is elevated.",
+    "healthAssessment": "Overall health appears stable with no current medical issues, but elevated hemoglobin and diastolic blood pressure should be monitored.",
     "recommendations": [
-      "Evaluate and manage anemia with further lab tests and possible supplementation.",
-      "Implement a weight management program to address obesity and associated health risks.",
-      "Consider physical therapy for chronic low back pain and osteoarthritis management."
+      "Monitor blood pressure regularly to assess for potential hypertension.",
+      "Consider further evaluation of elevated hemoglobin levels.",
+      "Maintain routine health check-ups and continue with up-to-date immunizations."
     ],
     "riskFactors": [
-      "Obesity",
-      "Chronic pain"
+      "History of respiratory infections",
+      "Elevated blood pressure"
     ],
-    "followUpNeeded": "4-6 weeks for anemia evaluation and management plan",
-    "urgencyLevel": "moderate"
+    "followUpNeeded": "6 months",
+    "urgencyLevel": "low"
   },
   "literature": [
     {
-      "pmid": "25575710",
-      "title": "Pharmacotherapy for neuropathic pain in adults: a systematic review and meta-analysis.",
-      "authors": "Finnerup, Attal, Haroutounian et al.",
-      "journal": "The Lancet. Neurology",
-      "year": "2015",
-      "doi": "10.1016/S1474-4422(14)70251-0",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25575710/",
-      "abstract": "New drug treatments, clinical trials, and standards of quality for assessment of evidence justify an update of evidence-based recommendations for the pharmacological treatment of neuropathic pain. Using the Grading of Recommendations Assessment, Development, and Evaluation (GRADE), we revised the Special Interest Group on Neuropathic Pain (NeuPSIG) recommendations for the pharmacotherapy of neuropathic pain based on the results of a systematic review and meta-analysis...."
+      "pmid": "23796742",
+      "title": "Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years.",
+      "authors": "Wald, Applegate, Bordley et al.",
+      "journal": "Pediatrics",
+      "year": "2013",
+      "doi": "10.1542/peds.2013-1071",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23796742/",
+      "abstract": "To update the American Academy of Pediatrics clinical practice guideline regarding the diagnosis and management of acute bacterial sinusitis in children and adolescents...."
     },
     {
-      "pmid": "31337484",
-      "title": "Pharmacotherapy for neuropathic pain in adults: a systematic review and meta-analysis.",
-      "authors": "Finnerup, Attal, Haroutounian et al.",
-      "journal": "The Lancet. Neurology",
-      "year": "2015",
-      "doi": "10.1016/S1474-4422(14)70251-0",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/31337484/",
-      "abstract": "New drug treatments, clinical trials, and standards of quality for assessment of evidence justify an update of evidence-based recommendations for the pharmacological treatment of neuropathic pain. Using the Grading of Recommendations Assessment, Development, and Evaluation (GRADE), we revised the Special Interest Group on Neuropathic Pain (NeuPSIG) recommendations for the pharmacotherapy of neuropathic pain based on the results of a systematic review and meta-analysis...."
+      "pmid": "19366560",
+      "title": "Cervical lymphadenitis: etiology, diagnosis, and management.",
+      "authors": "Leung, Davies",
+      "journal": "Current infectious disease reports",
+      "year": "2009",
+      "doi": "10.1007/s11908-009-0028-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19366560/",
+      "abstract": "Cervical lymphadenopathy is a common problem in children. The condition most commonly represents a transient response to a benign local or generalized infection. Acute bilateral cervical lymphadenitis is usually caused by a viral upper respiratory tract infection or streptococcal pharyngitis. Acute unilateral cervical lymphadenitis is caused by streptococcal or staphylococcal infection in 40% to 80% of cases. Common causes of subacute or chronic lymphadenitis include cat-scratch disease and myco..."
     },
     {
-      "pmid": "34812863",
-      "title": "Pharmacotherapy for neuropathic pain in adults: a systematic review and meta-analysis.",
-      "authors": "Finnerup, Attal, Haroutounian et al.",
-      "journal": "The Lancet. Neurology",
-      "year": "2015",
-      "doi": "10.1016/S1474-4422(14)70251-0",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34812863/",
-      "abstract": "New drug treatments, clinical trials, and standards of quality for assessment of evidence justify an update of evidence-based recommendations for the pharmacological treatment of neuropathic pain. Using the Grading of Recommendations Assessment, Development, and Evaluation (GRADE), we revised the Special Interest Group on Neuropathic Pain (NeuPSIG) recommendations for the pharmacotherapy of neuropathic pain based on the results of a systematic review and meta-analysis...."
+      "pmid": "32747473",
+      "title": "Reducing Antibiotic Prescribing in Primary Care for Respiratory Illness.",
+      "authors": "Kronman, Gerber, Grundmeier et al.",
+      "journal": "Pediatrics",
+      "year": "2020",
+      "doi": "10.1542/peds.2020-0038",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32747473/",
+      "abstract": "One-third of outpatient antibiotic prescriptions for pediatric acute respiratory tract infections (ARTIs) are inappropriate. We evaluated a distance learning program's effectiveness for reducing outpatient antibiotic prescribing for ARTI visits...."
     }
   ],
-  "searchQuery": "Received higher education (finding) OR Social isolation (finding) adult treatment management",
+  "searchQuery": "Acute viral pharyngitis (disorder) OR Viral sinusitis (disorder) pediatric treatment management",
   "disclaimer": "This analysis is generated by AI for educational purposes only. Always consult with qualified healthcare professionals for medical advice."
 }
