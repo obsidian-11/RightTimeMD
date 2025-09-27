@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc test.ts --outDir build --target ES2020 --module ESNext --moduleResolution node",
+    "run-test": "npm run build && node build/test.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
+    "@smile-cdr/fhirts": "^2.3.0",
     "node-fetch": "^3.3.2"
   }
 }
