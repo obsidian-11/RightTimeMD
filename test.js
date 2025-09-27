@@ -28,7 +28,7 @@ OUTPUT FORMAT (return ONLY this JSON):
 {
   "visit_brief": {
     "issues": [
-      { "title": string, "why_now": string, "suggested_orders": [string], "next_steps": [string] }
+      { "title": string, "why_now": string, "next_steps": [string] }
     ],
     "red_flags": [string]
   },
