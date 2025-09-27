@@ -40,9 +40,9 @@ OUTPUT FORMAT (return ONLY this JSON):
       "year": number,
       "source": "PubMed"|"Guideline"|"Other",
       "link": string,
-      "abstract": string,
-      "guideline": boolean,
-      "tags": [string]
+      "one_sentence_summary": string,
+      "why_relevant": string,
+      "evidence_strength": "high"|"medium"|"low"
     }
   ],
   "follow_up_questions": [string],
