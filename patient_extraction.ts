@@ -243,8 +243,8 @@ async function demonstrateUtils(): Promise<void> {
             };
             
             // Output JSON to console
-            console.log(JSON.stringify(fhirData, null, 2));
-            
+            //console.log(JSON.stringify(fhirData, null, 2));
+            console.log("Successfully extracted patient data");
             // Save JSON to file
             const jsonFilePath = join('./patient_json', 'patient_data.json');
             writeFileSync(jsonFilePath, JSON.stringify(fhirData, null, 2), 'utf8');
