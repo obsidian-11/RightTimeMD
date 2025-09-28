@@ -22,16 +22,16 @@ export function LoginPage() {
   };
 
   if (user) {
-    navigate("/dashboard");
+    navigate("/home");
   }
 
   return (
-    <div className="p-4 max-w-md mx-auto">
-      <h2 className="text-2xl font-bold mb-4">Sign In</h2>
+    <div className="mx-auto max-w-md p-4">
+      <h2 className="mb-4 text-2xl font-bold">Sign In</h2>
 
       <form onSubmit={handleSignin} className="space-y-4">
         <div>
-          <label htmlFor="email" className="block text-sm font-medium mb-1">
+          <label htmlFor="email" className="mb-1 block text-sm font-medium">
             Email
           </label>
           <input
@@ -39,13 +39,13 @@ export function LoginPage() {
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md"
+            className="w-full rounded-md border border-gray-300 px-3 py-2"
             required
           />
         </div>
 
         <div>
-          <label htmlFor="password" className="block text-sm font-medium mb-1">
+          <label htmlFor="password" className="mb-1 block text-sm font-medium">
             Password
           </label>
           <input
@@ -53,17 +53,17 @@ export function LoginPage() {
             id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md"
+            className="w-full rounded-md border border-gray-300 px-3 py-2"
             required
             minLength={6}
           />
         </div>
 
-        {error && <div className="text-red-600 text-sm">{error}</div>}
+        {error && <div className="text-sm text-red-600">{error}</div>}
 
         <button
           type="submit"
-          className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700"
+          className="w-full rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
         >
           Sign In
         </button>
