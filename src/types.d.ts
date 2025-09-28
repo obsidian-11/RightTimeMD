@@ -203,6 +203,7 @@ export type FHIRResourceType =
   | "AllergyIntolerance"
   | "Immunization"
   | "CarePlan"
+  | "CareTeam"
   | "Goal"
   | "ServiceRequest"
   | "Appointment"
@@ -210,7 +211,10 @@ export type FHIRResourceType =
   | "Organization"
   | "Practitioner"
   | "PractitionerRole"
-  | "Location";
+  | "Location"
+  | "Claim"
+  | "ExplanationOfBenefit"
+  | "Bundle";
 
 export interface Appointment {
   id: string;

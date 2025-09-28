@@ -3,7 +3,7 @@ import { storage, supabase } from "../lib/supabase";
 import type { FHIR, FHIRResourceType } from "../types";
 
 interface FHIRResource {
-  resourceType: FHIRResourceType | "Bundle";
+  resourceType: FHIRResourceType;
   id: string;
   [key: string]: any;
 }
@@ -142,22 +142,60 @@ export function useFHIRData() {
           let resourcesToProcess: FHIRResource[] = [];
 
           // Check if this is a bundle reference (has file_path) or individual resource
-          if (
-            (record.resource_type as string) === "Bundle" &&
-            typeof record.resource_json === "string"
-          ) {
+          if (record.resource_type === "Bundle") {
             // This is bundle metadata - extract file_path and load the bundle
-            const metadata = JSON.parse(record.resource_json);
-            if (metadata.file_path) {
-              const bundle = await storage.loadJson<FHIRBundle>(
-                "FHIR",
-                metadata.file_path,
-              );
-              if (bundle && bundle.entry) {
-                resourcesToProcess = bundle.entry.map(
-                  (entry) => entry.resource,
+
+            let metadata;
+            if (typeof record.resource_json === "string") {
+              try {
+                metadata = JSON.parse(record.resource_json);
+              } catch (parseError) {
+                console.error(
+                  "FHIR: Failed to parse bundle metadata:",
+                  parseError,
                 );
+                continue; // Skip this record and continue with the next one
               }
+            } else if (
+              typeof record.resource_json === "object" &&
+              record.resource_json !== null
+            ) {
+              metadata = record.resource_json;
+            } else {
+              console.error(
+                "Unexpected resource_json type:",
+                typeof record.resource_json,
+                record.resource_json,
+              );
+              continue;
+            }
+            if (metadata.file_path) {
+              // Fix: Remove "FHIR/" prefix from file_path since we're already specifying the bucket
+              const cleanPath = metadata.file_path.startsWith("FHIR/")
+                ? metadata.file_path.substring(5) // Remove "FHIR/" prefix
+                : metadata.file_path;
+
+              try {
+                const bundle = await storage.loadJson<FHIRBundle>(
+                  "FHIR",
+                  cleanPath,
+                );
+                if (bundle && bundle.entry) {
+                  const resources = bundle.entry
+                    .map((entry) => entry.resource)
+                    .filter((resource) => resource && resource.resourceType);
+                  console.log(
+                    `FHIR: Successfully loaded bundle with ${resources.length} resources`,
+                  );
+                  resourcesToProcess = resources;
+                } else {
+                  console.warn("FHIR: Bundle loaded but has no entries");
+                }
+              } catch (loadError) {
+                console.error("FHIR: Error loading bundle:", loadError);
+              }
+            } else {
+              console.warn("Bundle metadata has no file_path:", metadata);
             }
           } else if (
             record.resource_json &&
@@ -216,6 +254,9 @@ export function useFHIRData() {
               case "Practitioner":
               case "PractitionerRole":
               case "Location":
+              case "CareTeam":
+              case "Claim":
+              case "ExplanationOfBenefit":
                 // Group other standard FHIR resource types
                 const resourceType = resource.resourceType.toLowerCase();
                 if (!processedData[resourceType]) {
@@ -224,8 +265,13 @@ export function useFHIRData() {
                 (processedData[resourceType] as FHIRResource[]).push(resource);
                 break;
               default:
-                console.warn(
-                  `Unknown FHIR resource type: ${resource.resourceType}`,
+                // Handle any other FHIR resource types
+                const otherResourceType = resource.resourceType.toLowerCase();
+                if (!processedData[otherResourceType]) {
+                  processedData[otherResourceType] = [];
+                }
+                (processedData[otherResourceType] as FHIRResource[]).push(
+                  resource,
                 );
                 break;
             }

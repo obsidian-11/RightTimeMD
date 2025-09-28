@@ -13,7 +13,7 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 export const storage = {
   async loadJson<T = any>(
     bucketName: string,
-    filePath: string
+    filePath: string,
   ): Promise<T | null> {
     try {
       const { data, error } = await supabase.storage

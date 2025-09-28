@@ -206,10 +206,13 @@ export function Clinics() {
     );
   }
 
-  const hasPatientClinics = data?.patientClinics.length > 0;
-  const hasStaffClinics = data?.staffClinics.length > 0;
-  const totalClinics =
-    (data?.patientClinics.length || 0) + (data?.staffClinics.length || 0);
+  const validPatientClinics =
+    data?.patientClinics.filter((record: any) => record.clinic) || [];
+  const validStaffClinics =
+    data?.staffClinics.filter((record: any) => record.clinic) || [];
+  const hasPatientClinics = validPatientClinics.length > 0;
+  const hasStaffClinics = validStaffClinics.length > 0;
+  const totalClinics = validPatientClinics.length + validStaffClinics.length;
 
   return (
     <div className="space-y-6 p-6">
@@ -256,11 +259,11 @@ export function Clinics() {
                   Patient Access
                 </h2>
                 <Badge variant="secondary" className="ml-2">
-                  {data.patientClinics.length}
+                  {validPatientClinics.length}
                 </Badge>
               </div>
               <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-                {data.patientClinics.map((record: any) => (
+                {validPatientClinics.map((record: any) => (
                   <Card
                     key={record.id}
                     className="group transition-all hover:shadow-md"
@@ -340,11 +343,11 @@ export function Clinics() {
                   Staff Access
                 </h2>
                 <Badge variant="secondary" className="ml-2">
-                  {data.staffClinics.length}
+                  {validStaffClinics.length}
                 </Badge>
               </div>
               <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-                {data.staffClinics.map((record: any) => (
+                {validStaffClinics.map((record: any) => (
                   <Card
                     key={record.id}
                     className="group transition-all hover:shadow-md"
