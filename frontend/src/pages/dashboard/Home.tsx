@@ -8,10 +8,10 @@ import { Admin } from "./admin";
 
 export function Home() {
   return (
-    <div className="flex h-screen flex-col">
+    <div className="flex h-screen flex-col overflow-hidden">
       <Topbar />
 
-      <div className="flex flex-grow">
+      <div className="flex flex-grow overflow-hidden">
         <Routes>
           <Route index element={<Clinics />} />
           <Route path="/patient/:id/*" element={<Patient />} />

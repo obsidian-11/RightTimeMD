@@ -1,19 +1,21 @@
 import { Sidenav } from "../components";
 import { Routes, Route } from "react-router";
-import { Dashboard } from "./subpages";
+import { Dashboard, MedicalHistory, Medications, HealthData } from "./subpages";
 
 export function Patient() {
   return (
-    <div className="flex flex-1 gap-2">
+    <div className="flex h-full flex-1 gap-2">
       <Sidenav type="patient" />
-      <div className="flex-1 p-4">
-        <Routes>
-          <Route index element={<Dashboard />} />
-          <Route path="medical-history" element={<></>} />
-          <Route path="medications" element={<></>} />
-          <Route path="appointments" element={<></>} />
-          <Route path="health-data" element={<></>} />
-        </Routes>
+      <div className="flex-1 overflow-hidden">
+        <div className="h-full overflow-y-auto">
+          <Routes>
+            <Route index element={<Dashboard />} />
+            <Route path="medical-history" element={<MedicalHistory />} />
+            <Route path="medications" element={<Medications />} />
+            <Route path="health-data" element={<HealthData />} />
+            <Route path="appointments" element={<></>} />
+          </Routes>
+        </div>
       </div>
     </div>
   );
