@@ -33,7 +33,6 @@ export const storage = {
     }
   },
 
-  // List files in a bucket
   async listFiles(bucketName: string, folderPath?: string) {
     try {
       const { data, error } = await supabase.storage
@@ -55,7 +54,6 @@ export const storage = {
     }
   },
 
-  // Upload JSON file to bucket
   async uploadJson(bucketName: string, filePath: string, data: any) {
     try {
       const jsonString = JSON.stringify(data, null, 2);

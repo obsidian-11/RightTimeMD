@@ -2,6 +2,39 @@
 
 ## Frontend planning
 
+src/
+pages/
+auth/
+LoginPage.tsx
+SignupPage.tsx
+ClinicRegistration.tsx
+clinical/
+ClinicalDashboard.tsx
+PatientListPage.tsx
+PatientDetailPage.tsx # ⭐ FHIR showcase page
+AppointmentsPage.tsx
+patient/
+PatientDashboard.tsx
+MedicalHistoryPage.tsx # ⭐ Patient timeline
+MedicationsPage.tsx
+admin/
+AdminDashboard.tsx
+StaffManagementPage.tsx
+shared/
+ProfilePage.tsx
+SettingsPage.tsx
+components/
+clinical/
+FHIRTimeline.tsx # ⭐ Key component
+PatientCard.tsx
+AppointmentCalendar.tsx
+patient/
+HealthOverview.tsx
+MedicationCard.tsx
+shared/
+Navigation.tsx
+RoleGuard.tsx
+
 ### Auth
 
 - /auth
@@ -25,12 +58,12 @@
   - /staff # Manage staff, invitations, roles
     - /staff/new # Invite new staff member -- Modal
     - /staff/:id # Individual staff details
-- /patients # All clinic patients overview
-  - /patients/new # Add new patient -- Modal
-  - /patients/:id # Patient detail page
-- /clinic-settings # Clinic info, billing, integrations -- Modal
-- /analytics # Usage stats, patient flow
-- /audit-logs # HIPAA compliance logs
+  - /patients # All clinic patients overview
+    - /patients/new # Add new patient -- Modal
+    - /patients/:id # Patient detail page
+  - /clinic-settings # Clinic info, billing, integrations -- Modal
+  - /analytics # Usage stats, patient flow
+  - /audit-logs # HIPAA compliance logs
 
 ### Clinical Staff
 
@@ -44,8 +77,8 @@
   - /appointments # Schedule management
     - /appointments/new # Create appointment -- Modal
     - /appointments/:id # Appointment details
-- /messages # Patient communication
-- /fhir-query # FHIR data search tool
+  - /messages # Patient communication
+  - /fhir-query # FHIR data search tool
 
 ### Support Staff
 

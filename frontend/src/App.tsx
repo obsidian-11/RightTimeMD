@@ -1,37 +1,24 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router";
-import { useAuth } from "./context/AuthContext";
-import { Auth } from "./components/Auth";
+import { Routes, Route } from "react-router";
+import { useAuth } from "@hooks";
+import { P404, Dashboard, LandingPage, LoginPage, SignupPage } from "@pages";
 
 export default function App() {
-  const { user, loading, signOut } = useAuth();
+  const { loading } = useAuth();
 
   if (loading) {
     return <div className="p-4">Loading...</div>;
   }
 
-  if (!user) {
-    return <Auth />;
-  }
-
   return (
-    <Router>
-      <Routes>
-        <Route
-          path="/*"
-          element={
-            <div className="p-4">
-              <h1 className="text-2xl font-bold mb-4">RightTimeMD Dashboard</h1>
-              <p>Welcome back, {user.email}!</p>
-              <button onClick={signOut}>Sign Out</button>
-              <Link to="/bucket">JSON</Link>
-
-              {/* Your existing dashboard content here */}
-              <div className="mt-8"></div>
-            </div>
-          }
-        />
-        <Route path="/bucket" element={} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route index element={<LandingPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/signup" element={<SignupPage />} />
+      <Route path="/clinic-registration" element={<></>} />
+      <Route path="/staff-invitation" element={<></>} />
+      <Route path="/password-reset" element={<></>} />
+      <Route path="/dashboard/*" element={<Dashboard />} />
+      <Route path="/*" element={<P404 />} />
+    </Routes>
   );
 }

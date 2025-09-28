@@ -1,47 +1,37 @@
-// frontend/src/components/Auth.tsx
+import { useAuth } from "@hooks";
 import { useState } from "react";
-import { useAuth } from "../context/AuthContext";
+import { Link, useNavigate } from "react-router";
 
-export const Auth = () => {
+export function SignupPage() {
+  const { user, signUp } = useAuth();
+  const navigate = useNavigate();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [isSignUp, setIsSignUp] = useState(false);
   const [error, setError] = useState("");
-  const { signIn, signUp, user } = useAuth();
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
 
     try {
-      if (isSignUp) {
-        await signUp(email, password);
-        alert("Check your email for the confirmation link!");
-      } else {
-        await signIn(email, password);
-      }
+      await signUp(email, password);
+      alert("Check your email for the confirmation link!");
+      // TODO: Onboarding after signup
     } catch (error: any) {
       setError(error.message);
     }
   };
 
   if (user) {
-    return (
-      <div className="p-4">
-        <h2>Welcome!</h2>
-        <p>You are logged in as: {user.email}</p>
-        <button onClick={() => useAuth().signOut()}>Sign Out</button>
-      </div>
-    );
+    navigate("/dashboard");
   }
 
   return (
     <div className="p-4 max-w-md mx-auto">
-      <h2 className="text-2xl font-bold mb-4">
-        {isSignUp ? "Sign Up" : "Sign In"}
-      </h2>
+      <h2 className="text-2xl font-bold mb-4">Sign Up</h2>
 
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={handleSignup} className="space-y-4">
         <div>
           <label htmlFor="email" className="block text-sm font-medium mb-1">
             Email
@@ -77,18 +67,16 @@ export const Auth = () => {
           type="submit"
           className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700"
         >
-          {isSignUp ? "Sign Up" : "Sign In"}
+          Sign Up
         </button>
       </form>
 
-      <button
-        onClick={() => setIsSignUp(!isSignUp)}
+      <Link
+        to="/login"
         className="mt-4 text-sm text-blue-600 hover:text-blue-800"
       >
-        {isSignUp
-          ? "Already have an account? Sign In"
-          : "Don't have an account? Sign Up"}
-      </button>
+        Already have an account? Sign In
+      </Link>
     </div>
   );
-};
+}
