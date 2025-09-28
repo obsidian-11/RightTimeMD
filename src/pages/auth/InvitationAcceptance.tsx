@@ -113,9 +113,7 @@ export function InvitationAcceptance() {
               <p className="mb-4 text-gray-600">
                 No invitation token found in the URL.
               </p>
-              <Button onClick={() => navigate("/auth/login")}>
-                Go to Login
-              </Button>
+              <Button onClick={() => navigate("/login")}>Go to Login</Button>
             </div>
           </CardContent>
         </Card>
@@ -150,9 +148,7 @@ export function InvitationAcceptance() {
                 Invitation Error
               </h2>
               <p className="mb-4 text-gray-600">{error.message}</p>
-              <Button onClick={() => navigate("/auth/login")}>
-                Go to Login
-              </Button>
+              <Button onClick={() => navigate("/login")}>Go to Login</Button>
             </div>
           </CardContent>
         </Card>
@@ -172,9 +168,7 @@ export function InvitationAcceptance() {
               </p>
               <Button
                 onClick={() =>
-                  navigate(
-                    `/auth/login?redirect=/auth/invitation?token=${token}`,
-                  )
+                  navigate(`/login?redirect=/auth/invitation?token=${token}`)
                 }
               >
                 Login
@@ -228,7 +222,7 @@ export function InvitationAcceptance() {
             <Button
               variant="outline"
               className="flex-1"
-              onClick={() => navigate("/auth/login")}
+              onClick={() => navigate("/login")}
             >
               Cancel
             </Button>

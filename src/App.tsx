@@ -25,14 +25,11 @@ export default function App() {
       <Route index element={<LandingPage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignupPage />} />
-      <Route path="/password-reset" element={<></>} />
       <Route path="/auth/invitation" element={<InvitationAcceptance />} />
       <Route path="/onboarding/patient" element={<PatientOnboarding />} />
       <Route path="/onboarding/staff" element={<StaffOnboarding />} />
       {user ? (
         <>
-          <Route path="/clinic-registration" element={<></>} />
-          <Route path="/staff-invitation" element={<></>} />
           <Route path="/home/*" element={<Home />} />
           <Route path="/dashboard/*" element={<Home />} />
         </>
