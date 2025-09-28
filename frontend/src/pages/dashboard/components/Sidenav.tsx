@@ -160,9 +160,9 @@ export function Sidenav({ type }: { type: string }) {
   const getNavTypeColor = () => {
     switch (type) {
       case "patient":
-        return "bg-blue-50 text-blue-700 border-blue-200";
-      case "clinical":
         return "bg-green-50 text-green-700 border-green-200";
+      case "clinical":
+        return "bg-blue-50 text-blue-700 border-blue-200";
       case "admin":
         return "bg-purple-50 text-purple-700 border-purple-200";
       case "support":

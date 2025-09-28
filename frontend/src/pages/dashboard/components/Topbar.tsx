@@ -1,24 +1,55 @@
-import { useAuth } from "@/hooks";
-import { Link } from "react-router";
+import { useAuth, useClinic } from "@/hooks";
+import { Link, useLocation } from "react-router";
+import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { User, Settings, LogOut, Stethoscope } from "lucide-react";
+import { ClinicSwitcher } from "@/components/ClinicSwitcher";
+import type { Clinic } from "@/types";
 
 export function Topbar() {
   const { signOut } = useAuth();
+  const { updateClinicFromRoute } = useClinic();
+  const location = useLocation();
+
+  // Check if we're inside a clinic dashboard (not on the main clinics page)
+  const isInClinicDashboard = /\/(patient|clinical|admin|support)\//.test(
+    location.pathname,
+  );
+
+  // Update current clinic when route changes
+  useEffect(() => {
+    if (isInClinicDashboard) {
+      updateClinicFromRoute(location.pathname);
+    }
+  }, [location.pathname, isInClinicDashboard, updateClinicFromRoute]);
+
+  const handleClinicChange = (clinic: Clinic) => {
+    // Additional logic when clinic changes can be added here
+    console.log("Switched to clinic:", clinic.name);
+  };
 
   return (
-    <Card className="flex w-full flex-row items-center justify-between rounded-none border-0 border-b bg-white px-6 py-4 shadow-sm">
-      {/* Logo/Brand */}
-      <Link
-        to="/home"
-        className="text-primary hover:text-primary/90 flex items-center gap-3 text-xl font-bold transition-colors"
-      >
-        <div className="bg-primary flex h-8 w-8 items-center justify-center rounded-lg text-white">
-          <Stethoscope className="h-5 w-5" />
+    <Card className="flex min-h-[84px] w-full flex-row items-center justify-between rounded-none border-0 border-b bg-white px-6 py-4 shadow-sm">
+      {/* Logo/Brand and Clinic Switcher */}
+      <div className="flex min-h-[48px] items-center gap-6">
+        <Link
+          to="/home"
+          className="text-primary hover:text-primary/90 flex items-center gap-3 text-xl font-bold transition-colors"
+        >
+          <div className="bg-primary flex h-8 w-8 items-center justify-center rounded-lg text-white">
+            <Stethoscope className="h-5 w-5" />
+          </div>
+          RightTimeMD
+        </Link>
+
+        {/* Clinic Switcher - Only show when inside a clinic dashboard */}
+        <div className="min-w-0">
+          {isInClinicDashboard && (
+            <ClinicSwitcher onClinicChange={handleClinicChange} />
+          )}
         </div>
-        RightTimeMD
-      </Link>
+      </div>
 
       {/* User Actions */}
       <div className="flex items-center gap-2">
