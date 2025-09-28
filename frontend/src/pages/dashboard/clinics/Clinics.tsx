@@ -69,20 +69,29 @@ export function Clinics() {
             <div>
               <h2>Patient</h2>
               {data.patientClinics.map((record: any) => (
-                <Link
-                  to={`/dashboard/patient/${record.clinic.id}`}
-                  key={record.id}
-                >
-                  <div className="mb-2 border p-4">
-                    <h3>{record.clinic.name}</h3>
-                    <p>Type: {record.clinic.type}</p>
-                    <p>
-                      Address: {record.clinic.street}, {record.clinic.city},{" "}
-                      {record.clinic.state} {record.clinic.zip}
-                    </p>
-                    <p>Phone: {record.clinic.phone_number}</p>
+                <div key={record.id} className="mb-2 border p-4">
+                  <h3>{record.clinic.name}</h3>
+                  <p>Type: {record.clinic.type}</p>
+                  <p>
+                    Address: {record.clinic.street}, {record.clinic.city},{" "}
+                    {record.clinic.state} {record.clinic.zip}
+                  </p>
+                  <p>Phone: {record.clinic.phone_number}</p>
+                  <div className="mt-3 flex gap-2">
+                    <Link
+                      to={`/dashboard/clinic/${record.clinic.id}`}
+                      className="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700"
+                    >
+                      View Clinic Details
+                    </Link>
+                    <Link
+                      to={`/dashboard/patient/${record.clinic.id}`}
+                      className="bg-green-600 text-white px-3 py-1 rounded text-sm hover:bg-green-700"
+                    >
+                      Patient Portal
+                    </Link>
                   </div>
-                </Link>
+                </div>
               ))}
             </div>
           )}
@@ -91,20 +100,29 @@ export function Clinics() {
             <div>
               <h2>Staff</h2>
               {data.staffClinics.map((record: any) => (
-                <Link
-                  to={`/dashboard/${record.type}/${record.clinic.id}`}
-                  key={record.id}
-                >
-                  <div className="mb-2 border p-4">
-                    <h3>{record.clinic.name}</h3>
-                    <p>Type: {record.clinic.type}</p>
-                    <p>My Role: {record.type} Staff</p>
-                    <p>
-                      Address: {record.clinic.street}, {record.clinic.city},{" "}
-                      {record.clinic.state} {record.clinic.zip}
-                    </p>
+                <div key={record.id} className="mb-2 border p-4">
+                  <h3>{record.clinic.name}</h3>
+                  <p>Type: {record.clinic.type}</p>
+                  <p>My Role: {record.type} Staff</p>
+                  <p>
+                    Address: {record.clinic.street}, {record.clinic.city},{" "}
+                    {record.clinic.state} {record.clinic.zip}
+                  </p>
+                  <div className="mt-3 flex gap-2">
+                    <Link
+                      to={`/dashboard/clinic/${record.clinic.id}`}
+                      className="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700"
+                    >
+                      View Clinic Details
+                    </Link>
+                    <Link
+                      to={`/dashboard/${record.type}/${record.clinic.id}`}
+                      className="bg-purple-600 text-white px-3 py-1 rounded text-sm hover:bg-purple-700"
+                    >
+                      {record.type === 'clinical' ? '🩺 Doctor Dashboard' : `${record.type} Dashboard`}
+                    </Link>
                   </div>
-                </Link>
+                </div>
               ))}
             </div>
           )}

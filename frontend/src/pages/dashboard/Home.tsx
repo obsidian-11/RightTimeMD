@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
 import { Topbar } from "./components/Topbar";
-import { Clinics } from "./clinics";
+import { Clinics, ClinicDetail } from "./clinics";
 import { Patient } from "./patient";
 import { Clinical } from "./clinical";
 import { Support } from "./support";
@@ -14,6 +14,7 @@ export function Home() {
       <div className="flex flex-grow">
         <Routes>
           <Route index element={<Clinics />} />
+          <Route path="/clinic/:id" element={<ClinicDetail />} />
           <Route path="/patient/:id" element={<Patient />} />
           <Route path="/support/:id" element={<Support />} />
           <Route path="/clinical/:id" element={<Clinical />} />
