@@ -125,10 +125,47 @@ export function Patients() {
   // Delete patient mutation
   const deletePatientMutation = useMutation({
     mutationFn: async (patientId: string) => {
+      // First delete all related records to avoid foreign key constraint violations
+
+      // Delete patient consents
+      const { error: consentError } = await supabase
+        .from("patient_consent")
+        .delete()
+        .eq("patient_id", patientId);
+
+      if (consentError) {
+        console.error("Failed to delete patient consents:", consentError);
+        // Continue anyway - consent deletion is not critical
+      }
+
+      // Delete FHIR records
+      const { error: fhirError } = await supabase
+        .from("fhir")
+        .delete()
+        .eq("patient_id", patientId);
+
+      if (fhirError) {
+        console.error("Failed to delete FHIR records:", fhirError);
+        // Continue anyway - FHIR deletion is not critical
+      }
+
+      // Delete appointments
+      const { error: appointmentError } = await supabase
+        .from("appointment")
+        .delete()
+        .eq("patient_id", patientId);
+
+      if (appointmentError) {
+        console.error("Failed to delete appointments:", appointmentError);
+        // Continue anyway - appointment deletion is not critical
+      }
+
+      // Finally delete the patient record
       const { error } = await supabase
         .from("patient")
         .delete()
         .eq("id", patientId);
+
       if (error) throw error;
     },
     onSuccess: () => {
