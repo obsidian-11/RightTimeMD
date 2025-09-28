@@ -106,7 +106,7 @@ export function Clinical() {
   const getAnalysisDescription = (type: string) => {
     switch (type) {
       case 'complete-analysis':
-        return 'Complete patient analysis with FHIR data extraction, medical diagnosis, and insurance recommendations';
+        return 'Complete patient analysis with FHIR data extraction, medical diagnosis, insurance recommendations, and PubMed literature search';
       case 'medical-diagnosis':
         return 'AI-powered medical analysis using OpenAI with PubMed literature search';
       case 'patient-extraction':
@@ -143,7 +143,7 @@ export function Clinical() {
             🩺 Complete Analysis
           </h2>
           <p className="text-gray-600 text-sm mb-4">
-            Run comprehensive patient analysis including FHIR extraction, medical diagnosis, and insurance recommendations
+            Run comprehensive patient analysis including FHIR extraction, medical diagnosis, insurance recommendations, and PubMed literature search
           </p>
           <button
             onClick={() => runAnalysis('complete-analysis')}
@@ -561,6 +561,42 @@ export function Clinical() {
                               {selectedResult.result.result.conditionsCount !== undefined && (
                                 <p><strong>Documented Conditions:</strong> {selectedResult.result.result.conditionsCount}</p>
                               )}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* PubMed Literature */}
+                        {selectedResult.result.result.literature && selectedResult.result.result.literature.length > 0 && (
+                          <div className="border rounded-lg p-4">
+                            <h4 className="font-semibold text-indigo-800 mb-2">📚 Relevant Literature (PubMed)</h4>
+                            <div className="space-y-3">
+                              {selectedResult.result.result.literature.map((article: any, i: number) => (
+                                <div key={i} className="bg-gray-50 p-3 rounded border-l-4 border-indigo-400">
+                                  <h5 className="font-medium text-gray-900 mb-1">{article.title}</h5>
+                                  <div className="text-sm text-gray-600 space-y-1">
+                                    <p><strong>Authors:</strong> {article.authors}</p>
+                                    <p><strong>Journal:</strong> {article.journal} ({article.year})</p>
+                                    <div className="flex items-center justify-between">
+                                      <p><strong>PMID:</strong> {article.pmid}</p>
+                                      <div className="flex items-center gap-2">
+                                        <span className="bg-indigo-100 text-indigo-800 px-2 py-1 rounded text-xs">
+                                          Relevance: {article.relevanceScore}%
+                                        </span>
+                                        {article.url && (
+                                          <a
+                                            href={article.url}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-indigo-600 hover:text-indigo-800 text-xs underline"
+                                          >
+                                            View on PubMed →
+                                          </a>
+                                        )}
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              ))}
                             </div>
                           </div>
                         )}
