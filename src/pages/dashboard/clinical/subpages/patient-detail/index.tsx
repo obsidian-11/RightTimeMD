@@ -20,6 +20,12 @@ import { ScheduleAppointmentModal } from "./modals/ScheduleAppointmentModal";
 import { FHIRDataModal } from "./modals/FHIRDataModal";
 import { VitalsModal } from "./modals/VitalsModal";
 import { MedicationsModal } from "./modals/MedicationsModal";
+import { AddConditionModal } from "./modals/AddConditionModal";
+import { AddLabResultsModal } from "./modals/AddLabResultsModal";
+import { AddAllergyModal } from "./modals/AddAllergyModal";
+import { AddProcedureModal } from "./modals/AddProcedureModal";
+import { AddClinicalNotesModal } from "./modals/AddClinicalNotesModal";
+import { ManageCarePlanModal } from "./modals/ManageCarePlanModal";
 
 export function PatientDetail() {
   const { patientId } = useParams();
@@ -42,6 +48,15 @@ export function PatientDetail() {
   const [isFHIRModalOpen, setIsFHIRModalOpen] = useState(false);
   const [isVitalsModalOpen, setIsVitalsModalOpen] = useState(false);
   const [isMedicationsModalOpen, setIsMedicationsModalOpen] = useState(false);
+  const [isAddConditionModalOpen, setIsAddConditionModalOpen] = useState(false);
+  const [isAddLabResultsModalOpen, setIsAddLabResultsModalOpen] =
+    useState(false);
+  const [isAddAllergyModalOpen, setIsAddAllergyModalOpen] = useState(false);
+  const [isAddProcedureModalOpen, setIsAddProcedureModalOpen] = useState(false);
+  const [isAddClinicalNotesModalOpen, setIsAddClinicalNotesModalOpen] =
+    useState(false);
+  const [isManageCarePlanModalOpen, setIsManageCarePlanModalOpen] =
+    useState(false);
 
   // Query for patient details
   const {
@@ -177,6 +192,12 @@ export function PatientDetail() {
           onViewFHIRData={() => setIsFHIRModalOpen(true)}
           onAddVitals={() => setIsVitalsModalOpen(true)}
           onManageMedications={() => setIsMedicationsModalOpen(true)}
+          onAddCondition={() => setIsAddConditionModalOpen(true)}
+          onAddLabResults={() => setIsAddLabResultsModalOpen(true)}
+          onAddAllergy={() => setIsAddAllergyModalOpen(true)}
+          onAddProcedure={() => setIsAddProcedureModalOpen(true)}
+          onAddClinicalNotes={() => setIsAddClinicalNotesModalOpen(true)}
+          onManageCarePlan={() => setIsManageCarePlanModalOpen(true)}
         />
       </div>
 
@@ -213,6 +234,48 @@ export function PatientDetail() {
         isOpen={isMedicationsModalOpen}
         onClose={() => setIsMedicationsModalOpen(false)}
         patient={patient}
+      />
+
+      <AddConditionModal
+        isOpen={isAddConditionModalOpen}
+        onClose={() => setIsAddConditionModalOpen(false)}
+        patient={patient}
+        onConditionAdded={handleVitalsSaved}
+      />
+
+      <AddLabResultsModal
+        isOpen={isAddLabResultsModalOpen}
+        onClose={() => setIsAddLabResultsModalOpen(false)}
+        patient={patient}
+        onLabResultAdded={handleVitalsSaved}
+      />
+
+      <AddAllergyModal
+        isOpen={isAddAllergyModalOpen}
+        onClose={() => setIsAddAllergyModalOpen(false)}
+        patient={patient}
+        onAllergyAdded={handleVitalsSaved}
+      />
+
+      <AddProcedureModal
+        isOpen={isAddProcedureModalOpen}
+        onClose={() => setIsAddProcedureModalOpen(false)}
+        patient={patient}
+        onProcedureAdded={handleVitalsSaved}
+      />
+
+      <AddClinicalNotesModal
+        isOpen={isAddClinicalNotesModalOpen}
+        onClose={() => setIsAddClinicalNotesModalOpen(false)}
+        patient={patient}
+        onNotesAdded={handleVitalsSaved}
+      />
+
+      <ManageCarePlanModal
+        isOpen={isManageCarePlanModalOpen}
+        onClose={() => setIsManageCarePlanModalOpen(false)}
+        patient={patient}
+        onCarePlanAdded={handleVitalsSaved}
       />
     </div>
   );

@@ -1,4 +1,4 @@
-import { Calendar, FileText, Activity, Pill } from "lucide-react";
+import { Calendar, FileText, Activity, Pill, Stethoscope, FlaskConical, AlertTriangle, Clipboard, HeartHandshake, FileBarChart } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -12,6 +12,12 @@ interface QuickActionsProps {
   onViewFHIRData: () => void;
   onAddVitals: () => void;
   onManageMedications: () => void;
+  onAddCondition: () => void;
+  onAddLabResults: () => void;
+  onAddAllergy: () => void;
+  onAddProcedure: () => void;
+  onAddClinicalNotes: () => void;
+  onManageCarePlan: () => void;
 }
 
 export function QuickActions({
@@ -20,6 +26,12 @@ export function QuickActions({
   onViewFHIRData,
   onAddVitals,
   onManageMedications,
+  onAddCondition,
+  onAddLabResults,
+  onAddAllergy,
+  onAddProcedure,
+  onAddClinicalNotes,
+  onManageCarePlan,
 }: QuickActionsProps) {
   return (
     <div className="space-y-6">
@@ -69,6 +81,7 @@ export function QuickActions({
           <CardTitle className="text-lg">Quick Actions</CardTitle>
         </CardHeader>
         <CardContent className="space-y-2">
+          {/* Administrative Actions */}
           <Button
             variant="outline"
             size="sm"
@@ -87,24 +100,92 @@ export function QuickActions({
             <FileText className="mr-2 h-4 w-4" />
             View Full FHIR Data
           </Button>
-          <Button
-            variant="outline"
-            size="sm"
-            className="w-full justify-start"
-            onClick={onAddVitals}
-          >
-            <Activity className="mr-2 h-4 w-4" />
-            Add Vitals
-          </Button>
-          <Button
-            variant="outline"
-            size="sm"
-            className="w-full justify-start"
-            onClick={onManageMedications}
-          >
-            <Pill className="mr-2 h-4 w-4" />
-            Manage Medications
-          </Button>
+          
+          {/* Clinical Data Entry */}
+          <div className="pt-2">
+            <p className="mb-2 text-xs font-semibold text-gray-500 uppercase tracking-wide">Clinical Data</p>
+            <div className="space-y-1">
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full justify-start"
+                onClick={onAddVitals}
+              >
+                <Activity className="mr-2 h-4 w-4" />
+                Add Vitals
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full justify-start"
+                onClick={onAddCondition}
+              >
+                <Stethoscope className="mr-2 h-4 w-4" />
+                Add Condition/Diagnosis
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full justify-start"
+                onClick={onAddLabResults}
+              >
+                <FlaskConical className="mr-2 h-4 w-4" />
+                Add Lab Results
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full justify-start"
+                onClick={onAddAllergy}
+              >
+                <AlertTriangle className="mr-2 h-4 w-4" />
+                Add Allergy
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full justify-start"
+                onClick={onAddProcedure}
+              >
+                <Clipboard className="mr-2 h-4 w-4" />
+                Add Procedure
+              </Button>
+            </div>
+          </div>
+          
+          {/* Treatment Management */}
+          <div className="pt-2">
+            <p className="mb-2 text-xs font-semibold text-gray-500 uppercase tracking-wide">Treatment</p>
+            <div className="space-y-1">
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full justify-start"
+                onClick={onManageMedications}
+              >
+                <Pill className="mr-2 h-4 w-4" />
+                Manage Medications
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full justify-start"
+                onClick={onManageCarePlan}
+              >
+                <HeartHandshake className="mr-2 h-4 w-4" />
+                Manage Care Plan
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full justify-start"
+                onClick={onAddClinicalNotes}
+              >
+                <FileBarChart className="mr-2 h-4 w-4" />
+                Add Clinical Notes
+              </Button>
+            </div>
+          </div>
         </CardContent>
       </Card>
     </div>
