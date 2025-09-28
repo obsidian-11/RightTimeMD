@@ -1,73 +1,77 @@
-# React + TypeScript + Vite
+# RightTimeMD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Frontend planning
 
-Currently, two official plugins are available:
+### Auth
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- /auth
+  - /login
+  - /signup
+  - /clinic-registration # New clinic signup
+  - /staff-invitation # Accept staff invite
+  - /password-reset
 
-## React Compiler
+### All Accounts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- /profile # User profile settings -- Modal
+- /settings # App preferences, notifications -- Modal
+- /help # Support & documentation -- Modal
+- /privacy # Privacy policy, terms -- Modal
 
-## Expanding the ESLint configuration
+### Clinical Admin
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- /admin
+  - /dashboard # Overview metrics, urgent items
+  - /staff # Manage staff, invitations, roles
+    - /staff/new # Invite new staff member -- Modal
+    - /staff/:id # Individual staff details
+- /patients # All clinic patients overview
+  - /patients/new # Add new patient -- Modal
+  - /patients/:id # Patient detail page
+- /clinic-settings # Clinic info, billing, integrations -- Modal
+- /analytics # Usage stats, patient flow
+- /audit-logs # HIPAA compliance logs
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Clinical Staff
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- /clinical
+  - /dashboard # Today's appointments, action items
+  - /patients # Patient list with search/filters
+    - /patients/:id # Patient detail (FHIR timeline)
+    - /patients/:id/history # Medical history deep dive
+    - /patients/:id/meds # Medications management
+    - /patients/:id/notes # Clinical notes
+  - /appointments # Schedule management
+    - /appointments/new # Create appointment -- Modal
+    - /appointments/:id # Appointment details
+- /messages # Patient communication
+- /fhir-query # FHIR data search tool
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Support Staff
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- /support
+  - /dashboard # Today's schedule, check-ins
+  - /appointments # Appointment scheduling
+    - /appointments/new # Book appointment -- Modal
+    - /appointments/:id/checkin # Patient check-in
+  - /patients # Limited patient info for scheduling
+  - /messages # Basic patient communication
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Patient
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- /patient
+  - /dashboard # Health overview, upcoming appointments
+  - /medical-history # FHIR timeline, past visits
+    - /history/timeline # Interactive health timeline
+    - /history/conditions # Condition tracking
+    - /history/procedures # Procedure history
+  - /medications # Current & past medications
+    - /medications/current # Active prescriptions
+    - /medications/history # Medication timeline
+  - /appointments # Appointment management
+    - /appointments/request # Request new appointment -- Modal
+    - /appointments/:id # Appointment details
+  - /care-team # List of doctors/clinics
+  - /messages # Communication with providers
+  - /health-data # Lab results, vitals, trends
+  - /ai-assistant # Simple data queries

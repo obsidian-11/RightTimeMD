@@ -1,8 +1,6 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router";
 import { useAuth } from "./context/AuthContext";
 import { Auth } from "./components/Auth";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router";
-import Fuck from "./Fuck";
-import Json from "./Json";
 
 export default function App() {
   const { user, loading, signOut } = useAuth();
@@ -28,13 +26,11 @@ export default function App() {
               <Link to="/bucket">JSON</Link>
 
               {/* Your existing dashboard content here */}
-              <div className="mt-8">
-                <Fuck />
-              </div>
+              <div className="mt-8"></div>
             </div>
           }
         />
-        <Route path="/bucket" element={<Json />} />
+        <Route path="/bucket" element={} />
       </Routes>
     </Router>
   );
