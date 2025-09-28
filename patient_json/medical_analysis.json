@@ -1,25 +1,25 @@
 {
   "metadata": {
-    "reportId": "report_1759001316505",
-    "generatedAt": "2025-09-27T19:28:36.505Z",
+    "reportId": "report_1759039807734",
+    "generatedAt": "2025-09-28T06:10:07.734Z",
     "patientId": "9f5247cc-6762-3d1d-ebc6-29bf03f921e4",
     "patientName": "Abel832 Darrel772 Zieme486",
     "patientAge": 8,
     "patientGender": "male"
   },
   "diagnosis": {
-    "clinicalSummary": "8 year old male with no active medical conditions. Recent vital signs are within normal limits except for slightly elevated diastolic blood pressure. Hemoglobin level is elevated.",
-    "healthAssessment": "Overall health appears stable with no current medical issues, but elevated hemoglobin and diastolic blood pressure should be monitored.",
+    "clinicalSummary": "8 year old male with no active medical conditions. Recent vital signs are within normal limits, though systolic BP is slightly elevated for age. Hemoglobin level is high.",
+    "healthAssessment": "Overall healthy with a history of viral infections and dental procedures. No current health issues reported.",
     "recommendations": [
-      "Monitor blood pressure regularly to assess for potential hypertension.",
-      "Consider further evaluation of elevated hemoglobin levels.",
-      "Maintain routine health check-ups and continue with up-to-date immunizations."
+      "Monitor blood pressure regularly to ensure it remains within normal limits.",
+      "Continue with routine dental care and maintain oral hygiene.",
+      "Encourage a balanced diet and regular physical activity."
     ],
     "riskFactors": [
       "History of respiratory infections",
       "Elevated blood pressure"
     ],
-    "followUpNeeded": "6 months",
+    "followUpNeeded": "Annual check-up recommended",
     "urgencyLevel": "low"
   },
   "literature": [
