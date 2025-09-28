@@ -14,10 +14,10 @@ export function Home() {
       <div className="flex flex-grow">
         <Routes>
           <Route index element={<Clinics />} />
-          <Route path="/patient/:id" element={<Patient />} />
-          <Route path="/support/:id" element={<Support />} />
-          <Route path="/clinical/:id" element={<Clinical />} />
-          <Route path="/admin/:id" element={<Admin />} />
+          <Route path="/patient/:id/*" element={<Patient />} />
+          <Route path="/support/:id/*" element={<Support />} />
+          <Route path="/clinical/:id/*" element={<Clinical />} />
+          <Route path="/admin/:id/*" element={<Admin />} />
         </Routes>
       </div>
     </div>
