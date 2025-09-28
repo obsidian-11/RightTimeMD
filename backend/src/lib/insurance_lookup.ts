@@ -399,18 +399,18 @@ class CostEstimator {
         // Calculate recommendation score (lower cost + higher quality = higher score)
         const costScore = Math.max(0, 100 - (totalAnnualCost / 100));
         const qualityScore = plan.qualityRating * 20;
-        const recommendationScore = (costScore + qualityScore) / 2;
+        const recommendationScore = Math.round(((costScore + qualityScore) / 2) * 10) / 10;
         
         return {
             planId: plan.id,
             planName: plan.name,
-            estimatedAnnualCost: totalAnnualCost,
+            estimatedAnnualCost: Math.round(totalAnnualCost),
             breakdown: {
-                premiums: annualPremiums,
-                deductible: deductibleUsed,
-                copays: routineVisitCosts,
-                coinsurance: copaysCoinsurance,
-                outOfPocket: outOfPocketCosts + routineVisitCosts
+                premiums: Math.round(annualPremiums),
+                deductible: Math.round(deductibleUsed),
+                copays: Math.round(routineVisitCosts),
+                coinsurance: Math.round(copaysCoinsurance),
+                outOfPocket: Math.round(outOfPocketCosts + routineVisitCosts)
             },
             recommendationScore
         };
@@ -491,10 +491,10 @@ export class InsuranceRecommendationService {
             })),
             summary: {
                 totalDiagnoses: patientProfile.diagnoses.length,
-                averageEstimatedCost: results.costEstimates.reduce((sum, est) => sum + est.estimatedAnnualCost, 0) / results.costEstimates.length,
+                averageEstimatedCost: Math.round(results.costEstimates.reduce((sum, est) => sum + est.estimatedAnnualCost, 0) / results.costEstimates.length),
                 bestPlan: results.recommendations[0]?.planName || 'No recommendations available',
                 estimatedSavings: results.recommendations.length > 1 ? 
-                    results.recommendations[results.recommendations.length - 1].estimatedAnnualCost - results.recommendations[0].estimatedAnnualCost : 0
+                    Math.round(results.recommendations[results.recommendations.length - 1].estimatedAnnualCost - results.recommendations[0].estimatedAnnualCost) : 0
             }
         };
         

@@ -244,10 +244,46 @@ app.post("/api/medical-analysis", async (req, res) => {
           const patientAge = patientResource?.birthDate ? 
             new Date().getFullYear() - new Date(patientResource.birthDate).getFullYear() : 30;
           
-          // Extract diagnoses from conditions
+          // Extract diagnoses from conditions and filter out inappropriate findings
+          const inappropriateFindings = [
+            'received higher education',
+            'medication review due',
+            'education',
+            'higher education',
+            'review due',
+            'social finding',
+            'administrative',
+            'employment',
+            'marital status',
+            'living arrangement',
+            'social history',
+            'lifestyle',
+            'tobacco use status'
+          ];
+          
           const diagnoses = conditions.map((condition: any) => 
             condition.code?.coding?.[0]?.display || condition.code?.text || 'Unknown condition'
-          ).filter(Boolean);
+          ).filter(Boolean).filter((diagnosis: string) => {
+            const lowerDiagnosis = diagnosis.toLowerCase();
+            
+            // Filter out administrative/social findings
+            if (inappropriateFindings.some(inappropriate => 
+              lowerDiagnosis.includes(inappropriate.toLowerCase())
+            )) {
+              return false;
+            }
+            
+            // Filter out entries that end with "(finding)" or "(situation)" and are not medical
+            if ((lowerDiagnosis.includes('(finding)') || lowerDiagnosis.includes('(situation)')) &&
+                (lowerDiagnosis.includes('education') || 
+                 lowerDiagnosis.includes('review') ||
+                 lowerDiagnosis.includes('employment') ||
+                 lowerDiagnosis.includes('social'))) {
+              return false;
+            }
+            
+            return true;
+          });
           
           console.log(`👤 Patient: ${patientName}, Age: ${patientAge}, Conditions: ${diagnoses.length}`);
           
@@ -270,7 +306,7 @@ app.post("/api/medical-analysis", async (req, res) => {
                 'Monitor existing conditions',
                 'Follow up as recommended by primary care physician'
               ],
-              riskFactors: diagnoses.slice(0, 3),
+              riskFactors: diagnoses.length > 0 ? diagnoses.slice(0, 3) : ['No significant medical risk factors identified'],
               followUpNeeded: '3-6 months',
               urgencyLevel: 'low'
             }
@@ -345,8 +381,7 @@ app.post("/api/medical-analysis", async (req, res) => {
               pmid: "12345678"
             }
           ],
-          aiModel: "OpenAI GPT-4",
-          processingTime: `${(processingTime / 1000).toFixed(1)}s`
+          aiModel: "OpenAI GPT-4"
         };
         break;
 
@@ -446,6 +481,27 @@ app.post("/api/medical-analysis", async (req, res) => {
       result: analysisResult
     };
 
+    // Save analysis result to Diagnosis bucket as JSON file
+    try {
+      const diagnosisFileName = `${clinicId}_${patientFile.replace('.json', '')}_${type}_${Date.now()}.json`;
+      const diagnosisData = JSON.stringify(response, null, 2);
+      
+      const { error: uploadError } = await supabase.storage
+        .from('Diagnosis')
+        .upload(diagnosisFileName, diagnosisData, {
+          contentType: 'application/json',
+          upsert: false
+        });
+
+      if (uploadError) {
+        console.error('⚠️ Failed to save analysis to Diagnosis bucket:', uploadError);
+      } else {
+        console.log(`💾 Analysis result saved to Diagnosis bucket: ${diagnosisFileName}`);
+      }
+    } catch (saveError) {
+      console.error('⚠️ Error saving analysis result:', saveError);
+    }
+
     console.log(`✅ ${type} analysis completed for ${patientFile} (${processingTime}ms)`);
 
     res.json(response);
@@ -495,6 +551,101 @@ app.post("/upload", async (req, res) => {
     res.status(500).json({
       error: "Internal server error",
       message: error instanceof Error ? error.message : "Unknown error",
+    });
+  }
+});
+
+// Get analysis history endpoint - retrieves saved analysis files from Diagnosis bucket
+app.get("/api/analysis-history/:clinicId", async (req, res) => {
+  try {
+    const { clinicId } = req.params;
+    const { patientFile } = req.query;
+
+    console.log(`📊 Fetching analysis history for clinic: ${clinicId}${patientFile ? `, patient: ${patientFile}` : ''}`);
+
+    // List all files in Diagnosis bucket
+    const { data: files, error: listError } = await supabase.storage
+      .from('Diagnosis')
+      .list('', {
+        limit: 1000,
+        sortBy: { column: 'created_at', order: 'desc' }
+      });
+
+    if (listError) {
+      console.error('❌ Error listing diagnosis files:', listError);
+      return res.status(500).json({
+        error: "Failed to fetch analysis history",
+        message: listError.message
+      });
+    }
+
+    if (!files) {
+      return res.json({ success: true, history: [] });
+    }
+
+    // Filter files by clinic and optionally by patient
+    let filteredFiles = files.filter(file => {
+      const isJsonFile = file.name.endsWith('.json');
+      const belongsToClinic = file.name.startsWith(`${clinicId}_`);
+      
+      if (patientFile && typeof patientFile === 'string') {
+        const patientNameFromFile = patientFile.replace('.json', '');
+        const fileContainsPatient = file.name.includes(patientNameFromFile);
+        return isJsonFile && belongsToClinic && fileContainsPatient;
+      }
+      
+      return isJsonFile && belongsToClinic;
+    });
+
+    // Download and parse each analysis file
+    const analysisHistory = [];
+    
+    for (const file of filteredFiles.slice(0, 50)) { // Limit to 50 most recent
+      try {
+        const { data: fileData, error: downloadError } = await supabase.storage
+          .from('Diagnosis')
+          .download(file.name);
+
+        if (downloadError) {
+          console.error(`⚠️ Failed to download ${file.name}:`, downloadError);
+          continue;
+        }
+
+        const analysisData = JSON.parse(await fileData.text());
+        
+        // Extract key information for history display
+        const historyItem = {
+          id: file.name.replace('.json', ''),
+          fileName: file.name,
+          timestamp: analysisData.timestamp || file.created_at,
+          patientName: analysisData.result?.patientName || 'Unknown Patient',
+          patientFile: analysisData.patientFile,
+          type: analysisData.analysisType,
+          status: analysisData.success ? 'completed' : 'failed',
+          result: analysisData.result,
+          error: analysisData.success ? undefined : analysisData.result?.error,
+          processingTime: analysisData.processingTimeMs
+        };
+        
+        analysisHistory.push(historyItem);
+      } catch (parseError) {
+        console.error(`⚠️ Failed to parse ${file.name}:`, parseError);
+      }
+    }
+
+    console.log(`✅ Retrieved ${analysisHistory.length} analysis records`);
+
+    res.json({
+      success: true,
+      history: analysisHistory,
+      count: analysisHistory.length
+    });
+
+  } catch (error) {
+    console.error("Error fetching analysis history:", error);
+    res.status(500).json({
+      error: "Failed to fetch analysis history",
+      message: error instanceof Error ? error.message : "Unknown error"
     });
   }
 });
