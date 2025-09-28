@@ -1,16 +1,21 @@
 import { useAuth, useClinic } from "@/hooks";
 import { Link, useLocation } from "react-router";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { User, Settings, LogOut, Stethoscope } from "lucide-react";
 import { ClinicSwitcher } from "@/components/ClinicSwitcher";
+import { ProfileModal } from "./ProfileModal";
+import { SettingsModal } from "./SettingsModal";
+import { NotificationsPopover } from "./NotificationsPopover";
 import type { Clinic } from "@/types";
 
 export function Topbar() {
   const { signOut } = useAuth();
-  const { updateClinicFromRoute } = useClinic();
+  const { updateClinicFromRoute, currentClinic } = useClinic();
   const location = useLocation();
+  const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
+  const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false);
 
   // Check if we're inside a clinic dashboard (not on the main clinics page)
   const isInClinicDashboard = /\/(patient|clinical|admin|support)\//.test(
@@ -53,19 +58,25 @@ export function Topbar() {
 
       {/* User Actions */}
       <div className="flex items-center gap-2">
-        <Button
-          variant="ghost"
-          size="sm"
-          className="gap-2 text-gray-600 hover:text-gray-900"
-        >
-          <User className="h-4 w-4" />
-          Profile
-        </Button>
+        <NotificationsPopover />
+        {/* Profile Button - Only show when inside a clinic */}
+        {isInClinicDashboard && currentClinic && (
+          <Button
+            variant="ghost"
+            size="sm"
+            className="gap-2 text-gray-600 hover:text-gray-900"
+            onClick={() => setIsProfileModalOpen(true)}
+          >
+            <User className="h-4 w-4" />
+            Profile
+          </Button>
+        )}
 
         <Button
           variant="ghost"
           size="sm"
           className="gap-2 text-gray-600 hover:text-gray-900"
+          onClick={() => setIsSettingsModalOpen(true)}
         >
           <Settings className="h-4 w-4" />
           Settings
@@ -83,6 +94,20 @@ export function Topbar() {
           Sign Out
         </Button>
       </div>
+
+      {/* Modals */}
+      {currentClinic && (
+        <ProfileModal
+          isOpen={isProfileModalOpen}
+          onClose={() => setIsProfileModalOpen(false)}
+          clinic={currentClinic}
+        />
+      )}
+
+      <SettingsModal
+        isOpen={isSettingsModalOpen}
+        onClose={() => setIsSettingsModalOpen(false)}
+      />
     </Card>
   );
 }

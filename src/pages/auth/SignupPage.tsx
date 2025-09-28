@@ -16,8 +16,8 @@ export function SignupPage() {
 
     try {
       await signUp(email, password);
-      alert("Check your email for the confirmation link!");
-      // TODO: Onboarding after signup
+      // After signup, redirect to home - onboarding happens when joining a clinic
+      navigate("/home");
     } catch (error: any) {
       setError(error.message);
     }

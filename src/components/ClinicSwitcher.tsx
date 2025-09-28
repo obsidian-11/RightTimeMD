@@ -115,7 +115,7 @@ export function ClinicSwitcher({ onClinicChange }: ClinicSwitcherProps) {
     const staffRecord = staffClinics.find(
       (s: any) => s.clinic?.id === clinicId,
     );
-    if (staffRecord) return staffRecord.type || "staff";
+    if (staffRecord) return (staffRecord as any).type || "staff";
 
     return "patient"; // default fallback
   };

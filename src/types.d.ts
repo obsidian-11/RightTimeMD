@@ -1,6 +1,6 @@
 export type UserRole =
   | "admin"
-  | "clinical_admin"
+  | "clinical"
   | "staff"
   | "support_staff"
   | "patient";
@@ -288,4 +288,20 @@ export interface ContactInfo {
   phone_primary: string;
   phone_secondary?: string;
   email: string;
+}
+
+export interface ClinicInvitation {
+  id: string;
+  clinic_id: string;
+  invitation_token: string;
+  email: string;
+  invited_by: string;
+  role: "admin" | "clinical" | "patient";
+  expires_at: Date;
+  used_at?: Date;
+  used_by?: string;
+  max_uses: number;
+  current_uses: number;
+  created_at: Date;
+  updated_at: Date;
 }

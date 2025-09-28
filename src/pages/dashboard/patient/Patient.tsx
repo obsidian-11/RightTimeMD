@@ -1,6 +1,12 @@
 import { Sidenav } from "../components";
 import { Routes, Route } from "react-router";
-import { Dashboard, MedicalHistory, Medications, HealthData } from "./subpages";
+import {
+  Dashboard,
+  MedicalHistory,
+  Medications,
+  HealthData,
+  Appointments,
+} from "./subpages";
 
 export function Patient() {
   return (
@@ -13,7 +19,7 @@ export function Patient() {
             <Route path="medical-history" element={<MedicalHistory />} />
             <Route path="medications" element={<Medications />} />
             <Route path="health-data" element={<HealthData />} />
-            <Route path="appointments" element={<></>} />
+            <Route path="appointments" element={<Appointments />} />
           </Routes>
         </div>
       </div>

@@ -30,49 +30,66 @@ export function useClinic() {
     queryFn: async () => {
       if (!user?.id) return { patientClinics: [], staffClinics: [] };
 
-      const patientClinics = await supabase
-        .from("patient")
-        .select(
-          `
-          *,
-          clinic:clinic_id (
-            id,
-            name,
-            type,
-            email,
-            phone_number,
-            street,
-            city,
-            state,
-            zip,
-            icon_url,
-            verified
-          )
-        `,
-        )
-        .eq("id", user.id);
+      let patientClinics: any = { data: [], error: null };
+      let staffClinics: any = { data: [], error: null };
 
-      const staffClinics = await supabase
-        .from("staff")
-        .select(
-          `
-          *,
-          clinic:clinic_id (
-            id,
-            name,
-            type,
-            email,
-            phone_number,
-            street,
-            city,
-            state,
-            zip,
-            icon_url,
-            verified
+      try {
+        // Try to fetch patient clinics
+        patientClinics = await supabase
+          .from("patient")
+          .select(
+            `
+            *,
+            clinic:clinic_id (
+              id,
+              name,
+              type,
+              email,
+              phone_number,
+              street,
+              city,
+              state,
+              zip,
+              icon_url,
+              verified
+            )
+          `,
           )
-        `,
-        )
-        .eq("id", user.id);
+          .eq("id", user.id);
+      } catch (error) {
+        // Ignore permission errors for patient table
+        console.log("Patient clinics query failed (expected for staff users)");
+        patientClinics = { data: [], error: null };
+      }
+
+      try {
+        // Try to fetch staff clinics
+        staffClinics = await supabase
+          .from("staff")
+          .select(
+            `
+            *,
+            clinic:clinic_id (
+              id,
+              name,
+              type,
+              email,
+              phone_number,
+              street,
+              city,
+              state,
+              zip,
+              icon_url,
+              verified
+            )
+          `,
+          )
+          .eq("id", user.id);
+      } catch (error) {
+        // Ignore permission errors for staff table
+        console.log("Staff clinics query failed (expected for patient users)");
+        staffClinics = { data: [], error: null };
+      }
 
       return {
         patientClinics: patientClinics.data || [],
@@ -80,6 +97,7 @@ export function useClinic() {
       };
     },
     enabled: !!user?.id,
+    retry: false, // Don't retry on permission errors
     staleTime: 5 * 60 * 1000, // 5 minutes
     gcTime: 30 * 60 * 1000, // 30 minutes
   });
@@ -225,49 +243,66 @@ export function useClinicOperations() {
       return queryClient.prefetchQuery({
         queryKey: clinicQueryKeys.userClinics(user.id),
         queryFn: async () => {
-          const patientClinics = await supabase
-            .from("patient")
-            .select(
-              `
-              *,
-              clinic:clinic_id (
-                id,
-                name,
-                type,
-                email,
-                phone_number,
-                street,
-                city,
-                state,
-                zip,
-                icon_url,
-                verified
-              )
-            `,
-            )
-            .eq("id", user.id);
+          let patientClinics: any = { data: [], error: null };
+          let staffClinics: any = { data: [], error: null };
 
-          const staffClinics = await supabase
-            .from("staff")
-            .select(
-              `
-              *,
-              clinic:clinic_id (
-                id,
-                name,
-                type,
-                email,
-                phone_number,
-                street,
-                city,
-                state,
-                zip,
-                icon_url,
-                verified
+          try {
+            patientClinics = await supabase
+              .from("patient")
+              .select(
+                `
+                *,
+                clinic:clinic_id (
+                  id,
+                  name,
+                  type,
+                  email,
+                  phone_number,
+                  street,
+                  city,
+                  state,
+                  zip,
+                  icon_url,
+                  verified
+                )
+              `,
               )
-            `,
-            )
-            .eq("id", user.id);
+              .eq("id", user.id);
+          } catch (error) {
+            console.log(
+              "Patient clinics prefetch failed (expected for staff users)",
+            );
+            patientClinics = { data: [], error: null };
+          }
+
+          try {
+            staffClinics = await supabase
+              .from("staff")
+              .select(
+                `
+                *,
+                clinic:clinic_id (
+                  id,
+                  name,
+                  type,
+                  email,
+                  phone_number,
+                  street,
+                  city,
+                  state,
+                  zip,
+                  icon_url,
+                  verified
+                )
+              `,
+              )
+              .eq("id", user.id);
+          } catch (error) {
+            console.log(
+              "Staff clinics prefetch failed (expected for patient users)",
+            );
+            staffClinics = { data: [], error: null };
+          }
 
           return {
             patientClinics: patientClinics.data || [],

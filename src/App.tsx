@@ -1,6 +1,15 @@
 import { Routes, Route } from "react-router";
 import { useAuth } from "@hooks";
-import { P404, LandingPage, LoginPage, SignupPage, Home } from "@pages";
+import {
+  P404,
+  LandingPage,
+  LoginPage,
+  SignupPage,
+  Home,
+  InvitationAcceptance,
+  PatientOnboarding,
+  StaffOnboarding,
+} from "@pages";
 
 export default function App() {
   const { loading, user } = useAuth();
@@ -9,12 +18,17 @@ export default function App() {
     return <div className="p-4">Loading...</div>;
   }
 
+  // Onboarding now happens when joining a clinic, not immediately after signup
+
   return (
     <Routes>
       <Route index element={<LandingPage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/password-reset" element={<></>} />
+      <Route path="/auth/invitation" element={<InvitationAcceptance />} />
+      <Route path="/onboarding/patient" element={<PatientOnboarding />} />
+      <Route path="/onboarding/staff" element={<StaffOnboarding />} />
       {user ? (
         <>
           <Route path="/clinic-registration" element={<></>} />

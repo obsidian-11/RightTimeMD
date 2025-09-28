@@ -1,6 +1,5 @@
 import {
   Activity,
-  BarChart3,
   CalendarDays,
   History,
   Home,
@@ -102,19 +101,14 @@ export function Sidenav({ type }: { type: string }) {
             link: `${baseUrl}/patients`,
           },
           {
-            label: "Clinic Settings",
-            icon: <Settings />,
-            link: `${baseUrl}/clinic-settings`,
-          },
-          {
-            label: "Analytics",
-            icon: <BarChart3 />,
-            link: `${baseUrl}/analytics`,
-          },
-          {
             label: "Audit Logs",
             icon: <ShieldCheck />,
-            link: `${baseUrl}/audit-logs`,
+            link: `${baseUrl}/logs`,
+          },
+          {
+            label: "Clinic Settings",
+            icon: <Settings />,
+            link: `${baseUrl}/settings`,
           },
         ];
       case "support":
