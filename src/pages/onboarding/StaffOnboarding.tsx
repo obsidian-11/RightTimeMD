@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { supabase } from "@/lib/supabase";
 import { useAuth } from "@/hooks";
-import type { StaffType, StaffPermissions } from "@/types";
+import type { StaffType, StaffPermissions, UserRole } from "@/types";
 
 interface StaffOnboardingData {
   firstname: string;
@@ -21,139 +21,6 @@ interface StaffOnboardingData {
   state: string;
   zip: string;
 }
-
-const DEFAULT_PERMISSIONS: Record<StaffType, StaffPermissions> = {
-  doctor: {
-    canReadAllPatients: true,
-    canWritePrescriptions: true,
-    canScheduleAppointments: true,
-    canAccessBilling: false,
-    canManageStaff: false,
-    canViewAuditLogs: false,
-    canCreatePatients: true,
-    canUpdatePatients: true,
-    canDeletePatients: false,
-    canAccessFHIR: true,
-    canManageConsent: true,
-  },
-  nurse: {
-    canReadAllPatients: true,
-    canWritePrescriptions: false,
-    canScheduleAppointments: true,
-    canAccessBilling: false,
-    canManageStaff: false,
-    canViewAuditLogs: false,
-    canCreatePatients: true,
-    canUpdatePatients: true,
-    canDeletePatients: false,
-    canAccessFHIR: true,
-    canManageConsent: false,
-  },
-  nurse_practitioner: {
-    canReadAllPatients: true,
-    canWritePrescriptions: true,
-    canScheduleAppointments: true,
-    canAccessBilling: false,
-    canManageStaff: false,
-    canViewAuditLogs: false,
-    canCreatePatients: true,
-    canUpdatePatients: true,
-    canDeletePatients: false,
-    canAccessFHIR: true,
-    canManageConsent: true,
-  },
-  physician_assistant: {
-    canReadAllPatients: true,
-    canWritePrescriptions: true,
-    canScheduleAppointments: true,
-    canAccessBilling: false,
-    canManageStaff: false,
-    canViewAuditLogs: false,
-    canCreatePatients: true,
-    canUpdatePatients: true,
-    canDeletePatients: false,
-    canAccessFHIR: true,
-    canManageConsent: false,
-  },
-  medical_assistant: {
-    canReadAllPatients: false,
-    canWritePrescriptions: false,
-    canScheduleAppointments: true,
-    canAccessBilling: false,
-    canManageStaff: false,
-    canViewAuditLogs: false,
-    canCreatePatients: true,
-    canUpdatePatients: false,
-    canDeletePatients: false,
-    canAccessFHIR: false,
-    canManageConsent: false,
-  },
-  lab_technician: {
-    canReadAllPatients: false,
-    canWritePrescriptions: false,
-    canScheduleAppointments: false,
-    canAccessBilling: false,
-    canManageStaff: false,
-    canViewAuditLogs: false,
-    canCreatePatients: false,
-    canUpdatePatients: false,
-    canDeletePatients: false,
-    canAccessFHIR: true,
-    canManageConsent: false,
-  },
-  pharmacist: {
-    canReadAllPatients: false,
-    canWritePrescriptions: false,
-    canScheduleAppointments: false,
-    canAccessBilling: false,
-    canManageStaff: false,
-    canViewAuditLogs: false,
-    canCreatePatients: false,
-    canUpdatePatients: false,
-    canDeletePatients: false,
-    canAccessFHIR: true,
-    canManageConsent: false,
-  },
-  therapist: {
-    canReadAllPatients: false,
-    canWritePrescriptions: false,
-    canScheduleAppointments: true,
-    canAccessBilling: false,
-    canManageStaff: false,
-    canViewAuditLogs: false,
-    canCreatePatients: false,
-    canUpdatePatients: true,
-    canDeletePatients: false,
-    canAccessFHIR: true,
-    canManageConsent: false,
-  },
-  receptionist: {
-    canReadAllPatients: false,
-    canWritePrescriptions: false,
-    canScheduleAppointments: true,
-    canAccessBilling: true,
-    canManageStaff: false,
-    canViewAuditLogs: false,
-    canCreatePatients: true,
-    canUpdatePatients: false,
-    canDeletePatients: false,
-    canAccessFHIR: false,
-    canManageConsent: false,
-  },
-  other_clinical: {
-    canReadAllPatients: false,
-    canWritePrescriptions: false,
-    canScheduleAppointments: false,
-    canAccessBilling: false,
-    canManageStaff: false,
-    canViewAuditLogs: false,
-    canCreatePatients: false,
-    canUpdatePatients: false,
-    canDeletePatients: false,
-    canAccessFHIR: false,
-    canManageConsent: false,
-  },
-};
 
 // Default permissions for UserRole types (admin/clinical)
 const USER_ROLE_PERMISSIONS: Record<string, StaffPermissions> = {
@@ -186,9 +53,9 @@ const USER_ROLE_PERMISSIONS: Record<string, StaffPermissions> = {
 };
 
 // Map UserRole to default StaffType for database storage
-const USER_ROLE_TO_STAFF_TYPE: Record<string, StaffType> = {
-  admin: "receptionist", // Admin users typically handle administrative tasks
-  clinical: "nurse", // Clinical users default to nurse permissions
+const USER_ROLE_TO_STAFF_TYPE: Record<string, UserRole> = {
+  admin: "admin", // Admin users typically handle administrative tasks
+  clinical: "clinical", // Clinical users default to nurse permissions
 };
 
 export function StaffOnboarding() {
@@ -199,7 +66,7 @@ export function StaffOnboarding() {
   const clinicId = searchParams.get("clinic");
   const token = searchParams.get("token");
   const userRole = searchParams.get("role"); // This is "admin" or "clinical"
-  const role = userRole ? USER_ROLE_TO_STAFF_TYPE[userRole] : "nurse"; // Map to StaffType
+  const role = userRole ? USER_ROLE_TO_STAFF_TYPE[userRole] : "clinical"; // Map to StaffType
 
   const [formData, setFormData] = useState<StaffOnboardingData>({
     firstname: "",
@@ -430,9 +297,7 @@ export function StaffOnboarding() {
                   </p>
                   <div className="grid grid-cols-2 gap-2 text-sm">
                     {Object.entries(
-                      userRole && USER_ROLE_PERMISSIONS[userRole]
-                        ? USER_ROLE_PERMISSIONS[userRole]
-                        : DEFAULT_PERMISSIONS[role] || {},
+                      (userRole && USER_ROLE_PERMISSIONS[userRole]) || {},
                     ).map(([permission, enabled]) => (
                       <div
                         key={permission}
