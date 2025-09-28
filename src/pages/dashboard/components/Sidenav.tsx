@@ -15,7 +15,6 @@ import {
 import { NavLink, useParams, useLocation } from "react-router";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 
 export function Sidenav({ type }: { type: string }) {
   const { id } = useParams();
@@ -210,11 +209,6 @@ export function Sidenav({ type }: { type: string }) {
                   {item.icon}
                 </span>
                 <span className="flex-1 text-left">{item.label}</span>
-                {item.label === "Appointments" && !isActive && (
-                  <Badge variant="secondary" className="h-5 px-1.5 text-xs">
-                    Soon
-                  </Badge>
-                )}
               </Button>
             )}
           </NavLink>

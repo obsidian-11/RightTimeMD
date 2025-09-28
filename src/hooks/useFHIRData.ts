@@ -348,6 +348,25 @@ export function useFHIRData() {
     );
   };
 
+  const getMedications = () => {
+    if (!data?.medications) return [];
+
+    return data.medications.filter(
+      (med) =>
+        med.status === "active" || med.status === "intended" || !med.status,
+    );
+  };
+
+  const getAllergies = () => {
+    if (!data?.allergyintolerance) return [];
+    return data.allergyintolerance as FHIRResource[];
+  };
+
+  const getProcedures = () => {
+    if (!data?.procedure) return [];
+    return data.procedure as FHIRResource[];
+  };
+
   return {
     data,
     loading,
@@ -357,5 +376,8 @@ export function useFHIRData() {
     getVitalSigns,
     getActiveConditions,
     getLabResults,
+    getMedications,
+    getAllergies,
+    getProcedures,
   };
 }
